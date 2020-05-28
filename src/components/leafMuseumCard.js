@@ -183,20 +183,24 @@ import tile515 from '../img/sprites/tiles-515.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    minWidth: '150px',
+    minWidth: '65px',
     padding: "10px",
     marginLeft: 'auto',
     marginRight: 'auto',
     marginBottom: '5px',
-    width: '40vw',
+
+    width: '65px',
+    [theme.breakpoints.up('xs')]: {
+      width: '24vw !important',
+    },
     [theme.breakpoints.up('sm')]: {
-      width: '29% !important',
+      width: '20vw !important',
     },
     [theme.breakpoints.up('md')]: {
-      width: '20% !important',
+      width: '14vw !important',
     },
     [theme.breakpoints.up('lg')]: {
-      width: '18% !important',
+      width: '10vw !important',
     }
   },
   
@@ -556,12 +560,16 @@ export default function LeafMuseumCard({ item }) {
       textAlign: 'center',
       lineHeight: 1.0,
     }}>
-      <tr className={classes.subtitleElement} style={{ fontWeight: 300, fontSize: '1em'}}>
+      <tr className={classes.subtitleElement} style={{ fontWeight: 600, fontSize: '0.8em'}}>
         ${numberWithCommas(item.price)}
       </tr>
 
       <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em' }}>
-        {item.location} ({item.time})
+        {item.location}
+      </tr>
+
+      <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em', opacity: 0.7 }}>
+        {item.time}
       </tr>
     </table>
   );
@@ -575,7 +583,13 @@ export default function LeafMuseumCard({ item }) {
           borderRadius: '10px'
         }}/>
       </center>
-      <Typography style={{textAlign: 'center', fontWeight: 400, fontSize: '1.2em', lineHeight: 1.0}}>
+      <Typography style={{
+        textAlign: 'center', 
+        fontWeight: 400,
+        fontSize: '1.0em', 
+        lineHeight: 1.0,
+        wordWrap: 'break-word',
+       }}>
         { item.title }
       </Typography>
       <Typography variant="subtitle1" color="textSecondary">

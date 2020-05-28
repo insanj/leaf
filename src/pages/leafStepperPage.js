@@ -7,6 +7,10 @@ import LeafAddButton from '../components/leafAddButton';
 import net from '../img/net.png';
 import shovel from '../img/shovel.png';
 import fishing from '../img/fishing.png';
+import slingshot from '../img/sprites/tiles-3.png';
+import can from '../img/sprites/tiles-5.png';
+import axe from '../img/sprites/tiles-6.png';
+import tile0 from '../img/sprites/tiles-0.png';
 
 import Cookies from '../cookies.js';
 
@@ -136,6 +140,14 @@ export default function LeafStepperPage({  }) {
       return shovel;
     } else if (searchText.includes("fish")) {
       return fishing;
+    } else if (searchText.includes("shot")) {
+      return slingshot;
+    } else if (searchText.includes("can")) {
+      return can;
+    } else if (searchText.includes("axe")) {
+      return axe;
+    } else {
+      return tile0;
     }
   }
 

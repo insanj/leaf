@@ -8,6 +8,8 @@ import LeafMuseumPage from './pages/leafMuseumPage';
 
 import Cookies from './cookies.js';
 
+import './css/fonts.css';
+
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -15,6 +17,9 @@ const theme = createMuiTheme({
       contrastText: '#fff'
     },
   },
+  typography: {
+    fontFamily: 'Roboto'
+  }
 });
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function App() {
   const classes = useStyles();
-  const [activePage, setActivePage] = React.useState(Cookies.getCookie('LeafActivePage') ? Cookies.getCookie('LeafActivePage') : 'counters');
+  const [activePage, setActivePage] = React.useState(Cookies.getCookie('LeafActivePage') ? Cookies.getCookie('LeafActivePage') : 'active');
 
   const getOptionalAppBarHeight = (defaultValue=50) => {
     const jsAppBar = document.body.getElementsByClassName("MuiAppBar-root");
