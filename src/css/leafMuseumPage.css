@@ -1,0 +1,10 @@
+
+.MuiOutlinedInput-root {
+  height: 40px;
+}
+
+.MuiSelect-selectMenu svg {
+  height: 0.7em;
+  width: 0.7em;
+  font-size: 1.0em;
+}

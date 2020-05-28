@@ -37,6 +37,8 @@ export default function App() {
   const classes = useStyles();
   const [activePage, setActivePage] = React.useState(Cookies.getCookie('LeafActivePage') ? Cookies.getCookie('LeafActivePage') : 'active');
   const [searchText, setSearchText] = React.useState('');
+  const [activeTabSortType, setActiveTabSortType] = React.useState(null);
+  const [museumTabSortType, setMuseumTabSortType] = React.useState(null);
 
   const getOptionalAppBarHeight = (defaultValue=50) => {
     const jsAppBar = document.body.getElementsByClassName("MuiAppBar-root");
@@ -68,6 +70,8 @@ export default function App() {
         <LeafMuseumPage
           searchText={searchText}
           showOnlyActive={true}
+          sortType={activeTabSortType}
+          onSortTypeChange={(newValue) => setActiveTabSortType(newValue)}
         />
       );
     } else if (activePage === 'museum') {
@@ -75,6 +79,8 @@ export default function App() {
         <LeafMuseumPage 
           searchText={searchText}
           showOnlyActive={false}
+          sortType={museumTabSortType}
+          onSortTypeChange={(newValue) => setMuseumTabSortType(newValue)}
         />      
       );
     } else if (activePage === 'profile') {

@@ -4,6 +4,14 @@ import Grid from '@material-ui/core/Grid';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
 
 import LeafMuseumCard from '../components/leafMuseumCard';
 
@@ -14,8 +22,14 @@ import dayglopterodactyl from '../data/dayglopterodactyl';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ScheduleIcon from '@material-ui/icons/Schedule';
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
+import SortIcon from '@material-ui/icons/Sort';
+import SortByAlphaIcon from '@material-ui/icons/SortByAlpha';
+import FontDownloadIcon from '@material-ui/icons/FontDownload';
+import LocalOfferIcon from '@material-ui/icons/LocalOffer';
 
 import moment from 'moment';
+
+import '../css/leafMuseumPage.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,11 +41,18 @@ const useStyles = makeStyles((theme) => ({
   },
   grid: {
     padding: 5,
-    marginTop: 5
-  } 
+    marginTop: 0
+  },
+  formControl: {
+    margin: theme.spacing(1),
+    minWidth: 120,
+  },
+  selectEmpty: {
+    marginTop: theme.spacing(2),
+  },
 }));
 
-export default function LeafMuseumPage({ searchText, showOnlyActive=false }) {
+export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortType, onSortTypeChange }) {
   const classes = useStyles();
   const [selectedTab, setSelectedTab] = React.useState('everything');
 
@@ -251,7 +272,7 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false }) {
 
     let items = [];
     if (selectedTab === 'everything') {
-      items = insectItems.concat(fishItems).sort((i1, i2) => i1.title.localeCompare(i2.title));
+      items = insectItems.concat(fishItems);
     } else if (selectedTab === 'insects') {
       items = insectItems;
     } else if (selectedTab === 'fish') {
@@ -259,9 +280,15 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false }) {
     }
 
     let sortedItems = items;
-    if (showOnlyActive === true) {
+    if ((!sortType && showOnlyActive === true) || (sortType && sortType === 'Price')) {
       sortedItems = items.sort((i1, i2) => {
         return parseInt(i2.price, 10) - parseInt(i1.price, 10);
+      });
+    } else if ((!sortType && showOnlyActive != true) || (sortType && sortType === 'Alphabetical')) {
+      sortedItems = items.sort((i1, i2) => i1.title.localeCompare(i2.title));
+    } else if (sortType && sortType === 'Location') {
+      sortedItems = items.sort((i1, i2) => {
+        return i1.location.toLowerCase().localeCompare(i2.location.toLowerCase());
       });
     }
 
@@ -276,14 +303,43 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false }) {
   return (
     <div className={classes.root}>
       <AppBar position="static">      
-        <Tabs className={ classes.tabs } value={ selectedTab } onChange={ handleTabChange } aria-label="simple tabs example">
-          <Tab label="Everything" value="everything"  />
+        <Tabs className={ classes.tabs } value={ selectedTab }  onChange={ handleTabChange } variant="fullWidth" aria-label="tabs">
+          <Tab label="Everything" value="everything" />
           <Tab label="Insects" value="insects" />
-          <Tab label="Fish" value="fish" />
+          <Tab label="Fish" value="fish" />          
         </Tabs>
       </AppBar>
 
       <div style={{marginLeft: '10px', marginRight: '10px'}}>
+        <table style={{tableLayout: 'fixed'}}>
+          <tr>
+            <td style={{width: '100%', opacity: 0.6, lineHeight: 0, paddingLeft: '5px'}}>
+              <Typography variant="overline" display="block" style={{fontSize: '1.1em'}}>
+                { generateCards().length } things
+              </Typography>
+            </td>
+
+            <td>    
+              <FormControl variant="outlined" className={classes.formControl}>
+                <InputLabel id="demo-simple-select-outlined-label">Sort</InputLabel>
+                <Select
+                  labelId="demo-simple-select-outlined-label"
+                  id="demo-simple-select-outlined"
+                  value={sortType ? sortType : (showOnlyActive === true ? 'Price' : 'Alphabetical')}
+                  size="small"
+                  label="Sort"
+                  onChange={(event) => onSortTypeChange(event.target.value)}
+                >
+                  <MenuItem value='Alphabetical'><FontDownloadIcon />&nbsp;&nbsp;Alphabetical</MenuItem>
+                  <MenuItem value='Location'><LocationOnIcon />&nbsp;&nbsp;Location</MenuItem>
+                  <MenuItem value='Price'><LocalOfferIcon />&nbsp;&nbsp;Price</MenuItem>
+                </Select>
+              </FormControl>
+
+            </td>
+          </tr>
+        </table>
+
         <Grid container className={classes.grid} spacing={2}>
           { generateCards() }
         </Grid>
