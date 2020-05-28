@@ -3,6 +3,10 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 
 import LeafStepperItem from '../components/leafStepperItem.js';
 
+import net from '../img/net.png';
+import shovel from '../img/shovel.png';
+import fishing from '../img/fishing.png';
+
 const useStyles = makeStyles((theme) => ({
 
 }));
@@ -70,9 +74,28 @@ export default function LeafStepperPage({  }) {
     <div>
       <LeafStepperItem 
         name="Star Net"
+        image={ net }
         value={ getValue("Star Net") } 
-        minValue={0}
-        maxValue={50}
+        minValue={ 0 }
+        maxValue={ 30 }
+        onValueChange={ handleValueChange }
+      />
+
+      <LeafStepperItem 
+        name="Colorful Shovel"
+        image={ shovel }
+        value={ getValue("Colorful Shovel") } 
+        minValue={ 0 }
+        maxValue={ 30 }
+        onValueChange={ handleValueChange }
+      />
+
+      <LeafStepperItem 
+        name="Fish Fishing Rod"
+        image={ fishing }
+        value={ getValue("Fish Fishing Rod") } 
+        minValue={ 0 }
+        maxValue={ 30 }
         onValueChange={ handleValueChange }
       />
     </div>

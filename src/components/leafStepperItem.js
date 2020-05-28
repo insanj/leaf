@@ -11,10 +11,13 @@ const useStyles = makeStyles((theme) => ({
     margin: '10px',
     maxWidth: '300px'
   },
+  image: {
+    margin: 0,
+    paddingTop: '10px',
+  },
   name: {
     fontSize: '2em',
     fontWeight: 500,
-    paddingTop: '10px',
     margin: 0
   },
   value: {
@@ -25,13 +28,17 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function LeafStepperItem({ name="Star Net", value=50, minValue=0, maxValue=50, onValueChange }) {
+export default function LeafStepperItem({ name="Star Net", image='', value=50, minValue=0, maxValue=50, onValueChange }) {
   const classes = useStyles();
 
   return (
     <div className={classes.container}>
       <center>
         <div className={classes.background}>
+          <p className={classes.image}>
+            <img src={image} width="50" height="50" />
+          </p>
+
           <p className={classes.name}>
             { name }
           </p>

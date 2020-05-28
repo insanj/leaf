@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function LeafProgressStepper({ name='', activeStep=0, minStep=0, maxStep=5, onValueChange }) {
+export default function LeafProgressStepper({ name='', activeStep=0, minStep=0, maxStep=30, onValueChange }) {
   const classes = useStyles();
   const theme = useTheme();
 
@@ -34,17 +34,17 @@ export default function LeafProgressStepper({ name='', activeStep=0, minStep=0, 
   return (
     <MobileStepper
       variant="progress"
-      steps={maxStep-minStep}
+      steps={ (maxStep-minStep)+1 }
       position="static"
-      activeStep={activeStep}
+      activeStep={ activeStep }
       className={classes.root}
       nextButton={
-        <Button size="large" onClick={handleNext} disabled={activeStep === maxStep}>
+        <Button size="large" onClick={handleNext} disabled={activeStep >= maxStep}>
           {theme.direction === 'rtl' ? <IndeterminateCheckBoxIcon /> : <AddBoxIcon />}
         </Button>
       }
       backButton={
-        <Button size="large" onClick={handleBack} disabled={activeStep === minStep}>
+        <Button size="large" onClick={handleBack} disabled={activeStep <= minStep}>
           {theme.direction === 'rtl' ? <AddBoxIcon /> : <IndeterminateCheckBoxIcon />}
         </Button>
       }    />
