@@ -20,6 +20,7 @@ const theme = createMuiTheme({
 const useStyles = makeStyles((theme) => ({
   page: {
     marginTop: '55px',
+    marginBottom: '65px',
 
     [theme.breakpoints.up('sm')]: {
       marginTop: '62px',
@@ -52,11 +53,15 @@ export default function App() {
       );
     } else if (activePage === 'active') {
       return (
-        <LeafMuseumPage />
+        <LeafMuseumPage 
+          showOnlyActive={true}
+        />
       );
     } else if (activePage === 'museum') {
       return (
-        <LeafMuseumPage />
+        <LeafMuseumPage 
+          showOnlyActive={false}
+        />      
       );
     } else if (activePage === 'profile') {
       return (

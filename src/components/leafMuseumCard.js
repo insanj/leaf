@@ -12,14 +12,31 @@ import SkipNextIcon from '@material-ui/icons/SkipNext';
 
 import PlusOneIcon from '@material-ui/icons/PlusOne';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import ScheduleIcon from '@material-ui/icons/Schedule';
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '48%',
     minWidth: '150px',
+    padding: "10px",
     marginLeft: 'auto',
     marginRight: 'auto',
-    marginBottom: '5px'
+    marginBottom: '5px',
+    width: '45vw',
+    [theme.breakpoints.up('sm')]: {
+      width: '29% !important',
+    },
+    [theme.breakpoints.up('md')]: {
+      width: '20% !important',
+    },
+    [theme.breakpoints.up('lg')]: {
+      width: '18% !important',
+    }
   },
+
   
   controls: {
     display: 'flex',
@@ -30,30 +47,39 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-export default function LeafMuseumCard({ title, subtitle, image, clip='none', transform='none' }) {
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+export default function LeafMuseumCard({ item }) {
   const classes = useStyles();
   const theme = useTheme();
 
+  const subtitle = (
+    <table style={{
+      tableLayout: 'fixed',
+      width: '100%',
+      textAlign: 'center',
+      lineHeight: 1.0,
+    }}>
+      <tr className={classes.subtitleElement} style={{ fontWeight: 300, fontSize: '1em'}}>
+        ${numberWithCommas(item.price)}
+      </tr>
+
+      <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em' }}>
+        {item.location} ({item.time})
+      </tr>
+    </table>
+  );
+
   return (
     <Card className={classes.root}>
-      <CardContent>
-        <Typography component="h5" variant="h5" style={{textAlign: 'center'}}>
-          { title }
+        <Typography style={{textAlign: 'center', fontWeight: 400, fontSize: '1.2em', lineHeight: 1.0}}>
+          { item.title }
         </Typography>
         <Typography variant="subtitle1" color="textSecondary">
           { subtitle }
         </Typography>
-      </CardContent>
-
-      <div className={classes.controls}>
-        <IconButton aria-label="previous">
-          <PlusOneIcon /> 
-        </IconButton>
-        <IconButton aria-label="next">
-           <HelpOutlineIcon /> 
-        </IconButton>
-      </div>
-
     </Card>
   );
 }
