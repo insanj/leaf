@@ -36,7 +36,8 @@ export default function LeafTabBar({ active, onActiveChange }) {
       <BottomNavigationAction label="Counters" value="counters" icon={<AddToPhotosIcon />} />
       <BottomNavigationAction label="Active" value="active" icon={<Brightness7Icon />} />
       <BottomNavigationAction label="Museum" value="museum" icon={<BookIcon />} />
-      <BottomNavigationAction label="Profile" value="profile" icon={<FaceIcon />} />
     </BottomNavigation>
   );
 }
+
+//       <BottomNavigationAction label="Profile" value="profile" icon={<FaceIcon />} />

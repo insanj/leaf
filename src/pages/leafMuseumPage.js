@@ -36,6 +36,7 @@ import '../css/leafMuseumPage.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    color: '#fff',
     marginTop: 20,
     width: '98vw'
   },
@@ -75,6 +76,7 @@ const useStyles = makeStyles((theme) => ({
 export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortType, onSortTypeChange }) {
   const classes = useStyles();
   const [selectedTab, setSelectedTab] = React.useState('everything');
+  const theme = useTheme();
 
   const generateCardForItem = (item) => {
     return (
@@ -395,7 +397,7 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortT
           <tr>
             <td className={classes.cardsHeader }>
               <Typography variant="overline" display="block" className={classes.cardsHeaderText}>
-                { generateCards().length } things
+                { generateCards().filter(c => c.type != 'p').length } things
               </Typography>
             </td>
 

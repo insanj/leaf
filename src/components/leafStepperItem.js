@@ -15,7 +15,8 @@ const useStyles = makeStyles((theme) => ({
     marginRight: 'auto',
   },
   background: {
-    background: '#fff',
+    background: '#414241',
+    color: '#fff',
     borderRadius: '15px',
     boxShadow: '0px 0px 4px rgba(0,0,0,0.2)',
     marginTop: '10px',
@@ -50,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function LeafStepperItem({ name="Star Net", image='', value=50, minValue=0, maxValue=50, onValueChange, onNameInputChange, onDeleteButtonClick }) {
   const classes = useStyles();
+  const theme = useTheme();
 
   const handleChange = (event) => {
     onNameInputChange(event.target.value);

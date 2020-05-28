@@ -19,9 +19,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     paddingTop: 10,
     paddingLeft: 10,
-    width: '94vw'
+    width: '94vw',
   },
   landing: {
+    color: '#fff',
     marginBottom: 0,
     marginTop: '30px',
     textAlign: 'center',
@@ -42,8 +43,12 @@ const getCookieValues = () => {
     return {};
   }
 
-  const stepperItemsJSON = JSON.parse(savedStepperItems);
-  return stepperItemsJSON;
+  try {
+    const stepperItemsJSON = JSON.parse(savedStepperItems);
+    return stepperItemsJSON;
+  } catch (e) {
+    return {};
+  };
 }
 
 const setCookieValues = (values) => {
@@ -54,6 +59,7 @@ const setCookieValues = (values) => {
 export default function LeafStepperPage({ searchText }) {
   const classes = useStyles();
   const [itemValues, setItemValues] = React.useState(getCookieValues());
+  const theme = useTheme();
 
   const getValue = (name) => {
     const cookie = itemValues[name];

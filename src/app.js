@@ -3,6 +3,7 @@ import { createMuiTheme, makeStyles, ThemeProvider} from '@material-ui/core/styl
 
 import LeafAppBar from './components/leafAppBar';
 import LeafTabBar from './components/leafTabBar';
+import LeafFooter from './components/leafFooter';
 import LeafStepperPage from './pages/leafStepperPage';
 import LeafMuseumPage from './pages/leafMuseumPage';
 
@@ -12,6 +13,7 @@ import './css/fonts.css';
 
 const theme = createMuiTheme({
   palette: {
+    type: 'dark',
     primary: {
       main: '#00ae6f',
       contrastText: '#fff'
@@ -23,7 +25,11 @@ const theme = createMuiTheme({
 });
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    background: '#272922'
+  },
   page: {
+    background: '#272922',
     marginTop: '55px',
     marginBottom: '65px',
 
@@ -95,11 +101,13 @@ export default function App() {
   }
 
   return (
-    <React.Fragment>
+    <React.Fragment className={classes.root}>
 
       <ThemeProvider theme={theme}>
         <div className={classes.page}>
           { generateActivePage() }
+
+          <LeafFooter />
         </div>
 
         <LeafTabBar
