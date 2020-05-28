@@ -85,7 +85,7 @@
             "Sell Price": "180"
         },
         {
-            "Name": "Butterflyfish",
+            "Name": "Butterfly Fish",
             "Duration": "Apr - Sep",
             "Time": "All day",
             "Location": "Ocean",
@@ -120,7 +120,7 @@
             "Sell Price": "1000"
         },
         {
-            "Name": "Clownfish",
+            "Name": "Clown Fish",
             "Duration": "Apr - Sep",
             "Time": "All day",
             "Location": "Ocean",
@@ -456,7 +456,7 @@
             "Sell Price": "1000"
         },
         {
-            "Name": "Seahorse",
+            "Name": "Sea Horse",
             "Duration": "Apr - Nov",
             "Time": "All day",
             "Location": "Ocean",
@@ -759,7 +759,7 @@
             "Sell Price": "10000"
         },
         {
-            "Name": "Giant Water Beetle",
+            "Name": "Giant Water Bug",
             "Duration": "Apr - Sep",
             "Time": "7pm - 8am",
             "Location": "Ponds",
@@ -864,7 +864,7 @@
             "Sell Price": "200"
         },
         {
-            "Name": "Madagascar Sunset Moth",
+            "Name": "Madagascan Sunset Moth",
             "Duration": "Apr - Sep",
             "Time": "8am - 4pm",
             "Location": "Near flowers",
@@ -962,7 +962,7 @@
             "Sell Price": "130"
         },
         {
-            "Name": "Queen Alexandra Birdwing",
+            "Name": "Queen Alexandra's Birdwing",
             "Duration": "May - Sep",
             "Time": "8am - 4pm",
             "Location": "Flying",
@@ -976,7 +976,7 @@
             "Sell Price": "6000"
         },
         {
-            "Name": "Raja Brooke Butterfly",
+            "Name": "Rajah Brooke's Birdwing",
             "Duration": "Dec - Feb/Apr - Sep",
             "Time": "8am - 5pm",
             "Location": "Flying",
@@ -1605,7 +1605,7 @@
             "Available Bugs": "Centipede"
         },
         {
-            "Available Fish": "Butterflyfish",
+            "Available Fish": "Butterfly Fish",
             "undefined": "350",
             "Available Bugs": "Citrus Long-Horned Beetle"
         },
@@ -1625,14 +1625,14 @@
             "Available Bugs": "Flea"
         },
         {
-            "Available Fish": "Clownfish",
+            "Available Fish": "Clown Fish",
             "undefined": "60",
             "Available Bugs": "Fly"
         },
         {
             "Available Fish": "Coelacanth",
             "undefined": "2000",
-            "Available Bugs": "Giant Water Beetle"
+            "Available Bugs": "Giant Water Bug"
         },
         {
             "Available Fish": "Crawfish",
@@ -1662,7 +1662,7 @@
         {
             "Available Fish": "Goldfish",
             "undefined": "2500",
-            "Available Bugs": "Madagascar Sunset Moth"
+            "Available Bugs": "Madagascan Sunset Moth"
         },
         {
             "Available Fish": "Guppy",
@@ -1720,7 +1720,7 @@
             "Available Bugs": "Snail"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "600",
             "Available Bugs": "Spider"
         },
@@ -1796,7 +1796,7 @@
             "Available Bugs": "Centipede"
         },
         {
-            "Available Fish": "Butterflyfish",
+            "Available Fish": "Butterfly Fish",
             "undefined": "350",
             "Available Bugs": "Citrus Long-Horned Beetle"
         },
@@ -1821,14 +1821,14 @@
             "Available Bugs": "Flea"
         },
         {
-            "Available Fish": "Clownfish",
+            "Available Fish": "Clown Fish",
             "undefined": "60",
             "Available Bugs": "Fly"
         },
         {
             "Available Fish": "Coelacanth",
             "undefined": "2000",
-            "Available Bugs": "Giant Water Beetle"
+            "Available Bugs": "Giant Water Bug"
         },
         {
             "Available Fish": "Crawfish",
@@ -1863,7 +1863,7 @@
         {
             "Available Fish": "Golden Trout",
             "undefined": "2500",
-            "Available Bugs": "Madagascar Sunset Moth"
+            "Available Bugs": "Madagascan Sunset Moth"
         },
         {
             "Available Fish": "Goldfish",
@@ -1941,7 +1941,7 @@
             "Available Bugs": "Snail"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "600",
             "Available Bugs": "Spider"
         },
@@ -2026,7 +2026,7 @@
             "Available Bugs": "Common Bluebottle"
         },
         {
-            "Available Fish": "Butterflyfish",
+            "Available Fish": "Butterfly Fish",
             "undefined": "230",
             "Available Bugs": "Darner Dragonfly"
         },
@@ -2051,7 +2051,7 @@
             "Available Bugs": "Firefly"
         },
         {
-            "Available Fish": "Clownfish",
+            "Available Fish": "Clown Fish",
             "undefined": "70",
             "Available Bugs": "Flea"
         },
@@ -2063,7 +2063,7 @@
         {
             "Available Fish": "Crawfish",
             "undefined": "2000",
-            "Available Bugs": "Giant Water Beetle"
+            "Available Bugs": "Giant Water Bug"
         },
         {
             "Available Fish": "Crucian Carp",
@@ -2103,7 +2103,7 @@
         {
             "Available Fish": "Giant Trevally",
             "undefined": "2500",
-            "Available Bugs": "Madagascar Sunset Moth"
+            "Available Bugs": "Madagascan Sunset Moth"
         },
         {
             "Available Fish": "Goldfish",
@@ -2196,7 +2196,7 @@
             "Available Bugs": "Stinkbug"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "1500",
             "Available Bugs": "Tiger Beetle"
         },
@@ -2281,7 +2281,7 @@
             "Available Bugs": "Cicada Shell"
         },
         {
-            "Available Fish": "Butterflyfish",
+            "Available Fish": "Butterfly Fish",
             "undefined": "350",
             "Available Bugs": "Citrus Long-Horned Beetle"
         },
@@ -2296,7 +2296,7 @@
             "Available Bugs": "Cyclommatus Stag"
         },
         {
-            "Available Fish": "Clownfish",
+            "Available Fish": "Clown Fish",
             "undefined": "230",
             "Available Bugs": "Darner Dragonfly"
         },
@@ -2348,7 +2348,7 @@
         {
             "Available Fish": "Giant Trevally",
             "undefined": "2000",
-            "Available Bugs": "Giant Water Beetle"
+            "Available Bugs": "Giant Water Bug"
         },
         {
             "Available Fish": "Goldfish",
@@ -2418,7 +2418,7 @@
         {
             "Available Fish": "Pop-Eyed Goldfish",
             "undefined": "2500",
-            "Available Bugs": "Madagascar Sunset Moth"
+            "Available Bugs": "Madagascan Sunset Moth"
         },
         {
             "Available Fish": "Puffer Fish",
@@ -2461,7 +2461,7 @@
             "Available Bugs": "Pondskater"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "4000",
             "Available Bugs": "Queen Alexandra Birdwing"
         },
@@ -2589,7 +2589,7 @@
             "Available Bugs": "Cicada Shell"
         },
         {
-            "Available Fish": "Butterflyfish",
+            "Available Fish": "Butterfly Fish",
             "undefined": "350",
             "Available Bugs": "Citrus Long-Horned Beetle"
         },
@@ -2604,7 +2604,7 @@
             "Available Bugs": "Cyclommatus Stag"
         },
         {
-            "Available Fish": "Clownfish",
+            "Available Fish": "Clown Fish",
             "undefined": "230",
             "Available Bugs": "Darner Dragonfly"
         },
@@ -2656,7 +2656,7 @@
         {
             "Available Fish": "Giant Trevally",
             "undefined": "2000",
-            "Available Bugs": "Giant Water Beetle"
+            "Available Bugs": "Giant Water Bug"
         },
         {
             "Available Fish": "Goldfish",
@@ -2726,7 +2726,7 @@
         {
             "Available Fish": "Piranha",
             "undefined": "2500",
-            "Available Bugs": "Madagascar Sunset Moth"
+            "Available Bugs": "Madagascan Sunset Moth"
         },
         {
             "Available Fish": "Pop-Eyed Goldfish",
@@ -2779,7 +2779,7 @@
             "Available Bugs": "Pondskater"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "4000",
             "Available Bugs": "Queen Alexandra Birdwing"
         },
@@ -2911,7 +2911,7 @@
             "Available Bugs": "Citrus Long-Horned Beetle"
         },
         {
-            "Available Fish": "Butterflyfish",
+            "Available Fish": "Butterfly Fish",
             "undefined": "160",
             "Available Bugs": "Common Butterfly"
         },
@@ -2936,7 +2936,7 @@
             "Available Bugs": "Earth-Boring Dung Beetle"
         },
         {
-            "Available Fish": "Clownfish",
+            "Available Fish": "Clown Fish",
             "undefined": "4000",
             "Available Bugs": "Emperor Butterfly"
         },
@@ -2953,7 +2953,7 @@
         {
             "Available Fish": "Crucian Carp",
             "undefined": "2000",
-            "Available Bugs": "Giant Water Beetle"
+            "Available Bugs": "Giant Water Bug"
         },
         {
             "Available Fish": "Dace",
@@ -2983,7 +2983,7 @@
         {
             "Available Fish": "Golden Trout",
             "undefined": "2500",
-            "Available Bugs": "Madagascar Sunset Moth"
+            "Available Bugs": "Madagascan Sunset Moth"
         },
         {
             "Available Fish": "Goldfish",
@@ -3121,7 +3121,7 @@
             "Available Bugs": "Walking Stick"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "2500",
             "Available Bugs": "Wasp"
         },
@@ -3337,7 +3337,7 @@
             "Available Bugs": "Wasp"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "200",
             "Available Bugs": "Wharf Roach"
         },
@@ -3514,7 +3514,7 @@
             "undefined": "400"
         },
         {
-            "Available Fish": "Seahorse",
+            "Available Fish": "Sea Horse",
             "undefined": "1100"
         },
         {

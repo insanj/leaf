@@ -68,6 +68,7 @@ import tile394 from '../img/sprites/tiles-394.png';
 import tile396 from '../img/sprites/tiles-396.png';
 import tile397 from '../img/sprites/tiles-397.png';
 import tile398 from '../img/sprites/tiles-398.png';
+import tile399 from '../img/sprites/tiles-399.png';
 import tile400 from '../img/sprites/tiles-400.png';
 import tile401 from '../img/sprites/tiles-401.png';
 import tile402 from '../img/sprites/tiles-402.png';
@@ -239,7 +240,7 @@ export default function LeafMuseumCard({ item }) {
       return tile354;
     } else if (searchableTitle === "goldfish") {
       return tile355;
-    } else if (searchableTitle === "pop-eyed golfish") {
+    } else if (searchableTitle === "pop-eyed goldfish") {
       return tile356;
     } else if (searchableTitle === "killifish") {
       return tile357;
@@ -257,7 +258,7 @@ export default function LeafMuseumCard({ item }) {
       return tile363;
     } else if (searchableTitle === "bluegill") {
       return tile364;
-    } else if (searchableTitle === "yelow perch") {
+    } else if (searchableTitle === "yellow perch") {
       return tile365;
     } else if (searchableTitle === "black bass") {
       return tile366;
@@ -295,13 +296,13 @@ export default function LeafMuseumCard({ item }) {
       return tile383;
     } else if (searchableTitle === "sea butterfly") {
       return tile384;
-    } else if (searchableTitle === "seahorse") {
+    } else if (searchableTitle === "sea horse") {
       return tile385;
-    } else if (searchableTitle === "clownfish") {
+    } else if (searchableTitle === "clown fish") {
       return tile386;
     } else if (searchableTitle === "surgeonfish") {
       return tile387;
-    } else if (searchableTitle === "butterflyfish") {
+    } else if (searchableTitle === "butterfly fish") {
       return tile388;
     } else if (searchableTitle === "napoleonfish") {
       return tile389;
@@ -319,8 +320,10 @@ export default function LeafMuseumCard({ item }) {
       return tile396;
     } else if (searchableTitle === "dab") {
       return tile397;
-    } else if (searchableTitle === "squid") {
+    } else if (searchableTitle === "olive flounder") {
       return tile398;
+    } else if (searchableTitle === "squid") {
+      return tile399;
     } else if (searchableTitle === "moray eel") {
       return tile400;
     } else if (searchableTitle === "football fish") {
@@ -520,7 +523,7 @@ export default function LeafMuseumCard({ item }) {
       return tile499;
     } else if (searchableTitle === "rice grasshopper") {
       return tile500;
-    } else if (searchableTitle === "asdfasdf") { /// <<----
+    } else if (searchableTitle === "cicada shell") {
       return tile501;
     } else if (searchableTitle === "tiger beetle") {
       return tile502;
@@ -534,7 +537,7 @@ export default function LeafMuseumCard({ item }) {
       return tile507;
     } else if (searchableTitle === "drone beetle") {
       return tile508;
-    } else if (searchableTitle === "giant water bug" || searchableTitle === "giant water beetle") {
+    } else if (searchableTitle === "giant water bug") {
       return tile509;
     } else if (searchableTitle === "giraffe stag") {
       return tile510;

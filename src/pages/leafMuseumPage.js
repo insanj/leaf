@@ -17,6 +17,7 @@ import LeafMuseumCard from '../components/leafMuseumCard';
 
 import iconGrid from '../img/icon_grid.png';
 
+import acnh_fandom_order from '../data/acnh_fandom_order';
 import dayglopterodactyl from '../data/dayglopterodactyl';
 
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -26,6 +27,7 @@ import SortIcon from '@material-ui/icons/Sort';
 import SortByAlphaIcon from '@material-ui/icons/SortByAlpha';
 import FontDownloadIcon from '@material-ui/icons/FontDownload';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
+import FingerprintIcon from '@material-ui/icons/Fingerprint';
 
 import moment from 'moment';
 
@@ -284,8 +286,21 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortT
       sortedItems = items.sort((i1, i2) => {
         return parseInt(i2.price, 10) - parseInt(i1.price, 10);
       });
-    } else if ((!sortType && showOnlyActive != true) || (sortType && sortType === 'Alphabetical')) {
-      sortedItems = items.sort((i1, i2) => i1.title.localeCompare(i2.title));
+    } else if ((!sortType && showOnlyActive != true) || (sortType && sortType === 'ID')) {
+      const orderedFish = acnh_fandom_order["Fish"].map(f => f.toLowerCase());
+      const orderedBugs = acnh_fandom_order["Bugs"].map(f => f.toLowerCase());
+
+      sortedItems = items.sort((i1, i2) => {
+        const fishIdx1 = Math.max(orderedFish.indexOf(i1.title.toLowerCase()), 0);
+        const fishIdx2 = Math.max(orderedFish.indexOf(i2.title.toLowerCase()), 0);
+        const bugIdx1 = Math.max(orderedBugs.indexOf(i1.title.toLowerCase()), 0);
+        const bugIdx2 = Math.max(orderedBugs.indexOf(i2.title.toLowerCase()), 0);
+        return (fishIdx1 + bugIdx1) - (fishIdx2 + bugIdx2)
+      });
+    } else if (sortType && sortType === 'Alphabetical') {
+      sortedItems = items.sort((i1, i2) => {
+        return i1.title.toLowerCase().localeCompare(i2.title.toLowerCase());
+      });
     } else if (sortType && sortType === 'Location') {
       sortedItems = items.sort((i1, i2) => {
         return i1.location.toLowerCase().localeCompare(i2.location.toLowerCase());
@@ -325,12 +340,13 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortT
                 <Select
                   labelId="demo-simple-select-outlined-label"
                   id="demo-simple-select-outlined"
-                  value={sortType ? sortType : (showOnlyActive === true ? 'Price' : 'Alphabetical')}
+                  value={sortType ? sortType : (showOnlyActive === true ? 'Price' : 'ID')}
                   size="small"
                   label="Sort"
                   onChange={(event) => onSortTypeChange(event.target.value)}
                 >
                   <MenuItem value='Alphabetical'><FontDownloadIcon />&nbsp;&nbsp;Alphabetical</MenuItem>
+                  <MenuItem value='ID'><FingerprintIcon />&nbsp;&nbsp;ID</MenuItem>
                   <MenuItem value='Location'><LocationOnIcon />&nbsp;&nbsp;Location</MenuItem>
                   <MenuItem value='Price'><LocalOfferIcon />&nbsp;&nbsp;Price</MenuItem>
                 </Select>
