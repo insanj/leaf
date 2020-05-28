@@ -1,0 +1,3677 @@
+{
+    "Fish": [
+        {
+            "Name": "Anchovy",
+            "Duration": "All year",
+            "Time": "4am - 9pm",
+            "Location": "Ocean",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Angelfish",
+            "Duration": "May - Oct",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "3000"
+        },
+        {
+            "Name": "Arapaima",
+            "Duration": "Jun - Sep",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Arowana",
+            "Duration": "Jun - Sep",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "10000"
+        },
+        {
+            "Name": "Barred Knifejaw",
+            "Duration": "Mar - Nov",
+            "Time": "All Day",
+            "Location": "Ocean",
+            "Sell Price": "5000"
+        },
+        {
+            "Name": "Barreleye",
+            "Duration": "All year",
+            "Time": "9pm - 4am",
+            "Location": "Ocean",
+            "Sell Price": "15000"
+        },
+        {
+            "Name": "Betta",
+            "Duration": "May - Oct",
+            "Time": "9am - 4pm",
+            "Location": "River",
+            "Sell Price": "2500"
+        },
+        {
+            "Name": "Bitterling",
+            "Duration": "Nov - Mar",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "900"
+        },
+        {
+            "Name": "Black Bass",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "400"
+        },
+        {
+            "Name": "Blowfish",
+            "Duration": "Nov - Feb",
+            "Time": "9pm - 4am",
+            "Location": "Ocean",
+            "Sell Price": "5000"
+        },
+        {
+            "Name": "Blue Marlin",
+            "Duration": "Nov - Apr/Jul - Sep",
+            "Time": "All day",
+            "Location": "Pier",
+            "Sell Price": "10000"
+        },
+        {
+            "Name": "Bluegill",
+            "Duration": "All year",
+            "Time": "9am - 4pm",
+            "Location": "River",
+            "Sell Price": "180"
+        },
+        {
+            "Name": "Butterflyfish",
+            "Duration": "Apr - Sep",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Carp",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Pond",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Catfish",
+            "Duration": "May - Oct",
+            "Time": "4pm - 9am",
+            "Location": "Lake",
+            "Sell Price": "800"
+        },
+        {
+            "Name": "Char",
+            "Duration": "Mar - Jun/Sep - Nov",
+            "Time": "4pm - 9am",
+            "Location": "River (Clifftop)",
+            "Sell Price": "3800"
+        },
+        {
+            "Name": "Cherry Salmon",
+            "Duration": "Mar - Jun/Sep - Nov",
+            "Time": "All day",
+            "Location": "River (Clifftop)",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Clownfish",
+            "Duration": "Apr - Sep",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "650"
+        },
+        {
+            "Name": "Coelacanth",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Ocean (Rain)",
+            "Sell Price": "15000"
+        },
+        {
+            "Name": "Crawfish",
+            "Duration": "Apr - Sep",
+            "Time": "All day",
+            "Location": "Pond",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Crucian Carp",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "160"
+        },
+        {
+            "Name": "Dab",
+            "Duration": "Oct - Apr",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Dace",
+            "Duration": "All year",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "240"
+        },
+        {
+            "Name": "Dorado",
+            "Duration": "Jun - Sep",
+            "Time": "4am - 9pm",
+            "Location": "River",
+            "Sell Price": "12000"
+        },
+        {
+            "Name": "Football Fish",
+            "Duration": "Nov - Mar",
+            "Time": "4pm - 9am",
+            "Location": "Ocean",
+            "Sell Price": "2500"
+        },
+        {
+            "Name": "Freshwater Goby",
+            "Duration": "All year",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "400"
+        },
+        {
+            "Name": "Frog",
+            "Duration": "May - Aug",
+            "Time": "All day",
+            "Location": "Pond",
+            "Sell Price": "120"
+        },
+        {
+            "Name": "Gar",
+            "Duration": "Jun - Sep",
+            "Time": "4pm - 9am",
+            "Location": "Pond",
+            "Sell Price": "4800"
+        },
+        {
+            "Name": "Giant Snakehead",
+            "Duration": "Jun - Aug",
+            "Time": "9am - 4pm",
+            "Location": "River",
+            "Sell Price": "5500"
+        },
+        {
+            "Name": "Giant Trevally",
+            "Duration": "May - Oct",
+            "Time": "All day",
+            "Location": "Pier",
+            "Sell Price": "4500"
+        },
+        {
+            "Name": "Golden Trout",
+            "Duration": "Mar - May/Sep - Nov",
+            "Time": "4pm - 9am",
+            "Location": "River (Clifftop)",
+            "Sell Price": "15000"
+        },
+        {
+            "Name": "Goldfish",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Pond",
+            "Sell Price": "1300"
+        },
+        {
+            "Name": "Great White Shark",
+            "Duration": "Jun - Sep",
+            "Time": "4pm - 9am",
+            "Location": "Ocean",
+            "Sell Price": "15000"
+        },
+        {
+            "Name": "Guppy",
+            "Duration": "Apr - Nov",
+            "Time": "9am - 4pm",
+            "Location": "River",
+            "Sell Price": "1300"
+        },
+        {
+            "Name": "Hammerhead Shark",
+            "Duration": "Jun - Sep",
+            "Time": "4pm - 9am",
+            "Location": "Ocean",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Horse Mackerel",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "150"
+        },
+        {
+            "Name": "Killifish",
+            "Duration": "Apr - Aug",
+            "Time": "All day",
+            "Location": "Pond",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "King Salmon",
+            "Duration": "Sep",
+            "Time": "All day",
+            "Location": "River (Mouth)",
+            "Sell Price": "1800"
+        },
+        {
+            "Name": "Koi",
+            "Duration": "All year",
+            "Time": "4pm - 9am",
+            "Location": "Pond",
+            "Sell Price": "4000"
+        },
+        {
+            "Name": "Loach",
+            "Duration": "Mar - May",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "400"
+        },
+        {
+            "Name": "Mahi-Mahi",
+            "Duration": "May - Oct",
+            "Time": "All day",
+            "Location": "Pier",
+            "Sell Price": "6000"
+        },
+        {
+            "Name": "Mitten Crab",
+            "Duration": "Sep - Nov",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "2000"
+        },
+        {
+            "Name": "Moray Eel",
+            "Duration": "Aug - Oct",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "2000"
+        },
+        {
+            "Name": "Napoleonfish",
+            "Duration": "Jul - Aug",
+            "Time": "4am - 9pm",
+            "Location": "Ocean",
+            "Sell Price": "10000"
+        },
+        {
+            "Name": "Neon Tetra",
+            "Duration": "Apr - Nov",
+            "Time": "4am - 4pm",
+            "Location": "River",
+            "Sell Price": "400"
+        },
+        {
+            "Name": "Nibble Fish",
+            "Duration": "May - Sep",
+            "Time": "9am - 4pm",
+            "Location": "River",
+            "Sell Price": "1500"
+        },
+        {
+            "Name": "Oarfish",
+            "Duration": "Dec - May",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "9000"
+        },
+        {
+            "Name": "Ocean Sunfish",
+            "Duration": "Jul - Sep",
+            "Time": "4am - 9pm",
+            "Location": "Ocean",
+            "Sell Price": "4000"
+        },
+        {
+            "Name": "Olive Flounder",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "800"
+        },
+        {
+            "Name": "Pale Chub",
+            "Duration": "All year",
+            "Time": "9am - 4pm",
+            "Location": "River",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Pike",
+            "Duration": "Sep - Dec",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "1800"
+        },
+        {
+            "Name": "Piranha",
+            "Duration": "Jun - Sep",
+            "Time": "9am - 4pm/9pm - 4am",
+            "Location": "River",
+            "Sell Price": "2500"
+        },
+        {
+            "Name": "Pond Smelt",
+            "Duration": "Dec - Feb",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "320"
+        },
+        {
+            "Name": "Pop-Eyed Goldfish",
+            "Duration": "All year",
+            "Time": "9am-4pm",
+            "Location": "Pond",
+            "Sell Price": "1300"
+        },
+        {
+            "Name": "Puffer Fish",
+            "Duration": "Jul - Sep",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "250"
+        },
+        {
+            "Name": "Rainbowfish",
+            "Duration": "May - Oct",
+            "Time": "9am - 4pm",
+            "Location": "River",
+            "Sell Price": "800"
+        },
+        {
+            "Name": "Ranchu Goldfish",
+            "Duration": "All year",
+            "Time": "9am - 4pm",
+            "Location": "Pond",
+            "Sell Price": "4500"
+        },
+        {
+            "Name": "Ray",
+            "Duration": "Aug - Nov",
+            "Time": "4am - 9pm",
+            "Location": "Ocean",
+            "Sell Price": "3000"
+        },
+        {
+            "Name": "Red Snapper",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "3000"
+        },
+        {
+            "Name": "Ribbon Eel",
+            "Duration": "Jul - Oct",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "600"
+        },
+        {
+            "Name": "Saddled Bichir",
+            "Duration": "Jun - Sep",
+            "Time": "9pm - 4am",
+            "Location": "River",
+            "Sell Price": "4000"
+        },
+        {
+            "Name": "Salmon",
+            "Duration": "Sep",
+            "Time": "All day",
+            "Location": "River (Mouth)",
+            "Sell Price": "700"
+        },
+        {
+            "Name": "Saw Shark",
+            "Duration": "Jun - Sep",
+            "Time": "4pm - 9am",
+            "Location": "Ocean",
+            "Sell Price": "12000"
+        },
+        {
+            "Name": "Sea Bass",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "400"
+        },
+        {
+            "Name": "Sea Butterfly",
+            "Duration": "Dec - Mar",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Seahorse",
+            "Duration": "Apr - Nov",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "1100"
+        },
+        {
+            "Name": "Snapping Turtle",
+            "Duration": "Apr - Oct",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "7350"
+        },
+        {
+            "Name": "Soft-Shelled Turtle",
+            "Duration": "Aug - Sep",
+            "Time": "4pm - 9am",
+            "Location": "River",
+            "Sell Price": "3750"
+        },
+        {
+            "Name": "Squid",
+            "Duration": "Dec - Aug",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "500"
+        },
+        {
+            "Name": "Stringfish",
+            "Duration": "Dec - Mar",
+            "Time": "4pm - 9am",
+            "Location": "River (Clifftop)",
+            "Sell Price": "15000"
+        },
+        {
+            "Name": "Sturgeon",
+            "Duration": "Sep - Mar",
+            "Time": "All day",
+            "Location": "River (Mouth)",
+            "Sell Price": "10000"
+        },
+        {
+            "Name": "Suckerfish",
+            "Duration": "Jun - Sep",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "1500"
+        },
+        {
+            "Name": "Surgeonfish",
+            "Duration": "Apr - Sep",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Sweetfish",
+            "Duration": "Jul - Sep",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "900"
+        },
+        {
+            "Name": "Tadpole",
+            "Duration": "Mar - Jul",
+            "Time": "All day",
+            "Location": "Pond",
+            "Sell Price": "100"
+        },
+        {
+            "Name": "Tilapia",
+            "Duration": "Jun - Oct",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "800"
+        },
+        {
+            "Name": "Tuna",
+            "Duration": "Nov - Apr",
+            "Time": "All day",
+            "Location": "Pier",
+            "Sell Price": "7000"
+        },
+        {
+            "Name": "Whale Shark",
+            "Duration": "Jun - Sep",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "13000"
+        },
+        {
+            "Name": "Yellow Perch",
+            "Duration": "Oct - Mar",
+            "Time": "All day",
+            "Location": "River",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Zebra Turkeyfish",
+            "Duration": "Apr - May/Jul - Nov",
+            "Time": "All day",
+            "Location": "Ocean",
+            "Sell Price": "500"
+        }
+    ],
+    "Bugs": [
+        {
+            "Name": "Agrias Butterfly",
+            "Duration": "Apr - Sep",
+            "Time": "8am - 5pm",
+            "Location": "Flying",
+            "Sell Price": "3000"
+        },
+        {
+            "Name": "Ant",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "On spoiled turnips",
+            "Sell Price": "80"
+        },
+        {
+            "Name": "Atlas Moth",
+            "Duration": "Apr - Sep",
+            "Time": "7pm - 4am",
+            "Location": "On trees",
+            "Sell Price": "4000"
+        },
+        {
+            "Name": "Banded Dragonfly",
+            "Duration": "May - Oct",
+            "Time": "8am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "4500"
+        },
+        {
+            "Name": "Bagworm",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Trees when shaken",
+            "Sell Price": "600"
+        },
+        {
+            "Name": "Bell Cricket",
+            "Duration": "Sep - Oct",
+            "Time": "5pm - 8am",
+            "Location": "On the ground",
+            "Sell Price": "430"
+        },
+        {
+            "Name": "Blue Weevil Beetle",
+            "Duration": "Jul - Aug",
+            "Time": "All day",
+            "Location": "On palm trees",
+            "Sell Price": "800"
+        },
+        {
+            "Name": "Brown Cicada",
+            "Duration": "Jul - Aug",
+            "Time": "8am - 5pm",
+            "Location": "On trees",
+            "Sell Price": "250"
+        },
+        {
+            "Name": "Centipede",
+            "Duration": "Sep - Jun",
+            "Time": "4pm - 11am",
+            "Location": "Rocks when struck",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Cicada Shell",
+            "Duration": "Jul - Aug",
+            "Time": "All day",
+            "Location": "On trees",
+            "Sell Price": "10"
+        },
+        {
+            "Name": "Citrus Long-Horned Beetle",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "On tree stumps",
+            "Sell Price": "350"
+        },
+        {
+            "Name": "Common Bluebottle",
+            "Duration": "Apr - Aug",
+            "Time": "4am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Common Butterfly",
+            "Duration": "Sep - Jun",
+            "Time": "4am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "160"
+        },
+        {
+            "Name": "Cricket",
+            "Duration": "Sep - Nov",
+            "Time": "5pm - 8am",
+            "Location": "On the ground",
+            "Sell Price": "130"
+        },
+        {
+            "Name": "Cyclommatus Stag",
+            "Duration": "Jul - Aug",
+            "Time": "5pm - 8am",
+            "Location": "On palm trees",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Damselfly",
+            "Duration": "Nov - Feb",
+            "Time": "All day",
+            "Location": "Flying",
+            "Sell Price": "500"
+        },
+        {
+            "Name": "Darner Dragonfly",
+            "Duration": "Apr - Oct",
+            "Time": "8am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "230"
+        },
+        {
+            "Name": "Diving Beetle",
+            "Duration": "May - Sep",
+            "Time": "8am - 7pm",
+            "Location": "Ponds",
+            "Sell Price": "800"
+        },
+        {
+            "Name": "Drone Beetle",
+            "Duration": "Jun - Aug",
+            "Time": "All day",
+            "Location": "On trees",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Dung Beetle",
+            "Duration": "Dec - Feb",
+            "Time": "All day",
+            "Location": "Near snowballs",
+            "Sell Price": "3000"
+        },
+        {
+            "Name": "Earth-Boring Dung Beetle",
+            "Duration": "Jul - Sep",
+            "Time": "All day",
+            "Location": "On trees",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Emperor Butterfly",
+            "Duration": "Dec - Mar/Jun - Sep",
+            "Time": "7pm - 8am",
+            "Location": "Flying",
+            "Sell Price": "4000"
+        },
+        {
+            "Name": "Evening Cicada",
+            "Duration": "Jul - Aug",
+            "Time": "4am - 8am/4pm - 7pm",
+            "Location": "On trees",
+            "Sell Price": "550"
+        },
+        {
+            "Name": "Firefly",
+            "Duration": "Jun",
+            "Time": "7pm - 4am",
+            "Location": "Near rivers",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Flea",
+            "Duration": "Apr - Nov",
+            "Time": "All day",
+            "Location": "On villagers",
+            "Sell Price": "70"
+        },
+        {
+            "Name": "Fly",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Near garbage",
+            "Sell Price": "60"
+        },
+        {
+            "Name": "Giant Cicada",
+            "Duration": "Jul - Aug",
+            "Time": "8am - 5pm",
+            "Location": "On trees",
+            "Sell Price": "500"
+        },
+        {
+            "Name": "Giant Stag",
+            "Duration": "Jul - Aug",
+            "Time": "11pm - 8am",
+            "Location": "On all trees",
+            "Sell Price": "10000"
+        },
+        {
+            "Name": "Giant Water Beetle",
+            "Duration": "Apr - Sep",
+            "Time": "7pm - 8am",
+            "Location": "Ponds",
+            "Sell Price": "2000"
+        },
+        {
+            "Name": "Giraffe Stag",
+            "Duration": "Jul - Aug",
+            "Time": "5pm - 8am",
+            "Location": "On palm trees",
+            "Sell Price": "12000"
+        },
+        {
+            "Name": "Golden Stag",
+            "Duration": "Jul - Aug",
+            "Time": "5pm - 8am",
+            "Location": "On palm trees",
+            "Sell Price": "12000"
+        },
+        {
+            "Name": "Goliath Beetle",
+            "Duration": "Jun - Sep",
+            "Time": "5pm - 8am",
+            "Location": "On palm trees",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Grasshopper",
+            "Duration": "Jul - Sep",
+            "Time": "8am - 5pm",
+            "Location": "On the ground",
+            "Sell Price": "160"
+        },
+        {
+            "Name": "Great Purple Emperor",
+            "Duration": "May - Aug",
+            "Time": "4am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "3000"
+        },
+        {
+            "Name": "Hermit Crab",
+            "Duration": "All year",
+            "Time": "7pm - 8am",
+            "Location": "On beach shore",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Honeybee",
+            "Duration": "Mar - Jul",
+            "Time": "8am - 5pm",
+            "Location": "On flowers",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Horned Atlas",
+            "Duration": "Jul - Aug",
+            "Time": "5pm - 8am",
+            "Location": "On palm trees",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Horned Dynastid",
+            "Duration": "Jul - Aug",
+            "Time": "5pm - 8am",
+            "Location": "On trees",
+            "Sell Price": "1350"
+        },
+        {
+            "Name": "Horned Elephant",
+            "Duration": "Jul - Aug",
+            "Time": "5pm - 8am",
+            "Location": "On palm trees",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Horned Hercules",
+            "Duration": "Jul - Aug",
+            "Time": "5pm - 8am",
+            "Location": "On palm trees",
+            "Sell Price": "12000"
+        },
+        {
+            "Name": "Jewel Beetle",
+            "Duration": "Apr - Aug",
+            "Time": "All day",
+            "Location": "On tree stumps",
+            "Sell Price": "2400"
+        },
+        {
+            "Name": "Ladybug",
+            "Duration": "Mar - Jun/Oct",
+            "Time": "8am - 5pm",
+            "Location": "On flowers",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Long Locust",
+            "Duration": "Apr - Nov",
+            "Time": "8am - 7pm",
+            "Location": "On the ground",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Madagascar Sunset Moth",
+            "Duration": "Apr - Sep",
+            "Time": "8am - 4pm",
+            "Location": "Near flowers",
+            "Sell Price": "2500"
+        },
+        {
+            "Name": "Man-Faced Stink Bug",
+            "Duration": "Mar - Oct",
+            "Time": "7pm - 8am",
+            "Location": "On flowers",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Mantis",
+            "Duration": "Mar - Nov",
+            "Time": "8am - 5pm",
+            "Location": "On flowers",
+            "Sell Price": "430"
+        },
+        {
+            "Name": "Migratory Locust",
+            "Duration": "Aug - Nov",
+            "Time": "8am - 7pm",
+            "Location": "On the ground",
+            "Sell Price": "600"
+        },
+        {
+            "Name": "Miyama Stag",
+            "Duration": "Jul - Aug",
+            "Time": "All day",
+            "Location": "On trees",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Mole Cricket",
+            "Duration": "Nov - May",
+            "Time": "All day",
+            "Location": "Underground",
+            "Sell Price": "500"
+        },
+        {
+            "Name": "Monarch Butterfly",
+            "Duration": "Sep - Nov",
+            "Time": "4am - 5pm",
+            "Location": "Flying",
+            "Sell Price": "140"
+        },
+        {
+            "Name": "Mosquito",
+            "Duration": "Jun - Sep",
+            "Time": "5pm - 4am",
+            "Location": "Flying",
+            "Sell Price": "130"
+        },
+        {
+            "Name": "Moth",
+            "Duration": "All year",
+            "Time": "7pm - 4am",
+            "Location": "Near lights",
+            "Sell Price": "130"
+        },
+        {
+            "Name": "Orchid Mantis",
+            "Duration": "Mar - Nov",
+            "Time": "8am - 5pm",
+            "Location": "On flowers",
+            "Sell Price": "2400"
+        },
+        {
+            "Name": "Paper Kite Butterfly",
+            "Duration": "All year",
+            "Time": "8am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "1000"
+        },
+        {
+            "Name": "Pill Bug",
+            "Duration": "Sep - Jun",
+            "Time": "11pm - 4pm",
+            "Location": "Rocks when struck",
+            "Sell Price": "250"
+        },
+        {
+            "Name": "Peacock Butterfly",
+            "Duration": "Mar - Jun",
+            "Time": "4am - 7pm",
+            "Location": "Near hybrids",
+            "Sell Price": "220"
+        },
+        {
+            "Name": "Pondskater",
+            "Duration": "May - Sep",
+            "Time": "8am - 7pm",
+            "Location": "Ponds",
+            "Sell Price": "130"
+        },
+        {
+            "Name": "Queen Alexandra Birdwing",
+            "Duration": "May - Sep",
+            "Time": "8am - 4pm",
+            "Location": "Flying",
+            "Sell Price": "4000"
+        },
+        {
+            "Name": "Rainbow Stag",
+            "Duration": "Jun - Sep",
+            "Time": "7pm - 8am",
+            "Location": "On all trees",
+            "Sell Price": "6000"
+        },
+        {
+            "Name": "Raja Brooke Butterfly",
+            "Duration": "Dec - Feb/Apr - Sep",
+            "Time": "8am - 5pm",
+            "Location": "Flying",
+            "Sell Price": "2500"
+        },
+        {
+            "Name": "Red Dragonfly",
+            "Duration": "Sep - Oct",
+            "Time": "8am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "180"
+        },
+        {
+            "Name": "Rice Grasshopper",
+            "Duration": "Apr - Nov",
+            "Time": "8am - 7pm",
+            "Location": "On the ground",
+            "Sell Price": "400"
+        },
+        {
+            "Name": "Robust Cicada",
+            "Duration": "Jul - Aug",
+            "Time": "8am - 5pm",
+            "Location": "On trees",
+            "Sell Price": "300"
+        },
+        {
+            "Name": "Rosalia Batesi Beetle",
+            "Duration": "May - Sep",
+            "Time": "All day",
+            "Location": "On tree stumps",
+            "Sell Price": "3000"
+        },
+        {
+            "Name": "Saw Stag",
+            "Duration": "Jul - Aug",
+            "Time": "All day",
+            "Location": "On all trees",
+            "Sell Price": "2000"
+        },
+        {
+            "Name": "Scarab Beetle",
+            "Duration": "Jul - Aug",
+            "Time": "11pm - 8am",
+            "Location": "On all trees",
+            "Sell Price": "10000"
+        },
+        {
+            "Name": "Scorpion",
+            "Duration": "May - Oct",
+            "Time": "7pm - 4am",
+            "Location": "On the ground",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Snail",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "On rocks (rain)",
+            "Sell Price": "250"
+        },
+        {
+            "Name": "Spider",
+            "Duration": "All year",
+            "Time": "7pm - 8am",
+            "Location": "Trees when shaken",
+            "Sell Price": "600"
+        },
+        {
+            "Name": "Stinkbug",
+            "Duration": "Mar - Oct",
+            "Time": "All day",
+            "Location": "On flowers",
+            "Sell Price": "120"
+        },
+        {
+            "Name": "Tarantula",
+            "Duration": "Nov - Apr",
+            "Time": "7pm - 4am",
+            "Location": "On the ground",
+            "Sell Price": "8000"
+        },
+        {
+            "Name": "Tiger Beetle",
+            "Duration": "Feb - Oct",
+            "Time": "All day",
+            "Location": "On ground",
+            "Sell Price": "1500"
+        },
+        {
+            "Name": "Tiger Butterfly",
+            "Duration": "Mar - Sep",
+            "Time": "4am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "240"
+        },
+        {
+            "Name": "Violin Beetle",
+            "Duration": "May - Jun/Sep - Nov",
+            "Time": "All day",
+            "Location": "On tree stumps",
+            "Sell Price": "450"
+        },
+        {
+            "Name": "Walker Cicada",
+            "Duration": "Aug - Sep",
+            "Time": "8am - 5pm",
+            "Location": "On trees",
+            "Sell Price": "400"
+        },
+        {
+            "Name": "Walking Leaf",
+            "Duration": "Jul - Sep",
+            "Time": "All day",
+            "Location": "Ground near trees",
+            "Sell Price": "600"
+        },
+        {
+            "Name": "Walking Stick",
+            "Duration": "Jul - Nov",
+            "Time": "4am - 8 am/5pm - 7pm",
+            "Location": "On all trees",
+            "Sell Price": "600"
+        },
+        {
+            "Name": "Wasp",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "Trees when shaken",
+            "Sell Price": "2500"
+        },
+        {
+            "Name": "Wharf Roach",
+            "Duration": "All year",
+            "Time": "All day",
+            "Location": "On beach rocks",
+            "Sell Price": "200"
+        },
+        {
+            "Name": "Yellow Butterfly",
+            "Duration": "Mar - Jun/Sep - Oct",
+            "Time": "4am - 7pm",
+            "Location": "Flying",
+            "Sell Price": "160"
+        }
+    ],
+    "Jan": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Blowfish",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Blue Marlin",
+            "undefined": "500",
+            "Available Bugs": "Damselfly"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "3000",
+            "Available Bugs": "Dung Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Football Fish",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Oarfish",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "8000",
+            "Available Bugs": "Tarantula"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Pond Smelt",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "1300"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "4500"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "3000"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "400"
+        },
+        {
+            "Available Fish": "Sea Butterfly",
+            "undefined": "1000"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "500"
+        },
+        {
+            "Available Fish": "Stringfish",
+            "undefined": "15000"
+        },
+        {
+            "Available Fish": "Sturgeon",
+            "undefined": "10000"
+        },
+        {
+            "Available Fish": "Tuna",
+            "undefined": "7000"
+        },
+        {
+            "Available Fish": "Yellow Perch",
+            "undefined": "300"
+        }
+    ],
+    "Feb": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Blowfish",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Blue Marlin",
+            "undefined": "500",
+            "Available Bugs": "Damselfly"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "3000",
+            "Available Bugs": "Dung Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Football Fish",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Oarfish",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "8000",
+            "Available Bugs": "Tarantula"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "1500",
+            "Available Bugs": "Tiger Beetle"
+        },
+        {
+            "Available Fish": "Pond Smelt",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "4500"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "3000"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "400"
+        },
+        {
+            "Available Fish": "Sea Butterfly",
+            "undefined": "1000"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "500"
+        },
+        {
+            "Available Fish": "Stringfish",
+            "undefined": "15000"
+        },
+        {
+            "Available Fish": "Sturgeon",
+            "undefined": "10000"
+        },
+        {
+            "Available Fish": "Tuna",
+            "undefined": "7000"
+        },
+        {
+            "Available Fish": "Yellow Perch",
+            "undefined": "300"
+        }
+    ],
+    "Mar": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Barred Knifejaw",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Blue Marlin",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Char",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Cherry Salmon",
+            "undefined": "200",
+            "Available Bugs": "Ladybug"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Football Fish",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Golden Trout",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "220",
+            "Available Bugs": "Peacock Butterfly"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Loach",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Oarfish",
+            "undefined": "120",
+            "Available Bugs": "Stinkbug"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "8000",
+            "Available Bugs": "Tarantula"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "1500",
+            "Available Bugs": "Tiger Beetle"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "240",
+            "Available Bugs": "Tiger Butterfly"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "160",
+            "Available Bugs": "Yellow Butterfly"
+        },
+        {
+            "Available Fish": "Sea Butterfly",
+            "undefined": "1000"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "500"
+        },
+        {
+            "Available Fish": "Stringfish",
+            "undefined": "15000"
+        },
+        {
+            "Available Fish": "Sturgeon",
+            "undefined": "10000"
+        },
+        {
+            "Available Fish": "Tadpole",
+            "undefined": "100"
+        },
+        {
+            "Available Fish": "Tuna",
+            "undefined": "7000"
+        },
+        {
+            "Available Fish": "Yellow Perch",
+            "undefined": "300"
+        }
+    ],
+    "Apr": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "3000",
+            "Available Bugs": "Agrias Butterfly"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "4000",
+            "Available Bugs": "Atlas Moth"
+        },
+        {
+            "Available Fish": "Blue Marlin",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Butterflyfish",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "300",
+            "Available Bugs": "Common Bluebottle"
+        },
+        {
+            "Available Fish": "Char",
+            "undefined": "230",
+            "Available Bugs": "Darner Dragonfly"
+        },
+        {
+            "Available Fish": "Cherry Salmon",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Clownfish",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "2000",
+            "Available Bugs": "Giant Water Beetle"
+        },
+        {
+            "Available Fish": "Crawfish",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "2400",
+            "Available Bugs": "Jewel Beetle"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "200",
+            "Available Bugs": "Ladybug"
+        },
+        {
+            "Available Fish": "Golden Trout",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "2500",
+            "Available Bugs": "Madagascar Sunset Moth"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Loach",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Oarfish",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "220",
+            "Available Bugs": "Peacock Butterfly"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "400",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "2500",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Snapping Turtle",
+            "undefined": "120",
+            "Available Bugs": "Stinkbug"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "8000",
+            "Available Bugs": "Tarantula"
+        },
+        {
+            "Available Fish": "Surgeonfish",
+            "undefined": "1500",
+            "Available Bugs": "Tiger Beetle"
+        },
+        {
+            "Available Fish": "Tadpole",
+            "undefined": "240",
+            "Available Bugs": "Tiger Butterfly"
+        },
+        {
+            "Available Fish": "Tuna",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Zebra Turkeyfish",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Bugs": "Yellow Butterfly",
+            "undefined": "160"
+        }
+    ],
+    "May": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "3000",
+            "Available Bugs": "Agrias Butterfly"
+        },
+        {
+            "Available Fish": "Angelfish",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "4000",
+            "Available Bugs": "Atlas Moth"
+        },
+        {
+            "Available Fish": "Betta",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "4500",
+            "Available Bugs": "Banded Dragonfly"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Butterflyfish",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "300",
+            "Available Bugs": "Common Bluebottle"
+        },
+        {
+            "Available Fish": "Catfish",
+            "undefined": "230",
+            "Available Bugs": "Darner Dragonfly"
+        },
+        {
+            "Available Fish": "Char",
+            "undefined": "800",
+            "Available Bugs": "Diving Beetle"
+        },
+        {
+            "Available Fish": "Cherry Salmon",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Clownfish",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "2000",
+            "Available Bugs": "Giant Water Beetle"
+        },
+        {
+            "Available Fish": "Crawfish",
+            "undefined": "3000",
+            "Available Bugs": "Great Purple Emperor"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "2400",
+            "Available Bugs": "Jewel Beetle"
+        },
+        {
+            "Available Fish": "Frog",
+            "undefined": "200",
+            "Available Bugs": "Ladybug"
+        },
+        {
+            "Available Fish": "Giant Trevally",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Golden Trout",
+            "undefined": "2500",
+            "Available Bugs": "Madagascar Sunset Moth"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Loach",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Mahi-Mahi",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Nibble Fish",
+            "undefined": "220",
+            "Available Bugs": "Peacock Butterfly"
+        },
+        {
+            "Available Fish": "Oarfish",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "130",
+            "Available Bugs": "Pondskater"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "4000",
+            "Available Bugs": "Queen Alexandra Birdwing"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Rainbowfish",
+            "undefined": "400",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "3000",
+            "Available Bugs": "Rosalia Batesi Beetle"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "8000",
+            "Available Bugs": "Scorpion"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Snapping Turtle",
+            "undefined": "120",
+            "Available Bugs": "Stinkbug"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "1500",
+            "Available Bugs": "Tiger Beetle"
+        },
+        {
+            "Available Fish": "Surgeonfish",
+            "undefined": "240",
+            "Available Bugs": "Tiger Butterfly"
+        },
+        {
+            "Available Fish": "Tadpole",
+            "undefined": "450",
+            "Available Bugs": "Violin Beetle"
+        },
+        {
+            "Available Fish": "Zebra Turkeyfish",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Bugs": "Wharf Roach",
+            "undefined": "200"
+        },
+        {
+            "Available Bugs": "Yellow Butterfly",
+            "undefined": "160"
+        }
+    ],
+    "Jun": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "3000",
+            "Available Bugs": "Agrias Butterfly"
+        },
+        {
+            "Available Fish": "Angelfish",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Arapaima",
+            "undefined": "4000",
+            "Available Bugs": "Atlas Moth"
+        },
+        {
+            "Available Fish": "Arowana",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "4500",
+            "Available Bugs": "Banded Dragonfly"
+        },
+        {
+            "Available Fish": "Betta",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "300",
+            "Available Bugs": "Common Bluebottle"
+        },
+        {
+            "Available Fish": "Butterflyfish",
+            "undefined": "230",
+            "Available Bugs": "Darner Dragonfly"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "800",
+            "Available Bugs": "Diving Beetle"
+        },
+        {
+            "Available Fish": "Catfish",
+            "undefined": "200",
+            "Available Bugs": "Drone Beetle"
+        },
+        {
+            "Available Fish": "Char",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Cherry Salmon",
+            "undefined": "300",
+            "Available Bugs": "Firefly"
+        },
+        {
+            "Available Fish": "Clownfish",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Crawfish",
+            "undefined": "2000",
+            "Available Bugs": "Giant Water Beetle"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "8000",
+            "Available Bugs": "Goliath Beetle"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "3000",
+            "Available Bugs": "Great Purple Emperor"
+        },
+        {
+            "Available Fish": "Dorado",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Frog",
+            "undefined": "2400",
+            "Available Bugs": "Jewel Beetle"
+        },
+        {
+            "Available Fish": "Gar",
+            "undefined": "200",
+            "Available Bugs": "Ladybug"
+        },
+        {
+            "Available Fish": "Giant Snakehead",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Giant Trevally",
+            "undefined": "2500",
+            "Available Bugs": "Madagascar Sunset Moth"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Great White Shark",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "130",
+            "Available Bugs": "Mosquito"
+        },
+        {
+            "Available Fish": "Hammerhead Shark",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Mahi-Mahi",
+            "undefined": "220",
+            "Available Bugs": "Peacock Butterfly"
+        },
+        {
+            "Available Fish": "Nibble Fish",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "130",
+            "Available Bugs": "Pondskater"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "4000",
+            "Available Bugs": "Queen Alexandra Birdwing"
+        },
+        {
+            "Available Fish": "Piranha",
+            "undefined": "6000",
+            "Available Bugs": "Rainbow Stag"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Rainbowfish",
+            "undefined": "400",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "3000",
+            "Available Bugs": "Rosalia Batesi Beetle"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "8000",
+            "Available Bugs": "Scorpion"
+        },
+        {
+            "Available Fish": "Saddled Bichir",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Saw Shark",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "120",
+            "Available Bugs": "Stinkbug"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "1500",
+            "Available Bugs": "Tiger Beetle"
+        },
+        {
+            "Available Fish": "Snapping Turtle",
+            "undefined": "240",
+            "Available Bugs": "Tiger Butterfly"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "450",
+            "Available Bugs": "Violin Beetle"
+        },
+        {
+            "Available Fish": "Suckerfish",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Surgeonfish",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Tadpole",
+            "undefined": "160",
+            "Available Bugs": "Yellow Butterfly"
+        },
+        {
+            "Available Fish": "Tilapia",
+            "undefined": "800"
+        },
+        {
+            "Available Fish": "Whale Shark",
+            "undefined": "13000"
+        }
+    ],
+    "Jul": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "3000",
+            "Available Bugs": "Agrias Butterfly"
+        },
+        {
+            "Available Fish": "Angelfish",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Arapaima",
+            "undefined": "4000",
+            "Available Bugs": "Atlas Moth"
+        },
+        {
+            "Available Fish": "Arowana",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "4500",
+            "Available Bugs": "Banded Dragonfly"
+        },
+        {
+            "Available Fish": "Betta",
+            "undefined": "800",
+            "Available Bugs": "Blue Weevil Beetle"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "250",
+            "Available Bugs": "Brown Cicada"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "10",
+            "Available Bugs": "Cicada Shell"
+        },
+        {
+            "Available Fish": "Butterflyfish",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "300",
+            "Available Bugs": "Common Bluebottle"
+        },
+        {
+            "Available Fish": "Catfish",
+            "undefined": "8000",
+            "Available Bugs": "Cyclommatus Stag"
+        },
+        {
+            "Available Fish": "Clownfish",
+            "undefined": "230",
+            "Available Bugs": "Darner Dragonfly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "800",
+            "Available Bugs": "Diving Beetle"
+        },
+        {
+            "Available Fish": "Crawfish",
+            "undefined": "200",
+            "Available Bugs": "Drone Beetle"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "300",
+            "Available Bugs": "Earth-Boring Dung Beetle"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Dorado",
+            "undefined": "550",
+            "Available Bugs": "Evening Cicada"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Frog",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Gar",
+            "undefined": "500",
+            "Available Bugs": "Giant Cicada"
+        },
+        {
+            "Available Fish": "Giant Snakehead",
+            "undefined": "10000",
+            "Available Bugs": "Giant Stag"
+        },
+        {
+            "Available Fish": "Giant Trevally",
+            "undefined": "2000",
+            "Available Bugs": "Giant Water Beetle"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "12000",
+            "Available Bugs": "Giraffe Stag"
+        },
+        {
+            "Available Fish": "Great White Shark",
+            "undefined": "12000",
+            "Available Bugs": "Golden Stag"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "8000",
+            "Available Bugs": "Goliath Beetle"
+        },
+        {
+            "Available Fish": "Hammerhead Shark",
+            "undefined": "160",
+            "Available Bugs": "Grasshopper"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "3000",
+            "Available Bugs": "Great Purple Emperor"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Mahi-Mahi",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Napoleonfish",
+            "undefined": "8000",
+            "Available Bugs": "Horned Atlas"
+        },
+        {
+            "Available Fish": "Nibble Fish",
+            "undefined": "1350",
+            "Available Bugs": "Horned Dynastid"
+        },
+        {
+            "Available Fish": "Ocean Sunfish",
+            "undefined": "8000",
+            "Available Bugs": "Horned Elephant"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "12000",
+            "Available Bugs": "Horned Hercules"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "2400",
+            "Available Bugs": "Jewel Beetle"
+        },
+        {
+            "Available Fish": "Piranha",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "2500",
+            "Available Bugs": "Madagascar Sunset Moth"
+        },
+        {
+            "Available Fish": "Puffer Fish",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Rainbowfish",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "1000",
+            "Available Bugs": "Miyama Stag"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "130",
+            "Available Bugs": "Mosquito"
+        },
+        {
+            "Available Fish": "Ribbon Eel",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Saddled Bichir",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Saw Shark",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "130",
+            "Available Bugs": "Pondskater"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "4000",
+            "Available Bugs": "Queen Alexandra Birdwing"
+        },
+        {
+            "Available Fish": "Snapping Turtle",
+            "undefined": "6000",
+            "Available Bugs": "Rainbow Stag"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Suckerfish",
+            "undefined": "400",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Surgeonfish",
+            "undefined": "300",
+            "Available Bugs": "Robust Cicada"
+        },
+        {
+            "Available Fish": "Tadpole",
+            "undefined": "3000",
+            "Available Bugs": "Rosalia Batesi Beetle"
+        },
+        {
+            "Available Fish": "Tilapia",
+            "undefined": "2000",
+            "Available Bugs": "Saw Stag"
+        },
+        {
+            "Available Fish": "Whale Shark",
+            "undefined": "10000",
+            "Available Bugs": "Scarab Beetle"
+        },
+        {
+            "Available Fish": "Zebra Turkeyfish",
+            "undefined": "8000",
+            "Available Bugs": "Scorpion"
+        },
+        {
+            "Available Bugs": "Snail",
+            "undefined": "250"
+        },
+        {
+            "Available Bugs": "Spider",
+            "undefined": "600"
+        },
+        {
+            "Available Bugs": "Stinkbug",
+            "undefined": "120"
+        },
+        {
+            "Available Bugs": "Tiger Beetle",
+            "undefined": "1500"
+        },
+        {
+            "Available Bugs": "Tiger Butterfly",
+            "undefined": "240"
+        },
+        {
+            "Available Bugs": "Walking Leaf",
+            "undefined": "600"
+        },
+        {
+            "Available Bugs": "Walking Stick",
+            "undefined": "600"
+        },
+        {
+            "Available Bugs": "Wasp",
+            "undefined": "2500"
+        },
+        {
+            "Available Bugs": "Wharf Roach",
+            "undefined": "200"
+        }
+    ],
+    "Aug": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "3000",
+            "Available Bugs": "Agrias Butterfly"
+        },
+        {
+            "Available Fish": "Angelfish",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Arapaima",
+            "undefined": "4000",
+            "Available Bugs": "Atlas Moth"
+        },
+        {
+            "Available Fish": "Arowana",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "4500",
+            "Available Bugs": "Banded Dragonfly"
+        },
+        {
+            "Available Fish": "Betta",
+            "undefined": "800",
+            "Available Bugs": "Blue Weevil Beetle"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "250",
+            "Available Bugs": "Brown Cicada"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "10",
+            "Available Bugs": "Cicada Shell"
+        },
+        {
+            "Available Fish": "Butterflyfish",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "300",
+            "Available Bugs": "Common Bluebottle"
+        },
+        {
+            "Available Fish": "Catfish",
+            "undefined": "8000",
+            "Available Bugs": "Cyclommatus Stag"
+        },
+        {
+            "Available Fish": "Clownfish",
+            "undefined": "230",
+            "Available Bugs": "Darner Dragonfly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "800",
+            "Available Bugs": "Diving Beetle"
+        },
+        {
+            "Available Fish": "Crawfish",
+            "undefined": "200",
+            "Available Bugs": "Drone Beetle"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "300",
+            "Available Bugs": "Earth-Boring Dung Beetle"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Dorado",
+            "undefined": "550",
+            "Available Bugs": "Evening Cicada"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Frog",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Gar",
+            "undefined": "500",
+            "Available Bugs": "Giant Cicada"
+        },
+        {
+            "Available Fish": "Giant Snakehead",
+            "undefined": "10000",
+            "Available Bugs": "Giant Stag"
+        },
+        {
+            "Available Fish": "Giant Trevally",
+            "undefined": "2000",
+            "Available Bugs": "Giant Water Beetle"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "12000",
+            "Available Bugs": "Giraffe Stag"
+        },
+        {
+            "Available Fish": "Great White Shark",
+            "undefined": "12000",
+            "Available Bugs": "Golden Stag"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "8000",
+            "Available Bugs": "Goliath Beetle"
+        },
+        {
+            "Available Fish": "Hammerhead Shark",
+            "undefined": "160",
+            "Available Bugs": "Grasshopper"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "3000",
+            "Available Bugs": "Great Purple Emperor"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Mahi-Mahi",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Moray Eel",
+            "undefined": "8000",
+            "Available Bugs": "Horned Atlas"
+        },
+        {
+            "Available Fish": "Napoleonfish",
+            "undefined": "1350",
+            "Available Bugs": "Horned Dynastid"
+        },
+        {
+            "Available Fish": "Nibble Fish",
+            "undefined": "8000",
+            "Available Bugs": "Horned Elephant"
+        },
+        {
+            "Available Fish": "Ocean Sunfish",
+            "undefined": "12000",
+            "Available Bugs": "Horned Hercules"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "2400",
+            "Available Bugs": "Jewel Beetle"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Piranha",
+            "undefined": "2500",
+            "Available Bugs": "Madagascar Sunset Moth"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Puffer Fish",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Rainbowfish",
+            "undefined": "600",
+            "Available Bugs": "Migratory Locust"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "1000",
+            "Available Bugs": "Miyama Stag"
+        },
+        {
+            "Available Fish": "Ray",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "130",
+            "Available Bugs": "Mosquito"
+        },
+        {
+            "Available Fish": "Ribbon Eel",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Saddled Bichir",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Saw Shark",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "130",
+            "Available Bugs": "Pondskater"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "4000",
+            "Available Bugs": "Queen Alexandra Birdwing"
+        },
+        {
+            "Available Fish": "Snapping Turtle",
+            "undefined": "6000",
+            "Available Bugs": "Rainbow Stag"
+        },
+        {
+            "Available Fish": "Soft-Shelled Turtle",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Squid",
+            "undefined": "400",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Suckerfish",
+            "undefined": "300",
+            "Available Bugs": "Robust Cicada"
+        },
+        {
+            "Available Fish": "Surgeonfish",
+            "undefined": "3000",
+            "Available Bugs": "Rosalia Batesi Beetle"
+        },
+        {
+            "Available Fish": "Tilapia",
+            "undefined": "2000",
+            "Available Bugs": "Saw Stag"
+        },
+        {
+            "Available Fish": "Whale Shark",
+            "undefined": "10000",
+            "Available Bugs": "Scarab Beetle"
+        },
+        {
+            "Available Fish": "Zebra Turkeyfish",
+            "undefined": "8000",
+            "Available Bugs": "Scorpion"
+        },
+        {
+            "Available Bugs": "Snail",
+            "undefined": "250"
+        },
+        {
+            "Available Bugs": "Spider",
+            "undefined": "600"
+        },
+        {
+            "Available Bugs": "Stinkbug",
+            "undefined": "120"
+        },
+        {
+            "Available Bugs": "Tiger Beetle",
+            "undefined": "1500"
+        },
+        {
+            "Available Bugs": "Tiger Butterfly",
+            "undefined": "240"
+        },
+        {
+            "Available Bugs": "Walker Cicada",
+            "undefined": "400"
+        },
+        {
+            "Available Bugs": "Walking Leaf",
+            "undefined": "600"
+        },
+        {
+            "Available Bugs": "Walking Stick",
+            "undefined": "600"
+        },
+        {
+            "Available Bugs": "Wasp",
+            "undefined": "2500"
+        },
+        {
+            "Available Bugs": "Wharf Roach",
+            "undefined": "200"
+        }
+    ],
+    "Sep": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "3000",
+            "Available Bugs": "Agrias Butterfly"
+        },
+        {
+            "Available Fish": "Angelfish",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Arapaima",
+            "undefined": "4000",
+            "Available Bugs": "Atlas Moth"
+        },
+        {
+            "Available Fish": "Arowana",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "4500",
+            "Available Bugs": "Banded Dragonfly"
+        },
+        {
+            "Available Fish": "Betta",
+            "undefined": "430",
+            "Available Bugs": "Bell Cricket"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Butterflyfish",
+            "undefined": "160",
+            "Available Bugs": "Common Butterfly"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "130",
+            "Available Bugs": "Cricket"
+        },
+        {
+            "Available Fish": "Catfish",
+            "undefined": "230",
+            "Available Bugs": "Darner Dragonfly"
+        },
+        {
+            "Available Fish": "Char",
+            "undefined": "800",
+            "Available Bugs": "Diving Beetle"
+        },
+        {
+            "Available Fish": "Cherry Salmon",
+            "undefined": "300",
+            "Available Bugs": "Earth-Boring Dung Beetle"
+        },
+        {
+            "Available Fish": "Clownfish",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Crawfish",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "2000",
+            "Available Bugs": "Giant Water Beetle"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "8000",
+            "Available Bugs": "Goliath Beetle"
+        },
+        {
+            "Available Fish": "Dorado",
+            "undefined": "160",
+            "Available Bugs": "Grasshopper"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Gar",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Giant Trevally",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Golden Trout",
+            "undefined": "2500",
+            "Available Bugs": "Madagascar Sunset Moth"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Great White Shark",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "600",
+            "Available Bugs": "Migratory Locust"
+        },
+        {
+            "Available Fish": "Hammerhead Shark",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "140",
+            "Available Bugs": "Monarch Butterfly"
+        },
+        {
+            "Available Fish": "King Salmon",
+            "undefined": "130",
+            "Available Bugs": "Mosquito"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Mahi-Mahi",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Mitten Crab",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Moray Eel",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Nibble Fish",
+            "undefined": "130",
+            "Available Bugs": "Pondskater"
+        },
+        {
+            "Available Fish": "Ocean Sunfish",
+            "undefined": "4000",
+            "Available Bugs": "Queen Alexandra Birdwing"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "6000",
+            "Available Bugs": "Rainbow Stag"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Pike",
+            "undefined": "180",
+            "Available Bugs": "Red Dragonfly"
+        },
+        {
+            "Available Fish": "Piranha",
+            "undefined": "400",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "3000",
+            "Available Bugs": "Rosalia Batesi Beetle"
+        },
+        {
+            "Available Fish": "Puffer Fish",
+            "undefined": "8000",
+            "Available Bugs": "Scorpion"
+        },
+        {
+            "Available Fish": "Rainbowfish",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Ray",
+            "undefined": "120",
+            "Available Bugs": "Stinkbug"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "1500",
+            "Available Bugs": "Tiger Beetle"
+        },
+        {
+            "Available Fish": "Ribbon Eel",
+            "undefined": "240",
+            "Available Bugs": "Tiger Butterfly"
+        },
+        {
+            "Available Fish": "Saddled Bichir",
+            "undefined": "450",
+            "Available Bugs": "Violin Beetle"
+        },
+        {
+            "Available Fish": "Salmon",
+            "undefined": "400",
+            "Available Bugs": "Walker Cicada"
+        },
+        {
+            "Available Fish": "Saw Shark",
+            "undefined": "600",
+            "Available Bugs": "Walking Leaf"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "600",
+            "Available Bugs": "Walking Stick"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Snapping Turtle",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Soft-Shelled Turtle",
+            "undefined": "160",
+            "Available Bugs": "Yellow Butterfly"
+        },
+        {
+            "Available Fish": "Sturgeon",
+            "undefined": "10000"
+        },
+        {
+            "Available Fish": "Suckerfish",
+            "undefined": "1500"
+        },
+        {
+            "Available Fish": "Surgeonfish",
+            "undefined": "1000"
+        },
+        {
+            "Available Fish": "Tilapia",
+            "undefined": "800"
+        },
+        {
+            "Available Fish": "Whale Shark",
+            "undefined": "13000"
+        },
+        {
+            "Available Fish": "Zebra Turkeyfish",
+            "undefined": "500"
+        }
+    ],
+    "Oct": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Angelfish",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "4500",
+            "Available Bugs": "Banded Dragonfly"
+        },
+        {
+            "Available Fish": "Betta",
+            "undefined": "430",
+            "Available Bugs": "Bell Cricket"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "160",
+            "Available Bugs": "Common Butterfly"
+        },
+        {
+            "Available Fish": "Catfish",
+            "undefined": "130",
+            "Available Bugs": "Cricket"
+        },
+        {
+            "Available Fish": "Char",
+            "undefined": "230",
+            "Available Bugs": "Darner Dragonfly"
+        },
+        {
+            "Available Fish": "Cherry Salmon",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Dab",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "200",
+            "Available Bugs": "Ladybug"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Giant Trevally",
+            "undefined": "1000",
+            "Available Bugs": "Man-Faced Stink Bug"
+        },
+        {
+            "Available Fish": "Golden Trout",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "600",
+            "Available Bugs": "Migratory Locust"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "140",
+            "Available Bugs": "Monarch Butterfly"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Mahi-Mahi",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Mitten Crab",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Moray Eel",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "180",
+            "Available Bugs": "Red Dragonfly"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "400",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Pike",
+            "undefined": "8000",
+            "Available Bugs": "Scorpion"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Rainbowfish",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "120",
+            "Available Bugs": "Stinkbug"
+        },
+        {
+            "Available Fish": "Ray",
+            "undefined": "1500",
+            "Available Bugs": "Tiger Beetle"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "450",
+            "Available Bugs": "Violin Beetle"
+        },
+        {
+            "Available Fish": "Ribbon Eel",
+            "undefined": "600",
+            "Available Bugs": "Walking Stick"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Snapping Turtle",
+            "undefined": "160",
+            "Available Bugs": "Yellow Butterfly"
+        },
+        {
+            "Available Fish": "Sturgeon",
+            "undefined": "10000"
+        },
+        {
+            "Available Fish": "Tilapia",
+            "undefined": "800"
+        },
+        {
+            "Available Fish": "Yellow Perch",
+            "undefined": "300"
+        },
+        {
+            "Available Fish": "Zebra Turkeyfish",
+            "undefined": "500"
+        }
+    ],
+    "Nov": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Bitterling",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Blowfish",
+            "undefined": "160",
+            "Available Bugs": "Common Butterfly"
+        },
+        {
+            "Available Fish": "Blue Marlin",
+            "undefined": "130",
+            "Available Bugs": "Cricket"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "500",
+            "Available Bugs": "Damselfly"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "70",
+            "Available Bugs": "Flea"
+        },
+        {
+            "Available Fish": "Char",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Cherry Salmon",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "200",
+            "Available Bugs": "Long Locust"
+        },
+        {
+            "Available Fish": "Dab",
+            "undefined": "430",
+            "Available Bugs": "Mantis"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "600",
+            "Available Bugs": "Migratory Locust"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Golden Trout",
+            "undefined": "140",
+            "Available Bugs": "Monarch Butterfly"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Guppy",
+            "undefined": "2400",
+            "Available Bugs": "Orchid Mantis"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Mitten Crab",
+            "undefined": "400",
+            "Available Bugs": "Rice Grasshopper"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Pike",
+            "undefined": "8000",
+            "Available Bugs": "Tarantula"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "450",
+            "Available Bugs": "Violin Beetle"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "600",
+            "Available Bugs": "Walking Stick"
+        },
+        {
+            "Available Fish": "Ray",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "400"
+        },
+        {
+            "Available Fish": "Seahorse",
+            "undefined": "1100"
+        },
+        {
+            "Available Fish": "Sturgeon",
+            "undefined": "10000"
+        },
+        {
+            "Available Fish": "Yellow Perch",
+            "undefined": "300"
+        },
+        {
+            "Available Fish": "Zebra Turkeyfish",
+            "undefined": "500"
+        }
+    ],
+    "Dec": [
+        {
+            "Available Fish": "Name",
+            "undefined": "Museum",
+            "Available Bugs": "Name"
+        },
+        {
+            "Available Fish": "Anchovy",
+            "undefined": "80",
+            "Available Bugs": "Ant"
+        },
+        {
+            "Available Fish": "Barreleye",
+            "undefined": "600",
+            "Available Bugs": "Bagworm"
+        },
+        {
+            "Available Fish": "Bitterling",
+            "undefined": "300",
+            "Available Bugs": "Centipede"
+        },
+        {
+            "Available Fish": "Black Bass",
+            "undefined": "350",
+            "Available Bugs": "Citrus Long-Horned Beetle"
+        },
+        {
+            "Available Fish": "Blowfish",
+            "undefined": "160",
+            "Available Bugs": "Common Butterfly"
+        },
+        {
+            "Available Fish": "Blue Marlin",
+            "undefined": "500",
+            "Available Bugs": "Damselfly"
+        },
+        {
+            "Available Fish": "Bluegill",
+            "undefined": "3000",
+            "Available Bugs": "Dung Beetle"
+        },
+        {
+            "Available Fish": "Carp",
+            "undefined": "4000",
+            "Available Bugs": "Emperor Butterfly"
+        },
+        {
+            "Available Fish": "Coelacanth",
+            "undefined": "60",
+            "Available Bugs": "Fly"
+        },
+        {
+            "Available Fish": "Crucian Carp",
+            "undefined": "1000",
+            "Available Bugs": "Hermit Crab"
+        },
+        {
+            "Available Fish": "Dab",
+            "undefined": "200",
+            "Available Bugs": "Honeybee"
+        },
+        {
+            "Available Fish": "Dace",
+            "undefined": "500",
+            "Available Bugs": "Mole Cricket"
+        },
+        {
+            "Available Fish": "Freshwater Goby",
+            "undefined": "130",
+            "Available Bugs": "Moth"
+        },
+        {
+            "Available Fish": "Goldfish",
+            "undefined": "1000",
+            "Available Bugs": "Paper Kite Butterfly"
+        },
+        {
+            "Available Fish": "Horse Mackerel",
+            "undefined": "250",
+            "Available Bugs": "Pill Bug"
+        },
+        {
+            "Available Fish": "Koi",
+            "undefined": "2500",
+            "Available Bugs": "Raja Brooke Butterfly"
+        },
+        {
+            "Available Fish": "Oarfish",
+            "undefined": "250",
+            "Available Bugs": "Snail"
+        },
+        {
+            "Available Fish": "Olive Flounder",
+            "undefined": "600",
+            "Available Bugs": "Spider"
+        },
+        {
+            "Available Fish": "Pale Chub",
+            "undefined": "8000",
+            "Available Bugs": "Tarantula"
+        },
+        {
+            "Available Fish": "Pike",
+            "undefined": "2500",
+            "Available Bugs": "Wasp"
+        },
+        {
+            "Available Fish": "Pond Smelt",
+            "undefined": "200",
+            "Available Bugs": "Wharf Roach"
+        },
+        {
+            "Available Fish": "Pop-Eyed Goldfish",
+            "undefined": "1300"
+        },
+        {
+            "Available Fish": "Ranchu Goldfish",
+            "undefined": "4500"
+        },
+        {
+            "Available Fish": "Red Snapper",
+            "undefined": "3000"
+        },
+        {
+            "Available Fish": "Sea Bass",
+            "undefined": "400"
+        },
+        {
+            "Available Fish": "Sea Butterfly",
+            "undefined": "1000"
+        },
+        {
+            "Available Fish": "Stringfish",
+            "undefined": "15000"
+        },
+        {
+            "Available Fish": "Sturgeon",
+            "undefined": "10000"
+        },
+        {
+            "Available Fish": "Yellow Perch",
+            "undefined": "300"
+        }
+    ]
+}

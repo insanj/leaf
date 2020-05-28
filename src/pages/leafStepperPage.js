@@ -8,36 +8,17 @@ import net from '../img/net.png';
 import shovel from '../img/shovel.png';
 import fishing from '../img/fishing.png';
 
+import Cookies from '../cookies.js';
+
 const useStyles = makeStyles((theme) => ({
-
-}));
-
-function setCookie(cname, cvalue, exdays) {
-  var d = new Date();
-  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-  var expires = 'expires=' + d.toUTCString();
-  document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
-}
-
-function getCookie(cname) {
-  var name = cname + '=';
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for (var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) === ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) === 0) {
-      return c.substring(name.length, c.length);
-    }
+  root: {
+    padding: 10
   }
-  return '';
-}
+}));
 
 const COOKIE_LEAF_STEPPER_ITEMS_KEY = "LeafStepperItems";
 const getCookieValues = () => {
-  const savedStepperItems = getCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY);
+  const savedStepperItems = Cookies.getCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY);
   if (!savedStepperItems) {
     return {};
   }
@@ -48,7 +29,7 @@ const getCookieValues = () => {
 
 const setCookieValues = (values) => {
   const stepperItemsString = JSON.stringify(values);
-  setCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY, stepperItemsString);
+  Cookies.setCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY, stepperItemsString);
 }
 
 export default function LeafStepperPage({  }) {
@@ -171,7 +152,7 @@ export default function LeafStepperPage({  }) {
   }
 
   return (
-    <div>
+    <div className={classes.root}>
       <div>
           { generateLeafItemSection() }
       </div>

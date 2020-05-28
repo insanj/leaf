@@ -2,7 +2,11 @@ import React from 'react';
 import { createMuiTheme, makeStyles, ThemeProvider} from '@material-ui/core/styles';
 
 import LeafAppBar from './components/leafAppBar';
+import LeafTabBar from './components/leafTabBar';
 import LeafStepperPage from './pages/leafStepperPage';
+import LeafMuseumPage from './pages/leafMuseumPage';
+
+import Cookies from './cookies.js';
 
 const theme = createMuiTheme({
   palette: {
@@ -15,12 +19,17 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
   page: {
-    marginTop: '80px',
-  }
+    marginTop: '55px',
+
+    [theme.breakpoints.up('sm')]: {
+      marginTop: '62px',
+    }
+  },
 }));
 
 export default function App() {
   const classes = useStyles();
+  const [activePage, setActivePage] = React.useState(Cookies.getCookie('LeafActivePage') ? Cookies.getCookie('LeafActivePage') : 'counters');
 
   const getOptionalAppBarHeight = (defaultValue=50) => {
     const jsAppBar = document.body.getElementsByClassName("MuiAppBar-root");
@@ -31,8 +40,33 @@ export default function App() {
     return jsAppBar[0].clientHeight;
   }
 
-  const handleAddButtonClick = () => {
+  const handleTabBarActiveChange = (newValue) => {
+    setActivePage(newValue);
+    Cookies.setCookie('LeafActivePage', newValue);
+  }
 
+  const generateActivePage = () => {
+    if (!activePage || activePage === 'counters') {
+      return (
+        <LeafStepperPage />
+      );
+    } else if (activePage === 'active') {
+      return (
+        <LeafMuseumPage />
+      );
+    } else if (activePage === 'museum') {
+      return (
+        <LeafMuseumPage />
+      );
+    } else if (activePage === 'profile') {
+      return (
+        <p>Your profile will go here :)</p>
+      );
+    } else {
+      return (
+        <p>Uh oh, you weren't suppoed to see this...</p>
+      );
+    }
   }
 
   return (
@@ -41,8 +75,13 @@ export default function App() {
 
       <ThemeProvider theme={theme}>
         <div className={classes.page}>
-          <LeafStepperPage />
+          { generateActivePage() }
         </div>
+
+        <LeafTabBar
+          active={activePage}
+          onActiveChange={handleTabBarActiveChange}
+        />
 
         <LeafAppBar />
       </ThemeProvider>

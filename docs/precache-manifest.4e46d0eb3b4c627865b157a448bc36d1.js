@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5c84e17cc39a5ca8820f229a9548a8a",
+    "revision": "6b09bcbce058513f11bd7c0051c62268",
     "url": "/leaf/index.html"
   },
   {
-    "revision": "04c0cedc497dac7d476a",
+    "revision": "22b32ed08795b7caf217",
     "url": "/leaf/static/css/main.585c3e7f.chunk.css"
   },
   {
-    "revision": "6730a5d191eb7ef8be4a",
-    "url": "/leaf/static/js/2.d795d487.chunk.js"
+    "revision": "90720a4f18fdeb51210b",
+    "url": "/leaf/static/js/2.ebe06a61.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/leaf/static/js/2.d795d487.chunk.js.LICENSE.txt"
+    "url": "/leaf/static/js/2.ebe06a61.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04c0cedc497dac7d476a",
-    "url": "/leaf/static/js/main.35da2313.chunk.js"
+    "revision": "22b32ed08795b7caf217",
+    "url": "/leaf/static/js/main.12307d4c.chunk.js"
   },
   {
     "revision": "33353290e433a1a396cf",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1ab558768cdf88459e2c999cd09176c",
     "url": "/leaf/static/media/fishing.e1ab5587.png"
+  },
+  {
+    "revision": "56ccd27f1a6c7bac6bb6c93ef08ecd5d",
+    "url": "/leaf/static/media/icon_grid.56ccd27f.png"
   },
   {
     "revision": "0cc42fd57000e53022a1e40977951a07",
