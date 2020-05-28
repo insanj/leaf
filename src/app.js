@@ -31,6 +31,10 @@ export default function App() {
     return jsAppBar[0].clientHeight;
   }
 
+  const handleAddButtonClick = () => {
+
+  }
+
   return (
     
     <React.Fragment>
