@@ -12,6 +12,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import Card from '@material-ui/core/Card';
 
 import LeafMuseumCard from '../components/leafMuseumCard';
 
@@ -52,6 +53,23 @@ const useStyles = makeStyles((theme) => ({
   selectEmpty: {
     marginTop: theme.spacing(2),
   },
+  locationHeader: {
+    width: '100%',
+    paddingLeft: 10,
+    textAlign: 'center',
+    fontWeight: 600,
+    opacity: 0.6
+  },
+  cardsHeader: {
+    width: '100%', 
+    paddingLeft: '5px',
+    opacity: 0.6, 
+  },
+  cardsHeaderText: {
+    fontSize: '1.1em',
+    fontWeight: 500,
+    lineHeight: 0, 
+  }
 }));
 
 export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortType, onSortTypeChange }) {
@@ -307,7 +325,54 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortT
       });
     }
 
-    const cards = sortedItems.map(i => generateCardForItem(i));
+    let cards = [];
+    if (!sortType || sortType != 'Location') {
+      cards = sortedItems.map(i => generateCardForItem(i));
+    } else {
+      let locationsToItems = {};
+      for (let item of items) {
+        let cardsForLoc = locationsToItems[item.location];
+        if (cardsForLoc) {
+          cardsForLoc.push(item);
+          locationsToItems[item.location] = cardsForLoc;
+        } else {
+          locationsToItems[item.location] = [item];
+        }
+      }
+
+      const sortedLocations = Object.keys(locationsToItems).sort();
+      for (let location of sortedLocations) {
+        const locationItems = locationsToItems[location];
+        const locationCards = locationItems.map(i => generateCardForItem(i));
+        const locationHeader = (
+          <p className={classes.locationHeader}>
+            {location}
+          </p>
+        );
+        const locationSection = [locationHeader].concat(locationCards);
+        cards = cards.concat(locationSection);
+      }
+
+
+      // let amountOfHeadersAdded = 0;
+      // let currLocation = '';
+      // for (let i in items) {
+      //   const item = items[i];
+      //   if (item.location === currLocation) {
+      //     continue;
+      //   } else {
+      //     currLocation = item.location;
+          // const header = (
+          //   <p className={classes.locationHeader}>
+          //     {currLocation}
+          //   </p>
+          // );
+      //     cards.splice(i+amountOfHeadersAdded, 0, header);
+      //     amountOfHeadersAdded = amountOfHeadersAdded + 1;
+      //   }
+      // }
+    }
+
     return cards;
   }
 
@@ -328,8 +393,8 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortT
       <div style={{marginLeft: '10px', marginRight: '10px'}}>
         <table style={{tableLayout: 'fixed'}}>
           <tr>
-            <td style={{width: '100%', opacity: 0.6, lineHeight: 0, paddingLeft: '5px'}}>
-              <Typography variant="overline" display="block" style={{fontSize: '1.1em'}}>
+            <td className={classes.cardsHeader }>
+              <Typography variant="overline" display="block" className={classes.cardsHeaderText}>
                 { generateCards().length } things
               </Typography>
             </td>
