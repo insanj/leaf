@@ -20,6 +20,7 @@ import moment from 'moment';
 const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: 20,
+    width: '98vw'
   },
   subtitleElement: {
     margin: 0,
@@ -262,9 +263,11 @@ export default function LeafMuseumPage({ showOnlyActive=false }) {
         </Tabs>
       </AppBar>
 
+      <div style={{marginLeft: '10px', marginRight: '10px'}}>
       <Grid container className={classes.grid} spacing={2}>
         { generateCards() }
       </Grid>
+      </div>
     </div>
   );
 }
