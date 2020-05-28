@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
   } 
 }));
 
-export default function LeafMuseumPage({ showOnlyActive=false }) {
+export default function LeafMuseumPage({ searchText, showOnlyActive=false }) {
   const classes = useStyles();
   const [selectedTab, setSelectedTab] = React.useState('everything');
 
@@ -189,7 +189,17 @@ export default function LeafMuseumPage({ showOnlyActive=false }) {
   }
 
   const getFishes = () => {
-    const fishes = dayglopterodactyl["Fish"];
+    let fishes = dayglopterodactyl["Fish"];
+
+    if (searchText && searchText.length > 0) {
+      const searchLowercase = searchText.toLowerCase();
+      fishes = fishes.filter(f => {
+        const allValues = Object.values(f).map(v => v.toLowerCase());
+        const matchingValues = allValues.filter(v => v.includes(searchLowercase));
+        return matchingValues && matchingValues.length > 0;
+      });
+    }
+
     if (showOnlyActive === true) {
       const filtered = fishes.filter(f => filterByActive(f));
       return filtered;
@@ -199,7 +209,17 @@ export default function LeafMuseumPage({ showOnlyActive=false }) {
   }
 
   const getInsects = () => {
-    const bugs = dayglopterodactyl["Bugs"];
+    let bugs = dayglopterodactyl["Bugs"];
+
+    if (searchText && searchText.length > 0) {
+      const searchLowercase = searchText.toLowerCase();
+      bugs = bugs.filter(f => {
+        const allValues = Object.values(f).map(v => v.toLowerCase());
+        const matchingValues = allValues.filter(v => v.includes(searchLowercase));
+        return matchingValues && matchingValues.length > 0;
+      });
+    }
+
     if (showOnlyActive === true) {
       const filtered = bugs.filter(f => filterByActive(f));
       return filtered;
@@ -264,9 +284,9 @@ export default function LeafMuseumPage({ showOnlyActive=false }) {
       </AppBar>
 
       <div style={{marginLeft: '10px', marginRight: '10px'}}>
-      <Grid container className={classes.grid} spacing={2}>
-        { generateCards() }
-      </Grid>
+        <Grid container className={classes.grid} spacing={2}>
+          { generateCards() }
+        </Grid>
       </div>
     </div>
   );

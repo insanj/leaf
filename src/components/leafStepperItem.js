@@ -1,18 +1,26 @@
 import React from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { TextField } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 
 import LeafProgressStepper from '../components/leafProgressStepper';
+
+import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 
 import '../css/leafStepperItem.css';
 
 const useStyles = makeStyles((theme) => ({
+  container: {
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  },
   background: {
     background: '#fff',
     borderRadius: '15px',
     boxShadow: '0px 0px 4px rgba(0,0,0,0.2)',
-    margin: '10px',
-    maxWidth: '300px'
+    marginTop: '10px',
+    minWidth: '165px',
+    width: '46vw'
   },
   image: {
     margin: 0,
@@ -27,10 +35,20 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 100,
     padding: 0,
     margin: 0
+  },
+  close: {
+    background: 'none',
+    border: 'none',
+    fontSize: '1.1em',
+    fontWeight: 500,
+    position: 'absolute',
+    margin: '15px 0px 0px 5px',
+    cursor: 'pointer',
+    minWidth: '40px'
   }
 }));
 
-export default function LeafStepperItem({ name="Star Net", image='', value=50, minValue=0, maxValue=50, onValueChange, onNameInputChange }) {
+export default function LeafStepperItem({ name="Star Net", image='', value=50, minValue=0, maxValue=50, onValueChange, onNameInputChange, onDeleteButtonClick }) {
   const classes = useStyles();
 
   const handleChange = (event) => {
@@ -39,8 +57,13 @@ export default function LeafStepperItem({ name="Star Net", image='', value=50, m
 
   return (
     <div className={classes.container}>
+      <Button color="primary" className={classes.close} onClick={ onDeleteButtonClick }>
+        <HighlightOffIcon />
+      </Button>
+
       <center>
         <div className={classes.background}>
+
           <p className={classes.image}>
             <img src={image} width="50" height="50" />
           </p>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 
 import LeafStepperItem from '../components/leafStepperItem.js';
 import LeafAddButton from '../components/leafAddButton';
@@ -16,7 +17,21 @@ import Cookies from '../cookies.js';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: 10
+    paddingTop: 10,
+    paddingLeft: 10,
+    width: '94vw'
+  },
+  landing: {
+    marginBottom: 0,
+    marginTop: '30px',
+    textAlign: 'center',
+    paddingBottom: '50px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    maxWidth: '320px'
+  },
+  grid: {
+    itemsAlign: 'middle'
   }
 }));
 
@@ -36,7 +51,7 @@ const setCookieValues = (values) => {
   Cookies.setCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY, stepperItemsString);
 }
 
-export default function LeafStepperPage({  }) {
+export default function LeafStepperPage({ searchText }) {
   const classes = useStyles();
   const [itemValues, setItemValues] = React.useState(getCookieValues());
 
@@ -94,14 +109,6 @@ export default function LeafStepperPage({  }) {
   // )];
 
   const handleNameInputChange = (oldName, newName) => {
-    let shouldDelete = false;
-    if (!newName || newName.length <= 0) {
-      shouldDelete = window.confirm("Do you want to delete this item?");
-      if (!shouldDelete) {
-        return;
-      }
-    }
-
     let newItemValues = JSON.parse(JSON.stringify(itemValues));
     // if (newName && newName.length > 0) {
     const oldValue = newItemValues[oldName];
@@ -110,9 +117,14 @@ export default function LeafStepperPage({  }) {
 
     delete newItemValues[oldName];
 
-    if (shouldDelete) {
-      delete newItemValues[newName];
-    }
+    setItemValues(newItemValues);
+    setCookieValues(newItemValues);
+  }
+
+  const handleDeleteButtonClick = (itemName) => {
+    let newItemValues = JSON.parse(JSON.stringify(itemValues));
+
+    delete newItemValues[itemName];
 
     setItemValues(newItemValues);
     setCookieValues(newItemValues);
@@ -128,6 +140,7 @@ export default function LeafStepperPage({  }) {
         maxValue={ 30 }
         onValueChange={ handleValueChange }
         onNameInputChange={ (nameInput) => handleNameInputChange(item.name, nameInput) }
+        onDeleteButtonClick={ () => handleDeleteButtonClick(item.name) }
       />
     );
   }
@@ -152,7 +165,14 @@ export default function LeafStepperPage({  }) {
   }
 
   const generateLeafItemSection = () => {
-    const sorted = Object.keys(itemValues).sort((k1, k2) => itemValues[k2]-itemValues[k1]); //=> k1.toLowerCase().localeCompare(k2.toLowerCase()));
+    let sorted = Object.keys(itemValues).sort((k1, k2) => itemValues[k2]-itemValues[k1]); //=> k1.toLowerCase().localeCompare(k2.toLowerCase()));
+
+    if (searchText && searchText.length > 0) {
+      const lowercaseSearch = searchText.toLowerCase();
+      sorted = sorted.filter(i => {
+        return i.toLowerCase().includes(lowercaseSearch);
+      });
+    }
 
     const saved = sorted.map(i => generateLeafItem({
       name: i,
@@ -166,7 +186,15 @@ export default function LeafStepperPage({  }) {
   return (
     <div className={classes.root}>
       <div>
+        <Grid container className={classes.grid} spacing={2}>
           { generateLeafItemSection() }
+        </Grid>
+
+        <div style={{width: "100%"}}>
+          <p className={classes.landing}>
+            <b>Make sure</b> your <img src={net} width="13" height="13" /> nets, <img src={shovel} width="13" height="13" /> shovels, <img src={slingshot} width="13" height="13" /> slingshots, and <img src={fishing} width="13" height="13" /> fishing rods don't break! <b>Add counters</b> for your favorite tools so you know when you have to replace them before they hit 30 uses.
+          </p>
+        </div>
       </div>
       <div>
         <LeafAddButton 

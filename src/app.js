@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
 export default function App() {
   const classes = useStyles();
   const [activePage, setActivePage] = React.useState(Cookies.getCookie('LeafActivePage') ? Cookies.getCookie('LeafActivePage') : 'active');
+  const [searchText, setSearchText] = React.useState('');
 
   const getOptionalAppBarHeight = (defaultValue=50) => {
     const jsAppBar = document.body.getElementsByClassName("MuiAppBar-root");
@@ -51,26 +52,34 @@ export default function App() {
     Cookies.setCookie('LeafActivePage', newValue);
   }
 
+  const handleSearchInputChange = (event) => {
+    setSearchText(event.target.value);
+  }
+
   const generateActivePage = () => {
     if (!activePage || activePage === 'counters') {
       return (
-        <LeafStepperPage />
+        <LeafStepperPage
+          searchText={searchText}
+        />
       );
     } else if (activePage === 'active') {
       return (
-        <LeafMuseumPage 
+        <LeafMuseumPage
+          searchText={searchText}
           showOnlyActive={true}
         />
       );
     } else if (activePage === 'museum') {
       return (
         <LeafMuseumPage 
+          searchText={searchText}
           showOnlyActive={false}
         />      
       );
     } else if (activePage === 'profile') {
       return (
-        <p>Your profile will go here :)</p>
+        <p style={{margin: 30, paddingTop: 10}}>Your profile will go here! Maybe tracking museum progress and turnip prices?</p>
       );
     } else {
       return (
@@ -80,7 +89,6 @@ export default function App() {
   }
 
   return (
-    
     <React.Fragment>
 
       <ThemeProvider theme={theme}>
@@ -93,10 +101,11 @@ export default function App() {
           onActiveChange={handleTabBarActiveChange}
         />
 
-        <LeafAppBar />
+        <LeafAppBar 
+          onSearchInputChange={handleSearchInputChange}
+        />
       </ThemeProvider>
 
     </React.Fragment>
-
   );
 }

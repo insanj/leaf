@@ -579,8 +579,8 @@ export default function LeafMuseumCard({ item }) {
       <center>
         <img src={ getImageForItem() } width="62" height="62" style={{
           background: 'none',
-          border: '3px solid #007f80',
-          borderRadius: '10px'
+          borderRadius: '10px',
+          objectFit: 'contain'
         }}/>
       </center>
       <Typography style={{
