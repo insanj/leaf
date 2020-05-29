@@ -129,7 +129,7 @@ export default function LeafMuseumPage({ searchText, showOnlyActive=false, sortT
   }
 
   const isInHourRange = (hourRange) => {
-    const currentHour = parseInt(moment().format("h"), 10);
+    const currentHour = parseInt(moment().format("H"), 10);
     const hourRangeComponents = hourRange.split(" - ");
     if (hourRangeComponents.length != 2) {
       return false;
