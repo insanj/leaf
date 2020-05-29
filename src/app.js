@@ -6,6 +6,8 @@ import LeafTabBar from './components/leafTabBar';
 import LeafFooter from './components/leafFooter';
 import LeafStepperPage from './pages/leafStepperPage';
 import LeafMuseumPage from './pages/leafMuseumPage';
+import LeafAdvancedMuseumPage from './pages/leafAdvancedMuseumPage';
+import LeafShopPage from './pages/leafShopPage';
 
 import Cookies from './cookies.js';
 
@@ -82,7 +84,7 @@ export default function App() {
       );
     } else if (activePage === 'museum') {
       return (
-        <LeafMuseumPage 
+        <LeafAdvancedMuseumPage 
           searchText={searchText}
           showOnlyActive={false}
           sortType={museumTabSortType}
@@ -93,7 +95,11 @@ export default function App() {
       return (
         <p style={{margin: 30, paddingTop: 10}}>Your profile will go here! Maybe tracking museum progress and turnip prices?</p>
       );
-    } else {
+    } else if (activePage === 'shop') {
+      return (
+        <LeafShopPage />
+      );
+    }  else {
       return (
         <p>Uh oh, you weren't suppoed to see this...</p>
       );

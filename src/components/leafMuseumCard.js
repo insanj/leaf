@@ -574,6 +574,12 @@ export default function LeafMuseumCard({ item }) {
       <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em', opacity: 0.7 }}>
         {item.time}
       </tr>
+
+      { item.rarity ? (
+        <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em', opacity: 0.7 }}>
+          {item.rarity}
+        </tr>
+      ) : ''}
     </table>
   );
 

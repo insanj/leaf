@@ -12,6 +12,7 @@ import AddToPhotosIcon from '@material-ui/icons/AddToPhotos';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
 import BookIcon from '@material-ui/icons/Book';
 import FaceIcon from '@material-ui/icons/Face';
+import StorefrontIcon from '@material-ui/icons/Storefront';
 
 const useStyles = makeStyles({
   root: {
@@ -36,8 +37,10 @@ export default function LeafTabBar({ active, onActiveChange }) {
       <BottomNavigationAction label="Counters" value="counters" icon={<AddToPhotosIcon />} />
       <BottomNavigationAction label="Active" value="active" icon={<Brightness7Icon />} />
       <BottomNavigationAction label="Museum" value="museum" icon={<BookIcon />} />
+      <BottomNavigationAction label="Shop" value="shop" icon={<StorefrontIcon />} />
     </BottomNavigation>
   );
 }
 
-//       <BottomNavigationAction label="Profile" value="profile" icon={<FaceIcon />} />
+//             <BottomNavigationAction label="Profile" value="profile" icon={<FaceIcon />} />
+
