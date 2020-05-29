@@ -192,7 +192,7 @@ const useStyles = makeStyles((theme) => ({
 
     width: '65px',
     [theme.breakpoints.up('xs')]: {
-      width: '24vw !important',
+      width: 'calc(30vw - 20px)',
     },
     [theme.breakpoints.up('sm')]: {
       width: '20vw !important',
@@ -556,6 +556,8 @@ export default function LeafMuseumCard({ item }) {
     return tile0;
   }
 
+//         ${numberWithCommas(item.price)}
+
   const subtitle = (
     <table style={{
       tableLayout: 'fixed',
@@ -564,7 +566,7 @@ export default function LeafMuseumCard({ item }) {
       lineHeight: 1.0,
     }}>
       <tr className={classes.subtitleElement} style={{ fontWeight: 600, fontSize: '0.8em'}}>
-        ${numberWithCommas(item.price)}
+        ${ item.price.replace(" Bells", "") }
       </tr>
 
       <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em' }}>
@@ -575,7 +577,7 @@ export default function LeafMuseumCard({ item }) {
         {item.time}
       </tr>
 
-      { item.rarity ? (
+      { item.rarity && item.rarity !== "N/A" ? (
         <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em', opacity: 0.7 }}>
           {item.rarity}
         </tr>
