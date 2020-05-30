@@ -17,10 +17,12 @@ import Card from '@material-ui/core/Card';
 import LeafMuseumCard from '../components/leafMuseumCard';
 
 import iconGrid from '../img/icon_grid.png';
+import tile82 from '../img/sprites/tiles-82.png';
 
 import acnh_fandom_order from '../data/acnh_fandom_order';
 import dayglopterodactyl from '../data/dayglopterodactyl';
 import acnh_master_list from '../data/1eyQtn5bBy14udf8Ntn_OLkmqKRJmuGKLMXrEHY9nNKE';
+import game8_art from '../data/game8_art';
 
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ScheduleIcon from '@material-ui/icons/Schedule';
@@ -75,6 +77,45 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+function SortSelect({ selectedTab, sortType, showOnlyActive, onSortTypeChange }) {
+  const fossilSortSelect = (
+    <Select
+      labelId="demo-simple-select-outlined-label"
+      id="demo-simple-select-outlined"
+      value={sortType && ['Alphabetical', 'Price'].includes(sortType) ? sortType : (showOnlyActive === true ? 'Price' : 'Alphabetical')}
+      size="small"
+      label="Sort"
+      onChange={(event) => onSortTypeChange(event.target.value)}
+    >
+      <MenuItem value='Alphabetical'><FontDownloadIcon />&nbsp;&nbsp;Alphabetical</MenuItem>
+      <MenuItem value='Price'><LocalOfferIcon />&nbsp;&nbsp;Price</MenuItem>
+    </Select>
+  );
+
+  const sortSelect = (
+    <Select
+      labelId="demo-simple-select-outlined-label"
+      id="demo-simple-select-outlined"
+      value={sortType ? sortType : (showOnlyActive === true ? 'Price' : 'ID')}
+      size="small"
+      label="Sort"
+      onChange={(event) => onSortTypeChange(event.target.value)}
+    >
+      <MenuItem value='Alphabetical'><FontDownloadIcon />&nbsp;&nbsp;Alphabetical</MenuItem>
+      <MenuItem value='ID'><FingerprintIcon />&nbsp;&nbsp;ID</MenuItem>
+      <MenuItem value='Location'><LocationOnIcon />&nbsp;&nbsp;Location</MenuItem>
+      <MenuItem value='Price'><LocalOfferIcon />&nbsp;&nbsp;Price</MenuItem>
+      <MenuItem value='Rarity'><StarIcon />&nbsp;&nbsp;Rarity</MenuItem>
+    </Select>
+  );
+
+  return (
+    <React.Fragment>
+      { selectedTab == 'art' ? '' : (selectedTab == 'fossils' ? fossilSortSelect : sortSelect) }
+    </React.Fragment>
+  );
+}
+
 export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText, showOnlyActive=false, sortType, onSortTypeChange }) {
   const classes = useStyles();
   const theme = useTheme();
@@ -83,6 +124,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     return (
       <LeafMuseumCard 
         item={ item }
+        image={ selectedTab == 'fossils' ? tile82 : null }
       />
     );
   }
@@ -272,6 +314,44 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     return bugs;
   }
 
+
+  const getFossils = () => {
+    let fossils = acnh_master_list["Fossils"];
+
+    if (searchText && searchText.length > 0) {
+      const searchLowercase = searchText.toLowerCase();
+      fossils = fossils.filter(f => {
+        const allValues = Object.values(f).map(v => v.toLowerCase());
+        const matchingValues = allValues.filter(v => v.includes(searchLowercase));
+        return matchingValues && matchingValues.length > 0;
+      });
+    }
+
+    return fossils;
+  }
+
+  const getArt = () => {
+    let art = [];
+    const keys = Object.keys(game8_art);
+    for (let k of keys) {
+      art.push({
+        name: k,
+        image: game8_art[k]
+      });
+    }
+
+    if (searchText && searchText.length > 0) {
+      const searchLowercase = searchText.toLowerCase();
+      art = art.filter(f => {
+        const allValues = Object.keys(f).map(v => v.toLowerCase());
+        const matchingValues = allValues.filter(v => v.includes(searchLowercase));
+        return matchingValues && matchingValues.length > 0;
+      });
+    }
+
+    return art;
+  }
+
   const generateCards = () => {
     const fishes = getFishes();
     const fishItems = fishes.map(fish => {
@@ -295,6 +375,29 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       }
     });
 
+    const fossils = getFossils();
+    const fossilItems = fossils.map(fossil => {
+      return {
+        title: fossil["Fossil"],
+        location: '',
+        time: '',
+        price: fossil["Selling Price"],
+        rarity: ''
+      }
+    });
+
+    const art = getArt();
+    const artItems = art.map(a => {
+      return {
+        title: a.name,
+        location: '',
+        time: '',
+        price: '',
+        rarity: '',
+        image: a.image
+      }
+    });
+
     let items = [];
     if (selectedTab === 'everything') {
       items = insectItems.concat(fishItems);
@@ -302,7 +405,11 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       items = insectItems;
     } else if (selectedTab === 'fish') {
       items = fishItems;
-    }
+    } else if (selectedTab === 'fossils') {
+      items = fossilItems;
+    } else if (selectedTab === 'art') {
+      items = artItems;
+    } 
 
     let sortedItems = items;
     if ((!sortType && showOnlyActive === true) || (sortType && sortType === 'Price')) {
@@ -400,23 +507,16 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
 
             <td>    
               <FormControl variant="outlined" className={classes.formControl}>
-                <InputLabel id="demo-simple-select-outlined-label">Sort</InputLabel>
-                <Select
-                  labelId="demo-simple-select-outlined-label"
-                  id="demo-simple-select-outlined"
-                  value={sortType ? sortType : (showOnlyActive === true ? 'Price' : 'ID')}
-                  size="small"
-                  label="Sort"
-                  onChange={(event) => onSortTypeChange(event.target.value)}
-                >
-                  <MenuItem value='Alphabetical'><FontDownloadIcon />&nbsp;&nbsp;Alphabetical</MenuItem>
-                  <MenuItem value='ID'><FingerprintIcon />&nbsp;&nbsp;ID</MenuItem>
-                  <MenuItem value='Location'><LocationOnIcon />&nbsp;&nbsp;Location</MenuItem>
-                  <MenuItem value='Price'><LocalOfferIcon />&nbsp;&nbsp;Price</MenuItem>
-                  <MenuItem value='Rarity'><StarIcon />&nbsp;&nbsp;Rarity</MenuItem>
-                </Select>
+                {selectedTab == 'art' ? '' : (
+                    <InputLabel id="demo-simple-select-outlined-label">Sort</InputLabel>
+                )}
+                <SortSelect 
+                  selectedTab={selectedTab}
+                  sortType={sortType}
+                  showOnlyActive={showOnlyActive}
+                  onSortTypeChange={onSortTypeChange}
+                />
               </FormControl>
-
             </td>
           </tr>
         </table>

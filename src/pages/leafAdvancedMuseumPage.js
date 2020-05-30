@@ -16,10 +16,10 @@ export default function LeafAdvancedMuseumPage(props) {
     <AppBar position="static">      
       <Tabs value={ selectedTab } onChange={ handleTabChange } variant="scrollable" scrollButtons="auto" aria-label="tabs">
         <Tab label="Everything" value="everything" />
-        <Tab label="Insects" value="insects" />
+        <Tab label="Bugs" value="insects" />
         <Tab label="Fish" value="fish" />    
         <Tab label="Fossils" value="fossils" />           
-        <Tab label="Art" value="flowers" />  
+        <Tab label="Art" value="art" />  
       </Tabs>
     </AppBar>
   );

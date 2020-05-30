@@ -218,11 +218,15 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-export default function LeafMuseumCard({ item }) {
+export default function LeafMuseumCard({ item, image=null }) {
   const classes = useStyles();
   const theme = useTheme();
 
   const getImageForItem = () => {
+    if (image) {
+      return image;
+    }
+
     const searchableTitle = item.title.toLowerCase();
 
     // fish
@@ -566,7 +570,7 @@ export default function LeafMuseumCard({ item }) {
       lineHeight: 1.0,
     }}>
       <tr className={classes.subtitleElement} style={{ fontWeight: 600, fontSize: '0.8em'}}>
-        ${ item.price.replace(" Bells", "") }
+        { item.price && item.price.length > 0 ? '$' : '' }{ item.price.replace(" Bells", "") }
       </tr>
 
       <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em' }}>
@@ -588,7 +592,7 @@ export default function LeafMuseumCard({ item }) {
   return (
     <Card className={classes.root}>
       <center>
-        <img src={ getImageForItem() } width="62" height="62" style={{
+        <img src={ item.image ? item.image : getImageForItem() } width="62" height="62" style={{
           background: 'none',
           borderRadius: '10px',
           objectFit: 'contain'
