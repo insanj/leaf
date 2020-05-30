@@ -53,7 +53,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function LeafShopMaterialsSection({ rows=getMasterListMaterials() }) {
+export default function LeafShopMaterialsSection({ rows=getMasterListMaterials(), searchText }) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(25);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Table from '@material-ui/core/Table';
@@ -53,13 +53,28 @@ const useStyles = makeStyles({
   }
 });
 
-export default function LeafShopShellSection({ rows=getMasterListShells() }) {
+const generateRows = (searchText) => {
+  const filtered = getMasterListShells().filter(shell => {
+    const lowercase = searchText.toLowerCase();
+    if (!lowercase || lowercase.length < 1) {
+      return true;
+    }
+    const searchable = Object.values(shell).map(s => s.toLowerCase());
+    const found = searchable.filter(s => s.includes(lowercase)).length > 0;
+    return found;
+  });
+  return filtered;
+}
+
+export default function LeafShopShellSection({ searchText, rows=generateRows(searchText) }) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(25);
   const [selectedColumnHeader, setSelectedColumnHeader] = React.useState('Name');
   const [shouldReverseSort, setShouldReverseSort] = React.useState(false);
-  const [sortedRows, setSortedRows] = React.useState(rows);
+
+  // const [rows, setRows] = React.useState(generateRows());
+  //const [sortedRows, setSortedRows] = React.useState(rows);
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -71,7 +86,22 @@ export default function LeafShopShellSection({ rows=getMasterListShells() }) {
   };
 
   const handleColumnHeaderClick = (columnLabel) => {
-    let sorted = rows.sort((r1, r2) => {
+    setSelectedColumnHeader(columnLabel);
+
+    if (selectedColumnHeader === columnLabel) {
+      if (shouldReverseSort) {
+        setShouldReverseSort(false);
+      } else {
+        setShouldReverseSort(true);
+      }
+    } else if (shouldReverseSort === true) { // disable reverse sort if we're changing section
+      setShouldReverseSort(false);
+    }
+  }
+
+  const sortRows = (toSort) => {
+    const columnLabel = selectedColumnHeader;
+    let sorted = toSort.sort((r1, r2) => {
       if (columnLabel === 'Name') {
         return r1.name.toLowerCase().localeCompare(r2.name.toLowerCase());
       } else if (columnLabel === 'Price') {
@@ -85,20 +115,11 @@ export default function LeafShopShellSection({ rows=getMasterListShells() }) {
       }
     });
 
-
-    if (selectedColumnHeader === columnLabel) {
-      if (shouldReverseSort) {
-        setShouldReverseSort(false);
-      } else {
-        setShouldReverseSort(true);
-        sorted = sorted.reverse();
-      }
-    } else if (shouldReverseSort === true) { // disable reverse sort if we're changing section
-      setShouldReverseSort(false);
+    if (shouldReverseSort) {
+      sorted = sorted.reverse();
     }
 
-    setSortedRows(sorted);
-    setSelectedColumnHeader(columnLabel);
+    return sorted;
   }
  
   return (
@@ -124,7 +145,7 @@ export default function LeafShopShellSection({ rows=getMasterListShells() }) {
           </TableHead>
 
           <TableBody>
-            {sortedRows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row) => {
+            {sortRows(rows).slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row) => {
               return (
                 <TableRow role="checkbox" tabIndex={-1} key={row.code}>
                   {columns.map((column) => {

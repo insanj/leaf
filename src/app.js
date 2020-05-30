@@ -97,7 +97,9 @@ export default function App() {
       );
     } else if (activePage === 'shop') {
       return (
-        <LeafShopPage />
+        <LeafShopPage 
+          searchText={searchText}
+        />
       );
     }  else {
       return (

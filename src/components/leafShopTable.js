@@ -25,16 +25,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function LeafShopTable() {
+export default function LeafShopTable({ searchText }) {
   const classes = useStyles();
-
-  const shellSection = (
-    <LeafShopShellSection />
-  );
-
-  const materialsSection = (
-    <LeafShopMaterialsSection />
-  );
 
   return (
     <div className={classes.root}>
@@ -53,7 +45,11 @@ export default function LeafShopTable() {
         </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          { shellSection }
+
+          <LeafShopShellSection 
+            searchText={searchText}
+          />
+
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -72,7 +68,11 @@ export default function LeafShopTable() {
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          { materialsSection }
+              
+          <LeafShopMaterialsSection 
+            searchText={searchText}
+          />
+
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
