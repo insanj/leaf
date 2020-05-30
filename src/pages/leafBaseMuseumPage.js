@@ -508,7 +508,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
             <td>    
               <FormControl variant="outlined" className={classes.formControl}>
                 {selectedTab == 'art' ? '' : (
-                    <InputLabel id="demo-simple-select-outlined-label">Sort</InputLabel>
+                  <InputLabel id="demo-simple-select-outlined-label">Sort</InputLabel>
                 )}
                 <SortSelect 
                   selectedTab={selectedTab}

@@ -25,19 +25,19 @@ const columns = [
     align: 'left',
   },
   {
-    id: 'rarity',
-    label: 'Rarity',
+    id: 'location',
+    label: 'Location',
     align: 'center',
   },
 ];
 
-const getMasterListShells = () => {
-  const shells = acnh_master_list["Shells"];
+const getMasterListMaterials = () => {
+  const shells = acnh_master_list["Materials"];
   const rows = shells.map(s => {
     return {
-      name: s["Shell"],
-      price: s["Selling Price"],
-      rarity: s["Rarity"]
+      name: s["Material"],
+      price: s["Price"],
+      location: s["Location"]
     };
   });
   return rows;
@@ -53,7 +53,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function LeafShopShellSection({ rows=getMasterListShells() }) {
+export default function LeafShopMaterialsSection({ rows=getMasterListMaterials() }) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(25);
@@ -78,8 +78,8 @@ export default function LeafShopShellSection({ rows=getMasterListShells() }) {
         const firstPrice = parseInt(r1.price.split(" ")[0].replace(",", ""), 10);
         const secondPrice = parseInt(r2.price.split(" ")[0].replace(",", ""), 10);
         return  secondPrice - firstPrice; 
-      } else if (columnLabel === 'Rarity') {
-        return r2.rarity.length - r1.rarity.length;
+      } else if (columnLabel === 'Location') {
+        return r1.location.toLowerCase().localeCompare(r2.location.toLowerCase());
       } else {
         return r1-r2;
       }

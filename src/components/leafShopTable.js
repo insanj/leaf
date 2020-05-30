@@ -9,8 +9,10 @@ import Chip from '@material-ui/core/Chip';
 import Avatar from '@material-ui/core/Avatar';
 
 import LeafShopShellSection from './leafShopShellSection';
+import LeafShopMaterialsSection from './leafShopMaterialsSection';
 
 import tile138 from '../img/sprites/tiles-138.png';
+import tile55 from '../img/sprites/tiles-55.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,6 +30,10 @@ export default function LeafShopTable() {
 
   const shellSection = (
     <LeafShopShellSection />
+  );
+
+  const materialsSection = (
+    <LeafShopMaterialsSection />
   );
 
   return (
@@ -57,13 +63,16 @@ export default function LeafShopTable() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Materials</Typography>
+          <Typography className={classes.heading}>
+          <img src={tile55} width="28" height="28" style={{
+            position: 'absolute',
+            objectFit: 'contain'
+          }}/>
+          <span style={{paddingLeft: '34px'}}>Materials</span>
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
+          { materialsSection }
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
