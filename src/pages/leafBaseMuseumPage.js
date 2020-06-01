@@ -229,12 +229,12 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
   }
 
   const filterByActive = (f) => {
-    const duration = f["Seasonal Availability"];
+    const duration = f["Seasonal Availability"] ? f["Seasonal Availability"] : f["Duration"];
     if (!duration) {
       return false;
     }
 
-    if (duration.toLowerCase() != "all year") {
+    if (duration.toLowerCase() != "all year" && duration.toLowerCase() != 'year-round') {
       const monthRangeSegments = duration.split("/");
       if (monthRangeSegments.length > 1) {
         const firstMonthRange = monthRangeSegments[0];
@@ -244,13 +244,13 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
         }
       } else if (monthRangeSegments.length == 1) {
         const monthRange = monthRangeSegments[0];
-        if (!isInMonthRange(monthRange)) {
+        if (!allMonths.includes(monthRange)) {
           return false;
         }
       }
     }
 
-    const time = f["Hourly Availability"];
+    const time = f["Hourly Availability"] ? f["Hourly Availability"] : f["Time"];
     if (!time) {
       return false;
     }
@@ -275,7 +275,31 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
   }
 
   const getFishes = () => {
-    let fishes = acnh_master_list["Fish"];
+    let master_list_fish = acnh_master_list["Fish"];
+    let dag_fish = dayglopterodactyl["Fish"];
+    let unreduced = master_list_fish.concat(dag_fish);
+    let fishes = unreduced.reduce((accumulator, currentValue) => {
+      const currFishName = currentValue["Name"] ? currentValue["Name"] : currentValue["Fish"];
+      const fishIdxThatMatchesThisOne = accumulator.filter(f => {
+        const fishName = f["Name"] ? f["Name"] : f["Fish"];
+        return fishName.toLowerCase() === currFishName.toLowerCase();
+      });
+
+      if (fishIdxThatMatchesThisOne.length < 1) {
+        accumulator.push(currentValue);
+        return accumulator;
+      }
+
+      return accumulator;
+
+      // else {
+      //   let existing = accumulator[fishIdxThatMatchesThisOne];
+      //   const combined = {...existing, ...currentValue};
+      //   accumulator.splice(fishIdxThatMatchesThisOne, 1, combined);
+      //   return accumulator;
+      // }
+    }, []);
+
 
     if (searchText && searchText.length > 0) {
       const searchLowercase = searchText.toLowerCase();
@@ -295,7 +319,29 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
   }
 
   const getInsects = () => {
-    let bugs = acnh_master_list["Bugs"];
+    let master_list_bugs = acnh_master_list["Bugs"];
+    let dag_bugs = dayglopterodactyl["Bugs"];
+    let unreduced = master_list_bugs.concat(dag_bugs);
+    let bugs = unreduced.reduce((accumulator, currentValue) => {
+      const currBugName = currentValue["Name"] ? currentValue["Name"] : currentValue["Insect"];
+      const bugIdxThatMatchesThisOne = accumulator.findIndex(f => {
+        const bugName = f["Name"] ? f["Name"] : f["Insect"];
+        return bugName.toLowerCase() === currBugName.toLowerCase();
+      });
+
+      if (bugIdxThatMatchesThisOne < 0) {
+        accumulator.push(currentValue);
+        return accumulator;
+      }
+
+      return accumulator;
+      // else {
+      //   let existing = accumulator[bugIdxThatMatchesThisOne];
+      //   const combined = {...existing, ...currentValue};
+      //   accumulator.splice(bugIdxThatMatchesThisOne, 1, combined);
+      //   return accumulator;
+      // }
+    }, []);
 
     if (searchText && searchText.length > 0) {
       const searchLowercase = searchText.toLowerCase();
@@ -356,22 +402,22 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     const fishes = getFishes();
     const fishItems = fishes.map(fish => {
       return {
-        title: fish["Fish"],
+        title: fish["Fish"] ? fish["Fish"] : fish["Name"],
         location: fish["Location"],
-        time: fish["Hourly Availability"],
-        price: fish["Selling Price"],
-        rarity: fish["Rarity"]
+        time: fish["Hourly Availability"] ? fish["Hourly Availability"] : fish["Time"],
+        price: fish["Selling Price"] ? fish["Selling Price"] : fish["Sell Price"],
+        rarity: fish["Rarity"] ? fish["Rarity"] : ''
       }
     });
 
     const insects = getInsects();
     const insectItems = insects.map(fish => {
       return {
-        title: fish["Insect"],
+        title: fish["Insect"] ? fish["Insect"] : fish["Name"],
         location: fish["Location"],
-        time: fish["Hourly Availability"],
-        price: fish["Selling Price"],
-        rarity: fish["Rarity"]
+        time: fish["Hourly Availability"] ? fish["Hourly Availability"] : fish["Time"],
+        price: fish["Selling Price"] ? fish["Selling Price"] : fish["Sell Price"],
+        rarity: fish["Rarity"] ? fish["Rarity"] : ''
       }
     });
 
