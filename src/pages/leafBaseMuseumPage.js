@@ -244,7 +244,10 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
         }
       } else if (monthRangeSegments.length == 1) {
         const monthRange = monthRangeSegments[0];
-        if (!allMonths.includes(monthRange)) {
+        if (monthRange.split(" - ").length < 2) {
+          return allMonths.includes(monthRange);
+        }
+        if (!isInMonthRange(monthRange)) {
           return false;
         }
       }
