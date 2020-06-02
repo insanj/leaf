@@ -12,6 +12,8 @@ import LeafShopShellSection from './leafShopShellSection';
 import LeafShopMaterialsSection from './leafShopMaterialsSection';
 import LeafShopToolsSection from './leafShopToolsSection';
 import LeafShopFlooringSection from './leafShopFlooringSection';
+import LeafShopFlowersSection from './leafShopFlowersSection';
+import LeafShopFruitSection from './leafShopFruitSection';
 
 import tile1 from '../img/sprites/tiles-1.png';
 import tile138 from '../img/sprites/tiles-138.png';
@@ -84,8 +86,11 @@ export default function LeafShopTable({ searchText }) {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+            
+            <LeafShopFlowersSection
+              searchText={searchText}
+            />
+
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -107,8 +112,11 @@ export default function LeafShopTable({ searchText }) {
         <ExpansionPanelDetails>
 
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+            
+            <LeafShopFruitSection 
+              searchText={searchText}
+            />
+
           </Typography>
 
         </ExpansionPanelDetails>
