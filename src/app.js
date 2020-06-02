@@ -9,6 +9,8 @@ import LeafMuseumPage from './pages/leafMuseumPage';
 import LeafAdvancedMuseumPage from './pages/leafAdvancedMuseumPage';
 import LeafShopPage from './pages/leafShopPage';
 
+import LeafVillagersSection from './components/leafVillagersSection';
+
 import Cookies from './cookies.js';
 
 import './css/fonts.css';
@@ -93,7 +95,9 @@ export default function App() {
       );
     } else if (activePage === 'profile') {
       return (
-        <p style={{margin: 30, paddingTop: 10}}>Your profile will go here! Maybe tracking museum progress and turnip prices?</p>
+        <LeafVillagersSection
+          searchText={searchText}
+        />
       );
     } else if (activePage === 'shop') {
       return (

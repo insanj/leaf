@@ -1,0 +1,3521 @@
+[
+  {
+    "name": "Admiral",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Admiral_poster.png/revision/latest?cb=20200522013249",
+    "personality": "♂ Cranky",
+    "species": "Bird",
+    "birthday": "January 27th",
+    "catchphrase": "\"aye aye\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Agent S",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Agent_S_poster.png/revision/latest?cb=20200410184209",
+    "personality": "♀ Peppy",
+    "species": "Squirrel",
+    "birthday": "July 2nd",
+    "catchphrase": "\"sidekick\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Agnes",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e8/NH-Agnes_poster.png/revision/latest?cb=20200410185748",
+    "personality": "♀ Sisterly",
+    "species": "Pig",
+    "birthday": "April 21st",
+    "catchphrase": "\"snuffle\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Al",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/NH-Al_poster.png/revision/latest?cb=20200522013430",
+    "personality": "♂ Lazy",
+    "species": "Gorilla",
+    "birthday": "October 18th",
+    "catchphrase": "\"Ayyeeee\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Alfonso",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0d/NH-Alfonso_poster.png/revision/latest?cb=20200522013539",
+    "personality": "♂ Lazy",
+    "species": "Alligator",
+    "birthday": "June 9th",
+    "catchphrase": "\"it'sa me\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Alice",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/96/NH-Alice_poster.png/revision/latest?cb=20200522013639",
+    "personality": "♀ Normal",
+    "species": "Koala",
+    "birthday": "August 19th",
+    "catchphrase": "\"guvnor\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Alli",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e8/NH-Alli_poster.png/revision/latest?cb=20200522013709",
+    "personality": "♀ Snooty",
+    "species": "Alligator",
+    "birthday": "November 8th",
+    "catchphrase": "\"graaagh\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Amelia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Amelia_poster.png/revision/latest?cb=20200410191249",
+    "personality": "♀ Snooty",
+    "species": "Eagle",
+    "birthday": "November 19th",
+    "catchphrase": "\"cuz\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Anabelle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bd/NH-Anabelle_poster.png/revision/latest?cb=20200522013805",
+    "personality": "♀ Peppy",
+    "species": "Anteater",
+    "birthday": "February 16th",
+    "catchphrase": "\"snorty\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Anchovy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Anchovy_poster.png/revision/latest?cb=20200522013831",
+    "personality": "♂ Lazy",
+    "species": "Bird",
+    "birthday": "March 4th",
+    "catchphrase": "\"chuurp\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Ankha",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9a/NH-Ankha_poster.png/revision/latest?cb=20200410182618",
+    "personality": "♀ Snooty",
+    "species": "Cat",
+    "birthday": "September 22nd",
+    "catchphrase": "\"me meow\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Angus",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e9/NH-Angus_poster.png/revision/latest?cb=20200522013857",
+    "personality": "♂ Cranky",
+    "species": "Bull",
+    "birthday": "April 30th",
+    "catchphrase": "\"macmoo\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Anicotti",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/NH-Anicotti_poster.png/revision/latest?cb=20200410192311",
+    "personality": "♀ Peppy",
+    "species": "Mouse",
+    "birthday": "February 24th",
+    "catchphrase": " \"cannoli\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Annalisa",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Annalisa_poster.png/revision/latest?cb=20200522013931",
+    "personality": "♀ Normal",
+    "species": "Anteater",
+    "birthday": "February 6th",
+    "catchphrase": "\"gumdrop\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Annalise",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Annalise_poster.png/revision/latest?cb=20200522013957",
+    "personality": "♀ Snooty",
+    "species": "Horse",
+    "birthday": "December 2nd",
+    "catchphrase": "\"nipper\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Antonio",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d0/NH-Antonio_poster.png/revision/latest?cb=20200522014023",
+    "personality": "♂ Jock",
+    "species": "Anteater",
+    "birthday": "October 20th",
+    "catchphrase": "\"honk\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Apollo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/78/NH-Apollo_poster.png/revision/latest?cb=20200410191419",
+    "personality": "♂ Cranky",
+    "species": "Eagle",
+    "birthday": "July 4th",
+    "catchphrase": "\"pah\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Apple",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/37/NH-Apple_poster.png/revision/latest?cb=20200522014055",
+    "personality": "♀ Peppy",
+    "species": "Hamster",
+    "birthday": "September 24th",
+    "catchphrase": "\"cheekers\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Astrid",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3f/NH-Astrid_poster.png/revision/latest?cb=20200522014120",
+    "personality": "♀ Snooty",
+    "species": "Kangaroo",
+    "birthday": "September 8th",
+    "catchphrase": "\"my pet\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Audie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Audie_poster.png/revision/latest?cb=20200410183255",
+    "personality": "♀ Peppy",
+    "species": "Wolf",
+    "birthday": "August 31st",
+    "catchphrase": "\"Foxtrot\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Aurora",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Aurora_poster.png/revision/latest?cb=20200410190924",
+    "personality": "♀ Normal",
+    "species": "Penguin",
+    "birthday": "January 27th",
+    "catchphrase": "\"b-b-baby\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Ava",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Ava_poster.png/revision/latest?cb=20200522014146",
+    "personality": "♀ Normal",
+    "species": "Chicken",
+    "birthday": "April 28th",
+    "catchphrase": "\"beaker\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Avery",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Avery_poster.png/revision/latest?cb=20200410191139",
+    "personality": "♂ Cranky",
+    "species": "Eagle",
+    "birthday": "February 22nd",
+    "catchphrase": "\"skree-haw\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Axel",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Axel_poster.png/revision/latest?cb=20200522014220",
+    "personality": "♂ Jock",
+    "species": "Elephant",
+    "birthday": "March 23rd",
+    "catchphrase": "\"WHONK\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Baabara",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d0/NH-Baabara_poster.png/revision/latest?cb=20200410184807",
+    "personality": "♀ Snooty",
+    "species": "Sheep",
+    "birthday": "March 28th",
+    "catchphrase": "\"daahling\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Bam",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Bam_poster.png/revision/latest?cb=20200522020326",
+    "personality": "♂ Jock",
+    "species": "Deer",
+    "birthday": "November 7th",
+    "catchphrase": "\"kablang\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Bangle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Bangle_poster.png/revision/latest?cb=20200410183706",
+    "personality": "♀ Peppy",
+    "species": "Tiger",
+    "birthday": "August 27th",
+    "catchphrase": "\"growf\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Barold",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Barold_poster.png/revision/latest?cb=20200522020415",
+    "personality": "♂ Lazy",
+    "species": "Cub",
+    "birthday": "March 2nd",
+    "catchphrase": "\"cubby\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Bea",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ca/NH-Bea_poster.png/revision/latest?cb=20200522020603",
+    "personality": "♀ Normal",
+    "species": "Dog",
+    "birthday": "October 15th",
+    "catchphrase": "\"bingo\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Beardo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Beardo_poster.png/revision/latest?cb=20200522020636",
+    "personality": "♂ Smug",
+    "species": "Bear",
+    "birthday": "September 27th",
+    "catchphrase": "\"whiskers\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Beau",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/NH-Beau_poster.png/revision/latest?cb=20200522020451",
+    "personality": "♂ Lazy",
+    "species": "Deer",
+    "birthday": "April 5th",
+    "catchphrase": "\"saltlick\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Becky",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ec/NH-Becky_poster.png/revision/latest?cb=20200522020704",
+    "personality": "♀ Snooty",
+    "species": "Chicken",
+    "birthday": "December 9th",
+    "catchphrase": "\"chicklet\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Bella",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1e/NH-Bella_poster.png/revision/latest?cb=20200410192458",
+    "personality": "♀ Peppy",
+    "species": "Mouse",
+    "birthday": "December 28th",
+    "catchphrase": "\"eeks\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Benedict",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0e/NH-Benedict_poster.png/revision/latest?cb=20200522020807",
+    "personality": "♂ Lazy",
+    "species": "Chicken",
+    "birthday": "October 10th",
+    "catchphrase": "\"uh-hoo\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Benjamin",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Benjamin_poster.png/revision/latest?cb=20200522021534",
+    "personality": "♂ Lazy",
+    "species": "Dog",
+    "birthday": "August 3rd",
+    "catchphrase": "\"alrighty\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Bertha",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3f/NH-Bertha_poster.png/revision/latest?cb=20200522021717",
+    "personality": "♀ Normal",
+    "species": "Hippo",
+    "birthday": "April 25th",
+    "catchphrase": "\"bloop\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Bettina",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a9/NH-Bettina_poster.png/revision/latest?cb=20200410192221",
+    "personality": "♀ Normal",
+    "species": "Mouse",
+    "birthday": "June 12th",
+    "catchphrase": "\"eekers\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Bianca",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Bianca_poster.png/revision/latest?cb=20200410183555",
+    "personality": "♀ Peppy",
+    "species": "Tiger",
+    "birthday": "December 13th",
+    "catchphrase": "\"glimmer\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Biff",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Biff_poster.png/revision/latest?cb=20200522022022",
+    "personality": "♂ Jock",
+    "species": "Hippo",
+    "birthday": "March 29th",
+    "catchphrase": "\"squirt\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Big Top",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ca/NH-Big_Top_poster.png/revision/latest?cb=20200522022102",
+    "personality": "♂ Lazy",
+    "species": "Elephant",
+    "birthday": "October 3rd",
+    "catchphrase": "\"villain\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Bill",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Bill_poster.png/revision/latest?cb=20200522022341",
+    "personality": "♂ Jock",
+    "species": "Duck",
+    "birthday": "February 1st",
+    "catchphrase": "\"quacko\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Billy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Billy_poster.png/revision/latest?cb=20200522022646",
+    "personality": "♂ Jock",
+    "species": "Goat",
+    "birthday": "March 25th",
+    "catchphrase": "\"dagnaabit\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Biskit",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Biskit_poster.png/revision/latest?cb=20200522023459",
+    "personality": "♂ Lazy",
+    "species": "Dog",
+    "birthday": "May 13th",
+    "catchphrase": "\"dog\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Bitty",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Bitty_poster.png/revision/latest?cb=20200522023552",
+    "personality": "♀ Snooty",
+    "species": "Hippo",
+    "birthday": "October 6th",
+    "catchphrase": "\"my dear\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Blaire",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/NH-Blaire_poster.png/revision/latest?cb=20200410184330",
+    "personality": "♀ Snooty",
+    "species": "Squirrel",
+    "birthday": "July 3rd",
+    "catchphrase": "\"nutlet\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Blanche",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Blanche_poster.png/revision/latest?cb=20200410191641",
+    "personality": "♀ Snooty",
+    "species": "Ostrich",
+    "birthday": "December 21st",
+    "catchphrase": "\"quite so\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Bluebear",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Bluebear_poster.png/revision/latest?cb=20200522023616",
+    "personality": "♀ Peppy",
+    "species": "Cub",
+    "birthday": "June 24th",
+    "catchphrase": "\"peach\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Bob",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest?cb=20200410181927",
+    "personality": "♂ Lazy",
+    "species": "Cat",
+    "birthday": "January 1st",
+    "catchphrase": "\"pthhhpth\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Bonbon",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/75/NH-Bonbon_poster.png/revision/latest?cb=20200410185137",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "March 3rd",
+    "catchphrase": "\"deelish\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Bones",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/91/NH-Bones_poster.png/revision/latest?cb=20200522023638",
+    "personality": "♂ Lazy",
+    "species": "Dog",
+    "birthday": "August 4th",
+    "catchphrase": "\"yip yip\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Boomer",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Boomer_poster.png/revision/latest?cb=20200410190457",
+    "personality": "♂ Lazy",
+    "species": "Penguin",
+    "birthday": "February 7th",
+    "catchphrase": "\"human\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Boone",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9c/NH-Boone_poster.png/revision/latest?cb=20200522023703",
+    "personality": "♂ Jock",
+    "species": "Gorilla",
+    "birthday": "September 12th",
+    "catchphrase": "\"baboom\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Boots",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/NH-Boots_poster.png/revision/latest?cb=20200522023756",
+    "personality": "♂ Jock",
+    "species": "Alligator",
+    "birthday": "August 7th",
+    "catchphrase": "\"munchie\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Boris",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/54/NH-Boris_poster.png/revision/latest?cb=20200410190014",
+    "personality": "♂ Cranky",
+    "species": "Pig",
+    "birthday": "November 6th",
+    "catchphrase": "\"schnort\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Boyd",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Boyd_poster.png/revision/latest?cb=20200522023834",
+    "personality": "♂ Cranky",
+    "species": "Gorilla",
+    "birthday": "October 1st",
+    "catchphrase": "\"uh-oh\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Bree",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/NH-Bree_poster.png/revision/latest?cb=20200410192442",
+    "personality": "♀ Snooty",
+    "species": "Mouse",
+    "birthday": "July 7th",
+    "catchphrase": "\"cheeseball\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Broccolo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Broccolo_poster.png/revision/latest?cb=20200410192254",
+    "personality": "♂ Lazy",
+    "species": "Mouse",
+    "birthday": "June 30th",
+    "catchphrase": "\"eat it\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Broffina",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Broffina_poster.png/revision/latest?cb=20200522024006",
+    "personality": "♀ Snooty",
+    "species": "Chicken",
+    "birthday": "October 24th",
+    "catchphrase": "\"cluckadoo\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Bruce",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Bruce_poster.png/revision/latest?cb=20200522023923",
+    "personality": "♂ Cranky",
+    "species": "Deer",
+    "birthday": "May 26th",
+    "catchphrase": "\"gruff\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Bubbles",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8d/NH-Bubbles_poster.png/revision/latest?cb=20200522024110",
+    "personality": "♀ Peppy",
+    "species": "Hippo",
+    "birthday": "September 18th",
+    "catchphrase": "\"hipster\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Buck",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Buck_poster.png/revision/latest?cb=20200522024142",
+    "personality": "♂ Jock",
+    "species": "Horse",
+    "birthday": "April 4th",
+    "catchphrase": "\"pardner\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Bud",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Bud_poster.png/revision/latest?cb=20200522024206",
+    "personality": "♂ Jock",
+    "species": "Lion",
+    "birthday": "August 8th",
+    "catchphrase": "\"shredded\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Bunnie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/83/NH-Bunnie_poster.png/revision/latest?cb=20200410185724",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "May 9th",
+    "catchphrase": "\"tee-hee\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Butch",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9a/NH-Butch_poster.png/revision/latest?cb=20200522024229",
+    "personality": "♂ Cranky",
+    "species": "Dog",
+    "birthday": "November 1st",
+    "catchphrase": "\"ROOOOOWF\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Buzz",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f2/NH-Buzz_poster.png/revision/latest?cb=20200410191156",
+    "personality": "♂ Cranky",
+    "species": "Eagle",
+    "birthday": "December 7th",
+    "catchphrase": "\"captain\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Cally",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-Cally_poster.png/revision/latest?cb=20200410184015",
+    "personality": "♀ Normal",
+    "species": "Squirrel",
+    "birthday": "September 4th",
+    "catchphrase": "\"WHEE\"",
+    "hobby": "Naure"
+  },
+  {
+    "name": "Camofrog",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/91/NH-Camofrog_poster.png/revision/latest?cb=20200522045135",
+    "personality": "♂ Cranky",
+    "species": "Frog",
+    "birthday": "June 5th",
+    "catchphrase": "\"ten-hut\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Canberra",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Canberra_poster.png/revision/latest?cb=20200522045240",
+    "personality": "♀ Sisterly",
+    "species": "Koala",
+    "birthday": "May 14th",
+    "catchphrase": "\"nuh uh\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Candi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ce/NH-Candi_poster.png/revision/latest?cb=20200410192349",
+    "personality": "♀ Peppy",
+    "species": "Mouse",
+    "birthday": "April 13th",
+    "catchphrase": "\"sweetie\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Carmen",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/NH-Carmen_poster.png/revision/latest?cb=20200410185152",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "January 6th",
+    "catchphrase": "\"nougat\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Caroline",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Caroline_poster.png/revision/latest?cb=20200410184152",
+    "personality": "♀ Normal",
+    "species": "Squirrel",
+    "birthday": "July 15th",
+    "catchphrase": "\"hulaaaa\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Carrie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0d/NH-Carrie_poster.png/revision/latest?cb=20200522045312",
+    "personality": "♀ Normal",
+    "species": "Kangaroo",
+    "birthday": "December 5th",
+    "catchphrase": "\"little one\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Cashmere",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8a/NH-Cashmere_poster.png/revision/latest?cb=20200410184707",
+    "personality": "♀ Snooty",
+    "species": "Sheep",
+    "birthday": "April 2nd",
+    "catchphrase": "\"baaaby\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Celia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8a/NH-Celia_poster.png/revision/latest?cb=20200522045441",
+    "personality": "♀ Normal",
+    "species": "Eagle",
+    "birthday": "March 25th",
+    "catchphrase": "\"feathers\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Cesar",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Cesar_poster.png/revision/latest?cb=20200522045504",
+    "personality": "♂ Cranky",
+    "species": "Gorilla",
+    "birthday": "September 6th",
+    "catchphrase": "\"highness\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Chadder",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Chadder_poster.png/revision/latest?cb=20200410192119",
+    "personality": "♂ Smug",
+    "species": "Mouse",
+    "birthday": "December 15th",
+    "catchphrase": "\"fromage\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Charlise",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/71/NH-Charlise_poster.png/revision/latest?cb=20200522045539",
+    "personality": "♀ Sisterly",
+    "species": "Bear",
+    "birthday": "April 17th",
+    "catchphrase": "\"urgh\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Cheri",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Cheri_poster.png/revision/latest?cb=20200522045610",
+    "personality": "♀ Peppy",
+    "species": "Cub",
+    "birthday": "March 17th",
+    "catchphrase": "\"tralala\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Cherry",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/NH-Cherry_poster.png/revision/latest?cb=20200522045634",
+    "personality": "♀ Sisterly",
+    "species": "Dog",
+    "birthday": "May 11th",
+    "catchphrase": "\"what what\"",
+    "hobby": " Music"
+  },
+  {
+    "name": "Chester",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cf/NH-Chester_poster.png/revision/latest?cb=20200522045921",
+    "personality": "♂ Lazy",
+    "species": "Cub",
+    "birthday": "August 6th",
+    "catchphrase": "\"rookie\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Chevre",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Chevre_poster.png/revision/latest?cb=20200522045944",
+    "personality": "♀ Normal",
+    "species": "Goat",
+    "birthday": "March 6th",
+    "catchphrase": "\"la baa\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Chief",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Chief_poster.png/revision/latest?cb=20200410183536",
+    "personality": "♂ Cranky",
+    "species": "Wolf",
+    "birthday": "December 19th",
+    "catchphrase": "\"harrumph\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Chops",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Chops_poster.png/revision/latest?cb=20200410185841",
+    "personality": "♂ Smug",
+    "species": "Pig",
+    "birthday": "October 13th",
+    "catchphrase": "\"zoink\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Chow",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b7/NH-Chow_poster.png/revision/latest?cb=20200522050009",
+    "personality": "♂ Cranky",
+    "species": "Bear",
+    "birthday": "July 22nd",
+    "catchphrase": "\"aiya\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Chrissy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Chrissy_poster.png/revision/latest?cb=20200410185303",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "August 28th",
+    "catchphrase": "\"sparkles\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Claude",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/NH-Claude_poster.png/revision/latest?cb=20200410185347",
+    "personality": "♂ Lazy",
+    "species": "Rabbit",
+    "birthday": "December 3rd",
+    "catchphrase": "\"hopalong\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Claudia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Claudia_poster.png/revision/latest?cb=20200410183623",
+    "personality": "♀ Snooty",
+    "species": "Tiger",
+    "birthday": "November 22nd",
+    "catchphrase": "\"ooh la la\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Clay",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Clay_poster.png/revision/latest?cb=20200522050111",
+    "personality": "♂ Lazy",
+    "species": "Hamster",
+    "birthday": "October 19th",
+    "catchphrase": "\"thump\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Cleo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Cleo_poster.png/revision/latest?cb=20200522050148",
+    "personality": "♀ Snooty",
+    "species": "Horse",
+    "birthday": "February 9th",
+    "catchphrase": "\"sugar\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Clyde",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Clyde_poster.png/revision/latest?cb=20200522050211",
+    "personality": "♂ Lazy",
+    "species": "Horse",
+    "birthday": "May 1st",
+    "catchphrase": "\"clip-clawp\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Coach",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a3/NH-Coach_poster.png/revision/latest?cb=20200522050254",
+    "personality": "♂ Jock",
+    "species": "Bull",
+    "birthday": "April 29th",
+    "catchphrase": "\"stubble\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Cobb",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Cobb_poster.png/revision/latest?cb=20200410190041",
+    "personality": "♂ Jock",
+    "species": "Pig",
+    "birthday": "October 7th",
+    "catchphrase": "\"hot dog\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Coco",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/37/NH-Coco_poster.png/revision/latest?cb=20200410185633",
+    "personality": "♀ Normal",
+    "species": "Rabbit",
+    "birthday": "March 1st",
+    "catchphrase": "\"doyoing\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Cole",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/60/NH-Cole_poster.png/revision/latest?cb=20200410185107",
+    "personality": "♂ Lazy",
+    "species": "Rabbit",
+    "birthday": "August 10th",
+    "catchphrase": "\"duuude\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Colton",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Colton_poster.png/revision/latest?cb=20200522050356",
+    "personality": "♂ Smug",
+    "species": "Horse",
+    "birthday": "May 22nd",
+    "catchphrase": "\"check it\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Cookie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/85/NH-Cookie_poster.png/revision/latest?cb=20200522050431",
+    "personality": "♀ Peppy",
+    "species": "Dog",
+    "birthday": "June 18th",
+    "catchphrase": "\"arfer\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Cousteau",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Cousteau_poster.png/revision/latest?cb=20200522050709",
+    "personality": "♂ Jock",
+    "species": "Frog",
+    "birthday": "December 17th",
+    "catchphrase": "\"oui oui\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Cranston",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/75/NH-Cranston_poster.png/revision/latest?cb=20200410191717",
+    "personality": "♂ Lazy",
+    "species": "Ostrich",
+    "birthday": "September 23rd",
+    "catchphrase": "\"sweatband\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Croque",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9a/NH-Croque_poster.png/revision/latest?cb=20200522050646",
+    "personality": "♂ Cranky",
+    "species": "Frog",
+    "birthday": "July 18th",
+    "catchphrase": "\"as if\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Cube",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Cube_poster.png/revision/latest?cb=20200522050627",
+    "personality": "♂ Lazy",
+    "species": "Penguin",
+    "birthday": "January 29th",
+    "catchphrase": "\"brainfreeze\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Curlos",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Curlos_poster.png/revision/latest?cb=20200410184634",
+    "personality": "♂ Smug",
+    "species": "Sheep",
+    "birthday": "May 8th",
+    "catchphrase": "\"shearly\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Curly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/14/NH-Curly_poster.png/revision/latest?cb=20200410190319",
+    "personality": "♂ Jock",
+    "species": "Pig",
+    "birthday": "July 26th",
+    "catchphrase": "\"nyoink\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Curt",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Curt_poster.png/revision/latest?cb=20200522050603",
+    "personality": "♂ Cranky",
+    "species": "Bear",
+    "birthday": "July 1st",
+    "catchphrase": "\"fuzzball\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Cyd",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9b/NH-Cyd_poster.png/revision/latest?cb=20200522050546",
+    "personality": "♂ Cranky",
+    "species": "Elephant",
+    "birthday": "June 9th",
+    "catchphrase": "\"rockin'\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Cyrano",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Cyrano_poster.png/revision/latest?cb=20200522050528",
+    "personality": "♂ Cranky",
+    "species": "Anteater",
+    "birthday": "March 9th",
+    "catchphrase": "\"ah-CHOO\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Daisy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a8/NH-Daisy_poster.png/revision/latest?cb=20200522052353",
+    "personality": "♀ Normal",
+    "species": "Dog",
+    "birthday": "November 16th",
+    "catchphrase": "\"bow-WOW\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Deena",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f5/NH-Deena_poster.png/revision/latest?cb=20200522052417",
+    "personality": "♀ Normal",
+    "species": "Duck",
+    "birthday": "June 27th",
+    "catchphrase": "\"woowoo\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Deirdre",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Deirdre_poster.png/revision/latest?cb=20200522052447",
+    "personality": "♀ Sisterly",
+    "species": "Deer",
+    "birthday": "May 4th",
+    "catchphrase": "\"whatevs\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Del",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/NH-Del_poster.png/revision/latest?cb=20200522052532",
+    "personality": "♂ Cranky",
+    "species": "Alligator",
+    "birthday": "May 27th",
+    "catchphrase": "\"gronk\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Deli",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Deli_poster.png/revision/latest?cb=20200410192638",
+    "personality": "♂ Lazy",
+    "species": "Monkey",
+    "birthday": "May 24th",
+    "catchphrase": "\"monch\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Derwin",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Derwin_poster.png/revision/latest?cb=20200522052553",
+    "personality": "♂ Lazy",
+    "species": "Duck",
+    "birthday": "May 25th",
+    "catchphrase": "\"derrrrr\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Diana",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Diana_poster.png/revision/latest?cb=20200522052616",
+    "personality": "♀ Snooty",
+    "species": "Deer",
+    "birthday": "January 4th",
+    "catchphrase": "\"no doy\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Diva",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e7/NH-Diva_poster.png/revision/latest?cb=20200522052648",
+    "personality": "♀ Sisterly",
+    "species": "Frog",
+    "birthday": "October 2nd",
+    "catchphrase": "\"ya know\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Dizzy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Dizzy_poster.png/revision/latest?cb=20200522052719",
+    "personality": "♂ Lazy",
+    "species": "Elephant",
+    "birthday": "January 14th",
+    "catchphrase": "\"woo-oo\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Dobie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/NH-Dobie_poster.png/revision/latest?cb=20200410183359",
+    "personality": "♂ Cranky",
+    "species": "Wolf",
+    "birthday": "February 17th",
+    "catchphrase": "\"ohmmm\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Doc",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Doc_poster.png/revision/latest?cb=20200410185403",
+    "personality": "♂ Lazy",
+    "species": "Rabbit",
+    "birthday": "March 16th",
+    "catchphrase": "\"ol' bunny\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Dom",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Dom_poster.png/revision/latest?cb=20200410184416",
+    "personality": "♂ Jock",
+    "species": "Sheep",
+    "birthday": "March 18th",
+    "catchphrase": "\"indeedaroo\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Dora",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Dora_poster.png/revision/latest?cb=20200522052746",
+    "personality": "♀ Normal",
+    "species": "Mouse",
+    "birthday": "February 18th",
+    "catchphrase": "\"squeaky\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Dotty",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/NH-Dotty_poster.png/revision/latest?cb=20200410185658",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "March 14th",
+    "catchphrase": "\"wee one\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Drago",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Drago_poster.png/revision/latest?cb=20200522052808",
+    "personality": "♂ Lazy",
+    "species": "Alligator",
+    "birthday": "February 12th",
+    "catchphrase": "\"burrrn\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Drake",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Drake_poster.png/revision/latest?cb=20200522052837",
+    "personality": "♂ Lazy",
+    "species": "Duck",
+    "birthday": "June 25th",
+    "catchphrase": "\"quacko\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Drift",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Drift_poster.png/revision/latest?cb=20200522053217",
+    "personality": "♂ Jock",
+    "species": "Frog",
+    "birthday": "October 9th",
+    "catchphrase": "\"brah\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Ed",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/20/NH-Ed_poster.png/revision/latest?cb=20200522053254",
+    "personality": "♂ Smug",
+    "species": "Horse",
+    "birthday": "September 16th",
+    "catchphrase": "\"greenhorn\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Egbert",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/NH-Egbert_poster.png/revision/latest?cb=20200522053317",
+    "personality": "♂ Lazy",
+    "species": "Chicken",
+    "birthday": "October 14th",
+    "catchphrase": "\"doodle-duh\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Elise",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cf/NH-Elise_poster.png/revision/latest?cb=20200522053343",
+    "personality": "♀ Snooty",
+    "species": "Monkey",
+    "birthday": "March 21st",
+    "catchphrase": "\"puh-lease\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Ellie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Ellie_poster.png/revision/latest?cb=20200522053412",
+    "personality": "♀ Normal",
+    "species": "Elephant",
+    "birthday": "May 12th",
+    "catchphrase": "\"li'l one\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Elmer",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Elmer_poster.png/revision/latest?cb=20200522053439",
+    "personality": "♂ Lazy",
+    "species": "Horse",
+    "birthday": "October 5th",
+    "catchphrase": "\"tenderfoot\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Eloise",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d1/NH-Eloise_poster.png/revision/latest?cb=20200522053508",
+    "personality": "♀ Snooty",
+    "species": "Elephant",
+    "birthday": "December 8th",
+    "catchphrase": "\"tooooot\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Elvis",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/36/NH-Elvis_poster.png/revision/latest?cb=20200522053535",
+    "personality": "♂ Cranky",
+    "species": "Lion",
+    "birthday": "July 23rd",
+    "catchphrase": "\"unh-hunh\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Erik",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Erik_poster.png/revision/latest?cb=20200522053559",
+    "personality": "♂ Lazy",
+    "species": "Deer",
+    "birthday": "July 27th",
+    "catchphrase": "\"chow down\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Eunice",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a4/NH-Eunice_poster.png/revision/latest?cb=20200410184747",
+    "personality": "♀ Normal",
+    "species": "Sheep",
+    "birthday": "April 3rd",
+    "catchphrase": "\"lambchop\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Eugene",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f7/NH-Eugene_poster.png/revision/latest?cb=20200410192826",
+    "personality": "♂ Smug",
+    "species": "Koala",
+    "birthday": "October 26th",
+    "catchphrase": "\"yeah buddy\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Fang",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Fang_poster.png/revision/latest?cb=20200410183143",
+    "personality": "♂ Cranky",
+    "species": "Wolf",
+    "birthday": "December 18th",
+    "catchphrase": "\"cha-chomp\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Fauna",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b4/NH-Fauna_poster.png/revision/latest?cb=20200522053652",
+    "personality": "♀ Normal",
+    "species": "Deer",
+    "birthday": "March 26th",
+    "catchphrase": "\"dearie\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Felicity",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/NH-Felicity_poster.png/revision/latest?cb=20200410182504",
+    "personality": "♀ Peppy",
+    "species": "Cat",
+    "birthday": "March 30th",
+    "catchphrase": "\"mimimi\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Filbert",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3e/NH-Filbert_poster.png/revision/latest?cb=20200410184309",
+    "personality": "♂ Lazy",
+    "species": "Squirrel",
+    "birthday": "June 3rd",
+    "catchphrase": "\"bucko\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Flip",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/NH-Flip_poster.png/revision/latest?cb=20200522053720",
+    "personality": "♂ Jock",
+    "species": "Monkey",
+    "birthday": "November 21st",
+    "catchphrase": "\"rerack\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Flo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/97/NH-Flo_poster.png/revision/latest?cb=20200410190352",
+    "personality": "♀ Sisterly",
+    "species": "Penguin",
+    "birthday": "September 2nd",
+    "catchphrase": "\"cha\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Flora",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/46/NH-Flora_poster.png/revision/latest?cb=20200410191616",
+    "personality": "♀ Peppy",
+    "species": "Ostrich",
+    "birthday": "February 9th",
+    "catchphrase": "\"pinky\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Flurry",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a3/NH-Flurry_poster.png/revision/latest?cb=20200522053750",
+    "personality": "♀ Normal",
+    "species": "Hamster",
+    "birthday": "January 30th",
+    "catchphrase": "\"powderpuff\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Francine",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a1/NH-Francine_poster.png/revision/latest?cb=20200410185321",
+    "personality": "♀ Snooty",
+    "species": "Rabbit",
+    "birthday": "January 22nd",
+    "catchphrase": "\"karat\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Frank",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/86/NH-Frank_poster.png/revision/latest?cb=20200410191050",
+    "personality": "♂ Cranky",
+    "species": "Eagle",
+    "birthday": "July 30th",
+    "catchphrase": "\"crushy\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Freckles",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Freckles_poster.png/revision/latest?cb=20200522053826",
+    "personality": "♀ Peppy",
+    "species": "Duck",
+    "birthday": "February 19th",
+    "catchphrase": "\"ducky\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Freya",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/NH-Freya_poster.png/revision/latest?cb=20200410183241",
+    "personality": "♀ Snooty",
+    "species": "Wolf",
+    "birthday": "December 14th",
+    "catchphrase": "\"uff da\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Friga",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/75/NH-Friga_poster.png/revision/latest?cb=20200410190835",
+    "personality": "♀ Snooty",
+    "species": "Penguin",
+    "birthday": "October 16th",
+    "catchphrase": "\"brrmph\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Frita",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Frita_poster.png/revision/latest?cb=20200410184508",
+    "personality": "♀ Sisterly",
+    "species": "Sheep",
+    "birthday": "July 16th",
+    "catchphrase": "\"oh ewe\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Frobert",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5a/NH-Frobert_poster.png/revision/latest?cb=20200522053855",
+    "personality": "♂ Jock",
+    "species": "Frog",
+    "birthday": "February 8th",
+    "catchphrase": "\"fribbit\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Fuchsia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Fuchsia_poster.png/revision/latest?cb=20200522053932",
+    "personality": "♀ Sisterly",
+    "species": "Deer",
+    "birthday": "September 19th",
+    "catchphrase": "\"precious\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Gabi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8b/NH-Gabi_poster.png/revision/latest?cb=20200410185547",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "December 16th",
+    "catchphrase": "\"honeybun\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Gala",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/87/NH-Gala_poster.png/revision/latest?cb=20200410185906",
+    "personality": "♀ Normal",
+    "species": "Pig",
+    "birthday": "March 5th",
+    "catchphrase": "\"snortie\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Gaston",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Gaston_poster.png/revision/latest?cb=20200410185604",
+    "personality": "♂ Cranky",
+    "species": "Rabbit",
+    "birthday": "October 28th",
+    "catchphrase": "\"mon chou\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Gayle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Gayle_poster.png/revision/latest?cb=20200522061322",
+    "personality": "♀ Normal",
+    "species": "Alligator",
+    "birthday": "May 17th",
+    "catchphrase": "\"snacky\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Genji",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Genji_poster.png/revision/latest?cb=20200410185443",
+    "personality": "♂ Jock",
+    "species": "Rabbit",
+    "birthday": "January 21st",
+    "catchphrase": "\"mochi\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Gigi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/44/NH-Gigi_poster.png/revision/latest?cb=20200522061648",
+    "personality": "♀ Snooty",
+    "species": "Frog",
+    "birthday": "August 11th",
+    "catchphrase": "\"ribette\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Gladys",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Gladys_poster.png/revision/latest?cb=20200410191858",
+    "personality": "♀ Normal",
+    "species": "Ostrich",
+    "birthday": "January 15th",
+    "catchphrase": "\"stretch\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Gloria",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4d/NH-Gloria_poster.png/revision/latest?cb=20200522061718",
+    "personality": "♀ Snooty",
+    "species": "Duck",
+    "birthday": "August 12th",
+    "catchphrase": "\"quacker\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Goldie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Goldie_poster.png/revision/latest?cb=20200522061740",
+    "personality": "♀ Normal",
+    "species": "Dog",
+    "birthday": "December 27th",
+    "catchphrase": "\"woof\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Gonzo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Gonzo_poster.png/revision/latest?cb=20200522061802",
+    "personality": "♂ Cranky",
+    "species": "Koala",
+    "birthday": "October 13th",
+    "catchphrase": "\"mate\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Goose",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Goose_poster.png/revision/latest?cb=20200522063919",
+    "personality": "♂ Jock",
+    "species": "Chicken",
+    "birthday": "October 4th",
+    "catchphrase": "\"buh-kay\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Graham",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cf/NH-Graham_poster.png/revision/latest?cb=20200522061907",
+    "personality": "♂ Smug",
+    "species": "Hamster",
+    "birthday": "June 20th",
+    "catchphrase": "\"indeed\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Greta",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Greta_poster.png/revision/latest?cb=20200410192204",
+    "personality": "♀ Snooty",
+    "species": "Mouse",
+    "birthday": "September 5th",
+    "catchphrase": "\"yelp\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Grizzly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/96/NH-Grizzly_poster.png/revision/latest?cb=20200522061950",
+    "personality": "♂ Cranky",
+    "species": "Bear",
+    "birthday": "July 31st",
+    "catchphrase": "\"grrr...\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Groucho",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f7/NH-Groucho_poster.png/revision/latest?cb=20200522062020",
+    "personality": "♂ Cranky",
+    "species": "Bear",
+    "birthday": "October 23rd",
+    "catchphrase": "\"grumble\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Gruff",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/44/NH-Gruff_poster.png/revision/latest?cb=20200522063653",
+    "personality": "♂ Cranky",
+    "species": "Goat",
+    "birthday": "August 29th",
+    "catchphrase": "\"bleh eh eh\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Gwen",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Gwen_poster.png/revision/latest?cb=20200410190543",
+    "personality": "♀ Snooty",
+    "species": "Penguin",
+    "birthday": "January 23rd",
+    "catchphrase": "\"h-h-hon\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Hamlet",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Hamlet_poster.png/revision/latest?cb=20200522062149",
+    "personality": "♂ Jock",
+    "species": "Hamster",
+    "birthday": "May 30th",
+    "catchphrase": "\"hammie\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Hamphrey",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Hamphrey_poster.png/revision/latest?cb=20200522062214",
+    "personality": "♂ Cranky",
+    "species": "Hamster",
+    "birthday": "February 25th",
+    "catchphrase": "\"snort\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Hans",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-Hans_poster.png/revision/latest?cb=20200522062237",
+    "personality": "♂ Smug",
+    "species": "Gorilla",
+    "birthday": "December 5th",
+    "catchphrase": "\"groovy\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Harry",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8d/NH-Harry_poster.png/revision/latest?cb=20200522062306",
+    "personality": "♂ Cranky",
+    "species": "Hippo",
+    "birthday": "January 7th",
+    "catchphrase": "\"beach bum\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Hazel",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Hazel_poster.png/revision/latest?cb=20200410183827",
+    "personality": "♀ Sisterly",
+    "species": "Squirrel",
+    "birthday": "August 30th",
+    "catchphrase": "\"uni-wow\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Henry",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Henry_poster.png/revision/latest?cb=20200522062351",
+    "personality": "♂ Smug",
+    "species": "Frog",
+    "birthday": "September 21st",
+    "catchphrase": "\"snoozit\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Hippeux",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a3/NH-Hippeux_poster.png/revision/latest?cb=20200522062422",
+    "personality": "♂ Smug",
+    "species": "Hippo",
+    "birthday": "October 15th",
+    "catchphrase": "\"natch\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Hopkins",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Hopkins_poster.png/revision/latest?cb=20200410185246",
+    "personality": "♂ Lazy",
+    "species": "Rabbit",
+    "birthday": "March 11th",
+    "catchphrase": "\"thumper\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Hopper",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-Hopper_poster.png/revision/latest?cb=20200410190612",
+    "personality": "♂ Cranky",
+    "species": "Penguin",
+    "birthday": "April 6th",
+    "catchphrase": "\"slushie\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Hornsby",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Hornsby_poster.png/revision/latest?cb=20200410184934",
+    "personality": "♂ Lazy",
+    "species": "Rhino",
+    "birthday": "March 20th",
+    "catchphrase": "\"schnozzle\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Huck",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/ba/NH-Huck_poster.png/revision/latest?cb=20200522062452",
+    "personality": "♂ Smug",
+    "species": "Frog",
+    "birthday": "July 9th",
+    "catchphrase": "\"hopper\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Hugh",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3e/NH-Hugh_poster.png/revision/latest?cb=20200410190230",
+    "personality": "♂ Lazy",
+    "species": "Pig",
+    "birthday": "December 30th",
+    "catchphrase": "\"snortle\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Iggly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Iggly_poster.png/revision/latest?cb=20200410190437",
+    "personality": "♂ Jock",
+    "species": "Penguin",
+    "birthday": "November 2nd",
+    "catchphrase": "\"waddler\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Ike",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Ike_poster.png/revision/latest?cb=20200522062526",
+    "personality": "♂ Cranky",
+    "species": "Bear",
+    "birthday": "May 16th",
+    "catchphrase": "\"roadie\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "JacobNAJakeyPAL",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Jacob_poster.png/revision/latest?cb=20200522062554",
+    "personality": "♂ Lazy",
+    "species": "Bird",
+    "birthday": "August 24th",
+    "catchphrase": "\"chuuuuurp\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Jacques",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Jacques_poster.png/revision/latest?cb=20200522062617",
+    "personality": "♂ Smug",
+    "species": "Bird",
+    "birthday": "June 22nd",
+    "catchphrase": "\"zut alors\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Jambette",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Jambette_poster.png/revision/latest?cb=20200522063434",
+    "personality": "♀ Normal",
+    "species": "Frog",
+    "birthday": "October 27th",
+    "catchphrase": "\"croak-kay\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Jay",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Jay_poster.png/revision/latest?cb=20200522063408",
+    "personality": "♂ Jock",
+    "species": "Bird",
+    "birthday": "July 17th",
+    "catchphrase": "\"heeeeeyy\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Jeremiah",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Jeremiah_poster.png/revision/latest?cb=20200522063336",
+    "personality": "♂ Lazy",
+    "species": "Frog",
+    "birthday": "July 8th",
+    "catchphrase": "\"nee-deep\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Jitters",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Jitters_poster.png/revision/latest?cb=20200522063309",
+    "personality": "♂ Jock",
+    "species": "Bird",
+    "birthday": "February 2nd",
+    "catchphrase": "\"bzzert\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Joey",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/NH-Joey_poster.png/revision/latest?cb=20200522063240",
+    "personality": "♂ Lazy",
+    "species": "Duck",
+    "birthday": "January 3rd",
+    "catchphrase": "\"bleeeeeck\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Judy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Judy_poster.png/revision/latest?cb=20200522063219",
+    "personality": "♀ Snooty",
+    "species": "Cub",
+    "birthday": "March 10th",
+    "catchphrase": "\"myohmy\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Julia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Julia_poster.png/revision/latest?cb=20200410191747",
+    "personality": "♀ Snooty",
+    "species": "Ostrich",
+    "birthday": "July 31st",
+    "catchphrase": "\"dahling\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Julian",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Julian_poster.png/revision/latest?cb=20200410192747",
+    "personality": "♂ Smug",
+    "species": "Horse",
+    "birthday": "March 15th",
+    "catchphrase": "\"glitter\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "June",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/NH-June_poster.png/revision/latest?cb=20200522063156",
+    "personality": "♀ Normal",
+    "species": "Cub",
+    "birthday": "May 21st",
+    "catchphrase": "\"rainbow\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Kabuki",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f1/NH-Kabuki_poster.png/revision/latest?cb=20200410182309",
+    "personality": "♂ Cranky",
+    "species": "Cat",
+    "birthday": "November 29th",
+    "catchphrase": "\"meooo-OH\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Katt",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Katt_poster.png/revision/latest?cb=20200410182946",
+    "personality": "♀ Sisterly",
+    "species": "Cat",
+    "birthday": "April 27th",
+    "catchphrase": "\"purrty\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Keaton",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Keaton_poster.png/revision/latest?cb=20200522063126",
+    "personality": "♂ Smug",
+    "species": "Eagle",
+    "birthday": "June 1st",
+    "catchphrase": "\"wingo\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Ken",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2d/NH-Ken_poster.png/revision/latest?cb=20200522063105",
+    "personality": "♂ Smug",
+    "species": "Chicken",
+    "birthday": "December 23rd",
+    "catchphrase": "\"no doubt\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Ketchup",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/NH-Ketchup_poster.png/revision/latest?cb=20200522063044",
+    "personality": "♀ Peppy",
+    "species": "Duck",
+    "birthday": "July 27th",
+    "catchphrase": "\"bitty\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Kevin",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/20/NH-Kevin_poster.png/revision/latest?cb=20200410185817",
+    "personality": "♂ Jock",
+    "species": "Pig",
+    "birthday": "April 26th",
+    "catchphrase": "\"weeweewee\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Kid Cat",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Kid_Cat_poster.png/revision/latest?cb=20200410182348",
+    "personality": "♂ Jock",
+    "species": "Cat",
+    "birthday": "August 1st",
+    "catchphrase": "\"psst\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Kidd",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/46/NH-Kidd_poster.png/revision/latest?cb=20200522063019",
+    "personality": "♂ Smug",
+    "species": "Goat",
+    "birthday": "June 28th",
+    "catchphrase": "\"wut\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Kiki",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/34/NH-Kiki_poster.png/revision/latest?cb=20200410182200",
+    "personality": "♀ Normal",
+    "species": "Cat",
+    "birthday": "October 8th",
+    "catchphrase": "\"kitty cat\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Kitt",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Kitt_poster.png/revision/latest?cb=20200522062950",
+    "personality": "♀ Normal",
+    "species": "Kangaroo",
+    "birthday": "October 11th",
+    "catchphrase": "\"child\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Kitty",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7a/NH-Kitty_poster.png/revision/latest?cb=20200410182820",
+    "personality": "♀ Snooty",
+    "species": "Cat",
+    "birthday": "February 15th",
+    "catchphrase": "\"mrowrr\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Klaus",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Klaus_poster.png/revision/latest?cb=20200522062928",
+    "personality": "♂ Smug",
+    "species": "Bear",
+    "birthday": "March 31st",
+    "catchphrase": "\"strudel\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Knox",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/45/NH-Knox_poster.png/revision/latest?cb=20200522062907",
+    "personality": "♂ Cranky",
+    "species": "Chicken",
+    "birthday": "November 23rd",
+    "catchphrase": "\"cluckling\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Kody",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Kody_poster.png/revision/latest?cb=20200522062831",
+    "personality": "♂ Jock",
+    "species": "Cub",
+    "birthday": "September 28th",
+    "catchphrase": "\"grah-grah\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Kyle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Kyle_poster.png/revision/latest?cb=20200410183323",
+    "personality": "♂ Smug",
+    "species": "Wolf",
+    "birthday": "December 6th",
+    "catchphrase": "\"alpha\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Leonardo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1a/NH-Leonardo_poster.png/revision/latest?cb=20200410183650",
+    "personality": "♂ Jock",
+    "species": "Tiger",
+    "birthday": "May 15th",
+    "catchphrase": "\"flexin\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Leopold",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Leopold_poster.png/revision/latest?cb=20200410192806",
+    "personality": "♂ Smug",
+    "species": "Lion",
+    "birthday": "August 14th",
+    "catchphrase": "\"lion cub\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Lily",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/NH-Lily_poster.png/revision/latest?cb=20200522070016",
+    "personality": "♀ Normal",
+    "species": "Frog",
+    "birthday": "February 4th",
+    "catchphrase": "\"toady\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Limberg",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Limberg_poster.png/revision/latest?cb=20200410192555",
+    "personality": "♂ Cranky",
+    "species": "Mouse",
+    "birthday": "October 17th",
+    "catchphrase": "\"squinky\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Lionel",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Lionel_poster.png/revision/latest?cb=20200522065956",
+    "personality": "♂ Smug",
+    "species": "Lion",
+    "birthday": "July 29th",
+    "catchphrase": "\"precisely\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Lobo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f8/NH-Lobo_poster.png/revision/latest?cb=20200410183522",
+    "personality": "♂ Cranky",
+    "species": "Wolf",
+    "birthday": "November 5th",
+    "catchphrase": "\"ah-rooooo\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Lolly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b0/NH-Lolly_poster.png/revision/latest?cb=20200410182533",
+    "personality": "♀ Normal",
+    "species": "Cat",
+    "birthday": "March 27th",
+    "catchphrase": "\"bonbon\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Lopez",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Lopez_poster.png/revision/latest?cb=20200522065932",
+    "personality": "♂ Smug",
+    "species": "Deer",
+    "birthday": "August 20th",
+    "catchphrase": "\"buckaroo\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Louie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/13/NH-Louie_poster.png/revision/latest?cb=20200522065914",
+    "personality": "♂ Jock",
+    "species": "Gorilla",
+    "birthday": "March 26th",
+    "catchphrase": "\"hoo hoo ha\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Lucha",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Lucha_poster.png/revision/latest?cb=20200522065852",
+    "personality": "♂ Smug",
+    "species": "Bird",
+    "birthday": "December 12th",
+    "catchphrase": "\"cacaw\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Lucky",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4d/NH-Lucky_poster.png/revision/latest?cb=20200522065833",
+    "personality": "♂ Lazy",
+    "species": "Dog",
+    "birthday": "November 4th",
+    "catchphrase": "\"rrr-owch\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Lucy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/14/NH-Lucy_poster.png/revision/latest?cb=20200410190214",
+    "personality": "♀ Normal",
+    "species": "Pig",
+    "birthday": "June 2nd",
+    "catchphrase": "\"snoooink\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Lyman",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1a/NH-Lyman_poster.png/revision/latest?cb=20200522065812",
+    "personality": "♂ Jock",
+    "species": "Koala",
+    "birthday": "October 12th",
+    "catchphrase": "\"chips\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Mac",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4d/NH-Mac_poster.png/revision/latest?cb=20200522065753",
+    "personality": "♂ Jock",
+    "species": "Dog",
+    "birthday": "November 11th",
+    "catchphrase": "\"woo woof\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Maddie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/07/NH-Maddie_poster.png/revision/latest?cb=20200522065730",
+    "personality": "♀ Peppy",
+    "species": "Dog",
+    "birthday": "January 11th",
+    "catchphrase": "\"yippee\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Maelle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Maelle_poster.png/revision/latest?cb=20200522065709",
+    "personality": "♀ Snooty",
+    "species": "Duck",
+    "birthday": "April 8th",
+    "catchphrase": "\"duckling\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Maggie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Maggie_poster.png/revision/latest?cb=20200410185952",
+    "personality": "♀ Normal",
+    "species": "Pig",
+    "birthday": "September 3rd",
+    "catchphrase": "\"schep\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Mallary",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/35/NH-Mallary_poster.png/revision/latest?cb=20200522065649",
+    "personality": "♀ Snooty",
+    "species": "Duck",
+    "birthday": "November 17th",
+    "catchphrase": "\"quackpth\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Maple",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d1/NH-Maple_poster.png/revision/latest?cb=20200522065624",
+    "personality": "♀ Normal",
+    "species": "Cub",
+    "birthday": "June 15th",
+    "catchphrase": "\"honey\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Marcel",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Marcel_poster.png/revision/latest?cb=20200522065604",
+    "personality": "♂ Lazy",
+    "species": "Dog",
+    "birthday": "December 31st",
+    "catchphrase": "\"non\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Marcie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Marcie_poster.png/revision/latest?cb=20200522065544",
+    "personality": "♀ Normal",
+    "species": "Kangaroo",
+    "birthday": "May 31st",
+    "catchphrase": "\"pouches\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Margie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/ff/NH-Margie_poster.png/revision/latest?cb=20200522065513",
+    "personality": "♀ Normal",
+    "species": "Elephant",
+    "birthday": "January 28th",
+    "catchphrase": "\"tootie\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Marina",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Marina_poster.png/revision/latest?cb=20200410192009",
+    "personality": "♀ Normal",
+    "species": "Octopus",
+    "birthday": "June 26th",
+    "catchphrase": "\"blurp\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Marshal",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Marshal_poster.png/revision/latest?cb=20200522065451",
+    "personality": "♂ Smug",
+    "species": "Squirrel",
+    "birthday": "September 29th",
+    "catchphrase": "\"sulky\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Mathilda",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/81/NH-Mathilda_poster.png/revision/latest?cb=20200522065431",
+    "personality": "♀ Snooty",
+    "species": "Kangaroo",
+    "birthday": "November 12th",
+    "catchphrase": "\"wee baby\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Megan",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Megan_poster.png/revision/latest?cb=20200522065410",
+    "personality": "♀ Normal",
+    "species": "Bear",
+    "birthday": "March 13th",
+    "catchphrase": "\"sundae\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Melba",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/NH-Melba_poster.png/revision/latest?cb=20200522065347",
+    "personality": "♀ Normal",
+    "species": "Koala",
+    "birthday": "April 12th",
+    "catchphrase": "\"toasty\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Merengue",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Merengue_poster.png/revision/latest?cb=20200410184909",
+    "personality": "♀ Normal",
+    "species": "Rhino",
+    "birthday": "March 19th",
+    "catchphrase": "\"shortcake\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Merry",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/NH-Merry_poster.png/revision/latest?cb=20200410182436",
+    "personality": "♀ Peppy",
+    "species": "Cat",
+    "birthday": "June 29th",
+    "catchphrase": "\"mweee\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Midge",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/86/NH-Midge_poster.png/revision/latest?cb=20200522065322",
+    "personality": "♀ Normal",
+    "species": "Bird",
+    "birthday": "March 12th",
+    "catchphrase": "\"tweedledee\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Mint",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/NH-Mint_poster.png/revision/latest?cb=20200410184044",
+    "personality": "♀ Snooty",
+    "species": "Squirrel",
+    "birthday": "May 2nd",
+    "catchphrase": "\"ahhhhhh\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Mira",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/NH-Mira_poster.png/revision/latest?cb=20200410185049",
+    "personality": "♀ Sisterly",
+    "species": "Rabbit",
+    "birthday": "July 6th",
+    "catchphrase": "\"cottontail\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Miranda",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Miranda_poster.png/revision/latest?cb=20200522065300",
+    "personality": "♀ Snooty",
+    "species": "Duck",
+    "birthday": "April 23rd",
+    "catchphrase": "\"quackulous\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Mitzi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/20/NH-Mitzi_poster.png/revision/latest?cb=20200410182006",
+    "personality": "♀ Normal",
+    "species": "Cat",
+    "birthday": "September 25th",
+    "catchphrase": "\"mew\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Moe",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7e/NH-Moe_poster.png/revision/latest?cb=20200410182701",
+    "personality": "♂ Lazy",
+    "species": "Cat",
+    "birthday": "January 12th",
+    "catchphrase": "\"myawn\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Molly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Molly_poster.png/revision/latest?cb=20200522065237",
+    "personality": "♀ Normal",
+    "species": "Duck",
+    "birthday": "March 7th",
+    "catchphrase": "\"quackidee\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Monique",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Monique_poster.png/revision/latest?cb=20200410182724",
+    "personality": "♀ Snooty",
+    "species": "Cat",
+    "birthday": "September 30th",
+    "catchphrase": "\"pffffft\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Monty",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2b/NH-Monty_poster.png/revision/latest?cb=20200522065214",
+    "personality": "♂ Cranky",
+    "species": "Monkey",
+    "birthday": "December 7th",
+    "catchphrase": "\"g'tang\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Moose",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Moose_poster.png/revision/latest?cb=20200410192236",
+    "personality": "♂ Jock",
+    "species": "Mouse",
+    "birthday": " September 13th",
+    "catchphrase": "\"shorty\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Mott",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/66/NH-Mott_poster.png/revision/latest?cb=20200522065136",
+    "personality": "♂ Jock",
+    "species": "Lion",
+    "birthday": " July 10th",
+    "catchphrase": "\"cagey\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Muffy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Muffy_poster.png/revision/latest?cb=20200410184450",
+    "personality": "♀ Sisterly",
+    "species": "Sheep",
+    "birthday": "February 14th",
+    "catchphrase": "\"nightshade\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Murphy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Murphy_poster.png/revision/latest?cb=20200522065115",
+    "personality": "♂ Cranky",
+    "species": "Cub",
+    "birthday": "December 29th",
+    "catchphrase": "\"laddie\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Nan",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Nan_poster.png/revision/latest?cb=20200522184645",
+    "personality": "♀ Normal",
+    "species": "Goat",
+    "birthday": "August 24th",
+    "catchphrase": "\"kid\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Nana",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Nana_poster.png/revision/latest?cb=20200522184710",
+    "personality": "♀ Normal",
+    "species": "Monkey",
+    "birthday": "August 23rd",
+    "catchphrase": "\"po po\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Naomi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/97/NH-Naomi_poster.png/revision/latest?cb=20200522184727",
+    "personality": "♀ Snooty",
+    "species": "Cow",
+    "birthday": "February 28th",
+    "catchphrase": "\"moolah\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Nate",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1a/NH-Nate_poster.png/revision/latest?cb=20200522184748",
+    "personality": "♂ Lazy",
+    "species": "Bear",
+    "birthday": "August 16th",
+    "catchphrase": "\"yawwwn\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Nibbles",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Nibbles_poster.png/revision/latest?cb=20200410184229",
+    "personality": "♀ Peppy",
+    "species": "Squirrel",
+    "birthday": "July 19th",
+    "catchphrase": "\"niblet\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Norma",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/94/NH-Norma_poster.png/revision/latest?cb=20200522184806",
+    "personality": "♀ Normal",
+    "species": "Cow",
+    "birthday": "September 20th",
+    "catchphrase": "\"hoof hoo\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Octavian",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Octavian_poster.png/revision/latest?cb=20200410192036",
+    "personality": "♂ Cranky",
+    "species": "Octopus",
+    "birthday": "September 20th",
+    "catchphrase": "\"sucker\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "O'Hare",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/NH-O%27Hare_poster.png/revision/latest?cb=20200410185212",
+    "personality": "♂ Smug",
+    "species": "Rabbit",
+    "birthday": "July 24th",
+    "catchphrase": "\"amigo\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Olaf",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Olaf_poster.png/revision/latest?cb=20200522184827",
+    "personality": "♂ Smug",
+    "species": "Anteater",
+    "birthday": "May 19th",
+    "catchphrase": "\"whiffa\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Olive",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Olive_poster.png/revision/latest?cb=20200522184858",
+    "personality": "♀ Normal",
+    "species": "Cub",
+    "birthday": "July 12th",
+    "catchphrase": "\"sweet pea\"",
+    "hobby": "Olive"
+  },
+  {
+    "name": "Olivia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5a/NH-Olivia_poster.png/revision/latest?cb=20200410182136",
+    "personality": "♀ Snooty",
+    "species": "Cat",
+    "birthday": "February 3rd",
+    "catchphrase": "\"purrr\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Opal",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Opal_poster.png/revision/latest?cb=20200522184918",
+    "personality": "♀ Snooty",
+    "species": "Elephant",
+    "birthday": "January 20th",
+    "catchphrase": "\"snoot\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Ozzie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Ozzie_poster.png/revision/latest?cb=20200522185151",
+    "personality": "♂ Lazy",
+    "species": "Koala",
+    "birthday": "May 7th",
+    "catchphrase": "\"ol' bear\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Pancetti",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/49/NH-Pancetti_poster.png/revision/latest?cb=20200410185802",
+    "personality": "♀ Snooty",
+    "species": "Pig",
+    "birthday": "November 14th",
+    "catchphrase": "\"sooey\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Pango",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Pango_poster.png/revision/latest?cb=20200522185217",
+    "personality": "♀ Peppy",
+    "species": "Anteater",
+    "birthday": "November 9th",
+    "catchphrase": "\"snooooof\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Paolo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Paolo_poster.png/revision/latest?cb=20200522185319",
+    "personality": "♂ Lazy",
+    "species": "Elephant",
+    "birthday": "May 5th",
+    "catchphrase": "\"pal\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Papi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Papi_poster.png/revision/latest?cb=20200522185246",
+    "personality": "♂ Lazy",
+    "species": "Horse",
+    "birthday": "January 10th",
+    "catchphrase": "\"haaay\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Pashmina",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Pashmina_poster.png/revision/latest?cb=20200522185339",
+    "personality": "♀ Sisterly",
+    "species": "Goat",
+    "birthday": "December 26th",
+    "catchphrase": "\"kidders\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Pate",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/20/NH-Pate_poster.png/revision/latest?cb=20200522185358",
+    "personality": "♀ Peppy",
+    "species": "Duck",
+    "birthday": "February 23rd",
+    "catchphrase": "\"quackle\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Patty",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f8/NH-Patty_poster.png/revision/latest?cb=20200522185417",
+    "personality": "♀ Peppy",
+    "species": "Cow",
+    "birthday": "May 10th",
+    "catchphrase": "\"how-now\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Paula",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/NH-Paula_poster.png/revision/latest?cb=20200522185438",
+    "personality": "♀ Sisterly",
+    "species": "Bear",
+    "birthday": "March 22nd",
+    "catchphrase": "\"yodelay\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Peaches",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8a/NH-Peaches_poster.png/revision/latest?cb=20200522185456",
+    "personality": "♀ Normal",
+    "species": "Horse",
+    "birthday": "November 28th",
+    "catchphrase": "\"neighbor\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Peanut",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Peanut_poster.png/revision/latest?cb=20200522185516",
+    "personality": "♀ Peppy",
+    "species": "Squirrel",
+    "birthday": "June 8th",
+    "catchphrase": "\"slacker\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Pecan",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Pecan_poster.png/revision/latest?cb=20200410184245",
+    "personality": "♀ Snooty",
+    "species": "Squirrel",
+    "birthday": "September 10th",
+    "catchphrase": "\"chipmunk\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Peck",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/NH-Peck_poster.png/revision/latest?cb=20200522185539",
+    "personality": "♂ Jock",
+    "species": "Bird",
+    "birthday": "July 25th",
+    "catchphrase": "\"crunch\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Peewee",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cb/NH-Peewee_poster.png/revision/latest?cb=20200522185601",
+    "personality": "♂ Cranky",
+    "species": "Gorilla",
+    "birthday": "September 11th",
+    "catchphrase": "\"li'l dude\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Peggy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a1/NH-Peggy_poster.png/revision/latest?cb=20200410185931",
+    "personality": "♀ Peppy",
+    "species": "Pig",
+    "birthday": "May 23rd",
+    "catchphrase": "\"shweetie\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Pekoe",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Pekoe_poster.png/revision/latest?cb=20200522185628",
+    "personality": "♀ Normal",
+    "species": "Cub",
+    "birthday": "May 18th",
+    "catchphrase": "\"bud\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Penelope",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/NH-Penelope_poster.png/revision/latest?cb=20200410192138",
+    "personality": "♀ Peppy",
+    "species": "Mouse",
+    "birthday": "February 5th",
+    "catchphrase": "\"oh bow\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Phil",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Phil_poster.png/revision/latest?cb=20200410191701",
+    "personality": "♂ Smug",
+    "species": "Ostrich",
+    "birthday": "November 27th",
+    "catchphrase": "\"hurk\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Phoebe",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8b/NH-Phoebe_poster.png/revision/latest?cb=20200410191547",
+    "personality": "♀ Sisterly",
+    "species": "Ostrich",
+    "birthday": "April 22nd",
+    "catchphrase": "\"sparky\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Pierce",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Pierce_poster.png/revision/latest?cb=20200410191226",
+    "personality": "♂ Jock",
+    "species": "Eagle",
+    "birthday": "January 8th",
+    "catchphrase": "\"hawkeye\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Pietro",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/NH-Pietro_poster.png/revision/latest?cb=20200522185656",
+    "personality": "♂ Smug",
+    "species": "Sheep",
+    "birthday": "April 19th",
+    "catchphrase": "\"honk honk\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Pinky",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Pinky_poster.png/revision/latest?cb=20200522185718",
+    "personality": "♀ Peppy",
+    "species": "Bear",
+    "birthday": "September 9th",
+    "catchphrase": "\"wah\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Piper",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/47/NH-Piper_poster.png/revision/latest?cb=20200522185742",
+    "personality": "♀ Peppy",
+    "species": "Bird",
+    "birthday": "April 18th",
+    "catchphrase": "\"chickadee\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Pippy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Pippy_poster.png/revision/latest?cb=20200410185526",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "June 14th",
+    "catchphrase": "\"li'l hare\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Plucky",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/62/NH-Plucky_poster.png/revision/latest?cb=20200522185801",
+    "personality": "♀ Sisterly",
+    "species": "Chicken",
+    "birthday": "October 12th",
+    "catchphrase": "\"chicky-poo\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Pompom",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Pompom_poster.png/revision/latest?cb=20200522185820",
+    "personality": "♀ Peppy",
+    "species": "Duck",
+    "birthday": "February 11th",
+    "catchphrase": "\"rah rah\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Poncho",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Poncho_poster.png/revision/latest?cb=20200522185838",
+    "personality": "♂ Jock",
+    "species": "Cub",
+    "birthday": "January 2nd",
+    "catchphrase": "\"li'l bear\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Poppy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Poppy_poster.png/revision/latest?cb=20200410183916",
+    "personality": "♀ Normal",
+    "species": "Squirrel",
+    "birthday": "August 5th",
+    "catchphrase": "\"nutty\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Portia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/NH-Portia_poster.png/revision/latest?cb=20200522185904",
+    "personality": "♀ Snooty",
+    "species": "Dog",
+    "birthday": "October 25th",
+    "catchphrase": "\"ruffian\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Prince",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0b/NH-Prince_poster.png/revision/latest?cb=20200522185927",
+    "personality": "♂ Lazy",
+    "species": "Frog",
+    "birthday": "July 21st",
+    "catchphrase": "\"burrup\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Puck",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Puck_poster.png/revision/latest?cb=20200410190527",
+    "personality": "♂ Lazy",
+    "species": "Penguin",
+    "birthday": "February 21st",
+    "catchphrase": "\"brrrrrrrrr\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Puddles",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/78/NH-Puddles_poster.png/revision/latest?cb=20200522185948",
+    "personality": "♀ Peppy",
+    "species": "Frog",
+    "birthday": "January 13th",
+    "catchphrase": "\"splish\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Pudge",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2b/NH-Pudge_poster.png/revision/latest?cb=20200522190008",
+    "personality": "♂ Lazy",
+    "species": "Cub",
+    "birthday": "June 11th",
+    "catchphrase": "\"pudgy\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Punchy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d2/NH-Punchy_poster.png/revision/latest?cb=20200410182252",
+    "personality": "♂ Lazy",
+    "species": "Cat",
+    "birthday": "April 11th",
+    "catchphrase": "\"mrmpht\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Purrl",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3d/NH-Purrl_poster.png/revision/latest?cb=20200410182641",
+    "personality": "♀ Snooty",
+    "species": "Cat",
+    "birthday": "May 29th",
+    "catchphrase": "\"kitten\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Queenie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Queenie_poster.png/revision/latest?cb=20200410191922",
+    "personality": "♀ Snooty",
+    "species": "Ostrich",
+    "birthday": "November 13th",
+    "catchphrase": "\"chicken\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Quillson",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Quillson_poster.png/revision/latest?cb=20200522190041",
+    "personality": "♂ Smug",
+    "species": "Duck",
+    "birthday": "December 22nd",
+    "catchphrase": "\"ridukulous\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Raddle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5b/NH-Raddle_poster.png/revision/latest?cb=20200522190100",
+    "personality": "♂ Lazy",
+    "species": "Frog",
+    "birthday": "June 6th",
+    "catchphrase": "\"aaach-\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Rasher",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/ba/NH-Rasher_poster.png/revision/latest?cb=20200410190250",
+    "personality": "♂ Cranky",
+    "species": "Pig",
+    "birthday": "April 7th",
+    "catchphrase": "\"swine\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Raymond",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Raymond_poster.png/revision/latest?cb=20200522190120",
+    "personality": "♂ Smug",
+    "species": "Cat",
+    "birthday": "October 1st",
+    "catchphrase": "\"crisp\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Renée",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/NH-Ren%C3%A9e_poster.png/revision/latest?cb=20200522190140",
+    "personality": "♀ Sisterly",
+    "species": "Rhino",
+    "birthday": "May 28th",
+    "catchphrase": "\"yo yo yo\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Reneigh",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Reneigh_poster.png/revision/latest?cb=20200522190158",
+    "personality": "♀ Sisterly",
+    "species": "Horse",
+    "birthday": "June 4th",
+    "catchphrase": "\"ayup, yup\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Rex",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/NH-Rex_poster.png/revision/latest?cb=20200522190216",
+    "personality": "♂ Lazy",
+    "species": "Lion",
+    "birthday": "July 24th",
+    "catchphrase": "\"cool cat\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Rhonda",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Rhonda_poster.png/revision/latest?cb=20200410185017",
+    "personality": "♀ Normal",
+    "species": "Rhino",
+    "birthday": "January 24th",
+    "catchphrase": "\"bigfoot\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Ribbot",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4e/NH-Ribbot_poster.png/revision/latest?cb=20200522190235",
+    "personality": "♂ Jock",
+    "species": "Frog",
+    "birthday": "February 13th",
+    "catchphrase": "\"zzrrbbitt\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Ricky",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Ricky_poster.png/revision/latest?cb=20200410184030",
+    "personality": "♂ Cranky",
+    "species": "Squirrel",
+    "birthday": "September 14th",
+    "catchphrase": "\"nutcase\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Rizzo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Rizzo_poster.png/revision/latest?cb=20200410192330",
+    "personality": "♂ Cranky",
+    "species": "Mouse",
+    "birthday": "January 17th",
+    "catchphrase": "\"squee\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Roald",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Roald_poster.png/revision/latest?cb=20200410190858",
+    "personality": "♂ Jock",
+    "species": "Penguin",
+    "birthday": "January 5th",
+    "catchphrase": "\"b-b-buddy\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Robin",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/62/NH-Robin_poster.png/revision/latest?cb=20200522190258",
+    "personality": "♀ Snooty",
+    "species": "Bird",
+    "birthday": "December 4th",
+    "catchphrase": "\"la-di-da\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Rocco",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/32/NH-Rocco_poster.png/revision/latest?cb=20200522190320",
+    "personality": "♂ Cranky",
+    "species": "Hippo",
+    "birthday": "August 18th",
+    "catchphrase": "\"hippie\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Rocket",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Rocket_poster.png/revision/latest?cb=20200522190339",
+    "personality": "♀ Sisterly",
+    "species": "Gorilla",
+    "birthday": "April 14th",
+    "catchphrase": "\"vroom\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Rod",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Rod_poster.png/revision/latest?cb=20200410192406",
+    "personality": "♂ Jock",
+    "species": "Mouse",
+    "birthday": "August 14th",
+    "catchphrase": "\"ace\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Rodeo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Rodeo_poster.png/revision/latest?cb=20200522190402",
+    "personality": "♂ Lazy",
+    "species": "Bull",
+    "birthday": "October 29th",
+    "catchphrase": "\"chaps\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Rodney",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/NH-Rodney_poster.png/revision/latest?cb=20200522190421",
+    "personality": "♂ Smug",
+    "species": "Hamster",
+    "birthday": "November 10th",
+    "catchphrase": "\"le ham\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Rolf",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Rolf_poster.png/revision/latest?cb=20200410183806",
+    "personality": "♂ Cranky",
+    "species": "Tiger",
+    "birthday": "August 22nd",
+    "catchphrase": "\"grrrolf\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Rooney",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/36/NH-Rooney_poster.png/revision/latest?cb=20200522191451",
+    "personality": "♂ Cranky",
+    "species": "Kangaroo",
+    "birthday": "December 1st",
+    "catchphrase": "\"punches\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Rory",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/NH-Rory_poster.png/revision/latest?cb=20200522190446",
+    "personality": "♂ Jock",
+    "species": "Lion",
+    "birthday": "August 7th",
+    "catchphrase": "\"capital\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Roscoe",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-Roscoe_poster.png/revision/latest?cb=20200522190504",
+    "personality": "♂ Cranky",
+    "species": "Horse",
+    "birthday": "June 16th",
+    "catchphrase": "\"nay\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Rosie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/46/NH-Rosie_poster.png/revision/latest?cb=20200410182055",
+    "personality": "♀ Peppy",
+    "species": "Cat",
+    "birthday": "February 27th",
+    "catchphrase": "\"silly\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Rowan",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Rowan_poster.png/revision/latest?cb=20200410183742",
+    "personality": "♂ Jock",
+    "species": "Tiger",
+    "birthday": "August 26th",
+    "catchphrase": "\"mango\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Ruby",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Ruby_poster.png/revision/latest?cb=20200410185420",
+    "personality": "♀ Peppy",
+    "species": "Rabbit",
+    "birthday": "December 25th",
+    "catchphrase": "\"li'l ears\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Rudy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c1/NH-Rudy_poster.png/revision/latest?cb=20200410182928",
+    "personality": "♂ Jock",
+    "species": "Cat",
+    "birthday": "December 20th",
+    "catchphrase": "\"mush\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Sally",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Sally_poster.png/revision/latest?cb=20200410184136",
+    "personality": "♀ Normal",
+    "species": "Squirrel",
+    "birthday": "June 19th",
+    "catchphrase": "\"nutmeg\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Samson",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/NH-Samson_poster.png/revision/latest?cb=20200410192424",
+    "personality": "♂ Jock",
+    "species": "Mouse",
+    "birthday": "July 5th",
+    "catchphrase": "\"pipsqueak\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Sandy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Sandy_poster.png/revision/latest?cb=20200410191836",
+    "personality": "♀ Normal",
+    "species": "Ostrich",
+    "birthday": "October 21st",
+    "catchphrase": "\"speedy\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Savannah",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Savannah_poster.png/revision/latest?cb=20200522190527",
+    "personality": "♀ Normal",
+    "species": "Horse",
+    "birthday": "January 25th",
+    "catchphrase": "\"y'all\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Scoot",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Scoot_poster.png/revision/latest?cb=20200522190547",
+    "personality": "♂ Jock",
+    "species": "Duck",
+    "birthday": "June 13th",
+    "catchphrase": "\"zip zoom\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Shari",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/47/NH-Shari_poster.png/revision/latest?cb=20200410192655",
+    "personality": "♀ Sisterly",
+    "species": "Monkey",
+    "birthday": "April 10th",
+    "catchphrase": "\"cheeky\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Sheldon",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Sheldon_poster.png/revision/latest?cb=20200410183900",
+    "personality": "♂ Jock",
+    "species": "Squirrel",
+    "birthday": "February 26th",
+    "catchphrase": "\"cardio\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Shep",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e9/NH-Shep_poster.png/revision/latest?cb=20200522190611",
+    "personality": "♂ Smug",
+    "species": "Dog",
+    "birthday": "November 24th",
+    "catchphrase": "\"baa baa baa\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Sherb",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/Sherb_Poster_NH.png/revision/latest?cb=20200319185254",
+    "personality": "♂ Lazy",
+    "species": "Goat",
+    "birthday": "January 18th",
+    "catchphrase": "\"bawwww\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Simon",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Simon_poster.png/revision/latest?cb=20200522190630",
+    "personality": "♂ Lazy",
+    "species": "Monkey",
+    "birthday": "January 19th",
+    "catchphrase": "\"zzzook\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Skye",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Skye_poster.png/revision/latest?cb=20200410183340",
+    "personality": "♀ Normal",
+    "species": "Wolf",
+    "birthday": "March 24th",
+    "catchphrase": "\"airmail\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Sly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Sly_poster.png/revision/latest?cb=20200522190705",
+    "personality": "♂ Jock",
+    "species": "Alligator",
+    "birthday": "November 15th",
+    "catchphrase": "\"hoo-rah\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Snake",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Snake_poster.png/revision/latest?cb=20200410185619",
+    "personality": "♂ Jock",
+    "species": "Rabbit",
+    "birthday": "November 3rd",
+    "catchphrase": "\"bunyip\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Snooty",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d2/NH-Snooty_poster.png/revision/latest?cb=20200522190727",
+    "personality": "♀ Snooty",
+    "species": "Anteater",
+    "birthday": "August 24th",
+    "catchphrase": "\"snifffff\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Soleil",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9f/NH-Soleil_poster.png/revision/latest?cb=20200522190746",
+    "personality": "♀ Snooty",
+    "species": "Hamster",
+    "birthday": "August 9th",
+    "catchphrase": "\"tarnation\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Sparro",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Sparro_poster.png/revision/latest?cb=20200522190812",
+    "personality": "♂ Jock",
+    "species": "Bird",
+    "birthday": "November 20th",
+    "catchphrase": "\"like whoa\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Spike",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Spike_poster.png/revision/latest?cb=20200410185000",
+    "personality": "♂ Cranky",
+    "species": "Rhino",
+    "birthday": "June 17th",
+    "catchphrase": "\"punk\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "SporkNACracklePAL",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Spork_poster.png/revision/latest?cb=20200522190834",
+    "personality": "♂ Lazy",
+    "species": "Pig",
+    "birthday": "September 3rd",
+    "catchphrase": "\"snork\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Sprinkle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Sprinkle_poster.png/revision/latest?cb=20200410190333",
+    "personality": "♀ Peppy",
+    "species": "Penguin",
+    "birthday": "February 20th",
+    "catchphrase": "\"frappe\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Sprocket",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Sprocket_poster.png/revision/latest?cb=20200410191806",
+    "personality": "♂ Jock",
+    "species": "Ostrich",
+    "birthday": "December 1st",
+    "catchphrase": "\"zort\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Static",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/ff/NH-Static_poster.png/revision/latest?cb=20200410184107",
+    "personality": "♂ Cranky",
+    "species": "Squirrel",
+    "birthday": "July 9th",
+    "catchphrase": "\"krzzt\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Stella",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Stella_poster.png/revision/latest?cb=20200410184731",
+    "personality": "♀ Normal",
+    "species": "Sheep",
+    "birthday": "April 9th",
+    "catchphrase": "\"baa-dabing\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Sterling",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Sterling_poster.png/revision/latest?cb=20200410191029",
+    "personality": "♂ Jock",
+    "species": "Eagle",
+    "birthday": "December 11th",
+    "catchphrase": "\"skraaaaw\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Stinky",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/NH-Stinky_poster.png/revision/latest?cb=20200522190854",
+    "personality": "♂ Jock",
+    "species": "Cat",
+    "birthday": "August 17th",
+    "catchphrase": "\"GAHHHH\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Stitches",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Stitches_poster.png/revision/latest?cb=20200522190915",
+    "personality": "♂ Lazy",
+    "species": "Cub",
+    "birthday": "February 10th",
+    "catchphrase": "\"stuffin'\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Stu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Stu_poster.png/revision/latest?cb=20200522190934",
+    "personality": "♂ Lazy",
+    "species": "Bull",
+    "birthday": "April 20th",
+    "catchphrase": "\"moo-dude\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Sydney",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f6/NH-Sydney_poster.png/revision/latest?cb=20200522190951",
+    "personality": "♀ Normal",
+    "species": "Koala",
+    "birthday": "June 21st",
+    "catchphrase": "\"sunshine\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Sylvana",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Sylvana_poster.png/revision/latest?cb=20200410183935",
+    "personality": "♀ Normal",
+    "species": "Squirrel",
+    "birthday": "October 22nd",
+    "catchphrase": "\"hubbub\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Sylvia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4b/NH-Sylvia_poster.png/revision/latest?cb=20200522191011",
+    "personality": "♀ Sisterly",
+    "species": "Kangaroo",
+    "birthday": "May 3rd",
+    "catchphrase": "\"boing\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Tabby",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/NH-Tabby_poster.png/revision/latest?cb=20200410182747",
+    "personality": "♀ Peppy",
+    "species": "Cat",
+    "birthday": "August 13th",
+    "catchphrase": "\"me-WOW\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Tad",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Tad_poster.png/revision/latest?cb=20200522182923",
+    "personality": "♂ Jock",
+    "species": "Frog",
+    "birthday": "August 3rd",
+    "catchphrase": "\"sluuuurp\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Tammi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d1/NH-Tammi_poster.png/revision/latest?cb=20200522182953",
+    "personality": "♀ Peppy",
+    "species": "Monkey",
+    "birthday": "April 2nd",
+    "catchphrase": "\"chimpy\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Tammy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/66/NH-Tammy_poster.png/revision/latest?cb=20200522183012",
+    "personality": "♀ Sisterly",
+    "species": "Cub",
+    "birthday": "June 23rd",
+    "catchphrase": "\"ya heard\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Tangy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Tangy_poster.png/revision/latest?cb=20200410182223",
+    "personality": "♀ Peppy",
+    "species": "Cat",
+    "birthday": "June 17th",
+    "catchphrase": "\"reeeeOWR\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Tank",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-Tank_poster.png/revision/latest?cb=20200410185033",
+    "personality": "♂ Jock",
+    "species": "Rhino",
+    "birthday": "May 6th",
+    "catchphrase": "\"kerPOW\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Tasha",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Tasha_poster.png/revision/latest?cb=20200522183129",
+    "personality": "♀ Snooty",
+    "species": "Squirrel",
+    "birthday": "November 30th",
+    "catchphrase": "\"nice nice\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "T-Bone",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ca/NH-T-Bone_poster.png/revision/latest?cb=20200522183035",
+    "personality": "♂ Cranky",
+    "species": "Bull",
+    "birthday": "May 20th",
+    "catchphrase": "\"moocher\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Teddy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Teddy_poster.png/revision/latest?cb=20200522183157",
+    "personality": "♂ Jock",
+    "species": "Bear",
+    "birthday": "September 26th",
+    "catchphrase": "\"grooof\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Tex",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a1/NH-Tex_poster.png/revision/latest?cb=20200410190412",
+    "personality": "♂ Smug",
+    "species": "Penguin",
+    "birthday": "October 6th",
+    "catchphrase": "\"picante\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Tia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Tia_poster.png/revision/latest?cb=20200522183230",
+    "personality": "♀ Normal",
+    "species": "Elephant",
+    "birthday": "November 18th",
+    "catchphrase": "\"teacup\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Tiffany",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Tiffany_poster.png/revision/latest?cb=20200410185508",
+    "personality": "♀ Snooty",
+    "species": "Rabbit",
+    "birthday": "January 9th",
+    "catchphrase": "\"bun bun\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Timbra",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Timbra_poster.png/revision/latest?cb=20200410184616",
+    "personality": "♀ Snooty",
+    "species": "Sheep",
+    "birthday": "October 21st",
+    "catchphrase": "\"pine nut\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Tipper",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Tipper_poster.png/revision/latest?cb=20200522183257",
+    "personality": "♀ Snooty",
+    "species": "Cow",
+    "birthday": "August 25th",
+    "catchphrase": "\"pushy\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Tom",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/NH-Tom_poster.png/revision/latest?cb=20200522183324",
+    "personality": "♂ Cranky",
+    "species": "Cat",
+    "birthday": "December 10th",
+    "catchphrase": "\"me-YOWZA\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Truffles",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Truffles_poster.png/revision/latest?cb=20200522183349",
+    "personality": "♀ Peppy",
+    "species": "Pig",
+    "birthday": "July 28th",
+    "catchphrase": "\"snoutie\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Tucker",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/32/NH-Tucker_poster.png/revision/latest?cb=20200522183418",
+    "personality": "♂ Lazy",
+    "species": "Elephant",
+    "birthday": "September 7th",
+    "catchphrase": "\"fuzzers\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Tutu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Tutu_poster.png/revision/latest?cb=20200522183436",
+    "personality": "♀ Peppy",
+    "species": "Bear",
+    "birthday": "November 15th",
+    "catchphrase": "\"twinkles\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Twiggy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Twiggy_poster.png/revision/latest?cb=20200522183456",
+    "personality": "♀ Peppy",
+    "species": "Bird",
+    "birthday": "July 13th",
+    "catchphrase": "\"cheepers\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Tybalt",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Tybalt_poster.png/revision/latest?cb=20200410183724",
+    "personality": "♂ Jock",
+    "species": "Tiger",
+    "birthday": "August 19th",
+    "catchphrase": "\"grrRAH\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Ursala",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/NH-Ursala_poster.png/revision/latest?cb=20200522183519",
+    "personality": "♀ Sisterly",
+    "species": "Bear",
+    "birthday": "January 16th",
+    "catchphrase": "\"grooomph\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Velma",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/17/NH-Velma_poster.png/revision/latest?cb=20200522183543",
+    "personality": "♀ Snooty",
+    "species": "Goat",
+    "birthday": "January 14th",
+    "catchphrase": "\"blih\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Vesta",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Vesta_poster.png/revision/latest?cb=20200410184828",
+    "personality": "♀ Normal",
+    "species": "Sheep",
+    "birthday": "April 16th",
+    "catchphrase": "\"baaaffo\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Vic",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Vic_poster.png/revision/latest?cb=20200522183604",
+    "personality": "♂ Cranky",
+    "species": "Bull",
+    "birthday": "December 29th",
+    "catchphrase": "\"cud\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Victoria",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/46/NH-Victoria_poster.png/revision/latest?cb=20200522183627",
+    "personality": "♀ Peppy",
+    "species": "Horse",
+    "birthday": "July 11th",
+    "catchphrase": "\"sugar cube\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Violet",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b7/NH-Violet_poster.png/revision/latest?cb=20200522183649",
+    "personality": "♀ Snooty",
+    "species": "Gorilla",
+    "birthday": "September 1st",
+    "catchphrase": "\"sweetie\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Vivian",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d2/NH-Vivian_poster.png/revision/latest?cb=20200410183210",
+    "personality": "♀ Snooty",
+    "species": "Wolf",
+    "birthday": "January 26th",
+    "catchphrase": "\"piffle\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Vladimir",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Vladimir_poster.png/revision/latest?cb=20200522183708",
+    "personality": "♂ Cranky",
+    "species": "Cub",
+    "birthday": "August 2nd",
+    "catchphrase": "\"nyet\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Wade",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Wade_poster.png/revision/latest?cb=20200410190514",
+    "personality": "♂ Lazy",
+    "species": "Penguin",
+    "birthday": "October 30th",
+    "catchphrase": "\"so it goes\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Walker",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/NH-Walker_poster.png/revision/latest?cb=20200522183727",
+    "personality": "♂ Lazy",
+    "species": "Dog",
+    "birthday": "June 10th",
+    "catchphrase": "\"wuh\"",
+    "hobby": "Play"
+  },
+  {
+    "name": "Walt",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Walt_poster.png/revision/latest?cb=20200522183748",
+    "personality": "♂ Cranky",
+    "species": "Kangaroo",
+    "birthday": "April 24th",
+    "catchphrase": "\"pockets\"",
+    "hobby": "Fitness"
+  },
+  {
+    "name": "Wart Jr.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/NH-WartJr_poster.png/revision/latest?cb=20200522183806",
+    "personality": "♂ Cranky",
+    "species": "Frog",
+    "birthday": "August 21st",
+    "catchphrase": "\"grr-ribbit\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Weber",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/54/NH-Weber_poster.png/revision/latest?cb=20200522183823",
+    "personality": "♂ Lazy",
+    "species": "Duck",
+    "birthday": "June 30th",
+    "catchphrase": "\"quaa\"",
+    "hobby": "Nature"
+  },
+  {
+    "name": "Wendy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4e/NH-Wendy_poster.png/revision/latest?cb=20200410184538",
+    "personality": "♀ Peppy",
+    "species": "Sheep",
+    "birthday": "August 15th",
+    "catchphrase": "\"lambkins\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Whitney",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b0/NH-Whitney_poster.png/revision/latest?cb=20200410183425",
+    "personality": "♀ Snooty",
+    "species": "Wolf",
+    "birthday": "September 17th",
+    "catchphrase": "\"snappy\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Willow",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/05/NH-Willow_poster.png/revision/latest?cb=20200522183842",
+    "personality": "♀ Snooty",
+    "species": "Sheep",
+    "birthday": "November 26th",
+    "catchphrase": "\"bo peep\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Winnie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/76/NH-Winnie_poster.png/revision/latest?cb=20200522184108",
+    "personality": "♀ Peppy",
+    "species": "Horse",
+    "birthday": "January 31st",
+    "catchphrase": "\"hay-OK\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Wolfgang",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/NH-Wolfgang_poster.png/revision/latest?cb=20200410183450",
+    "personality": "♂ Cranky",
+    "species": "Wolf",
+    "birthday": "November 25th",
+    "catchphrase": "\"snarrrl\"",
+    "hobby": "Education"
+  },
+  {
+    "name": "Yuka",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b6/NH-Yuka_poster.png/revision/latest?cb=20200522183928",
+    "personality": "♀ Snooty",
+    "species": "Koala",
+    "birthday": "July 20th",
+    "catchphrase": "\"tsk tsk\"",
+    "hobby": "Fashion"
+  },
+  {
+    "name": "Zell",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Zell_poster.png/revision/latest?cb=20200522183947",
+    "personality": "♂ Smug",
+    "species": "Deer",
+    "birthday": "June 7th",
+    "catchphrase": "\"pronk\"",
+    "hobby": "Music"
+  },
+  {
+    "name": "Zucker",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Zucker_poster.png/revision/latest?cb=20200522184009",
+    "personality": "♂ Lazy",
+    "species": "Octopus",
+    "birthday": "March 8th",
+    "catchphrase": "\"bloop\"",
+    "hobby": "Nature"
+  }
+]
