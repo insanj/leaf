@@ -20,24 +20,36 @@ const columns = [
     align: 'left',
   },
   { 
-    id: 'price', 
-    label: 'Price', 
+    id: 'buyPrice', 
+    label: 'Price to Buy', 
     align: 'left',
   },
+    {
+    id: 'sellPrice',
+    label: 'Selling Price',
+    align: 'center',
+  },
   {
-    id: 'location',
-    label: 'Location',
+    id: 'materials',
+    label: 'Materials Needed',
+    align: 'center',
+  },
+  {
+    id: 'durability',
+    label: 'Durability',
     align: 'center',
   },
 ];
 
-const getMasterListMaterials = () => {
-  const materials = acnh_master_list["Materials"];
+const getMasterListTools = () => {
+  const materials = acnh_master_list["Tools"];
   const rows = materials.map(s => {
     return {
-      name: s["Material"],
-      price: s["Price"],
-      location: s["Location"]
+      name: s["Tools"],
+      buyPrice: s["Price to Buy"],
+      sellPrice: s["Selling Price"],
+      materials: s["Materials Needed"],
+      durability: s["Durability"]
     };
   });
   return rows;
@@ -54,19 +66,19 @@ const useStyles = makeStyles({
 });
 
 const generateRows = (searchText) => {
-  const filtered = getMasterListMaterials().filter(material => {
+  const filtered = getMasterListTools().filter(tool => {
     const lowercase = searchText.toLowerCase();
     if (!lowercase || lowercase.length < 1) {
       return true;
     }
-    const searchable = Object.values(material).map(s => s.toLowerCase());
+    const searchable = Object.values(tool).map(s => s.toLowerCase());
     const found = searchable.filter(s => s.includes(lowercase)).length > 0;
     return found;
   });
   return filtered;
 }
 
-export default function LeafShopMaterialsSection({ searchText, rows=generateRows(searchText) }) {
+export default function LeafShopToolsSection({ searchText, rows=generateRows(searchText) }) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(25);
@@ -104,12 +116,34 @@ export default function LeafShopMaterialsSection({ searchText, rows=generateRows
     let sorted = toSort.sort((r1, r2) => {
       if (columnLabel === 'Name') {
         return r1.name.toLowerCase().localeCompare(r2.name.toLowerCase());
-      } else if (columnLabel === 'Price') {
-        const firstPrice = parseInt(r1.price.split(" ")[0].replace(",", ""), 10);
-        const secondPrice = parseInt(r2.price.split(" ")[0].replace(",", ""), 10);
+      } else if (columnLabel === 'Price to Buy') {
+        const firstPrice = parseInt(r1.buyPrice.split(" ")[0].replace(",", ""), 10);
+        if (isNaN(firstPrice)) {
+          return 1;
+        }
+
+        const secondPrice = parseInt(r2.buyPrice.split(" ")[0].replace(",", ""), 10);
+        if (isNaN(secondPrice)) {
+          return -1;
+        }
+
         return  secondPrice - firstPrice; 
-      } else if (columnLabel === 'Location') {
-        return r1.location.toLowerCase().localeCompare(r2.location.toLowerCase());
+      } else if (columnLabel === 'Selling Price') {
+        const firstPrice = parseInt(r1.sellPrice.split(" ")[0].replace(",", ""), 10);
+        if (isNaN(firstPrice)) {
+          return 1;
+        }
+
+        const secondPrice = parseInt(r2.sellPrice.split(" ")[0].replace(",", ""), 10);
+        if (isNaN(secondPrice)) {
+          return -1;
+        }
+
+        return secondPrice - firstPrice; 
+      } else if (columnLabel === 'Durability') {
+        return r1.durability.toLowerCase().localeCompare(r2.durability.toLowerCase());
+      } else if (columnLabel === 'Materials Needed') {
+        return r1.materials.toLowerCase().localeCompare(r2.materials.toLowerCase());
       } else {
         return r1-r2;
       }

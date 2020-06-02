@@ -10,9 +10,17 @@ import Avatar from '@material-ui/core/Avatar';
 
 import LeafShopShellSection from './leafShopShellSection';
 import LeafShopMaterialsSection from './leafShopMaterialsSection';
+import LeafShopToolsSection from './leafShopToolsSection';
 
+import tile1 from '../img/sprites/tiles-1.png';
 import tile138 from '../img/sprites/tiles-138.png';
 import tile55 from '../img/sprites/tiles-55.png';
+import tile201 from '../img/sprites/tiles-201.png';
+import tile267 from '../img/sprites/tiles-267.png';
+import tile88 from '../img/sprites/tiles-88.png';
+import tile118 from '../img/sprites/tiles-118.png';
+import tile116 from '../img/sprites/tiles-116.png';
+import tile172 from '../img/sprites/tiles-172.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -30,30 +38,103 @@ export default function LeafShopTable({ searchText }) {
 
   return (
     <div className={classes.root}>
-      <ExpansionPanel>
+
+
+      <ExpansionPanel className="flooringSection">
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
-        <Typography className={classes.heading}>
-          <img src={tile138} width="28" height="28" style={{
-            position: 'absolute',
-            objectFit: 'contain'
-          }}/>
-          <span style={{paddingLeft: '34px'}}>Shells</span>
-        </Typography>
+          <Typography className={classes.heading}>
+           <img src={tile118} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+          <span style={{paddingLeft: '34px'}}>Flooring</span>
+          </Typography>
+
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+            sit amet blandit leo lobortis eget.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className="flowersSection">
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>
+           <img src={tile267} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+          <span style={{paddingLeft: '34px'}}>Flowers</span>
+          </Typography>
+
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+            sit amet blandit leo lobortis eget.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className="fruitSection">
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>
+            <img src={tile201} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+            <span style={{paddingLeft: '34px'}}>Fruit</span>
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
 
-          <LeafShopShellSection 
-            searchText={searchText}
-          />
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+            sit amet blandit leo lobortis eget.
+          </Typography>
 
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
-      <ExpansionPanel>
+      <ExpansionPanel className="furnitureSection">
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>
+            <img src={tile88} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+            <span style={{paddingLeft: '34px'}}>Furniture</span>
+          </Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+            sit amet blandit leo lobortis eget.
+          </Typography>
+
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className="materialsSection">
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -76,13 +157,20 @@ export default function LeafShopTable({ searchText }) {
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
-      <ExpansionPanel>
+
+      <ExpansionPanel className="rugsSection">
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Tools</Typography>
+          <Typography className={classes.heading}>
+            <img src={tile116} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+            <span style={{paddingLeft: '34px'}}>Rugs</span>
+        </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
@@ -92,13 +180,69 @@ export default function LeafShopTable({ searchText }) {
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
-      <ExpansionPanel>
+      <ExpansionPanel className="shellsSection">
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>
+            <img src={tile138} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+            <span style={{paddingLeft: '34px'}}>Shells</span>
+          </Typography>
+        </ExpansionPanelSummary>
+
+        <ExpansionPanelDetails>
+          <LeafShopShellSection 
+            searchText={searchText}
+          />
+
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className="toolsSection">
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Furniture</Typography>
+          <Typography className={classes.heading}>
+            <img src={tile1} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+            <span style={{paddingLeft: '34px'}}>Tools</span>
+          </Typography>
+        </ExpansionPanelSummary>
+
+        <ExpansionPanelDetails>
+          
+          <LeafShopToolsSection 
+            searchText={searchText}
+          />
+
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+
+      <ExpansionPanel className="wallpapersSection">
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>
+
+            <img src={tile172} width="28" height="28" style={{
+              position: 'absolute',
+              objectFit: 'contain'
+            }}/>
+            <span style={{paddingLeft: '34px'}}>Wallpapers</span>
+
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
@@ -108,54 +252,6 @@ export default function LeafShopTable({ searchText }) {
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
-      <ExpansionPanel>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Wallpapers</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-
-      <ExpansionPanel>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Flooring</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-
-
-      <ExpansionPanel>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Rugs</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
     </div>
   );
 }
