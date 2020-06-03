@@ -45,56 +45,19 @@ export default function LeafVillagersSection({ searchText, villagers=fandom_vill
 
   const generateVillagerPanel = (villager) => {
     return (
-      <ExpansionPanel expanded={expandedVillager === villager.name} onChange={ () => handleVillagerExpand(villager.name) }>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
-        >
-          <Typography className={classes.heading}>
-            <img src={ villager.image } width="50" height="50" />
-          </Typography>
-
-          <Typography className={classes.secondaryHeading}>
-            { villager.name }
-          </Typography>
-        </ExpansionPanelSummary>
-
-        <ExpansionPanelDetails>
-          <TableContainer component={Paper}>
-            <Table className={classes.table} aria-label="simple table">
-              <TableHead>
-                <TableRow>
-                  <TableCell>Name</TableCell>
-                  <TableCell align="right">Image</TableCell>
-                  <TableCell align="right">Personality</TableCell>
-                  <TableCell align="right">Species</TableCell>
-                  <TableCell align="right">Birthday</TableCell>
-                  <TableCell align="right">Catchphrase</TableCell>
-                  <TableCell align="right">Hobby</TableCell>
-                </TableRow>
-              </TableHead>
-
-              <TableBody>
-                <TableRow key={villager.name}>
-                  <TableCell component="th" scope="row">
-                    {villager.name}
-                  </TableCell>
-                  <TableCell align="right">
-                    <img src={ villager.image } width="50" height="50" />
-                  </TableCell>
-                  <TableCell align="right">{villager.personality}</TableCell>
-                  <TableCell align="right">{villager.species}</TableCell>
-                  <TableCell align="right">{villager.birthday}</TableCell>
-                  <TableCell align="right">{villager.catchphrase}</TableCell>
-                  <TableCell align="right">{villager.hobby}</TableCell>
-                </TableRow>
-              </TableBody>
-
-            </Table>
-          </TableContainer>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+      <TableRow key={villager.name}>
+        <TableCell component="th" scope="row">
+          <img src={ villager.image } width="80" height="80" style={{borderRadius: 10}} />
+        </TableCell>
+        <TableCell align="left" style={{ fontSize: '1.4em', fontWeight: 500 }}>
+          {villager.name}
+        </TableCell>
+        <TableCell align="left">{villager.personality}</TableCell>
+        <TableCell align="left">{villager.species}</TableCell>
+        <TableCell align="left">{villager.birthday}</TableCell>
+        <TableCell align="left">{villager.catchphrase}</TableCell>
+        <TableCell align="left">{villager.hobby}</TableCell>
+      </TableRow>
     );
   }
 
@@ -120,9 +83,26 @@ export default function LeafVillagersSection({ searchText, villagers=fandom_vill
 
   return (
     <div className={classes.root}>
-      
-      { generatePanels() }
+       <TableContainer component={Paper}>
+        <Table className={classes.table} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell></TableCell>
+              <TableCell align="left">Name</TableCell>
+              <TableCell align="left">Personality</TableCell>
+              <TableCell align="left">Species</TableCell>
+              <TableCell align="left">Birthday</TableCell>
+              <TableCell align="left">Catchphrase</TableCell>
+              <TableCell align="left">Hobby</TableCell>
+            </TableRow>
+          </TableHead>
 
+          <TableBody>
+            { generatePanels() }
+          </TableBody>
+
+        </Table>
+      </TableContainer>
     </div>
   );
 }

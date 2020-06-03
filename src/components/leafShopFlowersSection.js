@@ -141,7 +141,7 @@ export default function LeafShopFlowersSection({ searchText, rows=generateRows(s
   return (
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>
-        <Table stickyHeader aria-label="sticky table">
+        <Table>
           <TableHead>
             <TableRow>
               {columns.map((column) => (

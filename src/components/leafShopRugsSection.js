@@ -72,7 +72,7 @@ const generateRows = (searchText) => {
     if (!lowercase || lowercase.length < 1) {
       return true;
     }
-    const searchable = Object.values(rug).map(s => s.toLowerCase());
+    const searchable = Object.values(rug).map(s => s ? s.toLowerCase() : '');
     const found = searchable.filter(s => s.includes(lowercase)).length > 0;
     return found;
   });
@@ -164,7 +164,7 @@ export default function LeafShopRugsSection({ searchText, rows=generateRows(sear
   return (
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>
-        <Table stickyHeader aria-label="sticky table">
+        <Table>
           <TableHead>
             <TableRow>
               {columns.map((column) => (

@@ -159,7 +159,7 @@ export default function LeafShopToolsSection({ searchText, rows=generateRows(sea
   return (
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>
-        <Table stickyHeader aria-label="sticky table">
+        <Table>
           <TableHead>
             <TableRow>
               {columns.map((column) => (
