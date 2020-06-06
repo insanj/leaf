@@ -23,7 +23,12 @@ class LeafNetworker {
         type: 'jsonp',
         success: (response) => {
           this.log(`success from POST url ${url} body ${JSON.stringify(body)} response ${JSON.stringify(response)}`);
-          resolve(response);
+
+          if (response && response.data && response.success) {
+            resolve(response);
+          } else {
+            reject(response);
+          }
         },
         error: (error) => {
           this.log(`failure from POST url ${url} body ${JSON.stringify(body)} error ${JSON.stringify(error)}`);
@@ -50,6 +55,29 @@ class LeafNetworker {
     const requestBody = {
       username: username,
       password: password,
+    };
+
+    return this.post(reqURL, requestBody);
+  }
+
+  getCounters({ username, password }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/counters/get';
+    const requestBody = {
+      username: username,
+      password: password,
+    };
+
+    return this.post(reqURL, requestBody);
+  }
+
+  setCounters({ username, password, itemValues }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/counters/set';
+    const requestBody = {
+      username: username,
+      password: password,
+      itemValues: itemValues && Object.keys(itemValues).length > 0 ? itemValues : '{}',
     };
 
     return this.post(reqURL, requestBody);

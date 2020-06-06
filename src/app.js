@@ -35,12 +35,15 @@ const useStyles = makeStyles((theme) => ({
   },
   page: {
     background: '#272922',
-    marginTop: '55px',
     marginBottom: '65px',
 
-    [theme.breakpoints.up('sm')]: {
-      marginTop: '62px',
-    }
+    marginTop: 56, 
+    [`${theme.breakpoints.up('xs')} and (orientation: landscape)`]: { 
+     marginTop: 48, 
+    }, 
+    [theme.breakpoints.up('sm')]: { 
+     marginTop: 64, 
+    }, 
   },
 }));
 
@@ -70,13 +73,13 @@ export default function App() {
   }
 
   const generateActivePage = () => {
-    if (!activePage || activePage === 'counters') {
+    if (activePage === 'counters') {
       return (
         <LeafStepperPage
           searchText={searchText}
         />
       );
-    } else if (activePage === 'active') {
+    } else if (!activePage || activePage === 'active') {
       return (
         <LeafMuseumPage
           searchText={searchText}
