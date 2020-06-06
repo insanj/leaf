@@ -8,6 +8,7 @@ import LeafStepperPage from './pages/leafStepperPage';
 import LeafMuseumPage from './pages/leafMuseumPage';
 import LeafAdvancedMuseumPage from './pages/leafAdvancedMuseumPage';
 import LeafShopPage from './pages/leafShopPage';
+import LeafProfilePage from './pages/leafProfilePage';
 
 import LeafVillagersSection from './components/leafVillagersSection';
 
@@ -93,7 +94,7 @@ export default function App() {
           onSortTypeChange={(newValue) => setMuseumTabSortType(newValue)}
         />      
       );
-    } else if (activePage === 'profile') {
+    } else if (activePage === 'villagers') {
       return (
         <LeafVillagersSection
           searchText={searchText}
@@ -105,7 +106,13 @@ export default function App() {
           searchText={searchText}
         />
       );
-    }  else {
+    } else if (activePage === 'profile') {
+      return (
+        <LeafProfilePage
+          searchText={searchText}
+        />
+      );
+    } else {
       return (
         <p>Uh oh, you weren't suppoed to see this...</p>
       );

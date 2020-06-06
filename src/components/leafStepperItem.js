@@ -70,9 +70,11 @@ export default function LeafStepperItem({ name="Star Net", image='', value=50, m
             <img src={image} width="50" height="50" />
           </p>
 
-          <form className={classes.name} noValidate autoComplete="off">
-            <TextField className={classes.input} id="standard-basic" value={name} onChange={ handleChange } />
-          </form>
+          <div className="leafStepperItem-input">
+            <form className={classes.name} noValidate autoComplete="off">
+              <TextField className={classes.input} id="standard-basic" value={name} onChange={ handleChange } />
+            </form>
+          </div>
 
           <p className={classes.value}>
             { value }
