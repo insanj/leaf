@@ -3,8 +3,8 @@ import jquery from 'jquery';
 
 class LeafNetworker {
   static baseURL() {
-    const addemURL = preval`module.exports = process.env.REACT_APP_BASE_URL ? process.env.REACT_APP_BASE_URL : 'https://myleaf-backend.herokuapp.com'`;
-    return addemURL;
+    const url = preval`module.exports = process.env.REACT_APP_BASE_URL ? process.env.REACT_APP_BASE_URL : 'https://myleaf-backend.herokuapp.com'`;
+    return url;
   }
 
   log(msg) {
