@@ -77,7 +77,7 @@ class LeafNetworker {
     const requestBody = {
       username: username,
       password: password,
-      itemValues: itemValues && Object.keys(itemValues).length > 0 ? itemValues : '{}',
+      itemValues: itemValues && Object.keys(itemValues).length > 0 ? itemValues : {},
     };
 
     return this.post(reqURL, requestBody);

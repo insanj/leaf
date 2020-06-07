@@ -77,7 +77,18 @@ export default function LeafProfileCountersSection({ searchText, getCounters, se
     });
   }
 
+  const handleNameInputChangeTimestamp = new Date();
+
   const handleNameInputChange = (oldName, newName) => {
+    // const currTimestamp = new Date();
+    // const diffTimestamp = currTimestamp - handleNameInputChangeTimestamp;
+    // if (diffTimestamp < 200) {
+    //   setTimeout(() => {
+    //     handleNameInputChange(oldName, newName);
+    //   }, 200);
+    //   return;
+    // }
+
     let newItemValues = itemValues; // JSON.parse(JSON.stringify(itemValues));
     const oldValue = newItemValues[oldName];
     newItemValues[newName] = oldValue;
@@ -141,7 +152,7 @@ export default function LeafProfileCountersSection({ searchText, getCounters, se
       return [];
     }
 
-    let sorted = Object.keys(itemValues).sort((k1, k2) => itemValues[k2]-itemValues[k1]); //=> k1.toLowerCase().localeCompare(k2.toLowerCase()));
+    let sorted = Object.keys(itemValues); //.sort((k1, k2) => itemValues[k2]-itemValues[k1]); //=> k1.toLowerCase().localeCompare(k2.toLowerCase()));
 
     if (searchText && searchText.length > 0) {
       const lowercaseSearch = searchText.toLowerCase();

@@ -35,7 +35,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '3em',
     fontWeight: 100,
     padding: 0,
-    margin: 0
+    margin: 0,
+    width: '80%',
+    textAlign: 'center',
+    background: 'none',
+    border: 'none',
+    color: '#fff'
   },
   close: {
     background: 'none',
@@ -53,8 +58,28 @@ export default function LeafStepperItem({ name="Star Net", image='', value=50, m
   const classes = useStyles();
   const theme = useTheme();
 
+  const [itemName, setItemName] = React.useState(name);
+
   const handleChange = (event) => {
-    onNameInputChange(event.target.value);
+    setItemName(event.target.value);
+  }
+
+  const handleChangeCompleted = (event) => {
+    onNameInputChange(itemName);
+  }
+
+  const onSubmit = (event) => {
+    event.preventDefault();
+  }
+
+  const handleValueInputFieldChange = (event) => {
+    if (!event.target.value || event.target.value < 1) {
+      onValueChange(name, 0);
+    } else if (event.target.value > 30 || event.target.value.length > 2) {
+      onValueChange(name, 30);
+    } else {
+      onValueChange(name, event.target.value);
+    }
   }
 
   return (
@@ -71,14 +96,12 @@ export default function LeafStepperItem({ name="Star Net", image='', value=50, m
           </p>
 
           <div className="leafStepperItem-input">
-            <form className={classes.name} noValidate autoComplete="off">
-              <TextField className={classes.input} id="standard-basic" value={name} onChange={ handleChange } />
+            <form className={classes.name} noValidate autoComplete="off" onSubmit={ onSubmit }>
+              <TextField className={classes.input} id="standard-basic" value={ itemName } onChange={ handleChange } onBlur={ handleChangeCompleted } />
             </form>
           </div>
 
-          <p className={classes.value}>
-            { value }
-          </p>
+          <input type="number" className={classes.value} value={value} onChange={ handleValueInputFieldChange } />
 
           <LeafProgressStepper
             name={ name }
