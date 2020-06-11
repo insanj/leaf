@@ -17,6 +17,8 @@ import LeafLoading from  '../components/leafLoading';
 
 import LeafProfileCountersSection from '../components/leafProfileCountersSection';
 
+import { useSnackbar } from 'notistack';
+
 const useStyles = makeStyles((theme) => ({
   unauthed: {
     paddingTop: 30,
@@ -29,6 +31,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function LeafProfilePage({ searchText }) {
   const classes = useStyles();
+  const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+
   const [isLoading, setIsLoading] = React.useState(true);
   const [isAuthed, setIsAuthed] = React.useState(false);
   const [authedTabValue, setAuthedTabValue] = React.useState(0);
@@ -45,39 +49,91 @@ export default function LeafProfilePage({ searchText }) {
       return;
     }
 
+    const snackMsg = `👋 Welcome back, ${existingUsername}! Signing in...`;
+    enqueueSnackbar(snackMsg, {
+      variant: 'info',
+      anchorOrigin: {
+        vertical: 'bottom',
+        horizontal: 'center',
+      },
+    });
+
     const networker = new LeafNetworker();
     networker.login({
       username: existingUsername,
       password: existingPassword
     }).then(r => {
-      console.log("LOGIN SUCCESS!\n" + JSON.stringify(r));
+      enqueueSnackbar('🎉 Signed in successfully!', {
+        variant: 'success',
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'center',
+        },
+      });
+
       setIsLoading(false);
       setIsAuthed(true);
     }).catch(e => {
       setIsLoading(false);
-      console.log("LOGIN ERROR!\n" + JSON.stringify(e));
+    
+      const errorMsg = e && e.message ? e.message : JSON.stringify(e);
+      enqueueSnackbar(errorMsg, {
+        variant: 'error',
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'center',
+        },
+      });
+
     });
   }, [setIsLoading, setIsAuthed]);
 
   const handleSignInGoClicked = (payload) => {
     const networker = new LeafNetworker();
     networker.login(payload).then(r => {
-      console.log("LOGIN SUCCESS!\n" + JSON.stringify(r));
+      enqueueSnackbar('🎉 Signed in successfully!', {
+        variant: 'success',
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'center',
+        },
+      });
 
       setIsAuthed(true);
       LeafCookies.setCookie(MYLEAF_USERNAME_KEY, payload.username);
       LeafCookies.setCookie(MYLEAF_PASSWORD_KEY, payload.password);
     }).catch(e => {
-      console.log("LOGIN ERROR!\n" + JSON.stringify(e));
+      const errorMsg = e && e.message ? e.message : JSON.stringify(e);
+      enqueueSnackbar(errorMsg, {
+        variant: 'error',
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'center',
+        },
+      });
     });
   }
 
   const handleRegisterGoClicked = (payload) => {
     const networker = new LeafNetworker();
     networker.register(payload).then(r => {
-      console.log("REGISTER SUCCESS!\n" + JSON.stringify(r));
+      enqueueSnackbar('🎉 Thanks for making an account! Try signing in with your username and password now.', {
+        variant: 'success',
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'center',
+        },
+      });
+
     }).catch(e => {
-      console.log("REGISTER ERROR!\n" + JSON.stringify(e));
+      const errorMsg = e && e.message ? e.message : JSON.stringify(e);
+      enqueueSnackbar(errorMsg, {
+        variant: 'error',
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'center',
+        },
+      });
     });
   }
 

@@ -11,6 +11,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import InputBase from '@material-ui/core/InputBase';
 import { fade } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
+import ClearIcon from "@material-ui/icons/Clear";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,6 +47,12 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  clearIcon: {
+    height: '30px',
+    width: '30px',
+    marginRight: theme.spacing(1),
+    opacity: 0.8
+  },
   inputRoot: {
     color: 'inherit',
   },
@@ -66,6 +73,17 @@ const useStyles = makeStyles((theme) => ({
 
 export default function LeafAppBar({ onSearchInputChange }) {
   const classes = useStyles();
+  const [searchValue, setSearchValue] = React.useState('');
+
+  const handleClearButtonClick = (event) => {
+    setSearchValue('');
+    onSearchInputChange(null);
+  }
+
+  const handleSearchInputChange = (event) => {
+    setSearchValue(event.target.value);
+    onSearchInputChange(event);
+  }
 
   return (
     <div className={classes.root}>
@@ -79,6 +97,7 @@ export default function LeafAppBar({ onSearchInputChange }) {
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
+
             <InputBase
               placeholder="Search…"
               classes={{
@@ -86,8 +105,19 @@ export default function LeafAppBar({ onSearchInputChange }) {
                 input: classes.inputInput,
               }}
               inputProps={{ 'aria-label': 'search' }}
-              onChange={ onSearchInputChange }
+              onChange={ handleSearchInputChange }
+              value={ searchValue }
             />
+
+            { searchValue && searchValue.length > 0 ? (
+              <IconButton className={classes.clearIcon} onClick={ handleClearButtonClick }>
+                <ClearIcon />
+              </IconButton>
+            ) : (
+              <IconButton className={classes.clearIcon}>
+              </IconButton>
+            )}
+
           </div>
 
         </Toolbar>
@@ -95,3 +125,38 @@ export default function LeafAppBar({ onSearchInputChange }) {
     </div>
   );
 }
+
+/*
+            <TextField
+              id="standard-textarea"
+              type="search"
+              margin="normal"
+              placeholder="Search…"
+              classes={{
+                root: classes.inputRoot,
+                input: classes.inputInput,
+              }}
+              InputProps={{ 
+                'aria-label' : 'search',
+                startAdornment : (
+                  <InputAdornment position="start">
+                    <div>
+                      <SearchIcon />
+                    </div>
+                  </InputAdornment>
+                ),
+                endAdornment : (
+                  <InputAdornment position="end">
+                    <IconButton onClick={ onSearchClearButtonClick }>
+                      <ClearIcon />
+                    </IconButton>
+                  </InputAdornment>
+                )
+              }}
+              InputLabelProps={{
+                shrink: true,
+              }}
+              onChange={ onSearchInputChange }
+            />
+            */
+            

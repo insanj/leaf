@@ -1,5 +1,6 @@
 import React from 'react';
 import { createMuiTheme, makeStyles, ThemeProvider} from '@material-ui/core/styles';
+import { SnackbarProvider } from 'notistack';
 
 import LeafAppBar from './components/leafAppBar';
 import LeafTabBar from './components/leafTabBar';
@@ -49,6 +50,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function App() {
   const classes = useStyles();
+
   const [activePage, setActivePage] = React.useState(Cookies.getCookie('LeafActivePage') ? Cookies.getCookie('LeafActivePage') : 'active');
   const [searchText, setSearchText] = React.useState('');
   const [activeTabSortType, setActiveTabSortType] = React.useState(null);
@@ -69,6 +71,11 @@ export default function App() {
   }
 
   const handleSearchInputChange = (event) => {
+    if (!event) {
+      setSearchText('');
+      return;
+    }
+
     setSearchText(event.target.value);
   }
 
@@ -126,20 +133,23 @@ export default function App() {
     <React.Fragment className={classes.root}>
 
       <ThemeProvider theme={theme}>
-        <div className={classes.page}>
-          { generateActivePage() }
+        <SnackbarProvider maxSnack={3}>
+          <div className={classes.page}>
+            { generateActivePage() }
 
-          <LeafFooter />
-        </div>
+            <LeafFooter />
+          </div>
 
-        <LeafTabBar
-          active={activePage}
-          onActiveChange={handleTabBarActiveChange}
-        />
+          <LeafTabBar
+            active={activePage}
+            onActiveChange={handleTabBarActiveChange}
+          />
 
-        <LeafAppBar 
-          onSearchInputChange={handleSearchInputChange}
-        />
+          <LeafAppBar 
+            onSearchInputChange={handleSearchInputChange}
+          />
+
+        </SnackbarProvider>
       </ThemeProvider>
 
     </React.Fragment>
