@@ -1,0 +1,2739 @@
+[
+  {
+    "name": "Admiral",
+    "personality": "Cranky",
+    "birthdate": "January 27",
+    "colors": "Black, Blue",
+    "styles": "Cool"
+  },
+  {
+    "name": "Agent S",
+    "personality": "Peppy",
+    "birthdate": "July 2",
+    "colors": "Blue, Black",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Agnes",
+    "personality": "Uchi",
+    "birthdate": "April 21",
+    "colors": "Pink, White",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Al",
+    "personality": "Lazy",
+    "birthdate": "October 18",
+    "colors": "Red, White",
+    "styles": "Active"
+  },
+  {
+    "name": "Alfonso",
+    "personality": "Lazy",
+    "birthdate": "June 9",
+    "colors": "Blue, Red",
+    "styles": "Simple"
+  },
+  {
+    "name": "Alice",
+    "personality": "Normal",
+    "birthdate": "August 19",
+    "colors": "Pink, Red",
+    "styles": "Cute"
+  },
+  {
+    "name": "Alli",
+    "personality": "Snooty",
+    "birthdate": "November 8",
+    "colors": "Brown, Yellow",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Amelia",
+    "personality": "Snooty",
+    "birthdate": "November 19",
+    "colors": "Black, White",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Anabelle",
+    "personality": "Peppy",
+    "birthdate": "February 16",
+    "colors": "Blue, Green",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Anchovy",
+    "personality": "Lazy",
+    "birthdate": "March 4",
+    "colors": "Colorful, Orange",
+    "styles": "Simple"
+  },
+  {
+    "name": "Angus",
+    "personality": "Cranky",
+    "birthdate": "April 30",
+    "colors": "Black, Red",
+    "styles": "Cool"
+  },
+  {
+    "name": "Anicotti",
+    "personality": "Peppy",
+    "birthdate": "February 24",
+    "colors": "Pink, Red",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Ankha",
+    "personality": "Snooty",
+    "birthdate": "September 22",
+    "colors": "Brown, Colorful",
+    "styles": "Gorgeous, Simple"
+  },
+  {
+    "name": "Annalisa",
+    "personality": "Normal",
+    "birthdate": "February 6",
+    "colors": "Pink, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Annalise",
+    "personality": "Snooty",
+    "birthdate": "December 2",
+    "colors": "Blue, Purple",
+    "styles": "Active, Elegant"
+  },
+  {
+    "name": "Antonio",
+    "personality": "Jock",
+    "birthdate": "October 20",
+    "colors": "Blue, Light Blue",
+    "styles": "Simple"
+  },
+  {
+    "name": "Apollo",
+    "personality": "Cranky",
+    "birthdate": "July 4",
+    "colors": "Black",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Apple",
+    "personality": "Peppy",
+    "birthdate": "September 24",
+    "colors": "Colorful, Red",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Astrid",
+    "personality": "Snooty",
+    "birthdate": "September 8",
+    "colors": "Black, Colorful",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Audie",
+    "personality": "Peppy",
+    "birthdate": "August 31",
+    "colors": "Green, White",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Aurora",
+    "personality": "Normal",
+    "birthdate": "January 27",
+    "colors": "Pink, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Ava",
+    "personality": "Normal",
+    "birthdate": "April 28",
+    "colors": "Gray, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Avery",
+    "personality": "Cranky",
+    "birthdate": "February 22",
+    "colors": "Brown, Orange",
+    "styles": "Gorgeous, Simple"
+  },
+  {
+    "name": "Axel",
+    "personality": "Jock",
+    "birthdate": "March 23",
+    "colors": "Green, White",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Baabara",
+    "personality": "Snooty",
+    "birthdate": "March 28",
+    "colors": "Blue, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Bam",
+    "personality": "Jock",
+    "birthdate": "November 7",
+    "colors": "Brown, Green",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Bangle",
+    "personality": "Peppy",
+    "birthdate": "August 27",
+    "colors": "Green, Yellow",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Barold",
+    "personality": "Lazy",
+    "birthdate": "March 2",
+    "colors": "Black, Yellow",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Bea",
+    "personality": "Normal",
+    "birthdate": "October 15",
+    "colors": "Light Blue, Green",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Beardo",
+    "personality": "Smug",
+    "birthdate": "September 27",
+    "colors": "Blue, Brown",
+    "styles": "Elegant"
+  },
+  {
+    "name": "Beau",
+    "personality": "Lazy",
+    "birthdate": "April 5",
+    "colors": "Beige, Orange",
+    "styles": "Cute, SImple"
+  },
+  {
+    "name": "Becky",
+    "personality": "Snooty",
+    "birthdate": "December 9",
+    "colors": "Pink, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Bella",
+    "personality": "Peppy",
+    "birthdate": "December 28",
+    "colors": "Black, Purple",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Benedict",
+    "personality": "Lazy",
+    "birthdate": "October 10",
+    "colors": "Blue, Purple",
+    "styles": "Simple"
+  },
+  {
+    "name": "Benjamin",
+    "personality": "Lazy",
+    "birthdate": "August 3",
+    "colors": "Red, White",
+    "styles": "Simple"
+  },
+  {
+    "name": "Bertha",
+    "personality": "Normal",
+    "birthdate": "April 25",
+    "colors": "Pink, White",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Bettina",
+    "personality": "Normal",
+    "birthdate": "June 12",
+    "colors": "Red, White",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Bianca",
+    "personality": "Peppy",
+    "birthdate": "December 13",
+    "colors": "Orange, Pink",
+    "styles": "Cute"
+  },
+  {
+    "name": "Biff",
+    "personality": "Jock",
+    "birthdate": "March 29",
+    "colors": "Black, Blue",
+    "styles": "Active, Gorgeous"
+  },
+  {
+    "name": "Big Top",
+    "personality": "Lazy",
+    "birthdate": "October 3",
+    "colors": "Green",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Bill",
+    "personality": "Jock",
+    "birthdate": "February 1",
+    "colors": "Blue, Purple",
+    "styles": "Active"
+  },
+  {
+    "name": "Billy",
+    "personality": "Jock",
+    "birthdate": "March 25",
+    "colors": "Blue, Purple",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Biskit",
+    "personality": "Lazy",
+    "birthdate": "May 13",
+    "colors": "Colorful, Purple",
+    "styles": "Gorgeous, Simple"
+  },
+  {
+    "name": "Bitty",
+    "personality": "Snooty",
+    "birthdate": "October 6",
+    "colors": "Orange, Pink",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Blaire",
+    "personality": "Snooty",
+    "birthdate": "July 3",
+    "colors": "Brown, Orange",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Blanche",
+    "personality": "Snooty",
+    "birthdate": "December 21",
+    "colors": "Black, Brown",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Bluebear",
+    "personality": "Peppy",
+    "birthdate": "June 24",
+    "colors": "Blue, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Bob",
+    "personality": "Lazy",
+    "birthdate": "January 1",
+    "colors": "Colorful, Red",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Bonbon",
+    "personality": "Peppy",
+    "birthdate": "March 3",
+    "colors": "Light Blue, Yellow",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Bones",
+    "personality": "Lazy",
+    "birthdate": "August 4",
+    "colors": "Beige, Brown",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Boomer",
+    "personality": "Lazy",
+    "birthdate": "February 7",
+    "colors": "Beige, Brown",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Boone",
+    "personality": "Jock",
+    "birthdate": "September 12",
+    "colors": "Colorful, Red",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Boots",
+    "personality": "Jock",
+    "birthdate": "August 7",
+    "colors": "Colorful, Purple",
+    "styles": "Active, Gorgeous"
+  },
+  {
+    "name": "Boris",
+    "personality": "Cranky",
+    "birthdate": "November 6",
+    "colors": "Black, Purple",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Boyd",
+    "personality": "Cranky",
+    "birthdate": "October 1",
+    "colors": "Black, Red",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Bree",
+    "personality": "Snooty",
+    "birthdate": "July 7",
+    "colors": "Black, Blue",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Broccolo",
+    "personality": "Lazy",
+    "birthdate": "June 30",
+    "colors": "Colorful, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Broffina",
+    "personality": "Snooty",
+    "birthdate": "October 24",
+    "colors": "Black, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Bruce",
+    "personality": "Cranky",
+    "birthdate": "May 26",
+    "colors": "Black, Red",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Bubbles",
+    "personality": "Peppy",
+    "birthdate": "September 18",
+    "colors": "Pink, Purple",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Buck",
+    "personality": "Jock",
+    "birthdate": "April 4",
+    "colors": "Brown, Gray",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Bud",
+    "personality": "Jock",
+    "birthdate": "August 8",
+    "colors": "Green, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Bunnie",
+    "personality": "Peppy",
+    "birthdate": "May 9",
+    "colors": "Green, Pink",
+    "styles": "Cute"
+  },
+  {
+    "name": "Butch",
+    "personality": "Cranky",
+    "birthdate": "November 1",
+    "colors": "Blue, Gray",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Buzz",
+    "personality": "Cranky",
+    "birthdate": "December 7",
+    "colors": "Red, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Cally",
+    "personality": "Normal",
+    "birthdate": "September 4",
+    "colors": "Green, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Camofrog",
+    "personality": "Cranky",
+    "birthdate": "June 5",
+    "colors": "Blue, White",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Canberra",
+    "personality": "Uchi",
+    "birthdate": "May 14",
+    "colors": "Green, Light Blue",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Candi",
+    "personality": "Peppy",
+    "birthdate": "April 13",
+    "colors": "Light Blue, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Carmen",
+    "personality": "Peppy",
+    "birthdate": "January 6",
+    "colors": "Beige, Green",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Caroline",
+    "personality": "Normal",
+    "birthdate": "July 15",
+    "colors": "Colorful, White",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Carrie",
+    "personality": "Normal",
+    "birthdate": "December 5",
+    "colors": "Colorful, Red",
+    "styles": "Cute"
+  },
+  {
+    "name": "Cashmere",
+    "personality": "Snooty",
+    "birthdate": "April 2",
+    "colors": "Beige, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Celia",
+    "personality": "Normal",
+    "birthdate": "March 25",
+    "colors": "Green, Pink",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Cesar",
+    "personality": "Cranky",
+    "birthdate": "September 6",
+    "colors": "Blue, Light Blue",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Chadder",
+    "personality": "Smug",
+    "birthdate": "December 15",
+    "colors": "Black, Gray",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Charlise",
+    "personality": "Uchi",
+    "birthdate": "April 17",
+    "colors": "Orange, Red",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Cheri",
+    "personality": "Peppy",
+    "birthdate": "March 17",
+    "colors": "Light Blue, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Cherry",
+    "personality": "Uchi",
+    "birthdate": "May 11",
+    "colors": "Black, Purple",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Chester",
+    "personality": "Lazy",
+    "birthdate": "August 6",
+    "colors": "Green, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Chevre",
+    "personality": "Normal",
+    "birthdate": "March 6",
+    "colors": "Pink, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Chief",
+    "personality": "Cranky",
+    "birthdate": "December 19",
+    "colors": "Gray, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Chops",
+    "personality": "Smug",
+    "birthdate": "October 13",
+    "colors": "Green, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Chow",
+    "personality": "Cranky",
+    "birthdate": "July 22",
+    "colors": "Black, White",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Chrissy",
+    "personality": "Peppy",
+    "birthdate": "August 28",
+    "colors": "Pink, White",
+    "styles": "Cute"
+  },
+  {
+    "name": "Claude",
+    "personality": "Lazy",
+    "birthdate": "December 3",
+    "colors": "Black, Colorful",
+    "styles": "Simple"
+  },
+  {
+    "name": "Claudia",
+    "personality": "Snooty",
+    "birthdate": "November 22",
+    "colors": "Purple, White",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Clay",
+    "personality": "Lazy",
+    "birthdate": "October 19th",
+    "colors": "Beige, Brown",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Cleo",
+    "personality": "Snooty",
+    "birthdate": "February 9",
+    "colors": "Light Blue, White",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Clyde",
+    "personality": "Lazy",
+    "birthdate": "May 1",
+    "colors": "Green, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Coach",
+    "personality": "Jock",
+    "birthdate": "April 29",
+    "colors": "Blue, Red",
+    "styles": "Active"
+  },
+  {
+    "name": "Cobb",
+    "personality": "Jock",
+    "birthdate": "October 7",
+    "colors": "Blue, White",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Coco",
+    "personality": "Normal",
+    "birthdate": "March 1",
+    "colors": "Beige, Green",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Cole",
+    "personality": "Lazy",
+    "birthdate": "August 10",
+    "colors": "Colorful, Simple",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Colton",
+    "personality": "Smug",
+    "birthdate": "May 22",
+    "colors": "Blue, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Cookie",
+    "personality": "Peppy",
+    "birthdate": "June 18",
+    "colors": "Green, Light Blue",
+    "styles": "Cute"
+  },
+  {
+    "name": "Cousteau",
+    "personality": "Jock",
+    "birthdate": "December 17",
+    "colors": "Green, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Cranston",
+    "personality": "Lazy",
+    "birthdate": "September 23",
+    "colors": "Beige, Brown",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Croque",
+    "personality": "Cranky",
+    "birthdate": "July 18",
+    "colors": "Orange, Red",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Cube",
+    "personality": "Lazy",
+    "birthdate": "January 29",
+    "colors": "Colorful, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Curlos",
+    "personality": "Smug",
+    "birthdate": "May 8",
+    "colors": "Green, Red",
+    "styles": "Active, Gorgeous"
+  },
+  {
+    "name": "Curly",
+    "personality": "Jock",
+    "birthdate": "July 26",
+    "colors": "Colorful, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Curt",
+    "personality": "Cranky",
+    "birthdate": "July 1",
+    "colors": "Blue, White",
+    "styles": "Cool"
+  },
+  {
+    "name": "Cyd",
+    "personality": "Cranky",
+    "birthdate": "June 9",
+    "colors": "Black, Yellow",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Cyrano",
+    "personality": "Cranky",
+    "birthdate": "March 9",
+    "colors": "Beige, Yellow",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Daisy",
+    "personality": "Normal",
+    "birthdate": "November 16",
+    "colors": "Blue, Colorful",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Deena",
+    "personality": "Normal",
+    "birthdate": "June 27",
+    "colors": "Blue, Colorful",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Deirdre",
+    "personality": "Uchi",
+    "birthdate": "May 4",
+    "colors": "Orange",
+    "styles": "Simple"
+  },
+  {
+    "name": "Del",
+    "personality": "Cranky",
+    "birthdate": "May 27",
+    "colors": "Blue, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Deli",
+    "personality": "Lazy",
+    "birthdate": "May 24",
+    "colors": "Brown, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Derwin",
+    "personality": "Lazy",
+    "birthdate": "May 25",
+    "colors": "Beige, Yellow",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Diana",
+    "personality": "Snooty",
+    "birthdate": "January 4",
+    "colors": "Pink, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Diva",
+    "personality": "Uchi",
+    "birthdate": "October 2",
+    "colors": "Light Blue, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Dizzy",
+    "personality": "Lazy",
+    "birthdate": "January 14",
+    "colors": "Blue, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Dobie",
+    "personality": "Cranky",
+    "birthdate": "February 17",
+    "colors": "Beige, Brown",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Doc",
+    "personality": "Lazy",
+    "birthdate": "March 16",
+    "colors": "Beige, Gray",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Dom",
+    "personality": "Jock",
+    "birthdate": "March 18",
+    "colors": "Colorful, Red",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Dora",
+    "personality": "Normal",
+    "birthdate": "February 18",
+    "colors": "Blue, Light Blue",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Dotty",
+    "personality": "Peppy",
+    "birthdate": "March 14",
+    "colors": "Black, Blue",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Drago",
+    "personality": "Lazy",
+    "birthdate": "February 12",
+    "colors": "Orange, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Drake",
+    "personality": "Lazy",
+    "birthdate": "June 25",
+    "colors": "Brown, Red",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Drift",
+    "personality": "Jock",
+    "birthdate": "October 9",
+    "colors": "Orange, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Ed",
+    "personality": "Smug",
+    "birthdate": "September 16",
+    "colors": "Black, Gray",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Egbert",
+    "personality": "Lazy",
+    "birthdate": "October 14",
+    "colors": "Beige, Brown",
+    "styles": "Simple"
+  },
+  {
+    "name": "Elise",
+    "personality": "Snooty",
+    "birthdate": "March 21",
+    "colors": "Purple, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Ellie",
+    "personality": "Normal",
+    "birthdate": "May 12",
+    "colors": "Gray, Pink",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Elmer",
+    "personality": "Lazy",
+    "birthdate": "October 5",
+    "colors": "Blue, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Eloise",
+    "personality": "Snooty",
+    "birthdate": "December 8",
+    "colors": "Green, Orange",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Elvis",
+    "personality": "Cranky",
+    "birthdate": "July 23",
+    "colors": "Black, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Erik",
+    "personality": "Lazy",
+    "birthdate": "July 27",
+    "colors": "Beige, Red",
+    "styles": "Simple"
+  },
+  {
+    "name": "Eugene",
+    "personality": "Smug",
+    "birthdate": "October 26",
+    "colors": "Black, Gray",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Eunice",
+    "personality": "Normal",
+    "birthdate": "April 3",
+    "colors": "Beige, Orange",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Fang",
+    "personality": "Cranky",
+    "birthdate": "December 18",
+    "colors": "Light Blue, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Fauna",
+    "personality": "Normal",
+    "birthdate": "March 26",
+    "colors": "Beige, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Felicity",
+    "personality": "Peppy",
+    "birthdate": "March 30",
+    "colors": "Orange, Yellow",
+    "styles": "Cute"
+  },
+  {
+    "name": "Filbert",
+    "personality": "Lazy",
+    "birthdate": "June 3",
+    "colors": "Blue, White",
+    "styles": "Simple, Cute"
+  },
+  {
+    "name": "Flip",
+    "personality": "Jock",
+    "birthdate": "November 21",
+    "colors": "Blue, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Flo",
+    "personality": "Uchi",
+    "birthdate": "September 2",
+    "colors": "Purple, Red",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Flora",
+    "personality": "Peppy",
+    "birthdate": "February 9",
+    "colors": "Colorful, Pink",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Flurry",
+    "personality": "Normal",
+    "birthdate": "January 30",
+    "colors": "Pink, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Francine",
+    "personality": "Snooty",
+    "birthdate": "January 22",
+    "colors": "Black, Blue",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Frank",
+    "personality": "Cranky",
+    "birthdate": "July 30",
+    "colors": "Brown, Yellow",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Freckles",
+    "personality": "Peppy",
+    "birthdate": "February 19",
+    "colors": "Colorful, Green",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Freya",
+    "personality": "Snooty",
+    "birthdate": "December 14",
+    "colors": "Blue, Green",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Friga",
+    "personality": "Snooty",
+    "birthdate": "October 16",
+    "colors": "Black, Pink",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Frita",
+    "personality": "Uchi",
+    "birthdate": "July 16",
+    "colors": "Red, Yellow",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Frobert",
+    "personality": "Jock",
+    "birthdate": "February 8",
+    "colors": "Blue, Colorful",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Fuchsia",
+    "personality": "Uchi",
+    "birthdate": "September 19",
+    "colors": "Pink",
+    "styles": "Cool"
+  },
+  {
+    "name": "Gabi",
+    "personality": "Peppy",
+    "birthdate": "December 16",
+    "colors": "Brown, Red",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Gala",
+    "personality": "Normal",
+    "birthdate": "March 5",
+    "colors": "Pink, White",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Gaston",
+    "personality": "Cranky",
+    "birthdate": "October 28",
+    "colors": "Brown, Orange",
+    "styles": "Gorgeous, Simple"
+  },
+  {
+    "name": "Gayle",
+    "personality": "Normal",
+    "birthdate": "May 17",
+    "colors": "Pink, White",
+    "styles": "Cute"
+  },
+  {
+    "name": "Genji",
+    "personality": "Jock",
+    "birthdate": "January 21",
+    "colors": "Green, Purple",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Gigi",
+    "personality": "Snooty",
+    "birthdate": "August 11",
+    "colors": "Black, White",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Gladys",
+    "personality": "Normal",
+    "birthdate": "January 15",
+    "colors": "Green, Pink",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Gloria",
+    "personality": "Snooty",
+    "birthdate": "August 12",
+    "colors": "Black, Gray",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Goldie",
+    "personality": "Normal",
+    "birthdate": "December 27",
+    "colors": "Orange, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Gonzo",
+    "personality": "Cranky",
+    "birthdate": "October 13",
+    "colors": "Black, Green",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Goose",
+    "personality": "Jock",
+    "birthdate": "October 4",
+    "colors": "Blue, White",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Graham",
+    "personality": "Smug",
+    "birthdate": "June 20",
+    "colors": "Green, Orange",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Greta",
+    "personality": "Snooty",
+    "birthdate": "September 5",
+    "colors": "Pink, Purple",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Grizzly",
+    "personality": "Cranky",
+    "birthdate": "July 31",
+    "colors": "Black, Red",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Groucho",
+    "personality": "Cranky",
+    "birthdate": "October 23",
+    "colors": "Black, Gray",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Gruff",
+    "personality": "Cranky",
+    "birthdate": "August 29",
+    "colors": "Black, Purple",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Gwen",
+    "personality": "Snooty",
+    "birthdate": "January 23",
+    "colors": "Green, White",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Hamlet",
+    "personality": "Jock",
+    "birthdate": "May 30",
+    "colors": "Blue, Purple",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Hamphrey",
+    "personality": "Cranky",
+    "birthdate": "February 25",
+    "colors": "Beige, Gray",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Hans",
+    "personality": "Smug",
+    "birthdate": "December 5",
+    "colors": "Blue, Gray",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Harry",
+    "personality": "Cranky",
+    "birthdate": "January 7",
+    "colors": "Green, Orange",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Hazel",
+    "personality": "Uchi",
+    "birthdate": "August 30",
+    "colors": "Red, Yellow",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Henry",
+    "personality": "Smug",
+    "birthdate": "September 21",
+    "colors": "Blue, Light Blue",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Hippeux",
+    "personality": "Smug",
+    "birthdate": "October 15",
+    "colors": "Brown, Green",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Hopkins",
+    "personality": "Lazy",
+    "birthdate": "March 11",
+    "colors": "Blue, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Hopper",
+    "personality": "Cranky",
+    "birthdate": "April 6",
+    "colors": "Red, Yellow",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Hornsby",
+    "personality": "Lazy",
+    "birthdate": "March 20",
+    "colors": "Brown, Green",
+    "styles": "Simple"
+  },
+  {
+    "name": "Huck",
+    "personality": "Smug",
+    "birthdate": "July 9",
+    "colors": "Green, Yellow",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Hugh",
+    "personality": "Lazy",
+    "birthdate": "December 30",
+    "colors": "Beige, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Iggly",
+    "personality": "Jock",
+    "birthdate": "November 2",
+    "colors": "Blue, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Ike",
+    "personality": "Cranky",
+    "birthdate": "May 16",
+    "colors": "Blue, Green",
+    "styles": "Cool"
+  },
+  {
+    "name": "Jacob",
+    "personality": "Lazy",
+    "birthdate": "August 24",
+    "colors": "Green, Red",
+    "styles": "Simple"
+  },
+  {
+    "name": "Jacques",
+    "personality": "Smug",
+    "birthdate": "June 22",
+    "colors": "Green, Black",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Jambette",
+    "personality": "Normal",
+    "birthdate": "October 27",
+    "colors": "Brown",
+    "styles": "Cool"
+  },
+  {
+    "name": "Jay",
+    "personality": "Jock",
+    "birthdate": "July 17",
+    "colors": "Blue, Light Blue",
+    "styles": "Active"
+  },
+  {
+    "name": "Jeremiah",
+    "personality": "Lazy",
+    "birthdate": "July 8",
+    "colors": "Orange, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Jitters",
+    "personality": "Jock",
+    "birthdate": "February 2",
+    "colors": "Orange, Yellow",
+    "styles": "Active"
+  },
+  {
+    "name": "Joey",
+    "personality": "Lazy",
+    "birthdate": "January 3",
+    "colors": "Blue, Green",
+    "styles": "Simple"
+  },
+  {
+    "name": "Judy",
+    "personality": "Snooty",
+    "birthdate": "March 10",
+    "colors": "Pink, White",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Julia",
+    "personality": "Snooty",
+    "birthdate": "July 31",
+    "colors": "Purple, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Julian",
+    "personality": "Smug",
+    "birthdate": "March 15",
+    "colors": "Blue, Purple",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "June",
+    "personality": "Normal",
+    "birthdate": "May 21",
+    "colors": "Red, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Kabuki",
+    "personality": "Cranky",
+    "birthdate": "November 29",
+    "colors": "Purple, Red",
+    "styles": "Simple"
+  },
+  {
+    "name": "Katt",
+    "personality": "Uchi",
+    "birthdate": "April 27",
+    "colors": "Black, Purple",
+    "styles": "Cool"
+  },
+  {
+    "name": "Keaton",
+    "personality": "Smug",
+    "birthdate": "June 1",
+    "colors": "Blue, White",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Ken",
+    "personality": "Smug",
+    "birthdate": "December 23",
+    "colors": "Blue, Purple",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Ketchup",
+    "personality": "Peppy",
+    "birthdate": "July 27",
+    "colors": "Light Blue, White",
+    "styles": "Cute"
+  },
+  {
+    "name": "Kevin",
+    "personality": "Jock",
+    "birthdate": "April 26",
+    "colors": "Black, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Kid Cat",
+    "personality": "Jock",
+    "birthdate": "August 1",
+    "colors": "Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Kidd",
+    "personality": "Smug",
+    "birthdate": "June 28",
+    "colors": "Gray, White",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Kiki",
+    "personality": "Normal",
+    "birthdate": "October 8",
+    "colors": "Beige, Brown",
+    "styles": "Simple"
+  },
+  {
+    "name": "Kitt",
+    "personality": "Normal",
+    "birthdate": "October 11",
+    "colors": "Purple, Red",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Kitty",
+    "personality": "Snooty",
+    "birthdate": "February 15",
+    "colors": "Gray, Green",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Klaus",
+    "personality": "Smug",
+    "birthdate": "March 31",
+    "colors": "Gray, White",
+    "styles": "Simple"
+  },
+  {
+    "name": "Knox",
+    "personality": "Cranky",
+    "birthdate": "November 23",
+    "colors": "Brown, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Kody",
+    "personality": "Jock",
+    "birthdate": "September 28",
+    "colors": "Colorful, White",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Kyle",
+    "personality": "Smug",
+    "birthdate": "December 6",
+    "colors": "Black, White",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Leonardo",
+    "personality": "Jock",
+    "birthdate": "May 15",
+    "colors": "Blue, Red",
+    "styles": "Active, Gorgeous"
+  },
+  {
+    "name": "Leopold",
+    "personality": "Smug",
+    "birthdate": "August 14",
+    "colors": "Green, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Lily",
+    "personality": "Normal",
+    "birthdate": "February 4",
+    "colors": "Yellow, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Limberg",
+    "personality": "Cranky",
+    "birthdate": "October 17",
+    "colors": "Blue, Green",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Lionel",
+    "personality": "Smug",
+    "birthdate": "July 29",
+    "colors": "Gray, Green",
+    "styles": "Active, Gorgeous"
+  },
+  {
+    "name": "Lobo",
+    "personality": "Cranky",
+    "birthdate": "November 5",
+    "colors": "Beige, Black",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Lolly",
+    "personality": "Normal",
+    "birthdate": "March 27",
+    "colors": "Gray, Pink",
+    "styles": "Simple"
+  },
+  {
+    "name": "Lopez",
+    "personality": "Smug",
+    "birthdate": "August 20",
+    "colors": "Gray",
+    "styles": "Gorgeous"
+  },
+  {
+    "name": "Louie",
+    "personality": "Jock",
+    "birthdate": "March 26",
+    "colors": "Gray, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Lucha",
+    "personality": "Smug",
+    "birthdate": "December 12",
+    "colors": "Black, Gray",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Lucky",
+    "personality": "Lazy",
+    "birthdate": "November 4",
+    "colors": "Beige, White",
+    "styles": "Simple"
+  },
+  {
+    "name": "Lucy",
+    "personality": "Normal",
+    "birthdate": "June 2",
+    "colors": "Pink, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Lyman",
+    "personality": "Jock",
+    "birthdate": "October 12",
+    "colors": "Light Blue, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Mac",
+    "personality": "Jock",
+    "birthdate": "November 11",
+    "colors": "Black, Red",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Maddie",
+    "personality": "Peppy",
+    "birthdate": "January 11",
+    "colors": "Pink, Purple",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Maelle",
+    "personality": "Snooty",
+    "birthdate": "April 8",
+    "colors": "Pink, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Maggie",
+    "personality": "Normal",
+    "birthdate": "September 3",
+    "colors": "Green, Yellow",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Mallary",
+    "personality": "Snooty",
+    "birthdate": "November 17",
+    "colors": "Blue, White",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Maple",
+    "personality": "Normal",
+    "birthdate": "June 15",
+    "colors": "Beige, Green",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Marcel",
+    "personality": "Lazy",
+    "birthdate": "December 31",
+    "colors": "Blue, Green",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Marcie",
+    "personality": "Normal",
+    "birthdate": "May 31",
+    "colors": "Beige, Pink",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Margie",
+    "personality": "Normal",
+    "birthdate": "January 28",
+    "colors": "Pink, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Marina",
+    "personality": "Normal",
+    "birthdate": "June 26",
+    "colors": "Pink, Red",
+    "styles": "Cute"
+  },
+  {
+    "name": "Marshal",
+    "personality": "Smug",
+    "birthdate": "September 29",
+    "colors": "Blue, Light Blue",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Mathilda",
+    "personality": "Snooty",
+    "birthdate": "November 12",
+    "colors": "Red, White",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Megan",
+    "personality": "Normal",
+    "birthdate": "March 13",
+    "colors": "Light Blue, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Melba",
+    "personality": "Normal",
+    "birthdate": "April 12",
+    "colors": "Green, White",
+    "styles": "Cute"
+  },
+  {
+    "name": "Merengue",
+    "personality": "Normal",
+    "birthdate": "March 19",
+    "colors": "Red, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Merry",
+    "personality": "Peppy",
+    "birthdate": "June 29",
+    "colors": "Light Blue, Pink",
+    "styles": "Cute"
+  },
+  {
+    "name": "Midge",
+    "personality": "Normal",
+    "birthdate": "March 12",
+    "colors": "Pink",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Mint",
+    "personality": "Snooty",
+    "birthdate": "May 2",
+    "colors": "Pink, Purple",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Mira",
+    "personality": "Uchi",
+    "birthdate": "July 6",
+    "colors": "Red, Yellow",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Miranda",
+    "personality": "Snooty",
+    "birthdate": "April 23",
+    "colors": "Blue, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Mitzi",
+    "personality": "Normal",
+    "birthdate": "September 25",
+    "colors": "Beige, Brown",
+    "styles": "Simple"
+  },
+  {
+    "name": "Moe",
+    "personality": "Lazy",
+    "birthdate": "January 12",
+    "colors": "Black, Gray",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Molly",
+    "personality": "Normal",
+    "birthdate": "March 7",
+    "colors": "Pink, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Monique",
+    "personality": "Snooty",
+    "birthdate": "September 30",
+    "colors": "Pink, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Monty",
+    "personality": "Cranky",
+    "birthdate": "December 7",
+    "colors": "Gray, Yellow",
+    "styles": "Cool"
+  },
+  {
+    "name": "Moose",
+    "personality": "Jock",
+    "birthdate": "September 13",
+    "colors": "Purple, Red",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Mott",
+    "personality": "Jock",
+    "birthdate": "July 10",
+    "colors": "Blue, Green",
+    "styles": "Active, Elegant"
+  },
+  {
+    "name": "Muffy",
+    "personality": "Uchi",
+    "birthdate": "February 14",
+    "colors": "Black, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Murphy",
+    "personality": "Cranky",
+    "birthdate": "December 29",
+    "colors": "Blue, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Nan",
+    "personality": "Normal",
+    "birthdate": "August 24",
+    "colors": "Orange, Yellow",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Nana",
+    "personality": "Normal",
+    "birthdate": "August 23",
+    "colors": "Pink, White",
+    "styles": "Cute"
+  },
+  {
+    "name": "Naomi",
+    "personality": "Snooty",
+    "birthdate": "Cow",
+    "colors": "February 28th",
+    "styles": "moolah"
+  },
+  {
+    "name": "Nate",
+    "personality": "Lazy",
+    "birthdate": "August 16",
+    "colors": "Green, White",
+    "styles": "Simple"
+  },
+  {
+    "name": "Nibbles",
+    "personality": "Peppy",
+    "birthdate": "July 19",
+    "colors": "Red, Yellow",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Norma",
+    "personality": "Normal",
+    "birthdate": "September 20",
+    "colors": "Light Blue, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "O'Hare",
+    "personality": "Smug",
+    "birthdate": "July 24",
+    "colors": "Blue, Light Blue",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Octavian",
+    "personality": "Cranky",
+    "birthdate": "September 20",
+    "colors": "Black, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Olaf",
+    "personality": "Smug",
+    "birthdate": "May 19",
+    "colors": "Black, Red",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Olive",
+    "personality": "Normal",
+    "birthdate": "July 12",
+    "colors": "Brown, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Olivia",
+    "personality": "Snooty",
+    "birthdate": "February 3",
+    "colors": "Black, White",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Opal",
+    "personality": "Snooty",
+    "birthdate": "January 20",
+    "colors": "Black, Orange",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Ozzie",
+    "personality": "Lazy",
+    "birthdate": "May 7",
+    "colors": "Orange, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Pancetti",
+    "personality": "Snooty",
+    "birthdate": "November 14",
+    "colors": "Red, Yellow",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Pango",
+    "personality": "Peppy",
+    "birthdate": "November 9",
+    "colors": "Orange, Purple",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Paolo",
+    "personality": "Lazy",
+    "birthdate": "May 5",
+    "colors": "Gray, Light Blue",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Papi",
+    "personality": "Lazy",
+    "birthdate": "January 10",
+    "colors": "Light Blue, Orange",
+    "styles": "Simple"
+  },
+  {
+    "name": "Pashmina",
+    "personality": "Uchi",
+    "birthdate": "December 26",
+    "colors": "Colorful, Red",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Pate",
+    "personality": "Peppy",
+    "birthdate": "February 23",
+    "colors": "Yellow, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Patty",
+    "personality": "Peppy",
+    "birthdate": "May 10",
+    "colors": "Orange, Red",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Paula",
+    "personality": "Uchi",
+    "birthdate": "March 22",
+    "colors": "Green, Orange",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Peaches",
+    "personality": "Normal",
+    "birthdate": "November 28",
+    "colors": "Colorful, Light Blue",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Peanut",
+    "personality": "Peppy",
+    "birthdate": "June 8",
+    "colors": "Colorful, Red",
+    "styles": "Cute"
+  },
+  {
+    "name": "Pecan",
+    "personality": "Snooty",
+    "birthdate": "September 10",
+    "colors": "Beige, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Peck",
+    "personality": "Jock",
+    "birthdate": "July 25",
+    "colors": "Beige, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Peewee",
+    "personality": "Cranky",
+    "birthdate": "September 11",
+    "colors": "Blue, Orange",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Peggy",
+    "personality": "Peppy",
+    "birthdate": "May 23",
+    "colors": "Blue, Red",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Pekoe",
+    "personality": "Normal",
+    "birthdate": "May 18",
+    "colors": "Beige, Red",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Penelope",
+    "personality": "Peppy",
+    "birthdate": "February 5",
+    "colors": "Pink, Red",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Phil",
+    "personality": "Smug",
+    "birthdate": "November 27",
+    "colors": "Green, Red",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Phoebe",
+    "personality": "Uchi",
+    "birthdate": "April 22",
+    "colors": "Black, Red",
+    "styles": "Gorgeous, Cool"
+  },
+  {
+    "name": "Pierce",
+    "personality": "Jock",
+    "birthdate": "January 8",
+    "colors": "Orange, Yellow",
+    "styles": "Active, Elegant"
+  },
+  {
+    "name": "Pietro",
+    "personality": "Smug",
+    "birthdate": "April 19",
+    "colors": "Colorful, Red",
+    "styles": "Gorgeous, Simple"
+  },
+  {
+    "name": "Pinky",
+    "personality": "Peppy",
+    "birthdate": "September 9",
+    "colors": "Pink, Red",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Piper",
+    "personality": "Peppy",
+    "birthdate": "April 18",
+    "colors": "Black, White",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Pippy",
+    "personality": "Peppy",
+    "birthdate": "June 14",
+    "colors": "Brown, Green",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Plucky",
+    "personality": "Uchi",
+    "birthdate": "October 12",
+    "colors": "Light Blue, Yellow",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Pompom",
+    "personality": "Peppy",
+    "birthdate": "February 11",
+    "colors": "Light Blue, Pink",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Poncho",
+    "personality": "Jock",
+    "birthdate": "January 2",
+    "colors": "Orange, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Poppy",
+    "personality": "Normal",
+    "birthdate": "August 5",
+    "colors": "Green, Yellow",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Portia",
+    "personality": "Snooty",
+    "birthdate": "October 25",
+    "colors": "Black, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Prince",
+    "personality": "Lazy",
+    "birthdate": "July 21",
+    "colors": "Yellow, White",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Puck",
+    "personality": "Lazy",
+    "birthdate": "February 21",
+    "colors": "Blue, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Puddles",
+    "personality": "Peppy",
+    "birthdate": "January 13",
+    "colors": "Green, Pink",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Pudge",
+    "personality": "Lazy",
+    "birthdate": "June 11",
+    "colors": "Blue, Green",
+    "styles": "Simple"
+  },
+  {
+    "name": "Punchy",
+    "personality": "Lazy",
+    "birthdate": "April 11",
+    "colors": "Blue, Light Blue",
+    "styles": "Simple"
+  },
+  {
+    "name": "Purrl",
+    "personality": "Snooty",
+    "birthdate": "May 29",
+    "colors": "Blue, Gray",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Queenie",
+    "personality": "Snooty",
+    "birthdate": "November 13",
+    "colors": "Black, Gray",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Quillson",
+    "personality": "Smug",
+    "birthdate": "December 22",
+    "colors": "Beige, Orange",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Raddle",
+    "personality": "Lazy",
+    "birthdate": "June 6",
+    "colors": "Gray, White",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Rasher",
+    "personality": "Cranky",
+    "birthdate": "April 7",
+    "colors": "Black, Blue",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Raymond",
+    "personality": "Smug",
+    "birthdate": "October 1",
+    "colors": "Black, Gray",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Renée",
+    "personality": "Uchi",
+    "birthdate": "May 28",
+    "colors": "Purple, Yellow",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Reneigh",
+    "personality": "Uchi",
+    "birthdate": "June 4",
+    "colors": "Black, Purple",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Rex",
+    "personality": "Lazy",
+    "birthdate": "July 24",
+    "colors": "Blue, Light Blue",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Rhonda",
+    "personality": "Normal",
+    "birthdate": "January 24",
+    "colors": "Black, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Ribbot",
+    "personality": "Jock",
+    "birthdate": "February 13",
+    "colors": "Blue, Light Blue",
+    "styles": "Simple, Active"
+  },
+  {
+    "name": "Ricky",
+    "personality": "Cranky",
+    "birthdate": "September 14",
+    "colors": "Blue, Red",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Rizzo",
+    "personality": "Cranky",
+    "birthdate": "January 17",
+    "colors": "Black, Gray",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Roald",
+    "personality": "Jock",
+    "birthdate": "January 5",
+    "colors": "Red, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Robin",
+    "personality": "Snooty",
+    "birthdate": "December 4",
+    "colors": "Light Blue, Purple",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Rocco",
+    "personality": "Cranky",
+    "birthdate": "August 18",
+    "colors": "Black, Yellow",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Rocket",
+    "personality": "Uchi",
+    "birthdate": "April 14",
+    "colors": "Pink, Red",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Rod",
+    "personality": "Jock",
+    "birthdate": "August 14",
+    "colors": "Blue, Light Blue",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Rodeo",
+    "personality": "Lazy",
+    "birthdate": "October 29",
+    "colors": "Black, Red",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Rodney",
+    "personality": "Smug",
+    "birthdate": "November 10",
+    "colors": "Colorful, Pink",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Rolf",
+    "personality": "Cranky",
+    "birthdate": "August 22",
+    "colors": "Blue, Black",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Rooney",
+    "personality": "Cranky",
+    "birthdate": "December 1",
+    "colors": "Black, Gray",
+    "styles": "Active"
+  },
+  {
+    "name": "Rory",
+    "personality": "Jock",
+    "birthdate": "August 7",
+    "colors": "Blue, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Roscoe",
+    "personality": "Cranky",
+    "birthdate": "June 16",
+    "colors": "Black, Gray",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Rosie",
+    "personality": "Peppy",
+    "birthdate": "February 27",
+    "colors": "Pink, Red",
+    "styles": "Cute"
+  },
+  {
+    "name": "Rowan",
+    "personality": "Jock",
+    "birthdate": "August 26",
+    "colors": "Gray, Light Blue",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Ruby",
+    "personality": "Peppy",
+    "birthdate": "December 25",
+    "colors": "Light Blue, Pink",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Rudy",
+    "personality": "Jock",
+    "birthdate": "December 20",
+    "colors": "Beige, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Sally",
+    "personality": "Normal",
+    "birthdate": "June 19",
+    "colors": "Beige, White",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Samson",
+    "personality": "Jock",
+    "birthdate": "July 5",
+    "colors": "Red, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Sandy",
+    "personality": "Normal",
+    "birthdate": "October 21",
+    "colors": "Light Blue, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Savannah",
+    "personality": "Normal",
+    "birthdate": "January 25",
+    "colors": "Blue, Light Blue",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Scoot",
+    "personality": "Jock",
+    "birthdate": "June 13",
+    "colors": "Beige, Blue",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Shari",
+    "personality": "Uchi",
+    "birthdate": "April 10",
+    "colors": "Light Blue, Yellow",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Sheldon",
+    "personality": "Jock",
+    "birthdate": "February 26",
+    "colors": "Green, Yellow",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Shep",
+    "personality": "Smug",
+    "birthdate": "November 24",
+    "colors": "Blue, Light Blue",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Sherb",
+    "personality": "Lazy",
+    "birthdate": "January 18",
+    "colors": "Blue, Gray",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Simon",
+    "personality": "Lazy",
+    "birthdate": "January 19",
+    "colors": "Colorful, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Skye",
+    "personality": "Normal",
+    "birthdate": "March 24",
+    "colors": "Blue, White",
+    "styles": "Cute"
+  },
+  {
+    "name": "Sly",
+    "personality": "Jock",
+    "birthdate": "November 15",
+    "colors": "Brown, Green",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Snake",
+    "personality": "Jock",
+    "birthdate": "November 3",
+    "colors": "Black, Blue",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Snooty",
+    "personality": "Snooty",
+    "birthdate": "August 24",
+    "colors": "Green, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Soleil",
+    "personality": "Snooty",
+    "birthdate": "August 9",
+    "colors": "Red, Yellow",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Sparro",
+    "personality": "Jock",
+    "birthdate": "November 20",
+    "colors": "Gray, Green",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Spike",
+    "personality": "Cranky",
+    "birthdate": "June 17",
+    "colors": "Black, Gray",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Spork",
+    "personality": "Lazy",
+    "birthdate": "September 3",
+    "colors": "Colorful, Green",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Sprinkle",
+    "personality": "Peppy",
+    "birthdate": "February 20",
+    "colors": "Light Blue, White",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Sprocket",
+    "personality": "Jock",
+    "birthdate": "December 1",
+    "colors": "Green, Orange",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Static",
+    "personality": "Cranky",
+    "birthdate": "July 9",
+    "colors": "Black, Yellow",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Stella",
+    "personality": "Normal",
+    "birthdate": "April 9",
+    "colors": "Beige, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Sterling",
+    "personality": "Jock",
+    "birthdate": "December 11",
+    "colors": "Blue, Red",
+    "styles": "Elegant, Simple"
+  },
+  {
+    "name": "Stinky",
+    "personality": "Jock",
+    "birthdate": "August 17",
+    "colors": "Blue, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Stitches",
+    "personality": "Lazy",
+    "birthdate": "February 10",
+    "colors": "Colorful, White",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Stu",
+    "personality": "Lazy",
+    "birthdate": "April 20",
+    "colors": "Beige, Brown",
+    "styles": "Simple"
+  },
+  {
+    "name": "Sydney",
+    "personality": "Normal",
+    "birthdate": "June 21",
+    "colors": "Beige, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Sylvana",
+    "personality": "Normal",
+    "birthdate": "October 22",
+    "colors": "Green, Purple",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Sylvia",
+    "personality": "Uchi",
+    "birthdate": "May 3",
+    "colors": "Green, Yellow",
+    "styles": "Gorgeous, Simple"
+  },
+  {
+    "name": "T-Bone",
+    "personality": "Cranky",
+    "birthdate": "May 20",
+    "colors": "Black, Blue",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Tabby",
+    "personality": "Peppy",
+    "birthdate": "August 13",
+    "colors": "Black, Gray",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Tad",
+    "personality": "Jock",
+    "birthdate": "August 3",
+    "colors": "Colorful, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Tammi",
+    "personality": "Peppy",
+    "birthdate": "April 2",
+    "colors": "Green, Purple",
+    "styles": "Active, Cute"
+  },
+  {
+    "name": "Tammy",
+    "personality": "Uchi",
+    "birthdate": "June 23",
+    "colors": "Purple, Red",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Tangy",
+    "personality": "Peppy",
+    "birthdate": "June 17",
+    "colors": "Green, Yellow",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Tank",
+    "personality": "Jock",
+    "birthdate": "May 6",
+    "colors": "Green, Red",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Tasha",
+    "personality": "Snooty",
+    "birthdate": "November 30",
+    "colors": "Beige, Gray",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Teddy",
+    "personality": "Jock",
+    "birthdate": "September 26",
+    "colors": "Orange, Yellow",
+    "styles": "Simple"
+  },
+  {
+    "name": "Tex",
+    "personality": "Smug",
+    "birthdate": "October 6",
+    "colors": "Black, Gray",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Tia",
+    "personality": "Normal",
+    "birthdate": "November 18",
+    "colors": "Black, White",
+    "styles": "Cute, Elegant"
+  },
+  {
+    "name": "Tiffany",
+    "personality": "Snooty",
+    "birthdate": "January 9",
+    "colors": "Black, Red",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Timbra",
+    "personality": "Snooty",
+    "birthdate": "October 21",
+    "colors": "Brown, Green",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Tipper",
+    "personality": "Snooty",
+    "birthdate": "August 25",
+    "colors": "Colorful, Pink",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Tom",
+    "personality": "Cranky",
+    "birthdate": "December 10",
+    "colors": "Black, Gray",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Truffles",
+    "personality": "Peppy",
+    "birthdate": "July 28",
+    "colors": "Green, Red",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Tucker",
+    "personality": "Lazy",
+    "birthdate": "September 7",
+    "colors": "Orange, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Tutu",
+    "personality": "Peppy",
+    "birthdate": "November 15",
+    "colors": "Pink, Red",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Twiggy",
+    "personality": "Peppy",
+    "birthdate": "July 13",
+    "colors": "Blue, Pink",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Tybalt",
+    "personality": "Jock",
+    "birthdate": "August 19",
+    "colors": "Blue, Purple",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Ursala",
+    "personality": "Uchi",
+    "birthdate": "January 16",
+    "colors": "Orange, Red",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Velma",
+    "personality": "Snooty",
+    "birthdate": "January 14",
+    "colors": "Light Blue, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Vesta",
+    "personality": "Normal",
+    "birthdate": "April 16",
+    "colors": "Orange, Red",
+    "styles": "Cute, Simple"
+  },
+  {
+    "name": "Vic",
+    "personality": "Cranky",
+    "birthdate": "December 29",
+    "colors": "Blue, Light Blue",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Victoria",
+    "personality": "Peppy",
+    "birthdate": "July 11",
+    "colors": "Orange, Yellow",
+    "styles": "Active, Simple"
+  },
+  {
+    "name": "Violet",
+    "personality": "Snooty",
+    "birthdate": "September 1",
+    "colors": "Pink, Purple",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Vivian",
+    "personality": "Snooty",
+    "birthdate": "January 26",
+    "colors": "Gray, Purple",
+    "styles": "Elegant, Gorgeous"
+  },
+  {
+    "name": "Vladimir",
+    "personality": "Cranky",
+    "birthdate": "August 2",
+    "colors": "Colorful, Yellow",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Wade",
+    "personality": "Lazy",
+    "birthdate": "October 30",
+    "colors": "Blue, Light Blue",
+    "styles": "Gorgeous, Simple"
+  },
+  {
+    "name": "Walker",
+    "personality": "Lazy",
+    "birthdate": "June 10",
+    "colors": "Orange, Red",
+    "styles": "Simple"
+  },
+  {
+    "name": "Walt",
+    "personality": "Cranky",
+    "birthdate": "April 24",
+    "colors": "Black, Gray",
+    "styles": "Cool"
+  },
+  {
+    "name": "Wart Jr.",
+    "personality": "Cranky",
+    "birthdate": "August 21",
+    "colors": "Blue, Purple",
+    "styles": "Simple"
+  },
+  {
+    "name": "Weber",
+    "personality": "Lazy",
+    "birthdate": "June 30",
+    "colors": "Black, Blue",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Wendy",
+    "personality": "Peppy",
+    "birthdate": "August 15",
+    "colors": "Green, Red",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Whitney",
+    "personality": "Snooty",
+    "birthdate": "September 17",
+    "colors": "Blue, Light Blue",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Willow",
+    "personality": "Snooty",
+    "birthdate": "November 26",
+    "colors": "Pink, White",
+    "styles": "Cute, Gorgeous"
+  },
+  {
+    "name": "Winnie",
+    "personality": "Peppy",
+    "birthdate": "January 31",
+    "colors": "Gray, White",
+    "styles": "Cool, Simple"
+  },
+  {
+    "name": "Wolfgang",
+    "personality": "Cranky",
+    "birthdate": "November 25",
+    "colors": "Black, Green",
+    "styles": "Active, Cool"
+  },
+  {
+    "name": "Yuka",
+    "personality": "Snooty",
+    "birthdate": "July 20",
+    "colors": "Orange, Yellow",
+    "styles": "Cool, Elegant"
+  },
+  {
+    "name": "Zell",
+    "personality": "Smug",
+    "birthdate": "June 7",
+    "colors": "Gray, Purple",
+    "styles": "Cool, Gorgeous"
+  },
+  {
+    "name": "Zucker",
+    "personality": "Lazy",
+    "birthdate": "March 8",
+    "colors": "Blue, Yellow",
+    "styles": "Cute, Simple"
+  }
+]

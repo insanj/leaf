@@ -16,6 +16,7 @@ import Paper from '@material-ui/core/Paper';
 
 
 import fandom_villagers_scraped from '../data/fandom_villagers_scraped';
+import nintendolife_villager_gift_guide from '../data/nintendolife_villager_gift_guide';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -31,7 +32,19 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function LeafVillagersSection({ searchText, villagers=fandom_villagers_scraped }) {
+const mergedData = () => {
+  let villagers = fandom_villagers_scraped;
+  let giftGuide = nintendolife_villager_gift_guide;
+  let merged = fandom_villagers_scraped.map(v => {
+    const giftGuideEntry = giftGuide.filter(g => g.name === v.name)[0];
+    v.colors = giftGuideEntry.colors;
+    v.styles = giftGuideEntry.styles;
+    return v;
+  });
+  return merged;
+}
+
+export default function LeafVillagersSection({ searchText, villagers=mergedData() }) {
   const classes = useStyles();
   const [expandedVillager, setExpandedVillager] = React.useState('');
 
@@ -57,6 +70,8 @@ export default function LeafVillagersSection({ searchText, villagers=fandom_vill
         <TableCell align="left">{villager.birthday}</TableCell>
         <TableCell align="left">{villager.catchphrase}</TableCell>
         <TableCell align="left">{villager.hobby}</TableCell>
+        <TableCell align="left">{villager.colors}</TableCell>
+        <TableCell align="left">{villager.styles}</TableCell>
       </TableRow>
     );
   }
@@ -94,6 +109,8 @@ export default function LeafVillagersSection({ searchText, villagers=fandom_vill
               <TableCell align="left">Birthday</TableCell>
               <TableCell align="left">Catchphrase</TableCell>
               <TableCell align="left">Hobby</TableCell>
+              <TableCell align="left">Color(s)</TableCell>
+              <TableCell align="left">Style(s)</TableCell>
             </TableRow>
           </TableHead>
 
