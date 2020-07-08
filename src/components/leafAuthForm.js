@@ -5,12 +5,11 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
-  },
-  form: {
-    width: '28ch',
+    width: '300px',
     marginLeft: 'auto',
     marginRight: 'auto',
+  },
+  form: {
     background: 'rgba(0,0,0,0.2)',
     borderRadius: '15px',
     padding: 15,

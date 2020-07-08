@@ -43,13 +43,14 @@ const useStyles = makeStyles((theme) => ({
   root: {
     color: '#fff',
     marginTop: 20,
-    width: '98vw'
+    width: '100vw'
   },
   subtitleElement: {
     margin: 0,
   },
   grid: {
     padding: 5,
+    marginRight: 10,
     marginTop: 0
   },
   formControl: {

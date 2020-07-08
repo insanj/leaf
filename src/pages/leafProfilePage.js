@@ -18,15 +18,30 @@ import LeafLoading from  '../components/leafLoading';
 import LeafProfileCountersSection from '../components/leafProfileCountersSection';
 
 import { useSnackbar } from 'notistack';
+import Slide from '@material-ui/core/Slide';
+import Grow from '@material-ui/core/Grow';
+
+function GrowTransition(props) {
+  return <Grow {...props} />;
+}
 
 const useStyles = makeStyles((theme) => ({
   unauthed: {
-    paddingTop: 30,
-
     '& > *': {
       marginBottom: 10
     },
   },
+  unauthedLanding: {
+    paddingTop: 30,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingBottom: 10,
+    margin: 30,
+    textAlign: 'center',
+    maxWidth: 300,
+    marginLeft: 'auto',
+    marginRight: 'auto'
+  }
 }));
 
 export default function LeafProfilePage({ searchText }) {
@@ -53,9 +68,10 @@ export default function LeafProfilePage({ searchText }) {
     enqueueSnackbar(snackMsg, {
       variant: 'info',
       anchorOrigin: {
-        vertical: 'bottom',
+        vertical: 'top',
         horizontal: 'center',
       },
+      autoHideDuration: 2000,
     });
 
     const networker = new LeafNetworker();
@@ -66,9 +82,10 @@ export default function LeafProfilePage({ searchText }) {
       enqueueSnackbar('🎉 Signed in successfully!', {
         variant: 'success',
         anchorOrigin: {
-          vertical: 'bottom',
+          vertical: 'top',
           horizontal: 'center',
         },
+          autoHideDuration: 3000,
       });
 
       setIsLoading(false);
@@ -80,23 +97,34 @@ export default function LeafProfilePage({ searchText }) {
       enqueueSnackbar(errorMsg, {
         variant: 'error',
         anchorOrigin: {
-          vertical: 'bottom',
+          vertical: 'top',
           horizontal: 'center',
         },
+        autoHideDuration: 3000,
       });
 
     });
   }, [setIsLoading, setIsAuthed]);
 
   const handleSignInGoClicked = (payload) => {
+    enqueueSnackbar('Signing in...', {
+      variant: 'info',
+      anchorOrigin: {
+        vertical: 'top',
+        horizontal: 'center',
+      },
+      autoHideDuration: 500,
+    });
+
     const networker = new LeafNetworker();
     networker.login(payload).then(r => {
       enqueueSnackbar('🎉 Signed in successfully!', {
         variant: 'success',
         anchorOrigin: {
-          vertical: 'bottom',
+          vertical: 'top',
           horizontal: 'center',
         },
+        autoHideDuration: 3000,
       });
 
       setIsAuthed(true);
@@ -107,22 +135,33 @@ export default function LeafProfilePage({ searchText }) {
       enqueueSnackbar(errorMsg, {
         variant: 'error',
         anchorOrigin: {
-          vertical: 'bottom',
+          vertical: 'top',
           horizontal: 'center',
         },
+        autoHideDuration: 3000,
       });
     });
   }
 
   const handleRegisterGoClicked = (payload) => {
+    enqueueSnackbar('Registering for an account...', {
+      variant: 'info',
+      anchorOrigin: {
+        vertical: 'top',
+        horizontal: 'center',
+      },
+      autoHideDuration: 500,
+    });
+
     const networker = new LeafNetworker();
     networker.register(payload).then(r => {
       enqueueSnackbar('🎉 Thanks for making an account! Try signing in with your username and password now.', {
         variant: 'success',
         anchorOrigin: {
-          vertical: 'bottom',
+          vertical: 'top',
           horizontal: 'center',
         },
+        autoHideDuration: 3000,
       });
 
     }).catch(e => {
@@ -130,9 +169,10 @@ export default function LeafProfilePage({ searchText }) {
       enqueueSnackbar(errorMsg, {
         variant: 'error',
         anchorOrigin: {
-          vertical: 'bottom',
+          vertical: 'top',
           horizontal: 'center',
         },
+        autoHideDuration: 3000,
       });
     });
   }
@@ -227,14 +267,23 @@ export default function LeafProfilePage({ searchText }) {
 
   const unauthed = (
     <div className={classes.unauthed}>
-      <LeafAuthForm
-        isLogin={true}
-        onGoClick={ handleSignInGoClicked }
-      />
+
+      <Paper className={classes.unauthedLanding}>
+        <h1>🐝</h1>
+        <h3>👋 Welcome to <b>myleaf.fun</b>!</h3>
+        <h4>Most of our features do not require you to make an account... but if you want to keep track of your <i>tool durability</i>, <i>museum donations</i>, or <i>island villagers</i>, go ahead and make an account! It's completely free. ❤️</h4>
+      </Paper>
+
       <LeafAuthForm 
         isLogin={false}
         onGoClick={ handleRegisterGoClicked }
       />
+
+      <LeafAuthForm
+        isLogin={true}
+        onGoClick={ handleSignInGoClicked }
+      />
+     
     </div>
   );
 
