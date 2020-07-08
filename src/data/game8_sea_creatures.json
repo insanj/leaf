@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Seaweed",
+    "icon": "https://img.game8.co/3254274/ad121f1916ca3d14297c9ce3f35acf8f.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "600",
+    "data": "Months:\nOctober to July\nTime:\nAnytime"
+  },
+  {
+    "name": "Sea Grapes",
+    "icon": "https://img.game8.co/3254264/5a76bae75a0da44fa453df035c7c39c9.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "900",
+    "data": "Months:\nJune to September\nTime:\nAnytime"
+  },
+  {
+    "name": "Sea Cucumber",
+    "icon": "https://img.game8.co/3254350/72558dd52b99d26c43fa55af7d45dde7.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "500",
+    "data": "Months:\nNovember to April\nTime:\nAnytime"
+  },
+  {
+    "name": "Sea Pig",
+    "icon": "https://img.game8.co/3254537/32afe29bd6211f45ec6dfd4e1c762933.jpeg/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "10000",
+    "data": "Months:\nNovember to February\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Sea Star",
+    "icon": "https://img.game8.co/3254270/d78ed340515289fc679f33f87a775215.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "500",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Sea Urchin",
+    "icon": "https://img.game8.co/3254268/93f9bfacbc33c47cacfc6c82a617505b.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1700",
+    "data": "Months:\nMay to September\nTime:\nAnytime"
+  },
+  {
+    "name": "Slate Pencil Urchin",
+    "icon": "https://img.game8.co/3254443/3bdbafafa7c8a5138efe87061dd360c7.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "2000",
+    "data": "Months:\nMay to September\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Sea Anemone",
+    "icon": "https://img.game8.co/3253315/3fbb158c437096f80281909d25717688.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "500",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Moon Jellyfish",
+    "icon": "https://img.game8.co/3254269/624587deefc613786f71282c8d0deeb2.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "600",
+    "data": "Months:\nJuly to September\nTime:\nAnytime"
+  },
+  {
+    "name": "Sea Slug",
+    "icon": "https://img.game8.co/3254265/7025591cf69afb9875074976b11dd906.png/show",
+    "shadowSize": "Small",
+    "image": "https://img.game8.co/3254483/a6feeb236a63a40376c2cc6c2add4608.jpeg/show",
+    "sellPrice": "600",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Pearl Oyster",
+    "icon": "https://img.game8.co/3254429/5ac36a8cfe3ef1a0bf4ef97f040fee13.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "2800",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Mussel",
+    "icon": "https://img.game8.co/3254266/077a89f6cca1b9a5aa299ade4cf4ebe0.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1500",
+    "data": "Months:\nJune to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Oyster",
+    "icon": "https://img.game8.co/3254261/1b601872faac8ef12096dcd0bbde169c.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1100",
+    "data": "Months:\nSeptember to February\nTime:\nAnytime"
+  },
+  {
+    "name": "Scallop",
+    "icon": "https://img.game8.co/3254273/e8971e1306223b01360a51bd1c5a6bfd.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "1200",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Whelk",
+    "icon": "https://img.game8.co/3254271/2067f9967fad74fb870a2389dd0462cc.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1000",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Turban Shell",
+    "icon": "https://img.game8.co/3254464/94a453045100fd44e1dd8a337eed7c63.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1000",
+    "data": "Months:\nMarch to May |\nSeptember to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Abalone",
+    "icon": "https://img.game8.co/3254436/87bfbb4f3d0bc3692a43704145494954.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "2000",
+    "data": "Months:\nJune to January\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Gigas Giant Clam",
+    "icon": "https://img.game8.co/3254479/70baa2c5ce0ae136e84e9a55a96dc924.png/thumb",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "15000",
+    "data": "Months:\nMay to September\nTime:\nAnytime"
+  },
+  {
+    "name": "Chambered Nautilus",
+    "icon": "https://img.game8.co/3254466/2ea2a67defb2e767db878f1b3877089d.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "1800",
+    "data": "Months:\nMarch to June\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Octopus",
+    "icon": "https://img.game8.co/3254275/bf0506d434a005855d0c19a14e2bd6de.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "1200",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Umbrella Octopus",
+    "icon": "https://img.game8.co/3254262/374922f5fea6a9e5f40ad1f313d76991.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "6000",
+    "data": "Months:\nMarch to May |\nSeptember to November\nTime:\nAnytime"
+  },
+  {
+    "name": "Vampire Squid",
+    "icon": "https://img.game8.co/3254535/eff2e0ef5b546af632af8a8b9d432235.jpeg/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "10000",
+    "data": "Months:\nMay to August\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Firefly Squid",
+    "icon": "https://img.game8.co/3254540/acbd7fb8ebf331b5b6a6e0c780e62838.jpeg/show",
+    "shadowSize": "Small",
+    "image": "https://img.game8.co/3254483/a6feeb236a63a40376c2cc6c2add4608.jpeg/show",
+    "sellPrice": "1400",
+    "data": "Months:\nMarch to June\nTime:\n9 PM to 4 AM"
+  },
+  {
+    "name": "Gazami Crab",
+    "icon": "https://img.game8.co/3254462/391dcbfca854755dafd101f89579265a.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "2200",
+    "data": "Months:\nJune to November\nTime:\nAnytime"
+  },
+  {
+    "name": "Dungeness Crab",
+    "icon": "https://img.game8.co/3254461/0df2c0a672116bc112fa665b1c5cf434.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "1900",
+    "data": "Months:\nNovember to May\nTime:\nAnytime"
+  },
+  {
+    "name": "Snow Crab",
+    "icon": "https://img.game8.co/3254351/37778d06af79f371190b2516b1527999.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "6000",
+    "data": "Months:\nNovember to April\nTime:\nAnytime"
+  },
+  {
+    "name": "Red King Crab",
+    "icon": "https://img.game8.co/3254463/230165f57c99fa347406535e14dbc534.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "8000",
+    "data": "Months:\nNovember to March\nTime:\nAnytime"
+  },
+  {
+    "name": "Acorn Barnacle",
+    "icon": "https://img.game8.co/3254263/819b7ed88fb01bc5a611796dc3e47baa.png/show",
+    "shadowSize": "Small",
+    "image": "https://img.game8.co/3254483/a6feeb236a63a40376c2cc6c2add4608.jpeg/show",
+    "sellPrice": "600",
+    "data": "Months:\nJanuary to December\nTime:\nAnytime"
+  },
+  {
+    "name": "Spider Crab",
+    "icon": "https://img.game8.co/3254539/c0c762a7fdd8f2736d30ce0a6171444c.jpeg/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "10000",
+    "data": "Months:\nMarch to April\nTime:\nAnytime"
+  },
+  {
+    "name": "Tiger Prawn",
+    "icon": "https://img.game8.co/3254467/559be4d47a9727a339f8ecccd795bf07.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "3000",
+    "data": "Months:\nJune to September\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Sweet Shrimp",
+    "icon": "https://img.game8.co/3254538/07ee92fed86e8ed5c160678dd31e4833.jpeg/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1400",
+    "data": "Months:\nSeptember to February\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Mantis Shrimp",
+    "icon": "https://img.game8.co/3254442/772dfa650a42f10fb1d2a2a3b30ee1ae.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "2500",
+    "data": "Months:\nJanuary to December\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Spiny Lobster",
+    "icon": "https://img.game8.co/3254533/f272cbf4726e6e438f1eb3ded80cf310.jpeg/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "3000",
+    "data": "Months:\nOctober to December\nTime:\n9 PM to 4 AM"
+  },
+  {
+    "name": "Lobster",
+    "icon": "https://img.game8.co/3254352/7446508322ba1104bb326a01853f710b.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "4500",
+    "data": "Months:\nApril to June |\nDecember to January\nTime:\nAnytime"
+  },
+  {
+    "name": "Giant Isopod",
+    "icon": "https://img.game8.jp/4717281/c13d96557647353d5aff3f856503ac5f.jpeg/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "9000",
+    "data": "Months:\nJuly to October\nTime:\n9 AM to 4 PM |\n9 PM to 4 AM"
+  },
+  {
+    "name": "Horseshoe Crab",
+    "icon": "https://img.game8.co/3254536/813a167d405ab4480428a966ca94c449.jpeg/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1500",
+    "data": "Months:\nApril to August\nTime:\nAnytime"
+  },
+  {
+    "name": "Sea Pineapple",
+    "icon": "https://img.game8.co/3254276/ccf4742877df29c5099067b48c108474.png/show",
+    "shadowSize": "Large",
+    "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
+    "sellPrice": "1500",
+    "data": "Months:\nJuly to September\nTime:\n9 PM to 4 AM"
+  },
+  {
+    "name": "Spotted Garden Eel",
+    "icon": "https://img.game8.co/3253317/9bbb235316750b31c68be4ab4feaa674.png/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "1100",
+    "data": "Months:\nMay to October\nTime:\n4 AM to 9 PM"
+  },
+  {
+    "name": "Flatworm",
+    "icon": "https://img.game8.co/3254534/488d2375ebb85689e28e6cf36ca3b006.jpeg/show",
+    "shadowSize": "Small",
+    "image": "https://img.game8.co/3254483/a6feeb236a63a40376c2cc6c2add4608.jpeg/show",
+    "sellPrice": "200",
+    "data": "Months:\nAugust to September\nTime:\n4 PM to 9 AM"
+  },
+  {
+    "name": "Venus' Flower Basket",
+    "icon": "https://img.game8.co/3254541/3c540bf8fcb43dbebd96cb1bf8bc9d31.jpeg/show",
+    "shadowSize": "Medium",
+    "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
+    "sellPrice": "5000",
+    "data": "Months:\nOctober to February\nTime:\nAnytime"
+  }
+]

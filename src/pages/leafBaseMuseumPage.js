@@ -23,6 +23,7 @@ import acnh_fandom_order from '../data/acnh_fandom_order';
 import dayglopterodactyl from '../data/dayglopterodactyl';
 import acnh_master_list from '../data/1eyQtn5bBy14udf8Ntn_OLkmqKRJmuGKLMXrEHY9nNKE';
 import game8_art from '../data/game8_art';
+import game8_sea_creatures from '../data/game8_sea_creatures';
 
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ScheduleIcon from '@material-ui/icons/Schedule';
@@ -401,6 +402,21 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     return art;
   }
 
+  const getSeacreatures = () => {
+    let seacreatures = game8_sea_creatures;
+
+    if (searchText && searchText.length > 0) {
+      const searchLowercase = searchText.toLowerCase();
+      seacreatures = seacreatures.filter(f => {
+        const allValues = Object.keys(f).map(v => v.toLowerCase());
+        const matchingValues = allValues.filter(v => v.includes(searchLowercase));
+        return matchingValues && matchingValues.length > 0;
+      });
+    }
+
+    return seacreatures;
+  }
+
   const generateCards = () => {
     const fishes = getFishes();
     const fishItems = fishes.map(fish => {
@@ -447,6 +463,18 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       }
     });
 
+    const seacreatures = getSeacreatures();
+    const seacreatureItems = seacreatures.map(a => {
+      return {
+        title: a.name,
+        location: '',
+        time: a.data,
+        price: a.sellPrice,
+        rarity: a.shadowSize,
+        image: a.icon
+      }
+    });
+
     let items = [];
     if (selectedTab === 'everything') {
       items = insectItems.concat(fishItems);
@@ -458,7 +486,9 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       items = fossilItems;
     } else if (selectedTab === 'art') {
       items = artItems;
-    } 
+    } else if (selectedTab === 'seacreatures') {
+      items = seacreatureItems;
+    }
 
     let sortedItems = items;
     if ((!sortType && showOnlyActive === true) || (sortType && sortType === 'Price')) {

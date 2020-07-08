@@ -12,7 +12,7 @@ serve: env
 	npm start
 
 .PHONY: build
-build: 
+build: env
 	-rm .env
 	npm run build
 	rm -r -f docs

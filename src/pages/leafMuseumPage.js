@@ -17,7 +17,8 @@ export default function LeafMuseumPage(props) {
       <Tabs value={ selectedTab } onChange={ handleTabChange } variant="scrollable" scrollButtons="auto" aria-label="tabs">
         <Tab label="Everything" value="everything" />
         <Tab label="Bugs" value="insects" />
-        <Tab label="Fish" value="fish" />    
+        <Tab label="Fish" value="fish" />   
+        <Tab label="Sea Creatures" value="seacreatures" />     
       </Tabs>
     </AppBar>
   );
