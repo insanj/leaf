@@ -39,6 +39,11 @@ import moment from 'moment';
 
 import '../css/leafMuseumPage.css';
 
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 const useStyles = makeStyles((theme) => ({
   root: {
     color: '#fff',
@@ -415,6 +420,11 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       });
     }
 
+    if (showOnlyActive === true) {
+      const filtered = seacreatures.filter(f => filterByActive(f));
+      return filtered;
+    }
+
     return seacreatures;
   }
 
@@ -468,9 +478,9 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     const seacreatureItems = seacreatures.map(a => {
       return {
         title: a.name,
-        location: '',
-        time: a.data,
-        price: a.sellPrice,
+        location: a.shadowSize,
+        time: a["Time"],
+        price: a.sellPrice ? numberWithCommas(a.sellPrice) : '',
         rarity: a.shadowSize,
         image: a.icon
       }
