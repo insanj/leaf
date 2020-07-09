@@ -478,7 +478,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     const seacreatureItems = seacreatures.map(a => {
       return {
         title: a.name,
-        location: a.shadowSize,
+        location: '',
         time: a["Time"],
         price: a.sellPrice ? numberWithCommas(a.sellPrice) : '',
         rarity: a.shadowSize,
