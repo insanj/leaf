@@ -156,7 +156,7 @@
     "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
     "sellPrice": "1000",
     "data": "Months:\nMarch to May |\nSeptember to December\nTime:\nAnytime",
-    "Duration": "March - May |",
+    "Duration": "March - May",
     "Time": "Time:"
   },
   {
@@ -206,7 +206,7 @@
     "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
     "sellPrice": "6000",
     "data": "Months:\nMarch to May |\nSeptember to November\nTime:\nAnytime",
-    "Duration": "March - May |",
+    "Duration": "March - May",
     "Time": "Time:"
   },
   {
@@ -336,7 +336,7 @@
     "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
     "sellPrice": "4500",
     "data": "Months:\nApril to June |\nDecember to January\nTime:\nAnytime",
-    "Duration": "April - June |",
+    "Duration": "April - June",
     "Time": "Time:"
   },
   {
@@ -347,7 +347,7 @@
     "sellPrice": "9000",
     "data": "Months:\nJuly to October\nTime:\n9 AM to 4 PM |\n9 PM to 4 AM",
     "Duration": "July - October",
-    "Time": "9am - 4pm |"
+    "Time": "9am - 4pm"
   },
   {
     "name": "Horseshoe Crab",
