@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import Grid from '@material-ui/core/Grid';
 
 import AddToPhotosIcon from '@material-ui/icons/AddToPhotos';
 import BookIcon from '@material-ui/icons/Book';
@@ -17,9 +18,28 @@ import LeafLoading from  '../components/leafLoading';
 
 import LeafProfileCountersSection from '../components/leafProfileCountersSection';
 
+import LeafVillagerCell from '../components/leafVillagerCell';
+import LeafMuseumCard from '../components/leafMuseumCard';
+
 import { useSnackbar } from 'notistack';
 import Slide from '@material-ui/core/Slide';
 import Grow from '@material-ui/core/Grow';
+
+import fandom_villagers_scraped from '../data/fandom_villagers_scraped';
+import nintendolife_villager_gift_guide from '../data/nintendolife_villager_gift_guide';
+
+const mergedVillagerData = () => {
+  let villagers = fandom_villagers_scraped;
+  let giftGuide = nintendolife_villager_gift_guide;
+  let merged = fandom_villagers_scraped.map(v => {
+    const giftGuideEntry = giftGuide.filter(g => g.name === v.name)[0];
+    v.colors = giftGuideEntry.colors;
+    v.styles = giftGuideEntry.styles;
+    return v;
+  });
+  return merged;
+}
+
 
 function GrowTransition(props) {
   return <Grow {...props} />;
@@ -44,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function LeafProfilePage({ searchText }) {
+export default function LeafProfilePage({ searchText, loadedVillagers, loadedMuseumEntries }) {
   const classes = useStyles();
   const { enqueueSnackbar, closeSnackbar } = useSnackbar();
 
@@ -235,11 +255,51 @@ export default function LeafProfilePage({ searchText }) {
       );
     } else if (authedTabValue === 1) {
       return (
-        'Coming soon!'
+        <p style={{color: "#fff", textAlign: 'center', padding: 50}}>
+
+          { !loadedMuseumEntries ? '' : loadedMuseumEntries.map(e => {
+            return (
+              <LeafMuseumCard
+                item={ e.metadata }
+                image={ null }
+                onItemIconClick={ () => console.log() }
+                hasMuseumEntry={ false }
+              />
+            );
+          }) }
+
+          <br/>
+
+          🐝<br/>
+          Tap on the image for a<br/>bug, fish, or sea creature to add<br/>it to your personal museum.
+        </p>
       );
     } else if (authedTabValue === 2) {
       return (
-        'Coming soon!'
+        <div style={{color: "#fff"}}>
+          <Grid container spacing={2}>
+
+          { !loadedVillagers ? '' : loadedVillagers.map(v => {
+            const allVillagers = mergedVillagerData();
+            const existing = allVillagers.filter(d => d.name === v);
+            if (existing.length < 1) {
+              return '';
+            }
+
+            return (
+              <LeafVillagerCell 
+                villager={ existing[0] }
+                loadedVillagers={ [] }
+                onVillagerIconClick={() => console.log()}
+              />
+            );
+          })}
+          </Grid>
+          <p style={{color: "#fff", textAlign: 'center', paddingTop: 50}}>
+            🐝<br/>
+            Tap on the image for a<br/>villager it to your personal list.
+          </p>
+        </div>
       );
     }
   }

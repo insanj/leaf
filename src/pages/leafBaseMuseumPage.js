@@ -123,7 +123,7 @@ function SortSelect({ selectedTab, sortType, showOnlyActive, onSortTypeChange })
   );
 }
 
-export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText, showOnlyActive=false, sortType, onSortTypeChange }) {
+export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText, showOnlyActive=false, sortType, onSortTypeChange, onItemIconClick, loadedMuseumEntries }) {
   const classes = useStyles();
   const theme = useTheme();
 
@@ -132,6 +132,8 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       <LeafMuseumCard 
         item={ item }
         image={ selectedTab == 'fossils' ? tile82 : null }
+        onItemIconClick={ onItemIconClick }
+        hasMuseumEntry={loadedMuseumEntries && loadedMuseumEntries.filter(e => e.metadata.title === item.title).length > 0}
       />
     );
   }

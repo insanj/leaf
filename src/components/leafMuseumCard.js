@@ -214,7 +214,7 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-export default function LeafMuseumCard({ item, image=null }) {
+export default function LeafMuseumCard({ item, image=null, onItemIconClick, hasMuseumEntry=false }) {
   const classes = useStyles();
   const theme = useTheme();
 
@@ -586,13 +586,14 @@ export default function LeafMuseumCard({ item, image=null }) {
   );
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{opacity: hasMuseumEntry === true ? 0.2 : 1.0}}>
       <center>
         <img src={ item.image ? item.image : getImageForItem() } width="62" height="62" style={{
           background: 'none',
           borderRadius: '10px',
-          objectFit: 'contain'
-        }}/>
+          objectFit: 'contain',
+          cursor: 'pointer'
+        }} onClick={() => onItemIconClick(item) } />
       </center>
       <Typography style={{
         textAlign: 'center', 

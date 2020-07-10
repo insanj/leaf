@@ -23,6 +23,8 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import LastPageIcon from '@material-ui/icons/LastPage';
 
+import LeafVillagerCell from './leafVillagerCell';
+
 import fandom_villagers_scraped from '../data/fandom_villagers_scraped';
 import nintendolife_villager_gift_guide from '../data/nintendolife_villager_gift_guide';
 
@@ -117,7 +119,7 @@ const mergedData = () => {
   return merged;
 }
 
-export default function LeafVillagersSection({ searchText, villagers=mergedData() }) {
+export default function LeafVillagersSection({ searchText, villagers=mergedData(), onVillagerIconClick, loadedVillagers }) {
   const classes = useStyles();
   const [expandedVillager, setExpandedVillager] = React.useState('');
 
@@ -131,21 +133,11 @@ export default function LeafVillagersSection({ searchText, villagers=mergedData(
 
   const generateVillagerPanel = (villager) => {
     return (
-      <TableRow key={villager.name}>
-        <TableCell component="th" scope="row">
-          <img src={ villager.image } width="80" height="80" style={{borderRadius: 10}} />
-        </TableCell>
-        <TableCell align="left" style={{ fontSize: '1.4em', fontWeight: 500 }}>
-          {villager.name}
-        </TableCell>
-        <TableCell align="left">{villager.personality}</TableCell>
-        <TableCell align="left">{villager.species}</TableCell>
-        <TableCell align="left">{villager.birthday}</TableCell>
-        <TableCell align="left">{villager.catchphrase}</TableCell>
-        <TableCell align="left">{villager.hobby}</TableCell>
-        <TableCell align="left">{villager.colors}</TableCell>
-        <TableCell align="left">{villager.styles}</TableCell>
-      </TableRow>
+      <LeafVillagerCell
+        villager={ villager }
+        loadedVillagers={ loadedVillagers }
+        onVillagerIconClick={ onVillagerIconClick }
+      />
     );
   }
 

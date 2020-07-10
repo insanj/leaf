@@ -82,6 +82,76 @@ class LeafNetworker {
 
     return this.post(reqURL, requestBody);
   }
+
+  getMuseumEntries({ username, password }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/museum_entries/get';
+    const requestBody = {
+      username: username,
+      password: password,
+    };
+
+    return this.post(reqURL, requestBody);
+  }
+
+  addMuseumEntry({ username, password, museumEntry }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/museum_entries/add';
+    const requestBody = {
+      username: username,
+      password: password,
+      museumEntry: museumEntry
+    };
+
+    return this.post(reqURL, requestBody);
+  }
+
+  removeMuseumEntry({ username, password, museumEntryId }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/museum_entries/remove';
+    const requestBody = {
+      username: username,
+      password: password,
+      museumEntryId: museumEntryId
+    };
+
+    return this.post(reqURL, requestBody);
+  }
+
+  getVillagers({ username, password }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/villagers/get';
+    const requestBody = {
+      username: username,
+      password: password,
+    };
+
+    return this.post(reqURL, requestBody);
+  }
+  
+  removeVillager({ username, password, villagerName }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/villagers/remove';
+    const requestBody = {
+      username: username,
+      password: password,
+      villagerName: villagerName
+    };
+
+    return this.post(reqURL, requestBody);
+  }
+
+  addVillager({ username, password, villagerName }) {
+    const baseURL = LeafNetworker.baseURL();
+    const reqURL = baseURL + '/villagers/add';
+    const requestBody = {
+      username: username,
+      password: password,
+      villagerName: villagerName
+    };
+
+    return this.post(reqURL, requestBody);
+  }
 }
 
 export default LeafNetworker;
