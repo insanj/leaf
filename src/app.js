@@ -151,7 +151,8 @@ export default function App() {
     }
 
     networker.getVillagers({ username, password }).then(r => {
-      setLoadedVillagers(r.data.map(d => d.villager_name));
+      const sortedNames = r.data.map(d => d.villager_name).sort();
+      setLoadedVillagers(sortedNames);
     }).catch(e => {
       console.log(e);
     })
