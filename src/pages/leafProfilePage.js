@@ -271,7 +271,9 @@ export default function LeafProfilePage({ searchText }) {
       <Paper className={classes.unauthedLanding}>
         <h1>🐝</h1>
         <h3>👋 Welcome to <b>myleaf.fun</b>!</h3>
-        <h4>Most of our features do not require you to make an account... but if you want to keep track of your <i>tool durability</i>, <i>museum donations</i>, or <i>island villagers</i>, go ahead and make an account! It's completely free. ❤️</h4>
+        <h4>Most of our features do not require you to make an account... but if you want to keep track of your <i>tool durability</i>, <i>museum donations</i>, or <i>island villagers</i>, go ahead and make an account! It's completely free.<br/>❤️</h4>
+
+        <p style={{opacity: 0.5}}>By using myleaf.fun you are agreeing to the use of cookies (mostly to make sure you stay signed in!)</p>
       </Paper>
 
       <LeafAuthForm 

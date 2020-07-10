@@ -13,7 +13,6 @@ serve: env
 
 .PHONY: build
 build: env
-	-rm .env
 	npm run build
 	rm -r -f docs
 	mv build docs
@@ -22,6 +21,7 @@ build: env
 .PHONY: env
 env: export REACT_APP_LEAF_TAG=$(TAG)
 env:
+	-rm .env
 	@echo "REACT_APP_LEAF_TAG=$(shell echo $(REACT_APP_LEAF_TAG))" > .env
 	@echo "Wrote REACT_APP_LEAF_TAG to .env with the given version: $(shell echo $(REACT_APP_LEAF_TAG))"
 		
