@@ -35,11 +35,11 @@ export default function LeafTabBar({ active, onActiveChange }) {
 
   return (
     <BottomNavigation value={active} onChange={handleChange} className={classes.root}>
-      <BottomNavigationAction value="profile" icon={<FaceIcon />} />
-      <BottomNavigationAction value="active" icon={<Brightness7Icon />} />
-      <BottomNavigationAction value="museum" icon={<BookIcon />} />
-      <BottomNavigationAction value="shop" icon={<StorefrontIcon />} />
-      <BottomNavigationAction value="villagers" icon={<HomeIcon />} />
+      <BottomNavigationAction value="profile" label="Profile" icon={<FaceIcon />} />
+      <BottomNavigationAction value="active" label="Active" icon={<Brightness7Icon />} />
+      <BottomNavigationAction value="museum" label="Museum" icon={<BookIcon />} />
+      <BottomNavigationAction value="shop" label="Shop" icon={<StorefrontIcon />} />
+      <BottomNavigationAction value="villagers" label="Villagers" icon={<HomeIcon />} />
     </BottomNavigation>
   );
 }
