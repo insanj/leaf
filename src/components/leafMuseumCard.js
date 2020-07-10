@@ -212,6 +212,15 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(1),
   },
 
+  title: {
+    textAlign: 'center', 
+    fontWeight: 400,
+    fontSize: '1.0em', 
+    lineHeight: 1.0,
+    hyphens: 'auto'
+
+
+  }
 }));
 
 export default function LeafMuseumCard({ item, image=null, onItemIconClick, hasMuseumEntry=false }) {
@@ -595,13 +604,7 @@ export default function LeafMuseumCard({ item, image=null, onItemIconClick, hasM
           cursor: 'pointer'
         }} onClick={() => onItemIconClick(item) } />
       </center>
-      <Typography style={{
-        textAlign: 'center', 
-        fontWeight: 400,
-        fontSize: '1.0em', 
-        lineHeight: 1.0,
-        wordWrap: 'break-word',
-       }}>
+      <Typography className={classes.title}>
         { item.title }
       </Typography>
       <Typography variant="subtitle1" color="textSecondary">

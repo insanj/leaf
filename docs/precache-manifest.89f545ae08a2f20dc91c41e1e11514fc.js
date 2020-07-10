@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b006bf111818b71f9859e8a0e1a89b4",
+    "revision": "6fd79749452c18fceb29b78cded6c55d",
     "url": "/index.html"
   },
   {
-    "revision": "62d8d421a1e3d38fe0a7",
-    "url": "/static/css/main.fcc8eea9.chunk.css"
+    "revision": "249f38f8b43a79e68eab",
+    "url": "/static/css/main.a7dae909.chunk.css"
   },
   {
-    "revision": "a8ea61f1d870a2b1cf9c",
-    "url": "/static/js/2.a370e3dd.chunk.js"
+    "revision": "c0974c740842b88c095e",
+    "url": "/static/js/2.a3643c3a.chunk.js"
   },
   {
     "revision": "ca962714ee3537eb863ad2954c33c63e",
-    "url": "/static/js/2.a370e3dd.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a3643c3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "62d8d421a1e3d38fe0a7",
-    "url": "/static/js/main.b4d0e0d2.chunk.js"
+    "revision": "249f38f8b43a79e68eab",
+    "url": "/static/js/main.a8a7e981.chunk.js"
   },
   {
     "revision": "76cd7295db9f616d62e3",
@@ -26,18 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "46438c42f2062a1fe18f59fe5cbe1cf4",
     "url": "/static/media/Octarine-Bold.46438c42.otf"
-  },
-  {
-    "revision": "d5bb73b7cb97252f01c43f062c7fc78f",
-    "url": "/static/media/Octarine-BoldOblique.d5bb73b7.otf"
-  },
-  {
-    "revision": "9dc094979fbe61ff42540fe2fe675fb6",
-    "url": "/static/media/Octarine-Light.9dc09497.otf"
-  },
-  {
-    "revision": "b4c7a91af003ace23398c4fe4c63e1a1",
-    "url": "/static/media/Octarine-LightOblique.b4c7a91a.otf"
   },
   {
     "revision": "6613323ffa7ea0107bbd539d79f0e6da",
