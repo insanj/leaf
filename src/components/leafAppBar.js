@@ -48,9 +48,10 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
   },
   clearIcon: {
-    height: '30px',
-    width: '30px',
+    height: '36px',
+    width: '36px',
     marginRight: theme.spacing(1),
+    marginBottom: 12,
     opacity: 0.8
   },
   inputRoot: {
@@ -65,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
     // [theme.breakpoints.up('sm')]: {
       width: '12ch',
       '&:focus': {
-        width: '20ch',
+        width: '15ch',
       },
     // },
   },
