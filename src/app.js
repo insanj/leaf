@@ -17,6 +17,10 @@ import LeafNetworker from './backend/leafNetworker';
 import Cookies from './cookies.js';
 
 import './css/fonts.css';
+import './fonts/OctarineFree/Octarine-Bold.otf';
+import './fonts/OctarineFree/Octarine-BoldOblique.otf';
+import './fonts/OctarineFree/Octarine-Light.otf';
+import './fonts/OctarineFree/Octarine-LightOblique.otf';
 
 const theme = createMuiTheme({
   palette: {
@@ -26,8 +30,12 @@ const theme = createMuiTheme({
       contrastText: '#fff'
     },
   },
+  '@font-face': {
+    fontFamily: 'Octarine-Bold',
+    src: "local('Octarine'), url(../fonts/Octarine-Bold.otf) format('truetype')"
+  },
   typography: {
-    fontFamily: 'Roboto'
+    fontFamily: 'Octarine-Bold'
   }
 });
 
