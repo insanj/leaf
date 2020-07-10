@@ -7,6 +7,15 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
 
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import TableFooter from '@material-ui/core/TableFooter';
+import TablePagination from '@material-ui/core/TablePagination';
+
 import AddToPhotosIcon from '@material-ui/icons/AddToPhotos';
 import BookIcon from '@material-ui/icons/Book';
 import HomeIcon from '@material-ui/icons/Home';
@@ -255,7 +264,8 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
       );
     } else if (authedTabValue === 1) {
       return (
-        <p style={{color: "#fff", textAlign: 'center', padding: 50}}>
+        <div style={{color: "#fff"}}>
+          <Grid container spacing={2} style={{padding: 10}}>
 
           { !loadedMuseumEntries ? '' : loadedMuseumEntries.map(e => {
             return (
@@ -268,33 +278,39 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
             );
           }) }
 
-          <br/>
-
+          <p style={{color: "#fff", textAlign: 'center', padding: 50, width: '100%'}}>
           🐝<br/>
           Tap on the image for a<br/>bug, fish, or sea creature to add<br/>it to your personal museum.
-        </p>
+          </p>
+        </Grid>
+      </div>
       );
     } else if (authedTabValue === 2) {
       return (
         <div style={{color: "#fff"}}>
-          <Grid container spacing={2}>
+          <TableContainer component={Paper}>
+            <Table className={classes.table} aria-label="simple table">
+              <TableBody>
 
-          { !loadedVillagers ? '' : loadedVillagers.map(v => {
-            const allVillagers = mergedVillagerData();
-            const existing = allVillagers.filter(d => d.name === v);
-            if (existing.length < 1) {
-              return '';
-            }
+              { !loadedVillagers ? '' : loadedVillagers.map(v => {
+                const allVillagers = mergedVillagerData();
+                const existing = allVillagers.filter(d => d.name === v);
+                if (existing.length < 1) {
+                  return '';
+                }
 
-            return (
-              <LeafVillagerCell 
-                villager={ existing[0] }
-                loadedVillagers={ [] }
-                onVillagerIconClick={() => console.log()}
-              />
-            );
-          })}
-          </Grid>
+                return (
+                  <LeafVillagerCell 
+                    villager={ existing[0] }
+                    loadedVillagers={ [] }
+                    onVillagerIconClick={() => console.log()}
+                  />
+                );
+              })}
+              </TableBody>
+            </Table>
+          </TableContainer>
+
           <p style={{color: "#fff", textAlign: 'center', paddingTop: 50}}>
             🐝<br/>
             Tap on the image for a<br/>villager it to your personal list.
