@@ -64,9 +64,9 @@ const useStyles = makeStyles((theme) => ({
     transition: theme.transitions.create('width'),
     // width: '100%',
     // [theme.breakpoints.up('sm')]: {
-      width: '12ch',
+      width: '10ch',
       '&:focus': {
-        width: '15ch',
+        width: '10ch',
       },
     // },
   },
@@ -110,14 +110,7 @@ export default function LeafAppBar({ onSearchInputChange }) {
               value={ searchValue }
             />
 
-            { searchValue && searchValue.length > 0 ? (
-              <IconButton className={classes.clearIcon} onClick={ handleClearButtonClick }>
-                <ClearIcon />
-              </IconButton>
-            ) : (
-              <IconButton className={classes.clearIcon}>
-              </IconButton>
-            )}
+           
 
           </div>
 
