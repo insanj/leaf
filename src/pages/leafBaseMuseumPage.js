@@ -490,7 +490,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
 
     let items = [];
     if (selectedTab === 'everything') {
-      items = insectItems.concat(fishItems);
+      items = insectItems.concat(fishItems).concat(seacreatureItems);
     } else if (selectedTab === 'insects') {
       items = insectItems;
     } else if (selectedTab === 'fish') {
