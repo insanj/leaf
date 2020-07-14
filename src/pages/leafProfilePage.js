@@ -357,7 +357,13 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
                 <DoneOutlineIcon />
                 Uncheck All Villagers
               </Button>      
-              <Grid container spacing={0} style={{padding: 10}}>        
+              <Grid 
+                container 
+                spacing={0} 
+                style={{padding: 10}}  
+                justify="center"
+                alignItems="center"
+              >        
                 { cells } 
               </Grid>
             </div>

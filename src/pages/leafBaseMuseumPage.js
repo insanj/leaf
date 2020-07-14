@@ -613,7 +613,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
           </tr>
         </table>
 
-        <Grid container className={classes.grid} spacing={2}>
+        <Grid container className={classes.grid} spacing={2} justify="center" alignItems="center">
           { generateCards() }
         </Grid>
       </div>
