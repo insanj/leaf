@@ -46,8 +46,8 @@ export default function LeafVillagerGiftBuyingCell({ villager, checked=false, on
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
 
-  const getHTMLColorFromVillagerColors = (colors) => {
-    const naive = villager.colors.split(",")[0].toLowerCase();
+  const getHTMLColorFromVillagerColor = (color) => {
+    const naive = color.toLowerCase(); // villager.colors.split(",")[0].toLowerCase();
     if (naive === 'colorful') {
       return 'pink';
     }
@@ -76,15 +76,18 @@ export default function LeafVillagerGiftBuyingCell({ villager, checked=false, on
         </Typography>
         <Typography variant="body2" component="p">
           <div className={classes.villagerColor} style={{
-            width: 24,
-            height: 24,
-            borderRadius: 8,
+            width: 18,
+            height: 18,
+            borderRadius: 12,
             marginRight: 5,
             marginBottom: 4,
-            backgroundColor: getHTMLColorFromVillagerColors(villager.colors),
+            backgroundColor: getHTMLColorFromVillagerColor(villager.colors.split(",")[0]),
             display: 'inline-block',
             verticalAlign: 'middle',
-            filter: 'drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.6))'
+            filter: 'drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.6))',
+            borderWidth: 3,
+            borderStyle: 'solid',
+            borderColor: getHTMLColorFromVillagerColor(villager.colors.split(",").length > 1 ? villager.colors.split(",")[1] : villager.colors.split(",")[0])
           }}/>
 
           { villager.colors }
