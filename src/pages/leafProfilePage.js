@@ -6,6 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -19,6 +20,7 @@ import TablePagination from '@material-ui/core/TablePagination';
 import AddToPhotosIcon from '@material-ui/icons/AddToPhotos';
 import BookIcon from '@material-ui/icons/Book';
 import HomeIcon from '@material-ui/icons/Home';
+import DoneOutlineIcon from '@material-ui/icons/DoneOutline';
 
 import LeafAuthForm from '../components/leafAuthForm';
 import LeafNetworker from  '../backend/leafNetworker';
@@ -29,6 +31,7 @@ import LeafProfileCountersSection from '../components/leafProfileCountersSection
 
 import LeafVillagerCell from '../components/leafVillagerCell';
 import LeafMuseumCard from '../components/leafMuseumCard';
+import LeafVillagerGiftBuyingCell from '../components/leafVillagerGiftBuyingCell';
 
 import { useSnackbar } from 'notistack';
 import Slide from '@material-ui/core/Slide';
@@ -48,7 +51,6 @@ const mergedVillagerData = () => {
   });
   return merged;
 }
-
 
 function GrowTransition(props) {
   return <Grow {...props} />;
@@ -70,12 +72,50 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 300,
     marginLeft: 'auto',
     marginRight: 'auto'
+  },
+  uncheckButton: {
+    marginTop: 10,
+    display: 'flex',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: 200,
+    height: 60,
+    textAlign: 'center'
   }
 }));
+
+const getVillagerGiftBuyingChecksCookie = () => {
+  const cookie = LeafCookies.getCookie('leaf_villagerGiftBuyingChecks');
+  if (!cookie || cookie.length < 1) {
+    return [];
+  }
+
+  try {
+    const parsed = JSON.parse(cookie);
+    return parsed;
+  } catch (e) {
+    console.log(e);
+    return [];
+  }
+}
+
+const setVillagerGiftBuyingChecksCookie = (value) => {
+  const string = JSON.stringify(value);
+  LeafCookies.setCookie('leaf_villagerGiftBuyingChecks', string);
+}
 
 export default function LeafProfilePage({ searchText, loadedVillagers, loadedMuseumEntries }) {
   const classes = useStyles();
   const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+
+  const profileSnackbarProps = {
+    anchorOrigin: {
+      vertical: 'top',
+      horizontal: 'center',
+    },
+    autoHideDuration: 2000,
+    onClick: () => closeSnackbar(),
+  };
 
   const [isLoading, setIsLoading] = React.useState(true);
   const [isAuthed, setIsAuthed] = React.useState(false);
@@ -96,11 +136,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
     const snackMsg = `👋 Welcome back, ${existingUsername}! Signing in...`;
     enqueueSnackbar(snackMsg, {
       variant: 'info',
-      anchorOrigin: {
-        vertical: 'top',
-        horizontal: 'center',
-      },
-      autoHideDuration: 2000,
+      ...profileSnackbarProps
     });
 
     const networker = new LeafNetworker();
@@ -110,11 +146,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
     }).then(r => {
       enqueueSnackbar('🎉 Signed in successfully!', {
         variant: 'success',
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-          autoHideDuration: 3000,
+        ...profileSnackbarProps
       });
 
       setIsLoading(false);
@@ -125,11 +157,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
       const errorMsg = e && e.message ? e.message : JSON.stringify(e);
       enqueueSnackbar(errorMsg, {
         variant: 'error',
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-        autoHideDuration: 3000,
+        ...profileSnackbarProps
       });
 
     });
@@ -138,22 +166,14 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
   const handleSignInGoClicked = (payload) => {
     enqueueSnackbar('Signing in...', {
       variant: 'info',
-      anchorOrigin: {
-        vertical: 'top',
-        horizontal: 'center',
-      },
-      autoHideDuration: 500,
+      ...profileSnackbarProps
     });
 
     const networker = new LeafNetworker();
     networker.login(payload).then(r => {
       enqueueSnackbar('🎉 Signed in successfully!', {
         variant: 'success',
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-        autoHideDuration: 3000,
+        ...profileSnackbarProps
       });
 
       setIsAuthed(true);
@@ -163,11 +183,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
       const errorMsg = e && e.message ? e.message : JSON.stringify(e);
       enqueueSnackbar(errorMsg, {
         variant: 'error',
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-        autoHideDuration: 3000,
+        ...profileSnackbarProps
       });
     });
   }
@@ -175,33 +191,21 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
   const handleRegisterGoClicked = (payload) => {
     enqueueSnackbar('Registering for an account...', {
       variant: 'info',
-      anchorOrigin: {
-        vertical: 'top',
-        horizontal: 'center',
-      },
-      autoHideDuration: 500,
+      ...profileSnackbarProps
     });
 
     const networker = new LeafNetworker();
     networker.register(payload).then(r => {
       enqueueSnackbar('🎉 Thanks for making an account! Try signing in with your username and password now.', {
         variant: 'success',
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-        autoHideDuration: 3000,
+      ...profileSnackbarProps
       });
 
     }).catch(e => {
       const errorMsg = e && e.message ? e.message : JSON.stringify(e);
       enqueueSnackbar(errorMsg, {
         variant: 'error',
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-        autoHideDuration: 3000,
+        ...profileSnackbarProps
       });
     });
   }
@@ -253,8 +257,36 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
     });
   }
 
+  
+  const [villagerTabValue, setVillagerTabValue] = React.useState(LeafCookies.getCookie('leaf_villagerTabValue') ? +LeafCookies.getCookie('leaf_villagerTabValue') : 0);
+  const handleVillagerTabValueChange = (event, newValue) => {
+    setVillagerTabValue(newValue);
+    LeafCookies.setCookie('leaf_villagerTabValue', newValue);
+  }
+
+
+  const [villagerGiftBuyingChecks, setVillagerGiftBuyingChecks] = React.useState( getVillagerGiftBuyingChecksCookie() );
+  const handleVillagerGiftBuyingClick = (villager) => {
+    const index = villagerGiftBuyingChecks.indexOf(villager.name);
+    let newValue = [];
+    if (index >= 0) {
+      newValue = villagerGiftBuyingChecks.filter(v => v !== villager.name);
+    } else {
+      newValue = villagerGiftBuyingChecks.slice();
+      newValue.push(villager.name);
+    }
+
+    setVillagerGiftBuyingChecks(newValue);
+    setVillagerGiftBuyingChecksCookie(newValue);
+  }
+
+  const handleUncheckAllVillagersClick = () => {
+    setVillagerGiftBuyingChecks([]);
+    setVillagerGiftBuyingChecksCookie([]);
+  }
+
   const generateAuthedTabSection = () => {
-    if (authedTabValue === 0) {
+    if (authedTabValue === 2) {
       return (
         <LeafProfileCountersSection 
           searchText={searchText}
@@ -285,31 +317,59 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
         </Grid>
       </div>
       );
-    } else if (authedTabValue === 2) {
+    } else if (authedTabValue === 0) {
+      const cells = !loadedVillagers ? [] : loadedVillagers.map(v => {
+        const allVillagers = mergedVillagerData();
+        const existing = allVillagers.filter(d => d.name === v);
+        if (existing.length < 1) {
+          return '';
+        }
+
+        if (villagerTabValue !== 0 ) {
+          return (
+            <LeafVillagerGiftBuyingCell
+              villager={ existing[0] }
+              checked={ villagerGiftBuyingChecks.includes(existing[0].name) }
+              onVillagerClick={ handleVillagerGiftBuyingClick }
+            />
+          );
+        }
+
+        return (
+          <LeafVillagerCell 
+            villager={ existing[0] }
+            loadedVillagers={ [] }
+            onVillagerIconClick={() => console.log()}
+          />
+        );
+      });
+
       return (
         <div style={{color: "#fff"}}>
-          <TableContainer component={Paper}>
-            <Table className={classes.table} aria-label="simple table">
-              <TableBody>
+          <Tabs style={{cursor: 'pointer'}} centered value={villagerTabValue} onChange={handleVillagerTabValueChange} aria-label="">
+            <Tab label="Alphabetical" />
+            <Tab label="Gift Buying Guide" />
+          </Tabs>
 
-              { !loadedVillagers ? '' : loadedVillagers.map(v => {
-                const allVillagers = mergedVillagerData();
-                const existing = allVillagers.filter(d => d.name === v);
-                if (existing.length < 1) {
-                  return '';
-                }
-
-                return (
-                  <LeafVillagerCell 
-                    villager={ existing[0] }
-                    loadedVillagers={ [] }
-                    onVillagerIconClick={() => console.log()}
-                  />
-                );
-              })}
-              </TableBody>
-            </Table>
-          </TableContainer>
+          { villagerTabValue !== 0 ? (
+            <div>
+              <Button className={classes.uncheckButton} variant="contained" color="primary" onClick={ handleUncheckAllVillagersClick }>
+                <DoneOutlineIcon />
+                Uncheck All Villagers
+              </Button>      
+              <Grid container spacing={0} style={{padding: 10}}>        
+                { cells } 
+              </Grid>
+            </div>
+          ) : (
+            <TableContainer component={Paper}>
+              <Table className={classes.table} aria-label="simple table">
+                <TableBody>
+                  { cells }
+                </TableBody>
+              </Table>
+            </TableContainer>
+          ) }
 
           <p style={{color: "#fff", textAlign: 'center', paddingTop: 50}}>
             🐝<br/>
@@ -330,9 +390,9 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
           textColor="primary"
           centered
         >
-          <Tab icon={<AddToPhotosIcon />} label="My Counters" />
-          <Tab icon={<BookIcon />} label="My Museum" />
-          <Tab icon={<HomeIcon />} label="My Villagers" />
+          <Tab icon={<HomeIcon />} label="Villagers" />
+          <Tab icon={<BookIcon />} label="Museum" />
+          <Tab icon={<AddToPhotosIcon />} label="Counters" />
         </Tabs>
       </Paper>
 
