@@ -37,20 +37,7 @@ import { useSnackbar } from 'notistack';
 import Slide from '@material-ui/core/Slide';
 import Grow from '@material-ui/core/Grow';
 
-import fandom_villagers_scraped from '../data/fandom_villagers_scraped';
-import nintendolife_villager_gift_guide from '../data/nintendolife_villager_gift_guide';
-
-const mergedVillagerData = () => {
-  let villagers = fandom_villagers_scraped;
-  let giftGuide = nintendolife_villager_gift_guide;
-  let merged = fandom_villagers_scraped.map(v => {
-    const giftGuideEntry = giftGuide.filter(g => g.name === v.name)[0];
-    v.colors = giftGuideEntry.colors;
-    v.styles = giftGuideEntry.styles;
-    return v;
-  });
-  return merged;
-}
+import LeafDataManager from '../backend/leafDataManager';
 
 function GrowTransition(props) {
   return <Grow {...props} />;
@@ -319,7 +306,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
       );
     } else if (authedTabValue === 0) {
       const cells = !loadedVillagers ? [] : loadedVillagers.map(v => {
-        const allVillagers = mergedVillagerData();
+        const allVillagers = LeafDataManager.getVillagers();
         const existing = allVillagers.filter(d => d.name === v);
         if (existing.length < 1) {
           return '';

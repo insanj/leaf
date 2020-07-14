@@ -23,7 +23,6 @@ import acnh_fandom_order from '../data/acnh_fandom_order';
 import dayglopterodactyl from '../data/dayglopterodactyl';
 import acnh_master_list from '../data/1eyQtn5bBy14udf8Ntn_OLkmqKRJmuGKLMXrEHY9nNKE';
 import game8_art from '../data/game8_art';
-import game8_sea_creatures from '../data/game8_sea_creatures';
 
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ScheduleIcon from '@material-ui/icons/Schedule';
@@ -39,6 +38,9 @@ import moment from 'moment';
 
 import '../css/leafMuseumPage.css';
 
+import LeafDataManager from '../backend/leafDataManager';
+
+import Lightbox from 'react-image-lightbox';
 
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -118,12 +120,14 @@ function SortSelect({ selectedTab, sortType, showOnlyActive, onSortTypeChange })
 
   return (
     <React.Fragment>
-      { selectedTab == 'art' ? '' : (selectedTab == 'fossils' ? fossilSortSelect : sortSelect) }
+      { selectedTab == 'art' ? (
+        <div><br/><br/></div>
+      ) : (selectedTab == 'fossils' ? fossilSortSelect : sortSelect) }
     </React.Fragment>
   );
 }
 
-export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText, showOnlyActive=false, sortType, onSortTypeChange, onItemIconClick, loadedMuseumEntries }) {
+export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText, showOnlyActive=false, sortType, onSortTypeChange, onItemIconClick, loadedMuseumEntries, onArtItemIconClick }) {
   const classes = useStyles();
   const theme = useTheme();
 
@@ -132,8 +136,9 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       <LeafMuseumCard 
         item={ item }
         image={ selectedTab == 'fossils' ? tile82 : null }
-        onItemIconClick={ onItemIconClick }
+        onItemIconClick={ selectedTab === 'art' ? onArtItemIconClick : onItemIconClick }
         hasMuseumEntry={loadedMuseumEntries && loadedMuseumEntries.filter(e => e.metadata.title === item.title).length > 0}
+        isArtwork={selectedTab == 'art'}
       />
     );
   }
@@ -389,14 +394,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
   }
 
   const getArt = () => {
-    let art = [];
-    const keys = Object.keys(game8_art);
-    for (let k of keys) {
-      art.push({
-        name: k,
-        image: game8_art[k]
-      });
-    }
+    let art = LeafDataManager.getArt();
 
     if (searchText && searchText.length > 0) {
       const searchLowercase = searchText.toLowerCase();
@@ -411,7 +409,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
   }
 
   const getSeacreatures = () => {
-    let seacreatures = game8_sea_creatures;
+    let seacreatures = LeafDataManager.getSeacreatures();
 
     if (searchText && searchText.length > 0) {
       const searchLowercase = searchText.toLowerCase();
@@ -468,10 +466,10 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     const artItems = art.map(a => {
       return {
         title: a.name,
-        location: '',
-        time: '',
+        location: a.originalTitle,
+        time: a.realDescription && a.realDescription.length > 0 ? 'REAL: ' + a.realDescription : '',
         price: '',
-        rarity: '',
+        rarity: a.fakeDescription && a.fakeDescription.length > 0 ? 'FAKE: ' + a.fakeDescription : '',
         image: a.image
       }
     });
@@ -613,7 +611,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
           </tr>
         </table>
 
-        <Grid container className={classes.grid} spacing={2} justify="center" alignItems="center">
+        <Grid container className={classes.grid} spacing={2} justify="center" >
           { generateCards() }
         </Grid>
       </div>

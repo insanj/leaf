@@ -1,0 +1,307 @@
+{
+   "Paintings":[
+      {
+         "name":"Academic Painting",
+         "image":"https://img.game8.jp/4323163/597838b2d7347bf439f3baa16d83e614.png/original",
+         "originalTitle":"Vitruvian Man",
+         "realDescription":"There is no coffee stain on the upper-right corner.",
+         "fakeDescription":"There is a coffee stain on the upper-right corner."
+      },
+      {
+         "name":"Amazing Painting",
+         "image":"https://img.game8.jp/4353624/41a223a9ffc5ca1762c40b4943a31223.png/original",
+         "originalTitle":"The Night Watch",
+         "realDescription":"The man in black in the center is wearing a hat.",
+         "fakeDescription":"The man in black in the center is not wearing a hat."
+      },
+      {
+         "name":"Basic Painting",
+         "image":"https://img.game8.jp/4339556/4cca71c7a2d1379af46a25134703c73e.png/original",
+         "originalTitle":"The Blue Boy",
+         "realDescription":"The boy has short hair.",
+         "fakeDescription":"The boy has longer hair, with bangs covering his entire forehead."
+      },
+      {
+         "name":"Calm Painting",
+         "image":"https://img.game8.jp/4340653/b6949eaffd66718ed8942ad93d81924f.jpeg/original",
+         "originalTitle":"A Sunday Afternoon on the Island of La Grande Jatte",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Common Painting",
+         "image":"https://img.game8.jp/4321789/4080d6aa016729b15c577ef931bbfc4e.jpeg/original",
+         "originalTitle":"The Gleaners",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Detailed Painting",
+         "image":"https://img.game8.jp/4323167/73b9b8f1cffeed38c2b219b662ae9ffd.png/original",
+         "originalTitle":"Ajisai Sōkeizu",
+         "realDescription":"The flowers are blue.",
+         "fakeDescription":"The flowers are red."
+      },
+      {
+         "name":"Dynamic Painting",
+         "image":"https://img.game8.jp/4325978/6a959983af86f91d1e9073c03500eb96.jpeg/original",
+         "originalTitle":"The Great Wave off Kanagawa",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Famous Painting",
+         "image":"https://img.game8.jp/4323159/8d246fd7934d05c88d3199ce6a050ce2.png/original",
+         "originalTitle":"Mona Lisa",
+         "realDescription":"Has no eyebrows.",
+         "fakeDescription":"Has thick, raised eyebrows."
+      },
+      {
+         "name":"Flowery Painting",
+         "image":"https://img.game8.co/3243991/5464b8368989e4f9311c5a6d6358ea51.png/original",
+         "originalTitle":"Sunflowers",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Glowing Painting",
+         "image":"https://img.game8.jp/4321713/a0b51af41e98c35b6bdbc8ce6824f782.jpeg/original",
+         "originalTitle":"The Fighting Temeraire",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Graceful Painting",
+         "image":"https://img.game8.jp/4353608/be8121203d81384f3a079dd93a9d3d41.png/original",
+         "originalTitle":"Beauty Looking Back",
+         "realDescription":"The head is in the center and does not reach the top edge of the scroll.",
+         "fakeDescription":"The lady is larger is size, with her head almost reaching the top edge of the scroll."
+      },
+      {
+         "name":"Jolly Painting",
+         "image":"https://img.game8.jp/4323161/d5c422ae44a03a540806f17cddade554.png/original",
+         "originalTitle":"Summer",
+         "realDescription":"There is a flower on the chest in the lower-right corner.",
+         "fakeDescription":"There is no flower on the chest."
+      },
+      {
+         "name":"Moody Painting",
+         "image":"https://img.game8.jp/4322993/ccc0d957ebdc444857b69b1188119661.jpeg/original",
+         "originalTitle":"The Sower",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Moving Painting",
+         "image":"https://img.game8.jp/4323213/68d353623c045a4d71fff54dee114a34.png/original",
+         "originalTitle":"The Birth of Venus",
+         "realDescription":"There are trees on right side.",
+         "fakeDescription":"There are no trees on right side."
+      },
+      {
+         "name":"Mysterious Painting",
+         "image":"https://img.game8.jp/4325618/081f62a6a4a7f88add595f92841c44ac.jpeg/original",
+         "originalTitle":"Isle of the Dead",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Nice Painting",
+         "image":"https://img.game8.jp/4322041/33c7d29d49d602d95e183373066a9571.jpeg/original",
+         "originalTitle":"The Fifer",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Perfect Painting",
+         "image":"https://img.game8.jp/4322604/712ebf683f99cdcdf24e824a11028071.jpeg/original",
+         "originalTitle":"Apples and Oranges",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Proper Painting",
+         "image":"https://img.game8.jp/4345692/02982e7ccc2a83bc599dd9886b67601f.jpeg/original",
+         "originalTitle":"A Bar at the Folies-Bergère",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Quaint Painting",
+         "image":"https://img.game8.jp/4322840/49d6058efbec2fe1dce0a5100d4bff14.png/original",
+         "originalTitle":"The Milkmaid",
+         "realDescription":"A small amount of milk is being poured.",
+         "fakeDescription":"Lots of milk is being poured out."
+      },
+      {
+         "name":"Scary Painting",
+         "image":"https://img.game8.jp/4323168/729d2d1e618692ad675a2204f58baaa5.png/original",
+         "originalTitle":"Ōtani Oniji the 3rd as Yakko Edobei",
+         "realDescription":"Eyebrows are pulled down.",
+         "fakeDescription":"Has weak/worried-looking eyebrows."
+      },
+      {
+         "name":"Scenic Painting",
+         "image":"https://img.game8.jp/4339565/895e1a849ecda599cd827e47f9c1a63c.png/original",
+         "originalTitle":"The Hunters in the Snow",
+         "realDescription":"There are 2 men and 13 dogs on the lower-left.",
+         "fakeDescription":"There is only 1 man on the lower-left, and there are 11 dogs."
+      },
+      {
+         "name":"Serene Painting",
+         "image":"https://img.game8.jp/4323165/adfc49f89f77fc1ff0e7ee3d3b5dc13f.png/original",
+         "originalTitle":"Lady with an Ermine",
+         "realDescription":"The lady is holding a white ermine.",
+         "fakeDescription":"The ermine is black. OR Holding a duck instead of an ermine?"
+      },
+      {
+         "name":"Sinking Painting",
+         "image":"https://img.game8.jp/4322308/ab1cdd95e8095b1e3f852f92f07bd698.jpeg/original",
+         "originalTitle":"Ophelia",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Solemn Painting",
+         "image":"https://img.game8.jp/4353610/6b2d534977aa5f7a43ecf76b63268ea3.png/original",
+         "originalTitle":"Las Meninas",
+         "realDescription":"The man at the back is holding the doorframe.",
+         "fakeDescription":"The man at the back is not touching the doorframe."
+      },
+      {
+         "name":"Twinkling Painting",
+         "image":"https://img.game8.jp/4322281/1565d867632965bdce9eb0c4d396aaf3.jpeg/original",
+         "originalTitle":"The Starry Night",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Warm Painting",
+         "image":"https://img.game8.jp/4322530/1551016d5de8a3fffd046443e30c8ddb.jpeg/original",
+         "originalTitle":"The Clothed Maja",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Wild Painting Left Half",
+         "image":"https://img.game8.jp/4353620/a0274b890a666137189c6699fa42b595.png/original",
+         "originalTitle":"Folding Screen of Fūjin and Raijin (L)",
+         "realDescription":"The thunder god is color white.",
+         "fakeDescription":"The thunder god is color green."
+      },
+      {
+         "name":"Wild Painting Right Half",
+         "image":"https://img.game8.jp/4353626/b6bc395ce6d146c08a7cef9fc653b3ac.png/original",
+         "originalTitle":"Folding Screen of Fūjin and Raijin (R)",
+         "realDescription":"The wind god is color green.",
+         "fakeDescription":"The wind god is color white."
+      },
+      {
+         "name":"Wistful Painting",
+         "image":"https://img.game8.jp/4353609/e9f5ffa6427965340374050262f8f91c.png/original",
+         "originalTitle":"Girl with a Pearl Earring",
+         "realDescription":"The girl is wearing a pearl earring and has her eyes open.",
+         "fakeDescription":"The girl is wearing a larger, star-shaped earring. OR The girl is wearing a larger, star-shaped earring, and her eyes are closed."
+      },
+      {
+         "name":"Worthy Painting",
+         "image":"https://img.game8.jp/4323295/69a01a9a6a325a8a293fb57138203693.jpeg/original",
+         "originalTitle":"Liberty Leading the People",
+         "realDescription":"",
+         "fakeDescription":""
+      }
+   ],
+   "Statues":[
+      {
+         "name":"Ancient Statue",
+         "image":"https://img.game8.jp/4353623/0edf44ea6dfc20dba08c0620d0da0697.png/original",
+         "originalTitle":"Shakōki-Dogū",
+         "realDescription":"There are no eyes and horns on its head.",
+         "fakeDescription":"It has horns/antennae on its head. OR It has a pair of glowing eyes."
+      },
+      {
+         "name":"Beautiful Statue",
+         "image":"https://img.game8.jp/4339561/203c58e879c07fa3a3f3e566953ea7f1.png/original",
+         "originalTitle":"Venus de Milo",
+         "realDescription":"There is no necklace.",
+         "fakeDescription":"The statue has a necklace."
+      },
+      {
+         "name":"Familiar Statue",
+         "image":"https://img.game8.jp/4322927/49f2dcfe1c580eb0a86dbfeab224c45f.jpeg/original",
+         "originalTitle":"The Thinker",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Gallant Statue",
+         "image":"https://img.game8.jp/4353606/78e63781a1cc6a18e37316b4ee2cc147.png/original",
+         "originalTitle":"David",
+         "realDescription":"He is not holding a book.",
+         "fakeDescription":"He is holding a book."
+      },
+      {
+         "name":"Great Statue",
+         "image":"https://img.game8.jp/4323217/687e188cea44ee9085c5e440a901305e.jpeg/original",
+         "originalTitle":"King Kamehameha I",
+         "realDescription":"",
+         "fakeDescription":""
+      },
+      {
+         "name":"Informative Statue",
+         "image":"https://img.game8.jp/4323212/44ed0781b85d1473a3ee9c8658086fe5.png/original",
+         "originalTitle":"Rosetta Stone",
+         "realDescription":"The stone is gray.",
+         "fakeDescription":"The stone is blue."
+      },
+      {
+         "name":"Motherly Statue",
+         "image":"https://img.game8.jp/4353611/8a6103756a42a2e827bd61e63f780c27.png/original",
+         "originalTitle":"Capitoline Wolf",
+         "realDescription":"The mother`s tongue is not sticking out.",
+         "fakeDescription":"The mother`s tongue is sticking out."
+      },
+      {
+         "name":"Mystic Statue",
+         "image":"https://img.game8.jp/4323164/acbd43d084eadcee4e1e49c4876c16d8.png/original",
+         "originalTitle":"Nefertiti Bust",
+         "realDescription":"There are no earrings.",
+         "fakeDescription":"It is wearing one earring."
+      },
+      {
+         "name":"Robust Statue",
+         "image":"https://img.game8.jp/4353617/7b8cfe02a3c50123efdd66a5619da509.png/original",
+         "originalTitle":"Discobolus",
+         "realDescription":"He is not wearing a wristwatch.",
+         "fakeDescription":"He is wearing a wristwatch."
+      },
+      {
+         "name":"Rock-Head Statue",
+         "image":"https://img.game8.jp/4360028/eb1edc4a38a34f0b3f211f44195d14fd.png/original",
+         "originalTitle":"Olmec Colossal Head",
+         "realDescription":"The corners of the mouth are turned down.",
+         "fakeDescription":"The statue has smiling lips."
+      },
+      {
+         "name":"Tremendous Statue",
+         "image":"https://img.game8.jp/4353625/40004479e537d0bf0010d62275746ac4.png/original",
+         "originalTitle":"Houmuwu Ding",
+         "realDescription":"There is no lid on the top.",
+         "fakeDescription":"The ding has a lid on the top with a handle."
+      },
+      {
+         "name":"Valiant Statue",
+         "image":"https://img.game8.jp/4339548/c79f38fff8fcaf5bea2bb0d61de05024.png/original",
+         "originalTitle":"Nike of Samothrace",
+         "realDescription":"The right leg is placed forward.",
+         "fakeDescription":"The left leg is placed forward."
+      },
+      {
+         "name":"Warrior Statue",
+         "image":"https://img.game8.jp/4339554/d08fcfcee2e606bf31fa7f8eb5c30041.png/original",
+         "originalTitle":"Terracotta Army",
+         "realDescription":"The man is not holding anything in his hands.",
+         "fakeDescription":"The man is holding a shovel."
+      }
+   ]
+}

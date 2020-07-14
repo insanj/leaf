@@ -15,8 +15,10 @@ import LeafVillagersSection from './components/leafVillagersSection';
 import LeafNetworker from './backend/leafNetworker';
 
 import Cookies from './cookies.js';
+import Lightbox from 'react-image-lightbox';
 
 import './css/fonts.css';
+import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 const theme = createMuiTheme({
   palette: {
@@ -184,6 +186,11 @@ export default function App() {
     }
   }, [loadedVillagers, setLoadedVillagers, handleLoadVillagers, loadedMuseumEntries, setLoadedMuseumEntries, handleLoadMuseumEntries])
 
+  const [lightboxImage, setLightboxImage] = React.useState(null);
+  const onArtItemIconClick = (item) => {
+    setLightboxImage(item.image);
+  }
+
   const generateActivePage = () => {
     if (activePage === 'counters') {
       return (
@@ -200,6 +207,7 @@ export default function App() {
           onSortTypeChange={(newValue) => setActiveTabSortType(newValue)}
           onItemIconClick={ handleMuseumItemIconClick }
           loadedMuseumEntries={ loadedMuseumEntries }
+          onArtItemIconClick={ onArtItemIconClick }
         />
       );
     } else if (activePage === 'museum') {
@@ -211,6 +219,7 @@ export default function App() {
           onSortTypeChange={(newValue) => setMuseumTabSortType(newValue)}
           onItemIconClick={ handleMuseumItemIconClick }
           loadedMuseumEntries={ loadedMuseumEntries }
+          onArtItemIconClick={ onArtItemIconClick }
         />      
       );
     } else if (activePage === 'villagers') {
@@ -264,6 +273,18 @@ export default function App() {
 
         </SnackbarProvider>
       </ThemeProvider>
+
+      { !lightboxImage ? '' : (
+        <Lightbox
+          mainSrc={lightboxImage}
+          onCloseRequest={() => setLightboxImage(null)}
+          reactModalStyle={{
+            overlay: {
+              zIndex: 1300
+            }
+          }}
+        />
+      ) }
 
     </React.Fragment>
   );

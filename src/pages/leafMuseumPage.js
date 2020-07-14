@@ -4,12 +4,27 @@ import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
 
 import LeafBaseMuseumPage from './leafBaseMuseumPage';
+import LeafCookies from '../backend/leafCookies';
+
+const getSelectedTabCookie = () => {
+  const cookie = LeafCookies.getCookie('leaf_basicMuseumPage_selectedTab');
+  if (!cookie || cookie.length < 1) {
+    return 'everything';
+  }
+
+  return cookie;
+}
+
+const setSelectedTabCookie = (value) => {
+  const cookie = LeafCookies.setCookie('leaf_basicMuseumPage_selectedTab', value);
+}
 
 export default function LeafMuseumPage(props) {
-  const [selectedTab, setSelectedTab] = React.useState('everything');
+  const [selectedTab, setSelectedTab] = React.useState(getSelectedTabCookie());
   
   const handleTabChange = (event, newValue) => {
     setSelectedTab(newValue);
+    setSelectedTabCookie(newValue);
   }
 
   const tabAppBar = (
