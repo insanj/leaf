@@ -60,7 +60,7 @@ class LeafDataManager {
   getArt() {
     const art = game8_scraped_art["Paintings"].concat(game8_scraped_art["Statues"]);
     const localed = art.map((c, i) => {
-      const validated = c.name.replaceAll(" ", "_").toLowerCase();
+      const validated = c.name.replace(/ /g, "_").toLowerCase();
       c.image = require(`../img/art/${validated}.jpg`); 
       return c;
     });
