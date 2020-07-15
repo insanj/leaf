@@ -18,7 +18,7 @@ import HomeIcon from '@material-ui/icons/Home';
 const useStyles = makeStyles({
   root: {
     position: 'fixed',
-    bottom: 0,
+    bottom: 'calc(0px + env(safe-area-inset-bottom))',
     right: 0,
     left: 0,
     boxShadow: '0px 0px 5px rgba(0,0,0,0.2)'
