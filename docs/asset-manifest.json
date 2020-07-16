@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a7dae909.chunk.css",
-    "main.js": "/static/js/main.77d9017b.chunk.js",
-    "main.js.map": "/static/js/main.77d9017b.chunk.js.map",
+    "main.js": "/static/js/main.b5579fe2.chunk.js",
+    "main.js.map": "/static/js/main.b5579fe2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e52eefbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.e52eefbf.js.map",
     "static/css/2.9522b9fe.chunk.css": "/static/css/2.9522b9fe.chunk.css",
-    "static/js/2.5a6a1469.chunk.js": "/static/js/2.5a6a1469.chunk.js",
-    "static/js/2.5a6a1469.chunk.js.map": "/static/js/2.5a6a1469.chunk.js.map",
+    "static/js/2.85ed1c53.chunk.js": "/static/js/2.85ed1c53.chunk.js",
+    "static/js/2.85ed1c53.chunk.js.map": "/static/js/2.85ed1c53.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7198df56b1514abc7fbbbdd2ca31d02c.js": "/precache-manifest.7198df56b1514abc7fbbbdd2ca31d02c.js",
+    "precache-manifest.e2e3fe92d5c7a18029c01167ca95237a.js": "/precache-manifest.e2e3fe92d5c7a18029c01167ca95237a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.a7dae909.chunk.css.map": "/static/css/main.a7dae909.chunk.css.map",
-    "static/js/2.5a6a1469.chunk.js.LICENSE.txt": "/static/js/2.5a6a1469.chunk.js.LICENSE.txt",
+    "static/js/2.85ed1c53.chunk.js.LICENSE.txt": "/static/js/2.85ed1c53.chunk.js.LICENSE.txt",
     "static/media/NH-Admiral_poster.png": "/static/media/NH-Admiral_poster.bd069d84.png",
     "static/media/NH-Agent_S_poster.png": "/static/media/NH-Agent_S_poster.96fbcece.png",
     "static/media/NH-Agnes_poster.png": "/static/media/NH-Agnes_poster.0dbba877.png",
@@ -418,6 +418,14 @@
     "static/media/familiar_statue.jpg": "/static/media/familiar_statue.1ff9dc20.jpg",
     "static/media/famous_painting.jpg": "/static/media/famous_painting.8e97691e.jpg",
     "static/media/flowery_painting.jpg": "/static/media/flowery_painting.2b8503b9.jpg",
+    "static/media/fossil_alphabetical_12.jpg": "/static/media/fossil_alphabetical_12.2c39a2be.jpg",
+    "static/media/fossil_alphabetical_14.jpg": "/static/media/fossil_alphabetical_14.6be99cd2.jpg",
+    "static/media/fossil_alphabetical_17.jpg": "/static/media/fossil_alphabetical_17.c92c14dc.jpg",
+    "static/media/fossil_alphabetical_20.jpg": "/static/media/fossil_alphabetical_20.e78414a8.jpg",
+    "static/media/fossil_alphabetical_3.jpg": "/static/media/fossil_alphabetical_3.a11947df.jpg",
+    "static/media/fossil_alphabetical_31.jpg": "/static/media/fossil_alphabetical_31.bc29e549.jpg",
+    "static/media/fossil_alphabetical_4.jpg": "/static/media/fossil_alphabetical_4.eaa76942.jpg",
+    "static/media/fossil_alphabetical_8.jpg": "/static/media/fossil_alphabetical_8.98f6e8cc.jpg",
     "static/media/gallant_statue.jpg": "/static/media/gallant_statue.c14a15d3.jpg",
     "static/media/glowing_painting.jpg": "/static/media/glowing_painting.7af07969.jpg",
     "static/media/graceful_painting.jpg": "/static/media/graceful_painting.54c133e9.jpg",
@@ -558,8 +566,8 @@
   "entrypoints": [
     "static/js/runtime-main.e52eefbf.js",
     "static/css/2.9522b9fe.chunk.css",
-    "static/js/2.5a6a1469.chunk.js",
+    "static/js/2.85ed1c53.chunk.js",
     "static/css/main.a7dae909.chunk.css",
-    "static/js/main.77d9017b.chunk.js"
+    "static/js/main.b5579fe2.chunk.js"
   ]
 }

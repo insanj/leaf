@@ -13,7 +13,7 @@ import can from '../img/sprites/tiles-5.png';
 import axe from '../img/sprites/tiles-6.png';
 import tile0 from '../img/sprites/tiles-0.png';
 
-import Cookies from '../cookies.js';
+import LeafCookies from '../backend/leafCookies';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
 
 const COOKIE_LEAF_STEPPER_ITEMS_KEY = "LeafStepperItems";
 const getCookieValues = () => {
-  const savedStepperItems = Cookies.getCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY);
+  const savedStepperItems = LeafCookies.getCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY);
   if (!savedStepperItems) {
     return {};
   }
@@ -53,7 +53,7 @@ const getCookieValues = () => {
 
 const setCookieValues = (values) => {
   const stepperItemsString = JSON.stringify(values);
-  Cookies.setCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY, stepperItemsString);
+  LeafCookies.setCookie(COOKIE_LEAF_STEPPER_ITEMS_KEY, stepperItemsString);
 }
 
 export default function LeafStepperPage({ searchText }) {

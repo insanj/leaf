@@ -135,10 +135,10 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     return (
       <LeafMuseumCard 
         item={ item }
-        image={ selectedTab == 'fossils' ? tile82 : null }
-        onItemIconClick={ selectedTab === 'art' ? onArtItemIconClick : onItemIconClick }
+        image={ null }
+        onItemIconClick={ selectedTab === 'art' || selectedTab === 'fossils' ? onArtItemIconClick : onItemIconClick }
         hasMuseumEntry={loadedMuseumEntries && loadedMuseumEntries.filter(e => e.metadata.title === item.title).length > 0}
-        isArtwork={selectedTab == 'art'}
+        showLargeThumbnail={selectedTab === 'art' || selectedTab === 'fossils'}
       />
     );
   }

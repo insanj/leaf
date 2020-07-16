@@ -14,8 +14,6 @@ import can from '../img/sprites/tiles-5.png';
 import axe from '../img/sprites/tiles-6.png';
 import tile0 from '../img/sprites/tiles-0.png';
 
-import Cookies from '../cookies.js';
-
 const useStyles = makeStyles((theme) => ({
   root: {
     paddingTop: 10,

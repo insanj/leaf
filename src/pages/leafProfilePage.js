@@ -91,6 +91,20 @@ const setVillagerGiftBuyingChecksCookie = (value) => {
   LeafCookies.setCookie('leaf_villagerGiftBuyingChecks', string);
 }
 
+const getProfileTabValueCookie = () => {
+  const cookie = LeafCookies.getCookie('leaf_profileTabValue');
+  if (!cookie || cookie.length < 1) {
+    return 0;
+  }
+
+  return +cookie;
+}
+
+const setProfileTabValueCookie = (value) => {
+  const string = `${value}`;
+  LeafCookies.setCookie('leaf_profileTabValue', string);
+}
+
 export default function LeafProfilePage({ searchText, loadedVillagers, loadedMuseumEntries }) {
   const classes = useStyles();
   const { enqueueSnackbar, closeSnackbar } = useSnackbar();
@@ -106,7 +120,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
 
   const [isLoading, setIsLoading] = React.useState(true);
   const [isAuthed, setIsAuthed] = React.useState(false);
-  const [authedTabValue, setAuthedTabValue] = React.useState(0);
+  const [authedTabValue, setAuthedTabValue] = React.useState(getProfileTabValueCookie());
 
   const MYLEAF_USERNAME_KEY = "MYLEAF_USERNAME";
   const MYLEAF_PASSWORD_KEY = "MYLEAF_PASSWORD";
@@ -205,6 +219,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
 
   const handleAuthedTabChange = (event, newValue) => {
     setAuthedTabValue(newValue);
+    setProfileTabValueCookie(newValue);
   }
 
   const handleProfileGetCounters = () => {

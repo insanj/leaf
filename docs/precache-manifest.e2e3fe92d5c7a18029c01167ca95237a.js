@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff7054fa38eb462deea1a002384d7d84",
+    "revision": "f0d6b3c8e4bfd89fe9c7018a0b89be60",
     "url": "/index.html"
   },
   {
-    "revision": "565e7b1d858398ec4d0d",
+    "revision": "9d6c2802f8ca6b0c0a2e",
     "url": "/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "db16e0c17cb0442c2eb9",
+    "revision": "f5298a40f069ea2ded6e",
     "url": "/static/css/main.a7dae909.chunk.css"
   },
   {
-    "revision": "565e7b1d858398ec4d0d",
-    "url": "/static/js/2.5a6a1469.chunk.js"
+    "revision": "9d6c2802f8ca6b0c0a2e",
+    "url": "/static/js/2.85ed1c53.chunk.js"
   },
   {
     "revision": "a333bccfa580a47221f2f872469a8c52",
-    "url": "/static/js/2.5a6a1469.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.85ed1c53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db16e0c17cb0442c2eb9",
-    "url": "/static/js/main.77d9017b.chunk.js"
+    "revision": "f5298a40f069ea2ded6e",
+    "url": "/static/js/main.b5579fe2.chunk.js"
   },
   {
     "revision": "76cd7295db9f616d62e3",
@@ -1642,6 +1642,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b8503b9deb898f50c82e3e57c3cc0dc",
     "url": "/static/media/flowery_painting.2b8503b9.jpg"
+  },
+  {
+    "revision": "2c39a2be48907345aa9d9b7f383863bb",
+    "url": "/static/media/fossil_alphabetical_12.2c39a2be.jpg"
+  },
+  {
+    "revision": "6be99cd2b647cd30528b2bbd1de254ba",
+    "url": "/static/media/fossil_alphabetical_14.6be99cd2.jpg"
+  },
+  {
+    "revision": "c92c14dc4e3bee70ee6b299139346107",
+    "url": "/static/media/fossil_alphabetical_17.c92c14dc.jpg"
+  },
+  {
+    "revision": "e78414a8caead2f608b795d743e18081",
+    "url": "/static/media/fossil_alphabetical_20.e78414a8.jpg"
+  },
+  {
+    "revision": "a11947dfad581e91afed6584e20d2fdc",
+    "url": "/static/media/fossil_alphabetical_3.a11947df.jpg"
+  },
+  {
+    "revision": "bc29e5496935fe761864fd8233c5d8da",
+    "url": "/static/media/fossil_alphabetical_31.bc29e549.jpg"
+  },
+  {
+    "revision": "eaa7694259a9f1b147a87b9c6e916ae5",
+    "url": "/static/media/fossil_alphabetical_4.eaa76942.jpg"
+  },
+  {
+    "revision": "98f6e8ccd58fa2b3bb581496b38b0e9a",
+    "url": "/static/media/fossil_alphabetical_8.98f6e8cc.jpg"
   },
   {
     "revision": "c14a15d33c36eb71baa88179a72f8dda",

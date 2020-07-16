@@ -1380,12 +1380,17 @@
   ],
   "Fossils": [
       {
+          "Fossil": "Acanthostega",
+          "Selling Price": "2,000 Bells",
+          "Location": "Dig spots"
+      },
+      {
           "Fossil": "Amber",
           "Selling Price": "1,200 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Ammonite ",
+          "Fossil": "Ammonite",
           "Selling Price": "1,100 Bells",
           "Location": "Dig spots"
       },
@@ -1405,18 +1410,8 @@
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Apato Skull",
-          "Selling Price": "5,000 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Apato Tail",
-          "Selling Price": "4,000 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Apato Torso",
-          "Selling Price": "4,500 Bells",
+          "Fossil": "Anomalocaris",
+          "Selling Price": "2,000 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1430,8 +1425,33 @@
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Archelon Torso",
+          "Fossil": "Archelon Tail",
           "Selling Price": "3,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Australopith",
+          "Selling Price": "1,100 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Brachio Chest",
+          "Selling Price": "5,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Brachio Pelvis",
+          "Selling Price": "5,000 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Brachio Skull",
+          "Selling Price": "6,000 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Brachio Tail",
+          "Selling Price": "5,500 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1440,23 +1460,23 @@
           "Location": "Dig spots"
       },
       {
+          "Fossil": "Deinony Tail",
+          "Selling Price": "2,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Deinony Torso",
+          "Selling Price": "3,000 Bells",
+          "Location": "Dig spots"
+      },
+      {
           "Fossil": "Dimetrodon Skull",
           "Selling Price": "5,500 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Dimetrodon Tail",
-          "Selling Price": "4,500 Bells",
-          "Location": "Dig spots"
-      },
-      {
           "Fossil": "Dimetrodon Torso",
           "Selling Price": "5,000 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Dinosaur Egg",
-          "Selling Price": "1,400 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1466,17 +1486,17 @@
       },
       {
           "Fossil": "Diplo Chest",
-          "Selling Price": "4,500 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Diplo Hip",
           "Selling Price": "4,000 Bells",
           "Location": "Dig spots"
       },
       {
           "Fossil": "Diplo Neck",
-          "Selling Price": "5,000 Bells",
+          "Selling Price": "4,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Diplo Pelvis",
+          "Selling Price": "4,500 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1490,18 +1510,18 @@
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Fern Fossil",
-          "Selling Price": "1,000 Bells",
+          "Fossil": "Diplo Tail Tip",
+          "Selling Price": "4,000 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Ichthyo Skull",
-          "Selling Price": "2,500 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Ichthyo Torso",
+          "Fossil": "Dunkleosteus",
           "Selling Price": "3,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Eusthenopteron",
+          "Selling Price": "2,000 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1517,6 +1537,26 @@
       {
           "Fossil": "Iguanadon Torso",
           "Selling Price": "3,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Juramaia",
+          "Selling Price": "1,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Left Megalo Side",
+          "Selling Price": "4,00 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Left Ptera Wing",
+          "Selling Price": "4,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Left Quetzal Wing",
+          "Selling Price": "5,000 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1545,6 +1585,21 @@
           "Location": "Dig spots"
       },
       {
+          "Fossil": "Myllokunmingia",
+          "Selling Price": "1,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Ophthalmo Skull",
+          "Selling Price": "2,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Ophthalmo Torso",
+          "Selling Price": "2,000 Bells",
+          "Location": "Dig spots"
+      },
+      {
           "Fossil": "Pachy Skull",
           "Selling Price": "4,000 Bells",
           "Location": "Dig spots"
@@ -1552,11 +1607,6 @@
       {
           "Fossil": "Pachy Tail",
           "Selling Price": "3,000 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Pachy Torso",
-          "Selling Price": "3,500 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1575,12 +1625,7 @@
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Peking Man",
-          "Selling Price": "1,100 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Plesio Neck",
+          "Fossil": "Plesio Torso",
           "Selling Price": "4,500 Bells",
           "Location": "Dig spots"
       },
@@ -1590,48 +1635,33 @@
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Plesio Torso",
+          "Fossil": "Plesio Tail",
           "Selling Price": "4,500 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Ptera Left Wing",
-          "Selling Price": "4,500 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Ptera Right Wing",
-          "Selling Price": "4,500 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Ptera Skull",
+          "Fossil": "Ptera Body",
           "Selling Price": "4,000 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Raptor Skull",
-          "Selling Price": "3,000 Bells",
+          "Fossil": "Quetzal Torso",
+          "Selling Price": "4,500 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Raptor Torso",
-          "Selling Price": "2,500 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Rex Skull",
-          "Selling Price": "6,000 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Rex Tail",
-          "Selling Price": "5,000 Bells",
-          "Location": "Dig spots"
-      },
-      {
-          "Fossil": "Rex Torso",
+          "Fossil": "Right Megalo Side",
           "Selling Price": "5,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Right Ptera Wing",
+          "Selling Price": "4,500 Bells",
+          "Location": "Dig spots"
+      },
+      {
+          "Fossil": "Right Quetzal Wing",
+          "Selling Price": "5,000 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1640,7 +1670,7 @@
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Sabertooth Torso",
+          "Fossil": "Sabertooth Tail",
           "Selling Price": "2,000 Bells",
           "Location": "Dig spots"
       },
@@ -1656,7 +1686,7 @@
       },
       {
           "Fossil": "Spino Tail",
-          "Selling Price": "2,000 Bells",
+          "Selling Price": "2,500 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1680,23 +1710,23 @@
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Styraco Skull",
-          "Selling Price": "3,500 Bells",
+          "Fossil": "T. Rex Skull",
+          "Selling Price": "6,000 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Styraco Tail",
-          "Selling Price": "2,500 Bells",
+          "Fossil": "T. Rex Tail",
+          "Selling Price": "5,000 Bells",
           "Location": "Dig spots"
       },
       {
-          "Fossil": "Styraco Torso",
-          "Selling Price": "3,000 Bells",
+          "Fossil": "T. Rex Torso",
+          "Selling Price": "5,500 Bells",
           "Location": "Dig spots"
       },
       {
           "Fossil": "Tricera Skull",
-          "Selling Price": "6,000 Bells",
+          "Selling Price": "5,500 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1706,7 +1736,7 @@
       },
       {
           "Fossil": "Tricera Torso",
-          "Selling Price": "5,500 Bells",
+          "Selling Price": "5,000 Bells",
           "Location": "Dig spots"
       },
       {
@@ -1789,7 +1819,7 @@
           "Rarity": "★★"
       },
       {
-          "Flower": "Hyacinth (Pink) ",
+          "Flower": "Hyacinth (Pink)",
           "Selling Price": "N/A",
           "Parents / Location": "Red Hyacinth + White Hyacinth",
           "Rarity": "★★"
@@ -2564,7 +2594,7 @@
           "Furniture": "Beach Chair",
           "Price to Buy": "920 Bells",
           "Selling Price": "230 Bells",
-          "Source": "Timmy & Tommy ",
+          "Source": "Timmy & Tommy",
           "Variations": "White, Black, Orange, Pink"
       },
       {
@@ -3121,7 +3151,7 @@
       {
           "Furniture": "Construction Sign",
           "Price to Buy": "1,000 Nook Miles",
-          "Selling Price": "N/A ",
+          "Selling Price": "N/A",
           "Source": "Nook Stop (redeemed with Nook Miles)",
           "Variations": "Variation 1, Variation 2, Variation 3, Blue Variation, Orange Variation"
       },
@@ -4222,7 +4252,7 @@
       },
       {
           "Furniture": "Iron Closet",
-          "Materials Needed": "Iron Nugget (12) ",
+          "Materials Needed": "Iron Nugget (12)",
           "Selling Price": "9,000 Bells",
           "Source": "DIY Recipes",
           "Variations": "Black, White"
@@ -4409,7 +4439,7 @@
           "Furniture": "Jukebox",
           "Price to Buy": "5,600 Bells",
           "Selling Price": "1,400 Bells",
-          "Source": "Timmy & Tommy ",
+          "Source": "Timmy & Tommy",
           "Variations": "N/A"
       },
       {
@@ -5189,7 +5219,7 @@
           "Furniture": "Papa Panda`",
           "Price to Buy": "8,500 Bells",
           "Selling Price": "2,125 Bells",
-          "Source": "Timmy & Tommy ",
+          "Source": "Timmy & Tommy",
           "Variations": "N/A"
       },
       {
@@ -5812,7 +5842,7 @@
       {
           "Furniture": "Shell Partition",
           "Materials Needed": "Venus Comb (4) + Conch (4)",
-          "Selling Price": "N/A ",
+          "Selling Price": "N/A",
           "Source": "DIY Recipes",
           "Variations": "N/A"
       },
@@ -6262,7 +6292,7 @@
           "Furniture": "Telescope",
           "Price to Buy": "5,600 Bells",
           "Selling Price": "1,400 Bells",
-          "Source": "Timmy & Tommy ",
+          "Source": "Timmy & Tommy",
           "Variations": "N/A"
       },
       {
@@ -6912,7 +6942,7 @@
           "Furniture": "Yellow-Leaf Pile",
           "Materials Needed": "Acorn (3) + Clump of Weeds (5)",
           "Selling Price": "N/A",
-          "Source": "DIY Recipes ",
+          "Source": "DIY Recipes",
           "Variations": "N/A"
       },
       {
@@ -7588,7 +7618,7 @@
           "Source": "Timmy & Tommy"
       },
       {
-          "Flooring": "Pastel puzzle flooring ",
+          "Flooring": "Pastel puzzle flooring",
           "Price to Buy": "1,450 Bells",
           "Selling Price": "N/A",
           "Source": "Timmy & Tommy"
@@ -7891,7 +7921,7 @@
           "Durability": "30 uses"
       },
       {
-          "Tools": "Flimsy Axe ",
+          "Tools": "Flimsy Axe",
           "Price to Buy": "800 Bells",
           "Selling Price": "200 Bells",
           "Materials Needed": "Tree Branch (5) + Stone (1)",
