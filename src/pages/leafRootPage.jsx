@@ -8,6 +8,7 @@ import LeafAppBar from '../components/leafAppBar';
 import LeafTabBar from '../components/leafTabBar';
 import LeafFooter from '../components/leafFooter';
 import LeafVillagersSection from '../components/leafVillagersSection';
+import LeafDrawer from '../components/leafDrawer';
 
 import LeafStepperPage from './leafStepperPage';
 import LeafMuseumPage from './leafMuseumPage';
@@ -295,9 +296,23 @@ export default function LeafRootPage({}) {
       );
     } else {
       return (
-        <p>Uh oh, you weren't supposed to see this...</p>
+        <p style={{textAlign: 'center', color: 'white', fontSize: '30px', paddingTop: '50px'}}>😋<br/>Coming soon!</p>
       );
     }
+  }
+
+  const [leafDrawerOpen, setLeafDrawerOpen] = React.useState(false);
+  const onAppBarDrawerClick = () => {
+    setLeafDrawerOpen(true);
+  }
+
+  const onLeafDrawerCloseClick = () => {
+    setLeafDrawerOpen(false);
+  }
+
+  const onLeafDrawerItemClick = (item) => {
+    setLeafDrawerOpen(false);
+    setActivePage(item);
   }
 
   return (
@@ -307,13 +322,9 @@ export default function LeafRootPage({}) {
         <LeafFooter />
       </div>
 
-      <LeafTabBar
-        active={activePage}
-        onActiveChange={handleTabBarActiveChange}
-      />
-
       <LeafAppBar 
         onSearchInputChange={handleSearchInputChange}
+        onDrawerClick={onAppBarDrawerClick}
       />
 
       { !lightboxImage ? '' : (
@@ -327,6 +338,12 @@ export default function LeafRootPage({}) {
           }}
         />
       ) }
+
+      <LeafDrawer
+        open={ leafDrawerOpen }
+        onItemClick={ onLeafDrawerItemClick }
+        onCloseClick={ onLeafDrawerCloseClick }
+      />
     </React.Fragment>
   );
 }

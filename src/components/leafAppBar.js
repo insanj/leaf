@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     marginRight: theme.spacing(2),
+    cursor: 'pointer',
   },
   title: {
     flexGrow: 1,
@@ -72,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function LeafAppBar({ onSearchInputChange }) {
+export default function LeafAppBar({ onSearchInputChange, onDrawerClick }) {
   const classes = useStyles();
   const [searchValue, setSearchValue] = React.useState('');
 
@@ -90,6 +91,10 @@ export default function LeafAppBar({ onSearchInputChange }) {
     <div className={classes.root}>
       <AppBar position="fixed">
         <Toolbar>
+          <div className={classes.menuButton} onClick={ onDrawerClick }>
+            <MenuIcon />
+          </div>
+
           <Typography variant="h6" className={classes.title}>
             🐝&nbsp;&nbsp;leaf
           </Typography>

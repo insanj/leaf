@@ -1,0 +1,382 @@
+[
+  {
+    "name": "K.K. Chorale",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Album_Cover-K.K._Chorale.png/revision/latest/scale-to-width-down/110?cb=20200502234227"
+  },
+  {
+    "name": "K.K. March",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cb/NH-Album_Cover-K.K._March.png/revision/latest/scale-to-width-down/110?cb=20200503001201"
+  },
+  {
+    "name": "K.K. Waltz",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-Album_Cover-K.K._Waltz.png/revision/latest/scale-to-width-down/110?cb=20200503002514"
+  },
+  {
+    "name": "K.K. Swing",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a6/NH-Album_Cover-K.K._Swing.png/revision/latest/scale-to-width-down/110?cb=20200503002319"
+  },
+  {
+    "name": "K.K. Jazz",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/75/NH-Album_Cover-K.K._Jazz.png/revision/latest/scale-to-width-down/110?cb=20200503000610"
+  },
+  {
+    "name": "K.K. Fusion",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Album_Cover-K.K._Fusion.png/revision/latest/scale-to-width-down/110?cb=20200502235452"
+  },
+  {
+    "name": "K.K. Étude",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fa/NH-Album_Cover-K.K._Etude.png/revision/latest/scale-to-width-down/110?cb=20200502234735"
+  },
+  {
+    "name": "K.K. Lullaby",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Album_Cover-K.K._Lullaby.png/revision/latest/scale-to-width-down/110?cb=20200503000857"
+  },
+  {
+    "name": "K.K. Aria",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/66/NH-Album_Cover-K.K._Aria.png/revision/latest/scale-to-width-down/110?cb=20200502233737"
+  },
+  {
+    "name": "K.K. Samba",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/aa/NH-Album_Cover-K.K._Samba.png/revision/latest/scale-to-width-down/110?cb=20200503002002"
+  },
+  {
+    "name": "K.K. Bossa",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Album_Cover-K.K._Bossa.png/revision/latest/scale-to-width-down/110?cb=20200502234110"
+  },
+  {
+    "name": "K.K. Calypso",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Album_Cover-K.K._Calypso.png/revision/latest/scale-to-width-down/110?cb=20200502234139"
+  },
+  {
+    "name": "K.K. Salsa",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Album_Cover-K.K._Salsa.png/revision/latest/scale-to-width-down/110?cb=20200503001921"
+  },
+  {
+    "name": "K.K. Mambo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Album_Cover-K.K._Mambo.png/revision/latest/scale-to-width-down/110?cb=20200503000930"
+  },
+  {
+    "name": "K.K. Reggae",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f2/NH-Album_Cover-K.K._Reggae.png/revision/latest/scale-to-width-down/110?cb=20200503001633"
+  },
+  {
+    "name": "K.K. Ska",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/NH-Album_Cover-K.K._Ska.png/revision/latest/scale-to-width-down/110?cb=20200503002028"
+  },
+  {
+    "name": "K.K. Tango",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0d/NH-Album_Cover-K.K._Tango.png/revision/latest/scale-to-width-down/110?cb=20200503002420"
+  },
+  {
+    "name": "K.K. Faire",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/67/NH-Album_Cover-K.K._Faire.png/revision/latest/scale-to-width-down/110?cb=20200502235042"
+  },
+  {
+    "name": "Aloha K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Album_Cover-Aloha_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502231742"
+  },
+  {
+    "name": "Lucky K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Album_Cover-Lucky_K.K..png/revision/latest/scale-to-width-down/110?cb=20200503002638"
+  },
+  {
+    "name": "K.K. Condor",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d0/NH-Album_Cover-K.K._Condor.png/revision/latest/scale-to-width-down/110?cb=20200502234250"
+  },
+  {
+    "name": "K.K. Steppe",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Album_Cover-K.K._Steppe.png/revision/latest/scale-to-width-down/110?cb=20200503002234"
+  },
+  {
+    "name": "Imperial K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Album_Cover-Imperial_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502233318"
+  },
+  {
+    "name": "K.K. Casbah",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Album_Cover-K.K._Casbah.png/revision/latest/scale-to-width-down/110?cb=20200502234206"
+  },
+  {
+    "name": "K.K. Safari",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Album_Cover-K.K._Safari.png/revision/latest/scale-to-width-down/110?cb=20200503001852"
+  },
+  {
+    "name": "K.K. Folk",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Album_Cover-K.K._Folk.png/revision/latest/scale-to-width-down/110?cb=20200502235400"
+  },
+  {
+    "name": "K.K. Rock",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/NH-Album_Cover-K.K._Rock.png/revision/latest/scale-to-width-down/110?cb=20200503001655"
+  },
+  {
+    "name": "Rockin' K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Album_Cover-Rockin%27_K.K..png/revision/latest/scale-to-width-down/110?cb=20200503002952"
+  },
+  {
+    "name": "K.K. Ragtime",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/27/NH-Album_Cover-K.K._Ragtime.png/revision/latest/scale-to-width-down/110?cb=20200503001531"
+  },
+  {
+    "name": "K.K. Gumbo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/91/NH-Album_Cover-K.K._Gumbo.png/revision/latest/scale-to-width-down/110?cb=20200503000342"
+  },
+  {
+    "name": "The K. Funk",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/NH-Album_Cover-The_K._Funk.png/revision/latest/scale-to-width-down/110?cb=20200503003346"
+  },
+  {
+    "name": "K.K. Blues",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Album_Cover-K.K._Blues.png/revision/latest/scale-to-width-down/110?cb=20200502234026"
+  },
+  {
+    "name": "Soulful K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Album_Cover-Soulful_K.K..png/revision/latest/scale-to-width-down/110?cb=20200503003023"
+  },
+  {
+    "name": "K.K. Soul",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/84/NH-Album_Cover-K.K._Soul.png/revision/latest/scale-to-width-down/110?cb=20200503002212"
+  },
+  {
+    "name": "K.K. Cruisin'",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Album_Cover-K.K._Cruisin%27.png/revision/latest/scale-to-width-down/110?cb=20200502234448"
+  },
+  {
+    "name": "K.K. Love Song",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/67/NH-Album_Cover-K.K._Love_Song.png/revision/latest/scale-to-width-down/110?cb=20200503000726"
+  },
+  {
+    "name": "K.K. D&B",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5b/NH-Album_Cover-K.K._D%26B.png/revision/latest/scale-to-width-down/110?cb=20200502234513"
+  },
+  {
+    "name": "K.K. Technopop",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Album_Cover-K.K._Technopop.png/revision/latest/scale-to-width-down/110?cb=20200503002443"
+  },
+  {
+    "name": "DJ K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7a/NH-Album_Cover-DJ_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502232717"
+  },
+  {
+    "name": "Only Me",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b5/NH-Album_Cover-Only_Me.png/revision/latest/scale-to-width-down/110?cb=20200503002906"
+  },
+  {
+    "name": "K.K. Country",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5a/NH-Album_Cover-K.K._Country.png/revision/latest/scale-to-width-down/110?cb=20200502234335"
+  },
+  {
+    "name": "Surfin' K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Album_Cover-Surfin%27_K.K..png/revision/latest/scale-to-width-down/110?cb=20200503003244"
+  },
+  {
+    "name": "K.K. Ballad",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bb/NH-Album_Cover-K.K._Ballad.png/revision/latest/scale-to-width-down/110?cb=20200502233813"
+  },
+  {
+    "name": "Comrade K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/67/NH-Album_Cover-Comrade_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502232547"
+  },
+  {
+    "name": "K.K. Lament",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/61/NH-Album_Cover-K.K._Lament.png/revision/latest/scale-to-width-down/110?cb=20200503000701"
+  },
+  {
+    "name": "Go K.K. Rider",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Album_Cover-Go_K.K._Rider.png/revision/latest/scale-to-width-down/110?cb=20200502233137"
+  },
+  {
+    "name": "K.K. Dirge",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/NH-Album_Cover-K.K._Dirge.png/revision/latest/scale-to-width-down/110?cb=20200502234542"
+  },
+  {
+    "name": "K.K. Western",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/51/NH-Album_Cover-K.K._Western.png/revision/latest/scale-to-width-down/110?cb=20200503002538"
+  },
+  {
+    "name": "Mr. K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6c/NH-Album_Cover-Mr._K.K..png/revision/latest/scale-to-width-down/110?cb=20200503002745"
+  },
+  {
+    "name": "Café K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Album_Cover-Cafe_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502232412"
+  },
+  {
+    "name": "K.K. Parade",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/28/NH-Album_Cover-K.K._Parade.png/revision/latest/scale-to-width-down/110?cb=20200503001506"
+  },
+  {
+    "name": "K.K. Mariachi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Album_Cover-K.K._Mariachi.png/revision/latest/scale-to-width-down/110?cb=20200503001110"
+  },
+  {
+    "name": "K.K. Song",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ca/NH-Album_Cover-K.K._Song.png/revision/latest/scale-to-width-down/110?cb=20200503002118"
+  },
+  {
+    "name": "I Love You",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b0/NH-Album_Cover-I_Love_You.png/revision/latest/scale-to-width-down/110?cb=20200502233248"
+  },
+  {
+    "name": "Two Days Ago",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Album_Cover-Two_Days_Ago.png/revision/latest/scale-to-width-down/110?cb=20200503003434"
+  },
+  {
+    "name": "My Place",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Album_Cover-My_Place.png/revision/latest/scale-to-width-down/110?cb=20200503002809"
+  },
+  {
+    "name": "Forest Life",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/60/NH-Album_Cover-Forest_Life.png/revision/latest/scale-to-width-down/110?cb=20200502233052"
+  },
+  {
+    "name": "To the Edge",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Album_Cover-To_the_Edge.png/revision/latest/scale-to-width-down/110?cb=20200503003411"
+  },
+  {
+    "name": "Pondering",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Album_Cover-Pondering.png/revision/latest/scale-to-width-down/110?cb=20200503002929"
+  },
+  {
+    "name": "K.K. Dixie",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Album_Cover-K.K._Dixie.png/revision/latest/scale-to-width-down/110?cb=20200502234711"
+  },
+  {
+    "name": "K.K. Marathon",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Album_Cover-K.K._Marathon.png/revision/latest/scale-to-width-down/110?cb=20200503001015"
+  },
+  {
+    "name": "King K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/NH-Album_Cover-King_K.K..png/revision/latest/scale-to-width-down/110?cb=20200503002601"
+  },
+  {
+    "name": "Mountain Song",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Album_Cover-Mountain_Song.png/revision/latest/scale-to-width-down/110?cb=20200503002723"
+  },
+  {
+    "name": "Marine Song 2001",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/ff/NH-Album_Cover-Marine_Song_2001.png/revision/latest/scale-to-width-down/110?cb=20200503002702"
+  },
+  {
+    "name": "Neapolitan",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0d/NH-Album_Cover-Neapolitan.png/revision/latest/scale-to-width-down/110?cb=20200503002841"
+  },
+  {
+    "name": "Steep Hill",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Album_Cover-Steep_Hill.png/revision/latest/scale-to-width-down/110?cb=20200503003211"
+  },
+  {
+    "name": "K.K. Rockabilly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a3/NH-Album_Cover-K.K._Rockabilly.png/revision/latest/scale-to-width-down/110?cb=20200503001828"
+  },
+  {
+    "name": "Agent K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/91/NH-Album_Cover-Agent_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502231523"
+  },
+  {
+    "name": "K.K. Rally",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Album_Cover-K.K._Rally.png/revision/latest/scale-to-width-down/110?cb=20200503001607"
+  },
+  {
+    "name": "K.K. Metal",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bb/NH-Album_Cover-K.K._Metal.png/revision/latest/scale-to-width-down/110?cb=20200503001307"
+  },
+  {
+    "name": "Stale Cupcakes",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/87/NH-Album_Cover-Stale_Cupcakes.png/revision/latest/scale-to-width-down/110?cb=20200503003148"
+  },
+  {
+    "name": "Spring Blossoms",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bb/NH-Album_Cover-Spring_Blossoms.png/revision/latest/scale-to-width-down/110?cb=20200503003122"
+  },
+  {
+    "name": "Wandering",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3c/NH-Album_Cover-Wandering.png/revision/latest/scale-to-width-down/110?cb=20200503003456"
+  },
+  {
+    "name": "K.K. House",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Album_Cover-K.K._House.png/revision/latest/scale-to-width-down/110?cb=20200503000403"
+  },
+  {
+    "name": "K.K. Sonata",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Album_Cover-K.K._Sonata.png/revision/latest/scale-to-width-down/110?cb=20200503002056"
+  },
+  {
+    "name": "Hypno K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4e/NH-Album_Cover-Hypno_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502233221"
+  },
+  {
+    "name": "K.K. Stroll",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/NH-Album_Cover-K.K._Stroll.png/revision/latest/scale-to-width-down/110?cb=20200503002257"
+  },
+  {
+    "name": "K.K. Island",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/NH-Album_Cover-K.K._Island.png/revision/latest/scale-to-width-down/110?cb=20200503000534"
+  },
+  {
+    "name": "Space K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d6/NH-Album_Cover-Space_K.K..png/revision/latest/scale-to-width-down/110?cb=20200503003058"
+  },
+  {
+    "name": "K.K. Adventure",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a6/NH-Album_Cover-K.K._Adventure.png/revision/latest/scale-to-width-down/110?cb=20200502233349"
+  },
+  {
+    "name": "K.K. Oasis",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bc/NH-Album_Cover-K.K._Oasis.png/revision/latest/scale-to-width-down/110?cb=20200503001440"
+  },
+  {
+    "name": "K.K. Bazaar",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Album_Cover-K.K._Bazaar.png/revision/latest/scale-to-width-down/110?cb=20200502233842"
+  },
+  {
+    "name": "K.K. Milonga",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/28/NH-Album_Cover-K.K._Milonga.png/revision/latest/scale-to-width-down/110?cb=20200503001343"
+  },
+  {
+    "name": "K.K. Groove",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Album_Cover-K.K._Groove.png/revision/latest/scale-to-width-down/110?cb=20200503000239"
+  },
+  {
+    "name": "K.K. Jongara",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/84/NH-Album_Cover-K.K._Jongara.png/revision/latest/scale-to-width-down/110?cb=20200503000636"
+  },
+  {
+    "name": "K.K. Flamenco",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/NH-Album_Cover-K.K._Flamenco.png/revision/latest/scale-to-width-down/110?cb=20200502235159"
+  },
+  {
+    "name": "K.K. Moody",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Album_Cover-K.K._Moody.png/revision/latest/scale-to-width-down/110?cb=20200503001415"
+  },
+  {
+    "name": "Bubblegum K.K.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Album_Cover-Bubblegum_K.K..png/revision/latest/scale-to-width-down/110?cb=20200502232328"
+  },
+  {
+    "name": "K.K. Synth",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/NH-Album_Cover-K.K._Synth.png/revision/latest/scale-to-width-down/110?cb=20200503002343"
+  },
+  {
+    "name": "K.K. Disco",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Album_Cover-K.K._Disco.png/revision/latest/scale-to-width-down/110?cb=20200502234613"
+  },
+  {
+    "name": "K.K. Birthday",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Album_Cover-K.K._Birthday.png/revision/latest/scale-to-width-down/110?cb=20200502233959"
+  },
+  {
+    "name": "Animal City",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/NH-Album_Cover-Animal_City.png/revision/latest/scale-to-width-down/110?cb=20200502231911"
+  },
+  {
+    "name": "Drivin'",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0b/NH-Album_Cover-Drivin%27.png/revision/latest/scale-to-width-down/110?cb=20200502233001"
+  },
+  {
+    "name": "Farewell",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/NH-Album_Cover-Farewell.png/revision/latest/scale-to-width-down/110?cb=20200502233025"
+  },
+  {
+    "name": "Welcome Horizons",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Album_Cover-Welcome_Horizons.png/revision/latest/scale-to-width-down/110?cb=20200503003519"
+  }
+]
