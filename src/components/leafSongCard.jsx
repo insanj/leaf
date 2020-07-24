@@ -7,14 +7,22 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    width: 200,
+    height: 200,
   },
   media: {
-    height: 140,
+    height: 200,
+    width: 200,
   },
+  content: {
+    marginTop: -140,
+    textAlign: 'center',
+    textShadow: '0px 0px 5px black'
+  }
 });
 
 export default function LeafSongCard({ song, onSongClick }) {
@@ -25,25 +33,18 @@ export default function LeafSongCard({ song, onSongClick }) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={ song.image }
+          title={ song.name }
         />
-        <CardContent>
+        <CardContent className={classes.content}>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            { song.name }
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+        <Button fullWidth size="small" color="primary" variant="text">
+          <PlayCircleOutlineIcon />
         </Button>
       </CardActions>
     </Card>

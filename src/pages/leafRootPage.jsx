@@ -66,6 +66,7 @@ export default function LeafRootPage({}) {
 
   const [loadedVillagers, setLoadedVillagers] = React.useState(null);
   const [loadedMuseumEntries, setLoadedMuseumEntries] = React.useState(null);
+  const [loadedSongs, setLoadedSongs] = React.useState(null);
 
   const appSnackbarProps = {
     anchorOrigin: {
@@ -295,14 +296,14 @@ export default function LeafRootPage({}) {
           loadedMuseumEntries={loadedMuseumEntries}
         />
       );
-    }
-    // else if (activePage === 'songs') {
-    //   return (
-    //     <LeafSongsPage
-    //       searchText={searchText}
-    //     />
-    //   );
-    // }  
+    } else if (activePage === 'songs') {
+      return (
+        <LeafSongsPage
+          loadedSongs={loadedSongs}
+          searchText={searchText}
+        />
+      );
+    }  
     else {
       return (
         <p style={{textAlign: 'center', color: 'white', fontSize: '30px', paddingTop: '50px'}}>😋<br/>Coming soon!</p>

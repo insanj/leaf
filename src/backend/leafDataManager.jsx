@@ -4,6 +4,7 @@ import fandom_villagers_scraped from '../data/fandom_villagers_scraped';
 import nintendolife_villager_gift_guide from '../data/nintendolife_villager_gift_guide';
 import game8_sea_creatures from '../data/game8_sea_creatures';
 import game8_scraped_art from '../data/game8_scraped_art';
+import fandom_kk_songs from '../data/fandom_kk_songs';
 
 var SHARED_LEAF_DATA_MANAGER;
 
@@ -66,6 +67,25 @@ class LeafDataManager {
     });
 
     const sorted = localed.sort((a1, a2) => {
+      return a1.name.toLowerCase().localeCompare(a2.name.toLowerCase());
+    })
+
+    return sorted;
+  }
+
+  static getSongs() {
+    return SHARED_LEAF_DATA_MANAGER.getSongs();
+  }
+
+  getSongs() {
+    const songs = fandom_kk_songs;
+    // const localed = art.map((c, i) => {
+    //   const validated = c.name.replace(/ /g, "_").toLowerCase();
+    //   c.image = require(`../img/art/${validated}.jpg`); 
+    //   return c;
+    // });
+
+    const sorted = songs.sort((a1, a2) => {
       return a1.name.toLowerCase().localeCompare(a2.name.toLowerCase());
     })
 
