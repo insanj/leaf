@@ -99,26 +99,24 @@ export default function LeafAppBar({ onSearchInputChange, onDrawerClick }) {
             🐝&nbsp;&nbsp;leaf
           </Typography>
 
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
+          { onSearchInputChange === null ? '' : (
+            <div className={classes.search}>
+              <div className={classes.searchIcon}>
+                <SearchIcon />
+              </div>
+
+              <InputBase
+                placeholder="Search…"
+                classes={{
+                  root: classes.inputRoot,
+                  input: classes.inputInput,
+                }}
+                inputProps={{ 'aria-label': 'search' }}
+                onChange={ handleSearchInputChange }
+                value={ searchValue }
+              />
             </div>
-
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              inputProps={{ 'aria-label': 'search' }}
-              onChange={ handleSearchInputChange }
-              value={ searchValue }
-            />
-
-           
-
-          </div>
-
+          )}
         </Toolbar>
       </AppBar>
     </div>

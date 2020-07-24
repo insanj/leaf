@@ -334,7 +334,7 @@ export default function LeafRootPage({}) {
       </div>
 
       <LeafAppBar 
-        onSearchInputChange={handleSearchInputChange}
+        onSearchInputChange={activePage === 'profile' ? null: handleSearchInputChange}
         onDrawerClick={onAppBarDrawerClick}
       />
 

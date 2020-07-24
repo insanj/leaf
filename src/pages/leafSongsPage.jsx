@@ -25,7 +25,15 @@ const useStyles = makeStyles({
 export default function LeafSongsPage({ loadedSongs, searchText }) {
   const classes = useStyles();
 
-  const songs = LeafDataManager.getSongs();
+  const songs = LeafDataManager.getSongs().filter(s => {
+    if (!searchText || searchText.length < 1) {
+      return true;
+    }
+
+    const name = s.name.toLowerCase();
+    const search = searchText.toLowerCase();
+    return name.includes(search);
+  });
 
   const handleSongClick = (song) => {
 

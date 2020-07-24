@@ -30,23 +30,20 @@ export default function LeafSongCard({ song, onSongClick }) {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={ song.image }
-          title={ song.name }
-        />
-        <CardContent className={classes.content}>
-          <Typography gutterBottom variant="h5" component="h2">
-            { song.name }
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
+      <CardMedia
+        className={classes.media}
+        image={ song.image }
+        title={ song.name }
+      />
+      <CardContent className={classes.content}>
+        <Typography gutterBottom variant="h5" component="h2">
+          { song.name }
+        </Typography>
+
         <Button fullWidth size="small" color="primary" variant="text">
           <PlayCircleOutlineIcon />
         </Button>
-      </CardActions>
+      </CardContent>
     </Card>
   );
 }
