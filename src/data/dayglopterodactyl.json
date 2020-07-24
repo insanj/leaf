@@ -72,7 +72,7 @@
         },
         {
             "Name": "Blue Marlin",
-            "Duration": "November - April/July - September",
+            "Duration": "November - April",
             "Time": "All day",
             "Location": "Pier",
             "Sell Price": "10000"
@@ -107,14 +107,14 @@
         },
         {
             "Name": "Char",
-            "Duration": "March - June/September - November",
+            "Duration": "March - June",
             "Time": "4pm - 9am",
             "Location": "River (Clifftop)",
             "Sell Price": "3800"
         },
         {
             "Name": "Cherry Salmon",
-            "Duration": "March - June/September - November",
+            "Duration": "March - June",
             "Time": "All day",
             "Location": "River (Clifftop)",
             "Sell Price": "1000"
@@ -212,7 +212,7 @@
         },
         {
             "Name": "Golden Trout",
-            "Duration": "March - May/September - November",
+            "Duration": "March - May",
             "Time": "4pm - 9am",
             "Location": "River (Clifftop)",
             "Sell Price": "15000"
@@ -555,7 +555,7 @@
         },
         {
             "Name": "Zebra Turkeyfish",
-            "Duration": "April - May/July - November",
+            "Duration": "April - May",
             "Time": "All day",
             "Location": "Ocean",
             "Sell Price": "500"
@@ -711,7 +711,7 @@
         },
         {
             "Name": "Emperor Butterfly",
-            "Duration": "Dec - March/June - September",
+            "Duration": "Dec - March",
             "Time": "7pm - 8am",
             "Location": "Flying",
             "Sell Price": "4000"
@@ -851,7 +851,7 @@
         },
         {
             "Name": "Ladybug",
-            "Duration": "March - June/October",
+            "Duration": "March - June",
             "Time": "8am - 5pm",
             "Location": "On flowers",
             "Sell Price": "200"
@@ -977,7 +977,7 @@
         },
         {
             "Name": "Rajah Brooke's Birdwing",
-            "Duration": "Dec - February/April - September",
+            "Duration": "Dec - February",
             "Time": "8am - 5pm",
             "Location": "Flying",
             "Sell Price": "2500"
@@ -1075,7 +1075,7 @@
         },
         {
             "Name": "Violin Beetle",
-            "Duration": "May - June/September - November",
+            "Duration": "May - June",
             "Time": "All day",
             "Location": "On tree stumps",
             "Sell Price": "450"
@@ -1117,7 +1117,7 @@
         },
         {
             "Name": "Yellow Butterfly",
-            "Duration": "March - June/September - October",
+            "Duration": "March - June",
             "Time": "4am - 7pm",
             "Location": "Flying",
             "Sell Price": "160"

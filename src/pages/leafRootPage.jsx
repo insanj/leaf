@@ -15,6 +15,7 @@ import LeafMuseumPage from './leafMuseumPage';
 import LeafAdvancedMuseumPage from './leafAdvancedMuseumPage';
 import LeafShopPage from './leafShopPage';
 import LeafProfilePage from './leafProfilePage';
+import LeafSongsPage from './leafSongsPage';
 
 import LeafNetworker from '../backend/leafNetworker';
 import LeafImageManager from '../backend/leafImageManager';
@@ -294,7 +295,15 @@ export default function LeafRootPage({}) {
           loadedMuseumEntries={loadedMuseumEntries}
         />
       );
-    } else {
+    }
+    // else if (activePage === 'songs') {
+    //   return (
+    //     <LeafSongsPage
+    //       searchText={searchText}
+    //     />
+    //   );
+    // }  
+    else {
       return (
         <p style={{textAlign: 'center', color: 'white', fontSize: '30px', paddingTop: '50px'}}>😋<br/>Coming soon!</p>
       );
@@ -313,6 +322,7 @@ export default function LeafRootPage({}) {
   const onLeafDrawerItemClick = (item) => {
     setLeafDrawerOpen(false);
     setActivePage(item);
+    LeafCookies.setCookie('LeafActivePage', item);
   }
 
   return (

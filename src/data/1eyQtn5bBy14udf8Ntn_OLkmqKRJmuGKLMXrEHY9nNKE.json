@@ -141,7 +141,7 @@
           "Location": "River / Pond",
           "Shadow Size": "Medium",
           "Hourly Availability": "4pm - 9am",
-          "Seasonal Availability": "March - June/September - November",
+          "Seasonal Availability": "March - June",
           "Rarity": "★★★★"
       },
       {
@@ -150,7 +150,7 @@
           "Location": "River",
           "Shadow Size": "Medium",
           "Hourly Availability": "All day",
-          "Seasonal Availability": "March - June/September - November",
+          "Seasonal Availability": "March - June",
           "Rarity": "★★"
       },
       {
@@ -839,7 +839,7 @@
           "Selling Price": "4,000 Bells",
           "Location": "Flying",
           "Hourly Availability": "5pm - 8am",
-          "Seasonal Availability": "December - March/June - September",
+          "Seasonal Availability": "December - March",
           "Rarity": "★★★"
       },
       {
