@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
+import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
@@ -93,9 +94,9 @@ export default function LeafDrawer({ open=false, onItemClick, onCloseClick }) {
   return (
     <div>
       <React.Fragment key={2}>
-        <Drawer open={ open } onClose={ toggleDrawer }>
+        <SwipeableDrawer swipeAreaWidth={0} disableBackdropTransition={false} disableDiscovery={false} open={ open } onClose={ toggleDrawer }>
           { list }
-        </Drawer>
+        </SwipeableDrawer>
       </React.Fragment>
     </div>
   );

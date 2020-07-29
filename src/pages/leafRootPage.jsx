@@ -66,7 +66,6 @@ export default function LeafRootPage({}) {
 
   const [loadedVillagers, setLoadedVillagers] = React.useState(null);
   const [loadedMuseumEntries, setLoadedMuseumEntries] = React.useState(null);
-  const [loadedSongs, setLoadedSongs] = React.useState(null);
 
   const appSnackbarProps = {
     anchorOrigin: {
@@ -133,7 +132,7 @@ export default function LeafRootPage({}) {
 
         handleLoadMuseumEntries();
       }).catch(e => {
-        alert("Unable to add item from your museum :(");
+        alert("Unable to add item to your museum :(");
         console.log(e);
       });    
     }
@@ -243,6 +242,47 @@ export default function LeafRootPage({}) {
     setLightboxImage(image);
   }
 
+  const handleSongClick = (song) => {
+    const username = LeafCookies.getCookie('MYLEAF_USERNAME');
+    const password = LeafCookies.getCookie('MYLEAF_PASSWORD');
+    if (!username || !password) {
+      return;
+    }
+
+    const songName = song.name;
+    if (loadedMuseumEntries != null && loadedMuseumEntries.filter(e => e.metadata.name === songName).length > 0) {
+      const museumEntryId = loadedMuseumEntries.filter(e => e.metadata.name === songName)[0].id;
+      networker.removeMuseumEntry({ username, password, museumEntryId }).then(r => {
+        enqueueSnackbar('Removed song!', {
+          variant: 'success',
+          ...appSnackbarProps
+        });
+
+        handleLoadMuseumEntries();
+      }).catch(e => {
+        alert("Unable to remove song :(");
+        console.log(e);
+      });
+    }
+
+    else {
+      const museumEntry = {
+        name: song.name
+      };
+      networker.addMuseumEntry({ username, password, museumEntry }).then(r => {
+        enqueueSnackbar('Added song!', {
+          variant: 'success',
+          ...appSnackbarProps
+        });
+
+        handleLoadMuseumEntries();
+      }).catch(e => {
+        alert("Unable to add song :(");
+        console.log(e);
+      });         
+    }
+  }
+
   const generateActivePage = () => {
     if (activePage === 'counters') {
       return (
@@ -299,8 +339,9 @@ export default function LeafRootPage({}) {
     } else if (activePage === 'songs') {
       return (
         <LeafSongsPage
-          loadedSongs={loadedSongs}
           searchText={searchText}
+          onSongClick={handleSongClick}
+          loadedMuseumEntries={loadedMuseumEntries}
         />
       );
     }  

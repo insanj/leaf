@@ -430,7 +430,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     return seacreatures;
   }
 
-  const generateCards = () => {
+  const generateItems = () => {
     const fishes = getFishes();
     const fishItems = fishes.map(fish => {
       return {
@@ -533,12 +533,17 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
       });
     }
 
+    return sortedItems;
+  }
+
+  const generateCards = () => {
+    const sortedItems = generateItems();
     let cards = [];
     if (!sortType || sortType != 'Location') {
       cards = sortedItems.map(i => generateCardForItem(i));
     } else {
       let locationsToItems = {};
-      for (let item of items) {
+      for (let item of sortedItems) {
         let cardsForLoc = locationsToItems[item.location];
         if (cardsForLoc) {
           cardsForLoc.push(item);
@@ -584,6 +589,14 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
     return cards;
   }
 
+  const generateCollectedItems = () => {
+    const items = generateItems().filter(item => {
+      const hasEntry = loadedMuseumEntries && loadedMuseumEntries.filter(e => e.metadata.title === item.title).length > 0;
+      return hasEntry;
+    });
+    return items;
+  }
+
   return (
     <div className={classes.root}>
       { tabAppBar }
@@ -593,7 +606,7 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
           <tr>
             <td className={classes.cardsHeader }>
               <Typography variant="overline" display="block" className={classes.cardsHeaderText}>
-                { generateCards().filter(c => c.type != 'p').length } things
+                { generateItems().length } things <span style={{opacity: 0.2}}>| { generateCollectedItems().length } collected</span>
               </Typography>
             </td>
 

@@ -9,41 +9,74 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 
+const cssParentWidth = 'calc(99vw - 22px)';
+const cssItemMargin = '2px';
+const cssItemWidth = `calc(calc(${cssParentWidth} / 4) - ${cssItemMargin})`;
+
+const sizeStyles = {
+  maxWidth: 200,
+  maxHeight: 200,
+  width: cssItemWidth,
+  height: cssItemWidth,
+};
+
 const useStyles = makeStyles({
   root: {
-    width: 200,
-    height: 200,
+    margin: cssItemMargin,
+    borderRadius: 10,
+    cursor: 'pointer',
+    ...sizeStyles
   },
   media: {
-    height: 200,
-    width: 200,
+    zIndex: 0,
+    borderRadius: 10,
+    position: 'absolute',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    ...sizeStyles
   },
   content: {
-    marginTop: -140,
+    position: 'absolute',
+    zIndex: 2,
+    ...sizeStyles,
+  },
+  title: {
+    color: 'white',
+    fontSize: '14px',
+    fontWeight: 600,
+    lineHeight: 1,
+    textShadow: '0px 0px 5px black',
     textAlign: 'center',
-    textShadow: '0px 0px 5px black'
-  }
+    wordBreak: 'break-all',
+    hyphens: 'auto',
+    width: '100%',
+  },
 });
 
 export default function LeafSongCard({ song, onSongClick }) {
   const classes = useStyles();
 
-  return (
-    <Card className={classes.root}>
-      <CardMedia
-        className={classes.media}
-        image={ song.image }
-        title={ song.name }
-      />
-      <CardContent className={classes.content}>
-        <Typography gutterBottom variant="h5" component="h2">
-          { song.name }
-        </Typography>
+  const onClick = (event) => {
+    onSongClick(song);
+  }
 
-        <Button fullWidth size="small" color="primary" variant="text">
-          <PlayCircleOutlineIcon />
-        </Button>
-      </CardContent>
-    </Card>
+  return (
+    <div onClick={ onClick }>
+      <Card className={classes.root}>
+        <div
+          className={classes.media}
+          style={{
+            backgroundImage: `url("${song.image}")`
+          }}
+          title={ song.name }
+          alt={ song.name }
+        />
+      </Card>
+
+      <div className={classes.title} >
+        { song.name }
+      </div>
+    </div>
   );
 }
