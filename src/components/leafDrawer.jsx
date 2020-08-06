@@ -57,19 +57,23 @@ export default function LeafDrawer({ open=false, onItemClick, onCloseClick }) {
       <Divider />
 
       <List>
+        <ListItem button key={1} onClick={() => onItemClick('profile')}>
+          <ListItemIcon><FaceIcon /></ListItemIcon>
+          <ListItemText primary={'Profile'} />
+        </ListItem>
+
+        <Divider />
+
         <ListItem button key={2} onClick={() => onItemClick('active')}>
           <ListItemIcon><Brightness7Icon /></ListItemIcon>
           <ListItemText primary={'Active'} />
         </ListItem>
 
+        <Divider />
+
         <ListItem button key={3} onClick={() => onItemClick('museum')}>
           <ListItemIcon><BookIcon /></ListItemIcon>
           <ListItemText primary={'Museum'} />
-        </ListItem>
-
-        <ListItem button key={1} onClick={() => onItemClick('profile')}>
-          <ListItemIcon><FaceIcon /></ListItemIcon>
-          <ListItemText primary={'Profile'} />
         </ListItem>
 
         <ListItem button key={4} onClick={() => onItemClick('shop')}>

@@ -105,13 +105,13 @@ const setProfileTabValueCookie = (value) => {
   LeafCookies.setCookie('leaf_profileTabValue', string);
 }
 
-export default function LeafProfilePage({ searchText, loadedVillagers, loadedMuseumEntries }) {
+export default function LeafProfilePage({ searchText, loadedVillagers, loadedMuseumEntries, handleVillagerIconClick, onItemIconClick }) {
   const classes = useStyles();
   const { enqueueSnackbar, closeSnackbar } = useSnackbar();
 
   const profileSnackbarProps = {
     anchorOrigin: {
-      vertical: 'top',
+      vertical: 'bottom',
       horizontal: 'center',
     },
     autoHideDuration: 2000,
@@ -306,7 +306,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
               <LeafMuseumCard
                 item={ e.metadata }
                 image={ null }
-                onItemIconClick={ () => console.log() }
+                onItemIconClick={ (event, item) => onItemIconClick(item) }
                 hasMuseumEntry={ false }
               />
             );
@@ -341,7 +341,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
           <LeafVillagerCell 
             villager={ existing[0] }
             loadedVillagers={ [] }
-            onVillagerIconClick={() => console.log()}
+            onVillagerIconClick={ handleVillagerIconClick }
           />
         );
       });

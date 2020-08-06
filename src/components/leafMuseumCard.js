@@ -23,7 +23,6 @@ import LeafImageManager from '../backend/leafImageManager';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    minWidth: '65px',
     padding: "10px",
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -56,9 +55,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 400,
     fontSize: '1.0em', 
     lineHeight: 1.0,
-    hyphens: 'auto'
-
-
+    wordBreak: 'break-word',
   }
 }));
 
@@ -101,8 +98,15 @@ export default function LeafMuseumCard({ item, image=null, onItemIconClick, hasM
     </table>
   );
 
+  const handleMuseumCardClick = (event) => {
+    onItemIconClick(event, item);
+  }
+
   return (
-    <Card className={classes.root} style={{opacity: hasMuseumEntry === true ? 0.2 : 1.0}}>
+    <Card className={classes.root} style={{
+        minWidth: showLargeThumbnail ? '103px' : '65px',
+        opacity: hasMuseumEntry === true ? 0.4 : 1.0
+    }} onClick={ handleMuseumCardClick }>
       <center>
         <img src={ item.image ? item.image : getImageForItem() } style={{
           background: 'none',
@@ -111,7 +115,7 @@ export default function LeafMuseumCard({ item, image=null, onItemIconClick, hasM
           cursor: 'pointer',
           width: !showLargeThumbnail ? '62px' : '100px',
           height: !showLargeThumbnail ? '62px' : '100px',
-        }} onClick={() => onItemIconClick(item) } />
+        }}/>
       </center>
       <Typography className={classes.title}>
         { item.title }

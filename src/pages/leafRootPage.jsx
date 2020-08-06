@@ -69,7 +69,7 @@ export default function LeafRootPage({}) {
 
   const appSnackbarProps = {
     anchorOrigin: {
-      vertical: 'top',
+      vertical: 'bottom',
       horizontal: 'center',
     },
     autoHideDuration: 2000,
@@ -219,7 +219,15 @@ export default function LeafRootPage({}) {
 
         return e;
       });
-      setLoadedMuseumEntries(imagePopulatedEntries);
+
+      const decodedEntries = imagePopulatedEntries.map(e => {
+        if (e.metadata && e.metadata.name) {
+          e.metadata.name = e.metadata.name.replaceAll("%26", "&");
+        }
+        return e;
+      });
+
+      setLoadedMuseumEntries(decodedEntries);
     }).catch(e => {
       setLoadedMuseumEntries([]);
       console.log(e);
@@ -267,7 +275,7 @@ export default function LeafRootPage({}) {
 
     else {
       const museumEntry = {
-        name: song.name
+        name: songName.replaceAll("&", "%26")
       };
       networker.addMuseumEntry({ username, password, museumEntry }).then(r => {
         enqueueSnackbar('Added song!', {
@@ -334,6 +342,8 @@ export default function LeafRootPage({}) {
           searchText={searchText}
           loadedVillagers={loadedVillagers}
           loadedMuseumEntries={loadedMuseumEntries}
+          handleVillagerIconClick={handleVillagerIconClick}
+          onItemIconClick={ handleMuseumItemIconClick }
         />
       );
     } else if (activePage === 'songs') {

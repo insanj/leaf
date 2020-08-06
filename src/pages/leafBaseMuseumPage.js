@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import InputLabel from '@material-ui/core/InputLabel';
+import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
@@ -80,9 +81,9 @@ const useStyles = makeStyles((theme) => ({
     opacity: 0.6, 
   },
   cardsHeaderText: {
-    fontSize: '1.1em',
+    fontSize: '1.0em',
     fontWeight: 500,
-    lineHeight: 0, 
+    lineHeight: 1,
   }
 }));
 
@@ -131,17 +132,65 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
   const classes = useStyles();
   const theme = useTheme();
 
+  const [museumCardMenuActiveItem, setMuseumCardMenuActiveItem] = React.useState(null);
+  const [museumCardMenuAnchor, setMuseumCardMenuAnchor] = React.useState(null);
+
+  const handleMuseumCardItemIconClick = (event, item) => {
+    if (selectedTab === 'art' || selectedTab === 'fossils') {
+      setMuseumCardMenuActiveItem(item);
+      setMuseumCardMenuAnchor(event.currentTarget);
+    } else {
+      onItemIconClick(item);
+    }
+  }
+
+  const itemHasMuseumEntry = (item) => {
+    if (!item || !item.title) {
+      return false;
+    }
+
+    return loadedMuseumEntries && loadedMuseumEntries.filter(e => e.metadata.title === item.title).length > 0;
+  }
+
   const generateCardForItem = (item) => {
+    const hasMuseumEntry = itemHasMuseumEntry(item);
     return (
       <LeafMuseumCard 
         item={ item }
         image={ null }
-        onItemIconClick={ selectedTab === 'art' || selectedTab === 'fossils' ? onArtItemIconClick : onItemIconClick }
-        hasMuseumEntry={loadedMuseumEntries && loadedMuseumEntries.filter(e => e.metadata.title === item.title).length > 0}
+        onItemIconClick={ handleMuseumCardItemIconClick }
+        hasMuseumEntry={ hasMuseumEntry }
         showLargeThumbnail={selectedTab === 'art' || selectedTab === 'fossils'}
       />
     );
   }
+
+  const handleMuseumCardMenuClose = () => {
+    setMuseumCardMenuActiveItem(null);
+    setMuseumCardMenuAnchor(null);
+  }
+
+  const handleMuseumCardMenuZoomClick = () => {
+    onArtItemIconClick(museumCardMenuActiveItem);
+    handleMuseumCardMenuClose();
+  }
+
+  const handleMuseumCardMenuAddToMuseumClick = () => {
+    onItemIconClick(museumCardMenuActiveItem);
+    handleMuseumCardMenuClose();
+  }
+
+  const museumCardMenu = (
+    <Menu
+      anchorEl={museumCardMenuAnchor}
+      keepMounted
+      open={Boolean(museumCardMenuAnchor)}
+      onClose={handleMuseumCardMenuClose}
+    >
+      <MenuItem onClick={ handleMuseumCardMenuZoomClick }>Zoom</MenuItem>
+      <MenuItem onClick={ handleMuseumCardMenuAddToMuseumClick }>{ itemHasMuseumEntry(museumCardMenuActiveItem) === true ? 'Remove From' : 'Add To'} Museum</MenuItem>
+    </Menu>
+  );
 
   const allMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -629,6 +678,8 @@ export default function LeafBaseMuseumPage({ selectedTab, tabAppBar, searchText,
         <Grid container className={classes.grid} spacing={2} justify="center" >
           { generateCards() }
         </Grid>
+
+        { museumCardMenu }
       </div>
     </div>
   );
