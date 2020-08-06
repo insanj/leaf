@@ -79,7 +79,7 @@ export default function LeafMuseumCard({ item, image=null, onItemIconClick, hasM
       lineHeight: 1.0,
     }}>
       <tr className={classes.subtitleElement} style={{ fontWeight: 600, fontSize: '0.8em'}}>
-        { item.price && item.price.length > 0 ? '$' : '' }{ item.price.replace(" Bells", "") }
+        { item.price && item.price.length > 0 ? '$' : '' }{ item.price && item.price.length > 0 ? item.price.replace(" Bells", "") : '' }
       </tr>
 
       <tr className={classes.subtitleElement} style={{ fontWeight: 400, fontSize: '0.8em' }}>
