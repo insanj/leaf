@@ -86,7 +86,9 @@ class LeafDataManager {
     // });
 
     const sorted = songs.sort((a1, a2) => {
-      return a1.name.toLowerCase().localeCompare(a2.name.toLowerCase());
+      const n1 = a1.name.toLowerCase().replaceAll(".", "");
+      const n2 = a2.name.toLowerCase().replaceAll(".", "");
+      return n1.localeCompare(n2);
     })
 
     return sorted;
