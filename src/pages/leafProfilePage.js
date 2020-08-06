@@ -302,6 +302,10 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
           <Grid container spacing={2} style={{padding: 10}}>
 
           { !loadedMuseumEntries ? '' : loadedMuseumEntries.map(e => {
+            if (!e.metadata.title) {
+              return '';
+            }
+
             return (
               <LeafMuseumCard
                 item={ e.metadata }
