@@ -9,6 +9,7 @@ import LeafTabBar from '../components/leafTabBar';
 import LeafFooter from '../components/leafFooter';
 import LeafVillagersSection from '../components/leafVillagersSection';
 import LeafDrawer from '../components/leafDrawer';
+import LeafDonateDialog from '../components/leafDonateDialog';
 
 import LeafStepperPage from './leafStepperPage';
 import LeafMuseumPage from './leafMuseumPage';
@@ -377,11 +378,19 @@ export default function LeafRootPage({}) {
     LeafCookies.setCookie('LeafActivePage', item);
   }
 
+  const [leafDonateDialogOpen, setLeafDonateDialogOpen] = React.useState(false);
+  const handleLeafDrawerDonateClick = () => {
+    setLeafDonateDialogOpen(true);
+  }
+
+  const handleLeafDonateDialogCloseClick = () => {
+    setLeafDonateDialogOpen(false);
+  }
+
   return (
     <React.Fragment>
       <div className={classes.page}>
         { generateActivePage() }
-        <LeafFooter />
       </div>
 
       <LeafAppBar 
@@ -406,6 +415,12 @@ export default function LeafRootPage({}) {
         selectedItem={ activePage }
         onItemClick={ onLeafDrawerItemClick }
         onCloseClick={ onLeafDrawerCloseClick }
+        onDonateClick={ handleLeafDrawerDonateClick }
+      />
+
+      <LeafDonateDialog
+        open={ leafDonateDialogOpen }
+        onCloseClick={ handleLeafDonateDialogCloseClick }
       />
     </React.Fragment>
   );

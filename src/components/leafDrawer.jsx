@@ -9,6 +9,7 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import FolderIcon from '@material-ui/icons/Folder';
@@ -23,6 +24,9 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import HomeIcon from '@material-ui/icons/Home';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
 import AlbumIcon from '@material-ui/icons/Album';
+import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
+
+import preval from 'preval.macro';
 
 const useStyles = makeStyles({
   list: {
@@ -30,7 +34,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCloseClick }) {
+export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCloseClick, onDonateClick }) {
   const classes = useStyles();
 
   const toggleDrawer = (event) => {
@@ -40,6 +44,12 @@ export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCl
 
     onCloseClick();
   };
+
+  const compileDateString = preval`module.exports = new Date().toLocaleString("en").toLowerCase();`;
+  const gitTagVersionString = process.env.REACT_APP_LEAF_TAG;
+  const footerText = `v${ gitTagVersionString } (${ compileDateString })\n© 2020 julian (insanj) weiss`;
+
+  //. made with <img className={classes.image} src={love} /> in philly
 
   const list = (
     <div
@@ -89,6 +99,26 @@ export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCl
         <ListItem button key={5} onClick={() => onItemClick('villagers')} selected={selectedItem === 'villagers'}>
           <ListItemIcon><HomeIcon /></ListItemIcon>
           <ListItemText primary={'Villagers'} />
+        </ListItem>
+      </List>
+
+      <List>
+      
+        <ListItem>
+
+          <Button variant="contained" color="primary" size="large" startIcon={<MonetizationOnIcon />} onClick={onDonateClick}>
+            Send a Thank You Tip
+          </Button>
+
+        </ListItem>
+
+      </List>
+
+      <List>
+        <ListItem key={6} style={{opacity: 0.3}}>
+          <a target="_blank" style={{textDecoration: 'none'}} href="https://github.com/insanj">
+            <ListItemText secondary={footerText} />
+          </a>
         </ListItem>
       </List>
 
