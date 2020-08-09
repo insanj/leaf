@@ -30,7 +30,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function LeafDrawer({ open=false, onItemClick, onCloseClick }) {
+export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCloseClick }) {
   const classes = useStyles();
 
   const toggleDrawer = (event) => {
@@ -57,36 +57,36 @@ export default function LeafDrawer({ open=false, onItemClick, onCloseClick }) {
       <Divider />
 
       <List>
-        <ListItem button key={1} onClick={() => onItemClick('profile')}>
+        <ListItem button key={1} onClick={() => onItemClick('profile')} selected={selectedItem === 'profile'}>
           <ListItemIcon><FaceIcon /></ListItemIcon>
           <ListItemText primary={'Profile'} />
         </ListItem>
 
         <Divider />
 
-        <ListItem button key={2} onClick={() => onItemClick('active')}>
+        <ListItem button key={2} onClick={() => onItemClick('active')} selected={selectedItem === 'active'}>
           <ListItemIcon><Brightness7Icon /></ListItemIcon>
           <ListItemText primary={'Active'} />
         </ListItem>
 
         <Divider />
 
-        <ListItem button key={3} onClick={() => onItemClick('museum')}>
+        <ListItem button key={3} onClick={() => onItemClick('museum')} selected={selectedItem === 'museum'}>
           <ListItemIcon><BookIcon /></ListItemIcon>
           <ListItemText primary={'Museum'} />
         </ListItem>
 
-        <ListItem button key={4} onClick={() => onItemClick('shop')}>
+        <ListItem button key={4} onClick={() => onItemClick('shop')} selected={selectedItem === 'shop'}>
           <ListItemIcon><StorefrontIcon /></ListItemIcon>
           <ListItemText primary={'Shop'} />
         </ListItem>
 
-        <ListItem button key={5} onClick={() => onItemClick('songs')}>
+        <ListItem button key={5} onClick={() => onItemClick('songs')} selected={selectedItem === 'songs'}>
           <ListItemIcon><AlbumIcon /></ListItemIcon>
           <ListItemText primary={'Songs'} />
         </ListItem>
 
-        <ListItem button key={5} onClick={() => onItemClick('villagers')}>
+        <ListItem button key={5} onClick={() => onItemClick('villagers')} selected={selectedItem === 'villagers'}>
           <ListItemIcon><HomeIcon /></ListItemIcon>
           <ListItemText primary={'Villagers'} />
         </ListItem>

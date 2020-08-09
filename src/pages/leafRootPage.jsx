@@ -403,6 +403,7 @@ export default function LeafRootPage({}) {
 
       <LeafDrawer
         open={ leafDrawerOpen }
+        selectedItem={ activePage }
         onItemClick={ onLeafDrawerItemClick }
         onCloseClick={ onLeafDrawerCloseClick }
       />
