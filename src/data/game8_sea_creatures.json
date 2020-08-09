@@ -344,7 +344,7 @@
     "icon": "https://img.game8.jp/4717281/c13d96557647353d5aff3f856503ac5f.jpeg/show",
     "shadowSize": "Large",
     "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
-    "sellPrice": "9000",
+    "sellPrice": "12,000",
     "data": "Months:\nJuly to October\nTime:\n9 AM to 4 PM |\n9 PM to 4 AM",
     "Duration": "July - October",
     "Time": "9am - 4pm"
@@ -356,8 +356,8 @@
     "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
     "sellPrice": "1500",
     "data": "Months:\nApril to August\nTime:\nAnytime",
-    "Duration": "April - August",
-    "Time": "All day"
+    "Duration": "July - September",
+    "Time": "9pm - 4am"
   },
   {
     "name": "Sea Pineapple",
@@ -367,7 +367,7 @@
     "sellPrice": "1500",
     "data": "Months:\nJuly to September\nTime:\n9 PM to 4 AM",
     "Duration": "July - September",
-    "Time": "9pm - 4am"
+    "Time": "All day"
   },
   {
     "name": "Spotted Garden Eel",
