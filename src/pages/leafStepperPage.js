@@ -59,7 +59,6 @@ const setCookieValues = (values) => {
 export default function LeafStepperPage({ searchText }) {
   const classes = useStyles();
   const [itemValues, setItemValues] = React.useState(getCookieValues());
-  const theme = useTheme();
 
   const getValue = (name) => {
     const cookie = itemValues[name];

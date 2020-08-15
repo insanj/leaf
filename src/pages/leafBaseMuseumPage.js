@@ -1,35 +1,21 @@
 import React from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import InputLabel from '@material-ui/core/InputLabel';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import Card from '@material-ui/core/Card';
 
 import LeafMuseumCard from '../components/leafMuseumCard';
-
-import iconGrid from '../img/icon_grid.png';
-import tile82 from '../img/sprites/tiles-82.png';
 
 import acnh_fandom_order from '../data/acnh_fandom_order';
 import dayglopterodactyl from '../data/dayglopterodactyl';
 import acnh_master_list from '../data/1eyQtn5bBy14udf8Ntn_OLkmqKRJmuGKLMXrEHY9nNKE';
-import game8_art from '../data/game8_art';
 
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import ScheduleIcon from '@material-ui/icons/Schedule';
-import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
-import SortIcon from '@material-ui/icons/Sort';
-import SortByAlphaIcon from '@material-ui/icons/SortByAlpha';
 import FontDownloadIcon from '@material-ui/icons/FontDownload';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
 import FingerprintIcon from '@material-ui/icons/Fingerprint';
@@ -40,8 +26,6 @@ import moment from 'moment';
 import '../css/leafMuseumPage.css';
 
 import LeafDataManager from '../backend/leafDataManager';
-
-import Lightbox from 'react-image-lightbox';
 
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

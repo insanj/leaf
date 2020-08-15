@@ -1,6 +1,6 @@
 import React from 'react';
 import preval from 'preval.macro';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 import love from '../img/00ca472cc3ffe59c94e540450c11b2c3.png';
 
@@ -20,7 +20,6 @@ const useStyles = makeStyles({
   }
 });
 
-
 export default function LeafFooter() {
   const classes = useStyles();
   let compileDateString = preval`module.exports = new Date().toLocaleString("en").toLowerCase();`;
@@ -30,7 +29,7 @@ export default function LeafFooter() {
     <footer className={classes.footer}>
       v{ gitTagVersionString } ({ compileDateString })
       <br/>
-      &copy; 2020 <a href="http://github.com/insanj" style={{color: 'inherit'}}>julian (insanj) weiss</a>. made with <img className={classes.image} src={love} /> in philly
+      &copy; 2020 <a href="http://github.com/insanj" style={{color: 'inherit'}}>julian (insanj) weiss</a>. made with <img className={classes.image} src={love} alt="love" /> in philly
     </footer>
   );
 }

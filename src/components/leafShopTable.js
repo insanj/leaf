@@ -5,8 +5,6 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import Chip from '@material-ui/core/Chip';
-import Avatar from '@material-ui/core/Avatar';
 
 import LeafShopShellSection from './leafShopShellSection';
 import LeafShopMaterialsSection from './leafShopMaterialsSection';
@@ -56,7 +54,7 @@ export default function LeafShopTable({ searchText }) {
            <img src={tile118} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Flooring" />
           <span style={{paddingLeft: '34px'}}>Flooring</span>
           </Typography>
 
@@ -82,7 +80,7 @@ export default function LeafShopTable({ searchText }) {
            <img src={tile267} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Flowers" />
           <span style={{paddingLeft: '34px'}}>Flowers</span>
           </Typography>
 
@@ -108,7 +106,7 @@ export default function LeafShopTable({ searchText }) {
             <img src={tile201} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Fruit" />
             <span style={{paddingLeft: '34px'}}>Fruit</span>
           </Typography>
         </ExpansionPanelSummary>
@@ -135,7 +133,7 @@ export default function LeafShopTable({ searchText }) {
             <img src={tile88} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Furniture" />
             <span style={{paddingLeft: '34px'}}>Furniture</span>
           </Typography>
         </ExpansionPanelSummary>
@@ -162,7 +160,7 @@ export default function LeafShopTable({ searchText }) {
           <img src={tile55} width="28" height="28" style={{
             position: 'absolute',
             objectFit: 'contain'
-          }}/>
+          }} alt="Materials" />
           <span style={{paddingLeft: '34px'}}>Materials</span>
           </Typography>
         </ExpansionPanelSummary>
@@ -186,7 +184,7 @@ export default function LeafShopTable({ searchText }) {
             <img src={tile116} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Rugs" />
             <span style={{paddingLeft: '34px'}}>Rugs</span>
         </Typography>
         </ExpansionPanelSummary>
@@ -211,7 +209,7 @@ export default function LeafShopTable({ searchText }) {
             <img src={tile138} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Shells" />
             <span style={{paddingLeft: '34px'}}>Shells</span>
           </Typography>
         </ExpansionPanelSummary>
@@ -234,7 +232,7 @@ export default function LeafShopTable({ searchText }) {
             <img src={tile1} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Tools" />
             <span style={{paddingLeft: '34px'}}>Tools</span>
           </Typography>
         </ExpansionPanelSummary>
@@ -260,7 +258,7 @@ export default function LeafShopTable({ searchText }) {
             <img src={tile172} width="28" height="28" style={{
               position: 'absolute',
               objectFit: 'contain'
-            }}/>
+            }} alt="Wallpapers" />
             <span style={{paddingLeft: '34px'}}>Wallpapers</span>
 
           </Typography>

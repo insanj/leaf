@@ -223,7 +223,7 @@ export default function LeafRootPage({}) {
 
       const decodedEntries = imagePopulatedEntries.map(e => {
         if (e.metadata && e.metadata.name) {
-          e.metadata.name = e.metadata.name.replaceAll("%26", "&");
+          e.metadata.name = e.metadata.name.replace(/%26/g, "&");
         }
         return e;
       });
@@ -276,7 +276,7 @@ export default function LeafRootPage({}) {
 
     else {
       const museumEntry = {
-        name: songName.replaceAll("&", "%26")
+        name: songName.replace(/&/g, "%26")
       };
       networker.addMuseumEntry({ username, password, museumEntry }).then(r => {
         enqueueSnackbar('Added song!', {

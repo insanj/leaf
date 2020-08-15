@@ -1,5 +1,7 @@
 import React from 'react';
 
+import LeafDataManager from './leafDataManager';
+
 var SHARED_LEAF_IMAGE_MANAGER;
 
 class LeafImageManager {
@@ -12,7 +14,7 @@ class LeafImageManager {
       return this.museumImages;
     }
 
-    const images = {
+    let images = {
       "bitterling": require('../img/sprites/tiles-348.png'),
       "pale chub": require('../img/sprites/tiles-349.png'),
       "crucian carp": require('../img/sprites/tiles-350.png'),
@@ -280,6 +282,10 @@ class LeafImageManager {
 
       "trilobite": require('../img/fossils/fossil_alphabetical_34.jpg'),
     };
+
+    for (let art of LeafDataManager.getArt()) {
+      images[art.name.toLowerCase()] = art.image; 
+    }
 
     this.museumImages = images;
     return this.museumImages;

@@ -1,17 +1,11 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, fade } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-
-import MenuIcon from '@material-ui/icons/Menu';
-
 import InputBase from '@material-ui/core/InputBase';
-import { fade } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
-import ClearIcon from "@material-ui/icons/Clear";
+import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,8 +29,8 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: 0,
     // width: '100%',
     // [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(1),
-      width: 'auto',
+      // marginLeft: theme.spacing(1),
+      // width: 'auto',
     // },
   },
   searchIcon: {
@@ -77,10 +71,10 @@ export default function LeafAppBar({ onSearchInputChange, onDrawerClick }) {
   const classes = useStyles();
   const [searchValue, setSearchValue] = React.useState('');
 
-  const handleClearButtonClick = (event) => {
-    setSearchValue('');
-    onSearchInputChange(null);
-  }
+  // const handleClearButtonClick = (event) => {
+  //   setSearchValue('');
+  //   onSearchInputChange(null);
+  // }
 
   const handleSearchInputChange = (event) => {
     setSearchValue(event.target.value);
@@ -96,7 +90,7 @@ export default function LeafAppBar({ onSearchInputChange, onDrawerClick }) {
           </div>
 
           <Typography variant="h6" className={classes.title}>
-            🐝&nbsp;&nbsp;leaf
+            <span role="img" aria-label="leaf">🐝</span>&nbsp;&nbsp;leaf
           </Typography>
 
           { onSearchInputChange === null ? '' : (

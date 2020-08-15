@@ -38,6 +38,7 @@ import Slide from '@material-ui/core/Slide';
 import Grow from '@material-ui/core/Grow';
 
 import LeafDataManager from '../backend/leafDataManager';
+import LeafImageManager from '../backend/leafImageManager';
 
 function GrowTransition(props) {
   return <Grow {...props} />;
@@ -306,10 +307,11 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
               return '';
             }
 
+            const image = LeafImageManager.getMuseumImageForName(e.metadata.title);
             return (
               <LeafMuseumCard
                 item={ e.metadata }
-                image={ null }
+                image={ image }
                 onItemIconClick={ (event, item) => onItemIconClick(item) }
                 hasMuseumEntry={ false }
               />
@@ -318,7 +320,7 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
 
           <p style={{color: "#fff", textAlign: 'center', padding: 50, width: '100%'}}>
           🐝<br/>
-          Tap on the image for a<br/>bug, fish, or sea creature to add<br/>it to your personal museum.
+          Go around the other parts of the app and tap on the image for a<br/>bug, fish, or sea creature<br/> to add it to your personal museum.
           </p>
         </Grid>
       </div>
@@ -385,7 +387,8 @@ export default function LeafProfilePage({ searchText, loadedVillagers, loadedMus
 
           <p style={{color: "#fff", textAlign: 'center', paddingTop: 50}}>
             🐝<br/>
-            Tap on the image for a<br/>villager it to your personal list.
+            Go around the other parts of the app and tap on the image for a<br/>villager<br/> to add it to your personal museum.
+
           </p>
         </div>
       );

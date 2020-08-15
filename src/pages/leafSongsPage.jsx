@@ -121,7 +121,9 @@ export default function LeafSongsPage({ loadedMuseumEntries, searchText, onSongC
       </div>
 
       <table className={classes.table}>
-        { generateSongRows() }
+        <tbody>
+          { generateSongRows() }
+        </tbody>
       </table>
     </div>
   );

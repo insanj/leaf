@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 
 import LeafStepperItem from '../components/leafStepperItem.js';
 import LeafAddButton from '../components/leafAddButton';
-import LeafNetworker from '../backend/leafNetworker';
 
 import net from '../img/net.png';
 import shovel from '../img/shovel.png';
@@ -37,20 +36,19 @@ const useStyles = makeStyles((theme) => ({
 
 export default function LeafProfileCountersSection({ searchText, getCounters, setCounters }) {
   const classes = useStyles();
-  const theme = useTheme();
-  const [isLoading, setIsLoading] = React.useState(true);
+  // const [isLoading, setIsLoading] = React.useState(true);
   const [itemValues, setItemValues] = React.useState({});
 
   useEffect(() => {
     getCounters().then(r => {
       setItemValues(r);
-      setIsLoading(false);
+      // setIsLoading(false);
     }).catch(e => {
       console.log("ERROR GETTING COUNTERS! " + JSON.stringify(e));
-      setIsLoading(false);
+      // setIsLoading(false);
     });
 
-  }, [setIsLoading, setItemValues]);
+  }, [setItemValues]);
 
   const handleValueChange = (name, newValue) => {
     let newItemValues = itemValues; // JSON.parse(JSON.stringify(itemValues));

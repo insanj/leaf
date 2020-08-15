@@ -1,23 +1,7 @@
 import React from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-
-import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
-import PlayArrowIcon from '@material-ui/icons/PlayArrow';
-import SkipNextIcon from '@material-ui/icons/SkipNext';
-
-import PlusOneIcon from '@material-ui/icons/PlusOne';
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
-
-import LocationOnIcon from '@material-ui/icons/LocationOn';
-import ScheduleIcon from '@material-ui/icons/Schedule';
-import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
-
-import tile0 from '../img/sprites/tiles-0.png';
     
 import LeafImageManager from '../backend/leafImageManager';
 
@@ -61,7 +45,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function LeafMuseumCard({ item, image=null, onItemIconClick, hasMuseumEntry=false, showLargeThumbnail }) {
   const classes = useStyles();
-  const theme = useTheme();
 
   const getImageForItem = () => {
     if (image) {

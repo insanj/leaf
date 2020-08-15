@@ -56,7 +56,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function LeafStepperItem({ name="Star Net", image='', value=50, minValue=0, maxValue=50, onValueChange, onNameInputChange, onDeleteButtonClick }) {
   const classes = useStyles();
-  const theme = useTheme();
 
   const [itemName, setItemName] = React.useState(name);
 
@@ -92,7 +91,7 @@ export default function LeafStepperItem({ name="Star Net", image='', value=50, m
         <div className={classes.background}>
 
           <p className={classes.image}>
-            <img src={image} width="50" height="50" />
+            <img src={image} width="50" height="50" alt="Stepper Image"/>
           </p>
 
           <div className="leafStepperItem-input">
