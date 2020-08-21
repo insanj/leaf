@@ -79,11 +79,16 @@ class LeafDataManager {
 
   getSongs() {
     const songs = fandom_kk_songs;
-    // const localed = art.map((c, i) => {
-    //   const validated = c.name.replace(/ /g, "_").toLowerCase();
-    //   c.image = require(`../img/art/${validated}.jpg`); 
-    //   return c;
-    // });
+    const songRegex = /[^\/]*(.png)/g;
+    const localed = songs.map((c, i) => {
+      if (!c.image.includes('http')) {
+        return c;
+      }
+
+      const validated = decodeURIComponent(c.image).match(songRegex);
+      c.image = require(`../img/songs/${validated}`); 
+      return c;
+    });
 
     const sorted = songs.sort((a1, a2) => {
       const n1 = a1.name.toLowerCase().replace(/\./g, "");
