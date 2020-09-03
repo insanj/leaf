@@ -156,8 +156,8 @@
     "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
     "sellPrice": "1000",
     "data": "Months:\nMarch to May |\nSeptember to December\nTime:\nAnytime",
-    "Duration": "March - May",
-    "Time": "Time:"
+    "Duration": "March - May/September - December",
+    "Time": "All day"
   },
   {
     "name": "Abalone",
@@ -186,7 +186,7 @@
     "image": "https://img.game8.co/3254481/6769d8ab0ff914e88ac048a04eac7ec8.jpeg/show",
     "sellPrice": "1800",
     "data": "Months:\nMarch to June\nTime:\n4 PM to 9 AM",
-    "Duration": "March - June",
+    "Duration": "March - June/September - November",
     "Time": "4pm - 9am"
   },
   {
@@ -206,8 +206,8 @@
     "image": "https://img.game8.co/3254482/63125506c3813fcd560a163b62c78a8a.jpeg/show",
     "sellPrice": "6000",
     "data": "Months:\nMarch to May |\nSeptember to November\nTime:\nAnytime",
-    "Duration": "March - May",
-    "Time": "Time:"
+    "Duration": "March - May/September - October",
+    "Time": "All day"
   },
   {
     "name": "Vampire Squid",
@@ -337,7 +337,7 @@
     "sellPrice": "4500",
     "data": "Months:\nApril to June |\nDecember to January\nTime:\nAnytime",
     "Duration": "April - June",
-    "Time": "Time:"
+    "Time": "All day"
   },
   {
     "name": "Giant Isopod",
