@@ -22,6 +22,26 @@ const useStyles = makeStyles({
   list: {
     width: 250,
   },
+  footerText: {
+    paddingTop: 'max(calc(100vh - 540px), 40px)',
+    textAlign: 'center',
+
+    color: 'rgba(255,255,255,1)',
+
+    fontWeight: 800,
+    fontSize: '0.6rem',
+
+    '& > a': {
+
+      color: 'inherit',
+      textDecoration: 'none',
+
+      transition: 'opacity 0.2s',
+      '&:hover': {
+        opacity: 0.4
+      }
+    }
+  }
 });
 
 export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCloseClick, onDonateClick }) {
@@ -37,7 +57,17 @@ export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCl
 
   const compileDateString = preval`module.exports = new Date().toLocaleString("en").toLowerCase();`;
   const gitTagVersionString = process.env.REACT_APP_LEAF_TAG;
-  const footerText = `v${ gitTagVersionString } (${ compileDateString })\n© 2020 julian (insanj) weiss`;
+  const footerText = (
+    <div className={classes.footerText}>
+      <a target="_blank" href="https://github.com/snowcodedesign">
+      { `v${ gitTagVersionString } (${ compileDateString })` }
+      </a>
+      <br/>
+      <a target="_blank" href="https://snowcode.design">
+        © 2020 Snowcode, LLC
+      </a>
+    </div>
+  );
 
   //. made with <img className={classes.image} src={love} /> in philly
 
@@ -106,9 +136,7 @@ export default function LeafDrawer({ open=false, selectedItem, onItemClick, onCl
 
       <List>
         <ListItem key={6} style={{opacity: 0.3}}>
-          <a target="_blank" style={{textDecoration: 'none'}} href="https://github.com/insanj">
-            <ListItemText secondary={footerText} />
-          </a>
+          <ListItemText secondary={footerText} />
         </ListItem>
       </List>
 
